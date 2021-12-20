@@ -1,6 +1,6 @@
 ---
 name: Icon request
-about: Icon request for Arcticons
+about: Icon request for Snoww
 title: Icon request
 labels: icon-request, small request
 assignees: ''
