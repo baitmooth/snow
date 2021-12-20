@@ -15,8 +15,8 @@
 
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.donnnno.arcticons"
-            android:targetClass="com.donnnno.arcticons.activities.MainActivity">
+            android:targetPackage="com.baitmooth.snow"
+            android:targetClass="com.baitmooth.snow.activities.MainActivity">
 
             <extra
                 android:name="position"
@@ -40,8 +40,8 @@
 
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.donnnno.arcticons"
-            android:targetClass="com.donnnno.arcticons.activities.MainActivity">
+            android:targetPackage="com.baitmooth.snow"
+            android:targetClass="com.baitmooth.snow.activities.MainActivity">
 
             <extra
                 android:name="position"
@@ -64,8 +64,8 @@
 
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.donnnno.arcticons"
-            android:targetClass="com.donnnno.arcticons.activities.MainActivity">
+            android:targetPackage="com.baitmooth.snow"
+            android:targetClass="com.baitmooth.snow.activities.MainActivity">
 
             <extra
                 android:name="position"
