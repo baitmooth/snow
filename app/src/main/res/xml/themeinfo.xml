@@ -3,7 +3,11 @@
 
     <!-- FOR ATOM LAUNCHER -->
 
+<<<<<<< HEAD
     <packageName>com.baitmooth.snow</packageName>
+=======
+    <packageName>org.baitmooth.snow</packageName>
+>>>>>>> candybar
     <versionName>2.1.8</versionName>
     <versionCode>67</versionCode>
     <themeName>Theme Name</themeName>
@@ -13,4 +17,8 @@
     <themePreview img1="preview1" />
     <preview img1="preview1" />
 
+<<<<<<< HEAD
 </themeInfo>
+=======
+</themeInfo>
+>>>>>>> candybar

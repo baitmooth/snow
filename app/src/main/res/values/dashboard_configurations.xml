@@ -73,7 +73,11 @@
         -->
     <string name="home_description">
         <![CDATA[
+<<<<<<< HEAD
             <p><b>Snow is an <a href="https://github.com/baitmooth/Snow/">open-source</a> icon-pack</b></p>
+=======
+            <p><b>Snow is an <a href="https://github.com/baitmooth/snow/">open-source</a> icon-pack</b></p>
+>>>>>>> candybar
         ]]>
     </string>
 
@@ -85,7 +89,11 @@
     <!-- Link to your app's main page. It will be used when your user shares your app using "Share" button.
         Leave this empty to disable the "Share" button.
         You can use special keyword `{{packageName}}`, `{{packageName}}` will be replaced with your app's package name -->
+<<<<<<< HEAD
     <string name="share_link">https://f-droid.org/packages/com.baitmooth.snow</string>
+=======
+    <string name="share_link">https://f-droid.org/packages/org.baitmooth.snow</string>
+>>>>>>> candybar
 
     <!-- Enable "Check for update" button.
         It needs the option "config_json" to be configured in order to work -->
@@ -317,7 +325,11 @@
     -->
     <!-- Enable/disable donation
         Show support development option in the home page. -->
+<<<<<<< HEAD
     <bool name="enable_donation">true</bool>
+=======
+    <bool name="enable_donation">false</bool>
+>>>>>>> candybar
 
     <!-- Take a look inside License.java for donation product -->
 

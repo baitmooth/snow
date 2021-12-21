@@ -15,8 +15,13 @@
 
         <intent
             android:action="android.intent.action.VIEW"
+<<<<<<< HEAD
             android:targetPackage="com.baitmooth.snow"
             android:targetClass="com.baitmooth.snow.activities.MainActivity">
+=======
+            android:targetPackage="org.baitmooth.snow"
+            android:targetClass="org.baitmooth.snow.activities.MainActivity">
+>>>>>>> candybar
 
             <extra
                 android:name="position"
