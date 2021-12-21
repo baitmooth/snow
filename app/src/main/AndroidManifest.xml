@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-<<<<<<< HEAD
-    package="com.baitmooth.snow"
-=======
     package="org.baitmooth.snow"
->>>>>>> candybar
     android:installLocation="auto">
 
     <supports-screens
@@ -269,8 +265,4 @@
         </provider>
     </application>
 
-<<<<<<< HEAD
 </manifest>
-=======
-</manifest>
->>>>>>> candybar

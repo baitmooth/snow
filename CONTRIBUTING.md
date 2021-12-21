@@ -7,11 +7,7 @@
 3. Upload the SVG icons to your repository's **/other** folder
 4. Create a pull request and explain your changes
 5. Provide the activity names of the new apps
-<<<<<<< HEAD
-   - These should look something like `com.donnnno.arcticons/com.donnnno.arcticons.MainActivity`
-=======
    - These should look something like `org.baitmooth.snow/org.baitmooth.snow.MainActivity`
->>>>>>> candybar
    - If you want to help even more you can add your new icons to the appfilter.xml file
 
 
