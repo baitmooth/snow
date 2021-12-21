@@ -1,11 +1,11 @@
-package com.baitmooth.snow;
+package org.baitmooth.snow;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.widget.RemoteViews;
 
-import com.baitmooth.snow.R;
+import org.baitmooth.snow.R;
 
 /**
  * Implementation of App Widget functionality.

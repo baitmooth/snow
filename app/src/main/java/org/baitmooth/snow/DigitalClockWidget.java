@@ -1,4 +1,4 @@
-package com.baitmooth.snow;
+package org.baitmooth.snow;
 
 import static android.app.PendingIntent.getActivity;
 

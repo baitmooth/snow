@@ -1,4 +1,4 @@
-package com.baitmooth.snow.activities;
+package org.baitmooth.snow.activities;
 
 import androidx.annotation.NonNull;
 

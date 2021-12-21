@@ -1,4 +1,4 @@
-package com.baitmooth.snow.applications;
+package org.baitmooth.snow.applications;
 
 import android.content.pm.PackageManager;
 

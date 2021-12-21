@@ -1,4 +1,4 @@
-package com.baitmooth.snow.services;
+package org.baitmooth.snow.services;
 
 import candybar.lib.services.CandyBarMuzeiService;
 
