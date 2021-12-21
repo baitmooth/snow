@@ -2,6 +2,12 @@
 <resources>
 
     <contributor
+        name="Baitmooth"
+        contribution="Maintainer of Snow"
+        image="https://github.com/baitmooth.png?size=400"
+        link="https://github.com/baitmooth" />
+
+    <contributor
         name="Onno van den Dungen"
         contribution="Creator of Arcticons"
         image="https://avatars.githubusercontent.com/u/31142286?s=400"

@@ -4,11 +4,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-<<<<<<< HEAD
-        applicationId "com.baitmooth.snow"
-=======
         applicationId "org.baitmooth.snow"
->>>>>>> candybar
         minSdkVersion rootProject.ext.MinSdk
         targetSdkVersion rootProject.ext.TargetSdk
         versionCode 1
