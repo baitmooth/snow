@@ -1,15 +1,16 @@
 
 Snow is a simple monocolored icon pack forked from [Frost](https://github.com/dkanada/frost) but rebuild with consistent sizing. Snow is FOSS and provides mostly icons for open-source apps on F-Droid (but there are many other apps in this pack too). The design is aiming to be simple with easy recognisable shapes.
 
-[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90">](https://f-droid.org/packages/com.baitmooth.snow)
+[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90">](https://f-droid.org/packages/org.baitmooth.snow)
 
-[<img src="https://camo.githubusercontent.com/35b4ec18c762358fb784f9e973f77cf6eb596f2240e69a4c6c093a836655d889/68747470733a2f2f692e6962622e636f2f71306d6463345a2f6765742d69742d6f6e2d6769746875622e706e67" alt="Get it on F-Droid" height="90">](https://github.com/Baitmooth/Snow/releases)
+[<img src="https://camo.githubusercontent.com/35b4ec18c762358fb784f9e973f77cf6eb596f2240e69a4c6c093a836655d889/68747470733a2f2f692e6962622e636f2f71306d6463345a2f6765742d69742d6f6e2d6769746875622e706e67" alt="Get it on F-Droid" height="90">](https://github.com/baitmooth/snow/releases)
 
 Snow includes support for a lot of launchers like Trebuchet, KISS, Nova, Apex, Holo, ZenUI, ADW, and many more. The installation depends on your launcher, it's probably somewhere in the settings.
 
 Submitting icon requests helps a lot, but maintaining the project (as you may imagine) takes a lot of time and effort, so please be patient about adding new icons. Contributions for new icons are always welcome, and no experience with programming is necessary.
 
 ## Screenshots
+
 
 ## Contributing
 
