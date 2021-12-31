@@ -38,13 +38,15 @@ Read the full details here:
 
 ## License
 
-The current version (1.0.0) of Snow is built with with the CandyBar Dashboard, licensed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)  which is compatible with the [GNU General Public License, Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) that we use.
+Snow is built with with [Arcticons's](https://github.com/Donnnno/Arcticons/) modified [CandyBar Dashboard](https://github.com/zixpo/candybar), licensed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)  which is compatible with the [GNU General Public License, Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) that we use.
 
-All icons are licensed under [Creative Commonns Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/), with around 900 of the first icons based on [Frost](https://github.com/dkanada/frost)'s icons.
+All icons are licensed under [Creative Commonns Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/), with around 900 of the first icons from [Frost](https://github.com/dkanada/frost).
 
 ### Contributors
 
 You can find a list of all Snow contributors [here](https://github.com/baitmooth/snow/graphs/contributors).
+
+Arcticons contributors can be found [here](https://github.com/Donnnno/Arcticons/graphs/contributors)
 
 Frost contributors can be found [here](https://github.com/dkanada/frost/graphs/contributors).
 
