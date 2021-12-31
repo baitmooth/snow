@@ -3,7 +3,7 @@
 
     <!-- Leave empty if you don't want to show changelog date -->
 
-    <string name="changelog_date"></string>
+    <string name="changelog_date">2021.12.30</string>
 
     <!-- Changelog support html formatting
     * <b> for Bold
@@ -11,7 +11,7 @@
     * <u> for Underline
     * <a href="linkUrl">Link Text</a> for links -->
     <string-array name="changelog">
-        <item></item>
+        <item>Ported <a href="https://github.com/dkanada/frost">Frost</a>s  icons to Snow and integrated it into candybar</item>
         <item></item>
     </string-array>
 
