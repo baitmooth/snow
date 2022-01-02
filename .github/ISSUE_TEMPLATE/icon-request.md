@@ -8,7 +8,9 @@ assignees: ''
 ---
 
 *Info*
-
+- [ ] a list of your requested icons
+- [ ] one icon per line
+- [ ] every line starts with '- [ ] '
 
 
 
