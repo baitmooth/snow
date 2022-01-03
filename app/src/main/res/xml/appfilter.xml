@@ -268,9 +268,15 @@
     <!-- ArchWiki Viewer -->
     <item component="ComponentInfo{com.jtmcn.archwiki.viewer/com.jtmcn.archwiki.viewer.MainActivity}" drawable="archwikiviewer" />
 
+    <!-- Arcticons Dark -->
+    <item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticonsdark" />
+
     <!-- Arcticons -->
     <item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.MainActivity}" drawable="arcticons" />
     <item component="ComponentInfo{com.donnnno.arcticons.debug/com.donnnno.arcticons.activities.MainActivity}" drawable="arcticons" />
+
+    <!-- Arcticons Light -->
+    <item component="ComponentInfo{com.donnnno.arcticons.light/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticonslight" />
 
     <!-- AsteroidOS Sync -->
     <item component="ComponentInfo{org.asteroidos.sync/org.asteroidos.sync.PermissionsActivity}" drawable="asteroidossync" />
@@ -1247,6 +1253,7 @@
 
     <!-- Feeder -->
     <item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.FeedActivity}" drawable="feeder" />
+    <item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.MainActivity}" drawable="feeder" />
 
     <!-- Feedly Classic -->
     <item component="ComponentInfo{com.devhd.feedly.classic/com.devhd.feedly.Main}" drawable="feedlyclassic" />
@@ -1433,7 +1440,7 @@
     <item component="ComponentInfo{f.f.freezer/f.f.freezer.MainActivity}" drawable="freezer" />
 
     <!-- Freifunk-Karte -->
-    <item component="ComponentInfo{de.freifunk_karte.freifunk_karte/de.freifunk_karte.freifunk_karte.FreifunkMap}" drawable="freifunk-karte" />
+    <item component="ComponentInfo{de.freifunk_karte.freifunk_karte/de.freifunk_karte.freifunk_karte.FreifunkMap}" drawable="freifunkkarte" />
 
     <!-- Frost Facebook-->
     <item component="ComponentInfo{com.pitchedapps.frost/com.pitchedapps.frost.StartActivity}" drawable="frostfacebook" />
@@ -4644,6 +4651,9 @@
     <!-- UntrackMe -->
     <item component="ComponentInfo{app.fedilab.nitterizeme/app.fedilab.nitterizeme.activities.MainActivity}" drawable="untrackme" />
     <item component="ComponentInfo{app.fedilab.nitterizemelite/app.fedilab.nitterizeme.activities.MainActivity}" drawable="untrackme" />
+
+    <!-- Updater -->
+    <item component="ComponentInfo{pro.rudloff.lineageos_updater_shortcut/pro.rudloff.lineageos_updater_shortcut.MainActivity}" drawable="updater" />
 
     <!-- UPS -->
     <item component="ComponentInfo{com.ups.mobile.android/crc6466778ac8e5630834.SplashActivity}" drawable="ups" />
