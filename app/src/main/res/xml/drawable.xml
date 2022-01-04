@@ -99,6 +99,8 @@
 	<item drawable="arbetsfor" />
 	<item drawable="archwikiviewer" />
 	<item drawable="arcticons" />
+	<item drawable="arcticonsdark" />
+	<item drawable="arcticonslight" />
 	<item drawable="asteroidossync" />
 	<item drawable="atomic" />
 	<item drawable="audible" />
@@ -1314,6 +1316,7 @@
 	<item drawable="units" />
 	<item drawable="unocalc" />
 	<item drawable="untrackme" />
+	<item drawable="updater" />
 	<item drawable="ups" />
 	<item drawable="urbandroid" />
 	<item drawable="usagedirect" />
