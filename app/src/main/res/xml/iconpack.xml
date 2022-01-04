@@ -82,6 +82,8 @@
 	    <item>arbetsfor</item>
 	    <item>archwikiviewer</item>
 	    <item>arcticons</item>
+	    <item>arcticonsdark</item>
+	    <item>arcticonslight</item>
 	    <item>asteroidossync</item>
 	    <item>atomic</item>
 	    <item>audible</item>
@@ -1262,6 +1264,7 @@
 	    <item>units</item>
 	    <item>unocalc</item>
 	    <item>untrackme</item>
+	    <item>updater</item>
 	    <item>ups</item>
 	    <item>urbandroid</item>
 	    <item>usagedirect</item>
