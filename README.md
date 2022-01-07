@@ -12,6 +12,10 @@ Submitting icon requests helps a lot, but maintaining the project (as you may im
 
 <img src="https://user-images.githubusercontent.com/23211478/147795715-e8146c39-155d-4c7e-b149-90281e59f110.png" alt="Screenshot Homescreen" width="40%"> <img src="https://user-images.githubusercontent.com/23211478/147795701-b09a2084-d317-4323-9ce1-bc25a4539cfc.png" alt="Screenshot App Drawer" width="40%">
 
+## Social
+
+[matrix](https://matrix.to/#/#snowicons:matrix.org)
+[mastodon](@baitmooth@todon.eu)
 
 ## Contributing
 
