@@ -1,9 +1,9 @@
 ---
-name: Icon request
+name: Requesting new icons
 about: Icon request for Snow
-title: Icon request
-labels: icon-request, small request
-assignees: ''
+title: New Icon request
+labels: new icons, small request
+assignees: baitmooth
 
 ---
 
@@ -11,10 +11,7 @@ assignees: ''
 - [ ] a list of your requested icons
 - [ ] one icon per line
 - [ ] every line starts with '- [ ] '
-
-
-
-
+- [ ] the name of the app only 
 
 ---
 *Zip file here*
