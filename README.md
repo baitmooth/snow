@@ -17,9 +17,36 @@ Submitting icon requests helps a lot, but maintaining the project (as you may im
 
 ### Submitting icon requests
 
-Historically [Turtl](https://f-droid.org/en/packages/org.xphnx.iconsubmit/) was used to collect the necessary information for adding missing icons. But now there is an awesome built-in feature to submit icon request right inside the app!  
+#### Turtl
 
-A simple step-by-step guide:
+One way to request icons is to use [Turtl](https://f-droid.org/en/packages/org.xphnx.iconsubmit/).
+
+1. Install Turtl
+
+Needed to attach .zips:
+
+     1. Open Your phones *settings*
+     2. Type *turtl* into the search field
+     3. Open the *app info* for Turtl
+     4. Go to *permissions* and grant *Files and Media*
+2. Open *Turtl*
+3. If you have icons that broke after an update choose the first option
+     1. Select the apps to report
+     2. Tap the copy icon in the top right corner
+     3. [Open a new issue](https://github.com/baitmooth/snow/issues/new?assignees=baitmooth&labels=activity+changed&template=broken-icons.md&title=Broken+Icons)
+     4. Paste the content of the clipboard between the code tags
+     5. Submit
+4. If you have apps whose icons are not already part of Snow choose the second option
+     1. Select the apps to request
+     2. Tap the save icon in the top
+     3. [Open a new issue](https://github.com/baitmooth/snow/issues/new?assignees=baitmooth&labels=new+icons%2C+small+request&template=requesting-new-icons.md&title=New+Icon+request)
+     4. Fill the form
+     5. Attach the .zip Turtl created ( will be in a directory *Turtl*)
+     6. Submit
+
+#### Snows built-in feature
+
+This feature is not active at the moment, but will be very soon.
 1. Open Snow
 2. Press the symbol on the upper-left corner and select `Icon Request`
 3. Choose the missing apps you wish to submit, it's also possible to select/deselect all missing apps
