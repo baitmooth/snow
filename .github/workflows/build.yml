@@ -15,8 +15,11 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '11'
+        distribution: 'temurin'
+
     - name: Build the app
       run: gradle build
+
     - name: Upload APK
       uses: actions/upload-artifact@v2
       with:
