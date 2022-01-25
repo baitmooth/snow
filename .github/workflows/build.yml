@@ -17,3 +17,8 @@ jobs:
         java-version: '11'
     - name: Build the app
       run: gradle build
+    - name: Upload APK
+      uses: actions/upload-artifact@v2
+      with:
+        name: App
+        path: ${{ github.workspace}} /app/build/outputs/apk/release/app-release.apk
