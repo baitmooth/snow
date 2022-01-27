@@ -73,7 +73,7 @@
         -->
     <string name="home_description">
         <![CDATA[
-            <p><b>Snow is an <a href="https://github.com/baitmooth/snow/">open-source</a> icon-pack</b></p>
+	    <p><b><a href="https://github.com/baitmooth/snow/">Snow</a></b> is an open source monotone icon-pack with nice transparency.</p>
         ]]>
     </string>
 

@@ -1,23 +1,52 @@
 
-Snow is a simple monocolored icon pack forked from [Frost](https://github.com/dkanada/frost) but rebuild with consistent sizing. Snow is FOSS and provides mostly icons for open-source apps on F-Droid (but there are many other apps in this pack too). The design is aiming to be simple with easy recognisable shapes.
+Snow is a simple monotone icon pack forked from [Frost](https://github.com/dkanada/frost). Snow is FOSS and provides mostly icons for open-source apps on F-Droid (but there are many other apps in this pack too). The design is aiming to be simple with easy recognisable shapes.
 
-[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90">](https://f-droid.org/packages/com.baitmooth.snow)
+[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90">](https://f-droid.org/packages/org.baitmooth.snow)
 
-[<img src="https://camo.githubusercontent.com/35b4ec18c762358fb784f9e973f77cf6eb596f2240e69a4c6c093a836655d889/68747470733a2f2f692e6962622e636f2f71306d6463345a2f6765742d69742d6f6e2d6769746875622e706e67" alt="Get it on F-Droid" height="90">](https://github.com/Baitmooth/Snow/releases)
-
-Snow includes support for a lot of launchers like Trebuchet, KISS, Nova, Apex, Holo, ZenUI, ADW, and many more. The installation depends on your launcher, it's probably somewhere in the settings.
+Snow includes support for a lot of launchers like KISS, Nova, Apex, Holo, ZenUI, ADW, and many more. The installation depends on your launcher, it's probably somewhere in the settings.
+Sadly actual LineageOS comes with an issue in Trebuchet which makes it incompatible with Snow.
 
 Submitting icon requests helps a lot, but maintaining the project (as you may imagine) takes a lot of time and effort, so please be patient about adding new icons. Contributions for new icons are always welcome, and no experience with programming is necessary.
 
 ## Screenshots
 
+<img src="https://user-images.githubusercontent.com/23211478/147795715-e8146c39-155d-4c7e-b149-90281e59f110.png" alt="Screenshot Homescreen" width="40%"> <img src="https://user-images.githubusercontent.com/23211478/147795701-b09a2084-d317-4323-9ce1-bc25a4539cfc.png" alt="Screenshot App Drawer" width="40%">
+
+
 ## Contributing
 
 ### Submitting icon requests
 
-Historically [Turtl](https://f-droid.org/en/packages/org.xphnx.iconsubmit/) was used to collect the necessary information for adding missing icons. But now there is an awesome built-in feature to submit icon request right inside the app!  
+#### Turtl
 
-A simple step-by-step guide:
+One way to request icons is to use [Turtl](https://f-droid.org/en/packages/org.xphnx.iconsubmit/).
+
+1. Install Turtl
+
+Needed to attach .zips:
+
+     1. Open Your phones *settings*
+     2. Type *turtl* into the search field
+     3. Open the *app info* for Turtl
+     4. Go to *permissions* and grant *Files and Media*
+2. Open *Turtl*
+3. If you have icons that broke after an update choose the first option
+     1. Select the apps to report
+     2. Tap the copy icon in the top right corner
+     3. [Open a new issue](https://github.com/baitmooth/snow/issues/new?assignees=baitmooth&labels=activity+changed&template=broken-icons.md&title=Broken+Icons)
+     4. Paste the content of the clipboard between the code tags
+     5. Submit
+4. If you have apps whose icons are not already part of Snow choose the second option
+     1. Select the apps to request
+     2. Tap the save icon in the top
+     3. [Open a new issue](https://github.com/baitmooth/snow/issues/new?assignees=baitmooth&labels=new+icons%2C+small+request&template=requesting-new-icons.md&title=New+Icon+request)
+     4. Fill the form
+     5. Attach the .zip Turtl created ( will be in a directory *Turtl*)
+     6. Submit
+
+#### Snows built-in feature
+
+This feature is not active at the moment, but will be very soon.
 1. Open Snow
 2. Press the symbol on the upper-left corner and select `Icon Request`
 3. Choose the missing apps you wish to submit, it's also possible to select/deselect all missing apps
@@ -36,13 +65,15 @@ Read the full details here:
 
 ## License
 
-The current version (1.0.0) of Snow is built with with the CandyBar Dashboard, licensed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)  which is compatible with the [GNU General Public License, Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) that we use.
+Snow is built with with [Arcticons's](https://github.com/Donnnno/Arcticons/) modified [CandyBar Dashboard](https://github.com/zixpo/candybar), licensed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)  which is compatible with the [GNU General Public License, Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) that we use.
 
-All icons are licensed under [Creative Commonns Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/), with around 900 of the first icons based on [Frost](https://github.com/dkanada/frost)'s icons.
+All icons are licensed under [Creative Commonns Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/), with around 1100 of the first icons from [Frost](https://github.com/dkanada/frost).
 
 ### Contributors
 
 You can find a list of all Snow contributors [here](https://github.com/baitmooth/snow/graphs/contributors).
+
+Arcticons contributors can be found [here](https://github.com/Donnnno/Arcticons/graphs/contributors)
 
 Frost contributors can be found [here](https://github.com/dkanada/frost/graphs/contributors).
 
