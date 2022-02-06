@@ -1,8 +1,6 @@
 
 Snow is a simple monotone icon pack forked from [Frost](https://github.com/dkanada/frost). Snow is FOSS and provides mostly icons for open-source apps on F-Droid (but there are many other apps in this pack too). The design is aiming to be simple with easy recognisable shapes.
 
-[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90">](https://f-droid.org/packages/org.baitmooth.snow)
-
 Snow includes support for a lot of launchers like KISS, Nova, Apex, Holo, ZenUI, ADW, and many more. The installation depends on your launcher, it's probably somewhere in the settings.
 Sadly actual LineageOS comes with an issue in Trebuchet which makes it incompatible with Snow.
 
@@ -21,7 +19,7 @@ Submitting icon requests helps a lot, but maintaining the project (as you may im
 
 One way to request icons is to use [IconRequest](https://github.com/Kaiserdragon2/IconRequest/).
 
-1. Install IconRequest
+1. Install *IconRequest*
 2. Open *IconRequest*
 3. If you have icons that broke after an update choose the first option
      1. Select the apps to report
