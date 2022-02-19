@@ -2430,6 +2430,9 @@
     <!-- Mozc for Android -->
     <item component="ComponentInfo{org.mozc.android.inputmethod.japanese/org.mozc.android.inputmethod.japanese.LauncherActivity}" drawable="mozcforandroid" />
 
+    <!-- Mozilla VPN -->
+    <item component="ComponentInfo{org.mozilla.products/org.mozilla.products.MozillaVpn}" drawable="mozillavpn" />
+
     <!-- MPD -->
     <item component="ComponentInfo{org.musicpd/org.musicpd.Settings}" drawable="mpd" />
 
