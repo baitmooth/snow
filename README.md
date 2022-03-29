@@ -56,7 +56,7 @@ Read the full details here:
 
 ## License
 
-Snow is built with with [Arcticons's](https://github.com/Donnnno/Arcticons/) modified [CandyBar Dashboard](https://github.com/zixpo/candybar), licensed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)  which is compatible with the [GNU General Public License, Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) that we use.
+Snow is built with [Candybar-FOSS](https://github.com/Donnnno/candybar-foss), licensed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)  which is compatible with the [GNU General Public License, Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) that we use.
 
 All icons are licensed under [Creative Commonns Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/), with around 1100 of the first icons from [Frost](https://github.com/dkanada/frost).
 
