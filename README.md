@@ -1,3 +1,5 @@
+Snow
+----
 
 Snow is a simple monotone icon pack forked from [Frost](https://github.com/dkanada/frost). Snow is FOSS and provides mostly icons for open-source apps on F-Droid (but there are many other apps in this pack too). The design is aiming to be simple with easy recognisable shapes.
 
@@ -6,10 +8,13 @@ Sadly actual LineageOS comes with an issue in Trebuchet which makes it incompati
 
 Submitting icon requests helps a lot, but maintaining the project (as you may imagine) takes a lot of time and effort, so please be patient about adding new icons. Contributions for new icons are always welcome, and no experience with programming is necessary.
 
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/org.baitmooth.snow/)
+
 ## Screenshots
 
 <img src="https://user-images.githubusercontent.com/23211478/147795715-e8146c39-155d-4c7e-b149-90281e59f110.png" alt="Screenshot Homescreen" width="40%"> <img src="https://user-images.githubusercontent.com/23211478/147795701-b09a2084-d317-4323-9ce1-bc25a4539cfc.png" alt="Screenshot App Drawer" width="40%">
-
 
 ## Contributing
 
