@@ -1224,6 +1224,10 @@
     <!-- Fast Reset -->
     <item component="ComponentInfo{au.dja.screenlock.activities/au.dja.fastreset.activities.MainActivity}" drawable="fastreset" />
 
+    <!-- Fate Grand Order (EN/JP) -->
+    <item component="ComponentInfo{com.aniplex.fategrandorder/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder" />
+    <item component="ComponentInfo{com.aniplex.fategrandorder.en/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder" />
+
     <!-- FBReader -->
     <item component="ComponentInfo{org.geometerplus.zlibrary.ui.android/org.geometerplus.android.fbreader.FBReader}" drawable="fbreader" />
 
