@@ -1,50 +1,69 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 31
+    compileSdk rootProject.ext.CompileSdk
 
     defaultConfig {
-        applicationId "org.baitmooth.snow"
+        applicationId 'org.baitmooth.snow'
         minSdkVersion rootProject.ext.MinSdk
         targetSdkVersion rootProject.ext.TargetSdk
         versionCode 1
-        versionName '1.0.0'
+        versionName '1.0'
         multiDexEnabled true
 
         // Naming app bundles
-        setArchivesBaseName("${parent.name}-v${versionName}")
+        setArchivesBaseName("${parent.name}-v${versionCode}")
+    }
 
+    bundle {
+        language {
+            enableSplit false
+        }
     }
 
     buildTypes {
         release {
+            debuggable false
             minifyEnabled true
-            debug {
-                applicationIdSuffix '.debug'
-                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
-            }
         }
     }
+
+    namespace 'org.baitmooth.snow'
 
     compileOptions {
         encoding = 'UTF-8'
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
-
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
-    }
-    buildFeatures {
-        viewBinding true
-    }
 }
 
 dependencies {
+    /*
+     * CandyBar Material Dashboard Library
+     *
+     * TODO: How to update the dashboard?!
+     * Check this update guide for every version
+     *      - https://github.com/zixpo/candybar-sample/wiki/Updating-the-dashboard
+     * If you've missed some versions you've to also follow update guide for those versions
+     */
 
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'com.github.Donnnno:candybar-foss:3.13.3'
+    implementation 'com.github.Donnnno:candybar-foss:3.19.0'
 
+}
+
+// Code for automatically copying appfilter.xml and drawable.xml
+// from `res/xml` directory to `assets` directory
+tasks.register('copyXMLs') {
+    ['appfilter.xml', 'drawable.xml'].each { file ->
+        copy {
+            from "$projectDir/src/main/res/xml/$file"
+            into "$projectDir/src/main/assets/"
+        }
+    }
+}
+
+tasks.configureEach { task ->
+    if (task.name == 'assembleDebug' || task.name == 'assembleRelease') {
+        task.dependsOn copyXMLs
+    }
 }
