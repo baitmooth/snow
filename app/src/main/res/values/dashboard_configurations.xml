@@ -148,7 +148,7 @@
         CONFIG: ICON REQUEST
     -->
     <!-- Enable or disable regular icon request -->
-    <bool name="enable_icon_request">false</bool>
+    <bool name="enable_icon_request">true</bool>
 
     <!-- Enable regular icon request limit
         When enabled users will be able to request only the specified number of icons.
@@ -202,7 +202,7 @@
     <!-- Email to use when sending icon requests.
         Regular request email address will be used to send bug reports.
         You can leave "premium_request_email" empty to use the regular request's email to send premium icon requests. -->
-    <string name="regular_request_email"></string>
+    <string name="regular_request_email">baitmooth@gmail.com</string>
     <string name="premium_request_email"></string>
 
     <!-- Icon request email subjects. Leave empty to use default Subject. -->
