@@ -10,7 +10,16 @@
         android:largeScreens="true"
         android:xlargeScreens="true" />
 
- <application
+    <!-- The following permissions are not a hard requirement for the app to work, it is used to fetch the GitHub contributor avatars for example -->
+    <!--
+      <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" tools:node="remove"/>
+      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" tools:node="remove" />
+     -->
+
+    <!-- Remove the following line if you're using cloud-based wallpapers -->  
+    <uses-permission android:name="android.permission.INTERNET" tools:node="remove" />
+
+<application
     tools:ignore="GoogleAppIndexingWarning,GoogleAppIndexingUrlError"
     android:name="org.baitmooth.snow.applications.CandyBar"
     android:allowBackup="true"
@@ -37,6 +46,7 @@
         </intent-filter>
         <intent-filter>
             <action android:name="android.intent.action.VIEW" />
+
             <category android:name="android.intent.category.DEFAULT" />
             <category android:name="android.intent.category.BROWSABLE" />
         </intent-filter>
@@ -44,6 +54,7 @@
             <action android:name="android.intent.action.GET_CONTENT" />
             <category android:name="android.intent.category.DEFAULT" />
             <category android:name="android.intent.category.OPENABLE" />
+
             <data android:mimeType="image/*" />
         </intent-filter>
         <intent-filter>
@@ -85,6 +96,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="com.gau.go.launcherex.theme" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <!-- Atom Launcher -->
@@ -121,6 +133,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="com.lge.launcher2.THEME" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <!-- OnePlus Launcher -->
@@ -212,5 +225,7 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_provider_paths" />
         </provider>
+
     </application>
+
 </manifest>

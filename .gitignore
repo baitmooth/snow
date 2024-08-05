@@ -162,3 +162,4 @@ gradle-app.setting
 
 .idea/
 /.travis.yml
+keystore.properties
