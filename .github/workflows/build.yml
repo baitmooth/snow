@@ -1,7 +1,6 @@
 name: Build Release
-
-on: workflow_dispatch
-  
+on: 
+  workflow_dispatch:
 jobs:
   build:
     name: Build Snow Release APK
@@ -12,24 +11,28 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v2
         with:
-           distribution: 'zulu'
-           java-version: 21
-           cache: gradle
+          distribution: 'zulu'
+          java-version: 21
+          cache: gradle
       - name: Preparing Signing
         env:
           ENCODED_STRING: ${{ secrets.KEYSTORE }}
+          RELEASE_KEYSTORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
+          RELEASE_KEYSTORE_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD}} 
+
         run: |
-            TMP_KEYSTORE_FILE_PATH="${RUNNER_TEMP}"/keystore
-            mkdir "${TMP_KEYSTORE_FILE_PATH}"
-            echo $ENCODED_STRING | base64 -di > "${TMP_KEYSTORE_FILE_PATH}"/your_keystore_file.jks
+          echo $ENCODED_STRING > keystore-b64.txt
+          base64 -d keystore-b64.txt > keystore.jks
+
+      - name: Get Gradle
+        run: gradle wrapper
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+      - name: Build Release apk
         env:
-          SIGNING_KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
-          SIGNING_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD }}
-          SIGNING_STORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
-       - name: Get Gradle
-         run: gradle wrapper
-       - name: Grant execute permission for gradlew
-         run: chmod +x gradlew
-       - name: Build Normal APK
-         run: ./gradlew app:assembleRelease
+          RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+          RELEASE_KEYSTORE_ALIAS: ${{ secrets.RELEASE_KEYSTORE_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+        run: ./gradlew assembleRelease --stacktrace
         
