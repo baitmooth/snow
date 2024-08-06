@@ -1,27 +1,35 @@
-name: Java CI with Gradle
+name: Build Release
 
-on:
-  push:
-    branches: [ main ]
-
+on: on: workflow_dispatch
+  
 jobs:
   build:
-
+    name: Build Snow Release APK
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up JDK 17
-      uses: actions/setup-java@v2
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-
-    - name: Build the app
-      run: gradle build
-
-    - name: Upload APK
-      uses: actions/upload-artifact@v2
-      with:
-        name: App
-        path: ${{ github.workspace}}/app/build/outputs/apk/release/*
+      - name: Checkout branch
+        uses: actions/checkout@v2
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+           distribution: 'zulu'
+           java-version: 21
+           cache: gradle
+      - name: Preparing Signing
+        env:
+          ENCODED_STRING: ${{ secrets.KEYSTORE }}
+        run: |
+            TMP_KEYSTORE_FILE_PATH="${RUNNER_TEMP}"/keystore
+            mkdir "${TMP_KEYSTORE_FILE_PATH}"
+            echo $ENCODED_STRING | base64 -di > "${TMP_KEYSTORE_FILE_PATH}"/your_keystore_file.jks
+        env:
+          SIGNING_KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
+          SIGNING_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD }}
+          SIGNING_STORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
+       - name: Get Gradle
+         run: gradle wrapper
+       - name: Grant execute permission for gradlew
+         run: chmod +x gradlew
+       - name: Build Normal APK
+         run: ./gradlew app:assembleRelease
+        
