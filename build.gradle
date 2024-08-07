@@ -25,5 +25,6 @@ allprojects {
 }
 
 tasks.register('clean', Delete) {
-    delete rootProject.buildDir
+    delete rootProject.layout.buildDirectory
+    delete fileTree(dir: 'app/src/main/res/drawable-anydpi')
 }

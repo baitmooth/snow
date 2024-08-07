@@ -1,78 +1,68 @@
 apply plugin: 'com.android.application'
 
-// Create a variable called keystorePropertiesFile, and initialize it to your
-// keystore.properties file, in the rootProject folder.
-def keystorePropertiesFile = rootProject.file("keystore.properties")
-
-// Initialize a new Properties() object called keystoreProperties.
-def keystoreProperties = new Properties()
-
-// Load your keystore.properties file into the keystoreProperties object.
-keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-
+// build.gradle in the 'app' module
 android {
-    signingConfigs {
-        release {
-            storeFile file(keystoreProperties['storeFile'])
-            storePassword keystoreProperties['storePassword']
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            }
-    }
-    compileSdk rootProject.ext.CompileSdk
-
-    defaultConfig {
-        applicationId 'org.baitmooth.snow'
-        minSdkVersion rootProject.ext.MinSdk
-        targetSdkVersion rootProject.ext.TargetSdk
-        versionCode 1
-        versionName '1.0'
-        multiDexEnabled true
-
-        // Naming app bundles
-        setArchivesBaseName("${parent.name}-v${versionCode}")
-    }
-
-    bundle {
-        language {
-            enableSplit false
-        }
-    }
-
-    buildTypes {
-        release {
-            debuggable false
-            minifyEnabled false
-            signingConfig signingConfigs.release
-        }
-        debug {
-            debuggable true
-            minifyEnabled false
-        }
-    }
-
-    namespace 'org.baitmooth.snow'
-
-    compileOptions {
-        encoding = 'UTF-8'
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
+	compileSdk rootProject.ext.CompileSdk
+	
+	defaultConfig {
+		applicationId 'org.baitmooth.snow'
+		minSdkVersion rootProject.ext.MinSdk
+		targetSdkVersion rootProject.ext.TargetSdk
+		versionCode 2
+		versionName '1.1.0'
+		multiDexEnabled true
+		// Naming app bundles
+		setArchivesBaseName("${parent.name}-v${versionName}")
+	}
+	
+	// Create a variable called keystorePropertiesFile, and initialize it to the
+	// keystore.properties file, in the rootProject folder.
+	def keystorePropertiesFile = rootProject.file("keystore.properties")
+	def releaseSigning;
+	if (keystorePropertiesFile.exists()){
+		def keystoreProperties = new Properties()
+		keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+		releaseSigning = signingConfigs.create("release", signingConfig -> {
+		signingConfig.setKeyAlias(keystoreProperties.getProperty("keyAlias"));
+		signingConfig.setKeyPassword(keystoreProperties.getProperty("keyPassword"));
+		signingConfig.setStoreFile(rootProject.file(keystoreProperties.getProperty("storeFile")));
+		signingConfig.setStorePassword(keystoreProperties.getProperty("storePassword"));
+		});
+	} else {releaseSigning = signingConfigs.getByName("debug"); // Use getByName for safety
+	}
+	
+	bundle {
+		language {
+			enableSplit false
+		}
+	}
+	
+	buildTypes {
+		release {
+			debuggable false
+			minifyEnabled false
+			signingConfig = releaseSigning
+		}
+		
+		debug {
+			debuggable true
+			minifyEnabled false
+		}
+	}
+	namespace 'org.baitmooth.snow'
+	compileOptions {
+		encoding = 'UTF-8'
+		sourceCompatibility JavaVersion.VERSION_11
+		targetCompatibility JavaVersion.VERSION_11
+	}
 }
 
 dependencies {
-    /*
-     * CandyBar Material Dashboard Library
-     *
-     * TODO: How to update the dashboard?!
-     * Check this update guide for every version
-     *      - https://github.com/zixpo/candybar-sample/wiki/Updating-the-dashboard
-     * If you've missed some versions you've to also follow update guide for those versions
-     */
 
-    implementation 'com.github.Donnnno:candybar-foss:3.19.0'
-
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.github.donnnno:candybar-foss:3.20.2'
 }
+
 
 // Code for automatically copying appfilter.xml and drawable.xml
 // from `res/xml` directory to `assets` directory
