@@ -1,38 +1,33 @@
 name: Build Release
-on: 
-  workflow_dispatch:
+
+on:
+    workflow_dispatch:
+
 jobs:
-  build:
-    name: Build Snow Release APK
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout branch
-        uses: actions/checkout@v2
-      - name: Setup Java
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'zulu'
-          java-version: 21
-          cache: gradle
-      - name: Preparing Signing
-        env:
-          ENCODED_STRING: ${{ secrets.KEYSTORE }}
-          RELEASE_KEYSTORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
-          RELEASE_KEYSTORE_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
-          RELEASE_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD}} 
-
-        run: |
-          echo $ENCODED_STRING > keystore-b64.txt
-          base64 -d keystore-b64.txt > keystore.jks
-
-      - name: Get Gradle
-        run: gradle wrapper
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
-      - name: Build Release apk
-        env:
-          RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
-          RELEASE_KEYSTORE_ALIAS: ${{ secrets.RELEASE_KEYSTORE_ALIAS }}
-          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
-        run: ./gradlew assembleRelease --stacktrace
-        
+    build:
+        name: Build Snow Release APK
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout branch
+              uses: actions/checkout@v2
+            - name: Setup Java
+              uses: actions/setup-java@v2
+              with:
+                  distribution: 'zulu'
+                  java-version: 21
+                  cache: gradle
+            - name: Write sign info
+              run: |
+                  if [ ! -z "${{ secrets.KEYSTORE }}" ]; then
+                      echo storePassword='${{ secrets.KEYSTORE_PASSWORD }}' >> keystore.properties
+                      echo keyAlias='${{ secrets.KEY_ALIAS }}' >> keystore.properties
+                      echo keyPassword='${{ secrets.KEY_PASSWORD }}' >> keystore.properties
+                      echo storeFile='${{ github.workspace }}/key.jks' >> keystore.properties
+                      echo ${{ secrets.KEYSTORE }} | base64 --decode > ${{ github.workspace }}/keystore.jks
+                    fi
+            - name: Get Gradle
+              run: gradle wrapper
+            - name: Grant execute permission for gradlew
+              run: chmod +x gradlew
+            - name: Build Release apk
+              run: ./gradlew assembleRelease --stacktrace
