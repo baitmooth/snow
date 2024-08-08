@@ -961,7 +961,7 @@
 	<item drawable="piholedroid" />
 	<item drawable="pimplepopper" />
 	<item drawable="pin" />
-	<item drawable="pinterest" />
+	<item drawable="pintrest" />
 	<item drawable="piwigo" />
 	<item drawable="pixeldungeon" />
 	<item drawable="pixellab" />
@@ -1366,7 +1366,7 @@
 	<item drawable="whatsapp" />
 	<item drawable="whatsappwebtogo" />
 	<item drawable="whatsdeleted" />
-	<item drawable="wiebetaaltwat" />
+	<item drawable="wiebetaaldwat" />
 	<item drawable="wifianalyzer" />
 	<item drawable="wifiautomatic" />
 	<item drawable="wifikeyshare" />
