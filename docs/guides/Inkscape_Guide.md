@@ -1,4 +1,4 @@
-# Using Inkscape to contribute to Arcticons
+# Using Inkscape to contribute to Snow
 
 If you want a great way to get started contributing to this icon pack, here is a simple guide to get started using Inkscape!
 
@@ -49,12 +49,12 @@ Usually Inkscape will add a lot of metadata that will get cleaned up by the mant
 
 ## Uploading
 
-- Go to the github page https://github.com/Donnnno/Arcticons/ in a browser
-- On the top-right corner, click the Fork button. You'll get your very own clone of Arcticons! (You need a GitHub account for this)
+- Go to the github page https://github.com/baitmooth/snow/ in a browser
+- On the top-right corner, click the Fork button. You'll get your very own clone of Snow! (You need a GitHub account for this)
 - Once in your fork, click "other" directory
 - Click "Add file" > Upload files > choose your files
 - Select your masterpiece(s) and Commit changes (you can add a commit message if you want)
-- There will be a dialog "... is 1 commit ahead of Donno:Arcticons"
+- There will be a dialog "... is 1 commit ahead of baitmooth:snow"
 - Click "Contribute" > "Open pull request"
 - Type the pull-request message (e.g. name of the icons)
 - Click "create pull request"

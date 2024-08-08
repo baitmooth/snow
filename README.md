@@ -36,7 +36,7 @@ One way to request icons is to use [IconRequest](https://github.com/Kaiserdragon
 
 #### Snows built-in feature
 
-This feature is not active at the moment, but will be very soon.
+You can submit a limited number of icons. The submit count will be reset next release. This is to prevent overwhelming large requests and keeping the artists sane.
 1. Open Snow
 2. Press the symbol on the upper-left corner and select `Icon Request`
 3. Choose the missing apps you wish to submit, it's also possible to select/deselect all missing apps
@@ -49,9 +49,9 @@ In case you accidentally close the app during the process, and want to clean the
 
 Making icons is fun and **you don't even have to know how to code**. Just install a vector graphic program like [Inkscape](https://inkscape.org/en/), Illustrator, Affinity Designer, [PenPot](https://penpot.app/) or [Vector Asset Creator](https://play.google.com/store/apps/details?id=com.inglesdivino.vectorassetcreator). 
 Read the full details here: 
-- [Contributing](CONTRIBUTING.md)
-- [Inkscape Guide](guides/Inkscape_Guide.md)
-- [Vector Asset Creator guide](guides/Vector_Asset_Creator.md)
+- [Contributing](docs/CONTRIBUTING.md)
+- [Inkscape Guide](docs/guides/Inkscape_Guide.md)
+- [Vector Asset Creator guide](docs/guides/Vector_Asset_Creator.md)
 
 ## License
 
