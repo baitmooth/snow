@@ -1,5 +1,5 @@
-### 1.0.1
-###### Released: Aug 05, 2024
+### 1.1.0
+###### Released: Aug 09, 2024
 - updated Candybar
 
 ### 1.0.0
