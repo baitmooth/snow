@@ -78,5 +78,6 @@ tasks.register('copyXMLs') {
 tasks.configureEach { task ->
     if (task.name == 'assembleDebug' || task.name == 'assembleRelease') {
         task.dependsOn copyXMLs
+		task.dependsOn('runnormal')
     }
 }

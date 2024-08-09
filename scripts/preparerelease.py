@@ -286,11 +286,11 @@ def checkSVG(dir: str):
                         strokeattr[file] += [fill_rgba]
                     else: strokeattr[file] = [fill_rgba]
             #Other Attributes
-            for stroke in strokes:
-                if stroke not in ['stroke-width:1','stroke-width:1px','stroke-width:0px','stroke-width:0','stroke-width="1','stroke-width="0']:
-                    if file in strokeattr:
-                        strokeattr[file] += [stroke]
-                    else: strokeattr[file] = [stroke]
+            #for stroke in strokes:
+            #    if stroke not in ['stroke-width:1','stroke-width:1px','stroke-width:0px','stroke-width:0','stroke-width="1','stroke-width="0']:
+            #        if file in strokeattr:
+            #            strokeattr[file] += [stroke]
+            #        else: strokeattr[file] = [stroke]
             for linecap in linecaps:
                 if linecap not in ['stroke-linecap:round','stroke-linecap="round','stroke-linecap: round']:
                     if file in strokeattr:
