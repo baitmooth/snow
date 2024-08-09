@@ -1,0 +1,13 @@
+-------------------------------------------------------
+1 Requested Apps Pending (Updated 10 March 2024)
+-------------------------------------------------------
+
+<!-- Arcticons -->
+<item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons"/>
+https://play.google.com/store/apps/details?id=com.donnnno.arcticons
+https://f-droid.org/en/packages/com.donnnno.arcticons/
+https://apt.izzysoft.de/fdroid/index/apk/com.donnnno.arcticons
+https://galaxystore.samsung.com/detail/com.donnnno.arcticons
+https://www.ecosia.org/search?q=com.donnnno.arcticons
+Requested 1000 times
+Last requested 1709418957.0

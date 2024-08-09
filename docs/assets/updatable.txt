@@ -1,0 +1,3 @@
+<!-- Arcticons -->
+<item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons"/>
+
