@@ -885,7 +885,7 @@
 	<!-- default -->
 	<item component=":BROWSER" drawable="browser"/>
 	<item component=":CALCULATOR" drawable="calculator"/>
-	<item component=":CALENDAR" drawable="calendar31"/>
+	<item component=":CALENDAR" drawable="calendar_31"/>
 	<item component=":CAMERA" drawable="camera"/>
 	<item component=":CLOCK" drawable="clock"/>
 	<item component=":CONTACTS" drawable="contacts"/>
