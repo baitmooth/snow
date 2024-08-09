@@ -50,7 +50,7 @@ DRAWABLE_PATH = APP_SRC_DIR + "/main/res/xml/drawable.xml"
 NEWDRAWABLE_PATH = NEWICONS_PATH +"/newdrawables.xml"
 WHITE_DIR = ICONS_PATH + "/white"
 BLACK_DIR = ICONS_PATH + "/black"
-EXPORT_DARK_DIR = APP_SRC_DIR +"/normal/res/drawable-nodpi"
+EXPORT_DARK_DIR = APP_SRC_DIR +"/main/res/drawable-nodpi"
 EXPORT_LIGHT_DIR = APP_SRC_DIR +"/black/res/drawable-nodpi"
 RES_XML_PATH = APP_SRC_DIR + "/main/res/xml"
 ASSETS_PATH = APP_SRC_DIR + "/main/assets"
@@ -235,7 +235,7 @@ def checkSVG(dir: str):
         name = file[:-4]
         with open(file_path, 'r', encoding='utf-8') as fp:
             content = fp.read()
-            content = re.sub(r'(?P<strokestr>stroke-width(?:="|: ?))(?P<number>\d*(?:.\d+)?)(?=[p"; }\/])', replace_stroke, content)
+            #content = re.sub(r'(?P<strokestr>stroke-width(?:="|: ?))(?P<number>\d*(?:.\d+)?)(?=[p"; }\/])', replace_stroke, content)
 
             #check colors regex
             stroke_colors = re.findall(r'stroke(?:=\"|:)(?:rgb[^a]|#).*?(?=[\"; ])', content)
@@ -286,11 +286,11 @@ def checkSVG(dir: str):
                         strokeattr[file] += [fill_rgba]
                     else: strokeattr[file] = [fill_rgba]
             #Other Attributes
-            for stroke in strokes:
-                if stroke not in ['stroke-width:1','stroke-width:1px','stroke-width:0px','stroke-width:0','stroke-width="1','stroke-width="0']:
-                    if file in strokeattr:
-                        strokeattr[file] += [stroke]
-                    else: strokeattr[file] = [stroke]
+            #for stroke in strokes:
+            #    if stroke not in ['stroke-width:1','stroke-width:1px','stroke-width:0px','stroke-width:0','stroke-width="1','stroke-width="0']:
+            #        if file in strokeattr:
+            #            strokeattr[file] += [stroke]
+            #        else: strokeattr[file] = [stroke]
             for linecap in linecaps:
                 if linecap not in ['stroke-linecap:round','stroke-linecap="round','stroke-linecap: round']:
                     if file in strokeattr:
@@ -392,8 +392,8 @@ def main():
     create_new_drawables(NEWICONS_PATH,NEWDRAWABLE_PATH)
     svg_colors(NEWICONS_PATH,ORIGINAL_STROKE,ORIGINAL_FILL,ORIGINAL_STROKE_ALT,ORIGINAL_FILL_ALT,REPLACE_STROKE_WHITE,REPLACE_FILL_WHITE,REPLACE_STROKE_WHITE_ALT,REPLACE_FILL_WHITE_ALT)
     create_icons(SIZES, NEWICONS_PATH ,EXPORT_DARK_DIR, WHITE_DIR, 'Dark Mode')
-    svg_colors(NEWICONS_PATH,ORIGINAL_STROKE,ORIGINAL_FILL,ORIGINAL_STROKE_ALT,ORIGINAL_FILL_ALT,REPLACE_STROKE_BLACK,REPLACE_FILL_BLACK,REPLACE_STROKE_BLACK_ALT,REPLACE_FILL_BLACK_ALT)
-    create_icons(SIZES, NEWICONS_PATH ,EXPORT_LIGHT_DIR, BLACK_DIR, 'Light Mode')
+    #svg_colors(NEWICONS_PATH,ORIGINAL_STROKE,ORIGINAL_FILL,ORIGINAL_STROKE_ALT,ORIGINAL_FILL_ALT,REPLACE_STROKE_BLACK,REPLACE_FILL_BLACK,REPLACE_STROKE_BLACK_ALT,REPLACE_FILL_BLACK_ALT)
+    #create_icons(SIZES, NEWICONS_PATH ,EXPORT_LIGHT_DIR, BLACK_DIR, 'Light Mode')
     remove_svg(NEWICONS_PATH)
     sortxml(APPFILTER_PATH) 
 
