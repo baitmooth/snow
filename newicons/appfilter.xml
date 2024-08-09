@@ -275,6 +275,12 @@
 	<item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.MainActivity}" drawable="arcticons"/>
 	<item component="ComponentInfo{com.donnnno.arcticons.debug/com.donnnno.arcticons.activities.MainActivity}" drawable="arcticons"/>
 
+	<!-- ARD Audiothek -->
+	<item component="ComponentInfo{de.ard.audiothek/de.ard.audiothek.MainActivity}" drawable="ard_audiothek"/>
+
+	<!-- Assistant -->
+	<item component="ComponentInfo{com.google.android.apps.googleassistant/com.google.android.apps.googleassistant.AssistantActivity}" drawable="assistant"/>
+
 	<!-- AsteroidOS Sync -->
 	<item component="ComponentInfo{org.asteroidos.sync/org.asteroidos.sync.PermissionsActivity}" drawable="asteroidossync"/>
 
@@ -402,6 +408,9 @@
 
 	<!-- Beats -->
 	<item component="ComponentInfo{com.apple.bnd/com.apple.vienna.v3.presentation.welcome.WelcomeActivity}" drawable="beats"/>
+
+	<!-- Berd Spoke Calculator -->
+	<item component="ComponentInfo{com.berd.spokecalculator/com.berd.spokecalculator.MainActivity}" drawable="berd_spoke_calculator"/>
 
 	<!-- Best Buy -->
 	<item component="ComponentInfo{com.bestbuy.android/com.bestbuy.android.activity.HomeScreen}" drawable="bestbuy"/>
@@ -813,6 +822,9 @@
 
 	<!-- Creditas -->
 	<item component="ComponentInfo{cz.creditas.mb/cz.creditas.mb.UnsecuredMainActivity}" drawable="creditas"/>
+
+	<!-- Critical Maps -->
+	<item component="ComponentInfo{de.stephanlindauer.criticalmaps/de.stephanlindauer.criticalmaps.Main}" drawable="critical_maps"/>
 
 	<!-- Cronograma -->
 	<item component="ComponentInfo{com.asdoi.timetable/com.ulan.timetable.activities.MainActivity}" drawable="cronograma"/>
@@ -1241,6 +1253,7 @@
 
 	<!-- Feeder -->
 	<item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.FeedActivity}" drawable="feeder"/>
+	<item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.MainActivity}" drawable="feeder"/>
 
 	<!-- Feedly Classic -->
 	<item component="ComponentInfo{com.devhd.feedly.classic/com.devhd.feedly.Main}" drawable="feedlyclassic"/>
@@ -1445,6 +1458,12 @@
 	<!-- GadgetBridge -->
 	<item component="ComponentInfo{nodomain.freeyourgadget.gadgetbridge/nodomain.freeyourgadget.gadgetbridge.activities.ControlCenter}" drawable="gadgetbridge"/>
 	<item component="ComponentInfo{nodomain.freeyourgadget.gadgetbridge/nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2}" drawable="gadgetbridge"/>
+
+	<!-- Galerie -->
+	<item component="ComponentInfo{org.lineageos.glimpse/org.lineageos.glimpse.MainActivity}" drawable="galerie"/>
+
+	<!-- Galerie -->
+	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Green}" drawable="galerie1"/>
 
 	<!-- Gallery -->
 	<item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="gallery"/>
@@ -1746,6 +1765,9 @@
 
 	<!-- ICEcons -->
 	<item component="ComponentInfo{com.dkanada.icecons/com.dkanada.icecons.MainActivity}" drawable="frost"/>
+
+	<!-- IconRequest -->
+	<item component="ComponentInfo{de.kaiserdragon.iconrequest/de.kaiserdragon.iconrequest.MainActivity}" drawable="iconrequest"/>
 
 	<!-- ICSdroid -->
 	<item component="ComponentInfo{at.bitfire.icsdroid/at.bitfire.icsdroid.ui.CalendarListActivity}" drawable="icsdroid"/>
@@ -2423,6 +2445,9 @@
 	<!-- mpv -->
 	<item component="ComponentInfo{is.xyz.mpv/is.xyz.mpv.MainActivity}" drawable="mpv"/>
 
+	<!-- mucke -->
+	<item component="ComponentInfo{rocks.mucke/com.ryanheise.audioservice.AudioServiceActivity}" drawable="mucke"/>
+
 	<!-- Mull -->
 	<item component="ComponentInfo{us.spotco.fennec_dos/us.spotco.fennec_dos.App}" drawable="mull"/>
 
@@ -2811,6 +2836,9 @@
 
 	<!-- Orgzly -->
 	<item component="ComponentInfo{com.orgzly/com.orgzly.android.ui.MainActivity}" drawable="orgzly"/>
+
+	<!-- Orgzly Revived -->
+	<item component="ComponentInfo{com.orgzlyrevived/com.orgzly.android.ui.LauncherActivity}" drawable="orgzly_revived"/>
 
 	<!-- OS Monitor -->
 	<item component="ComponentInfo{com.eolwral.osmonitor/com.eolwral.osmonitor.OSMonitor}" drawable="osmonitor"/>
@@ -4612,6 +4640,9 @@
 	<item component="ComponentInfo{app.fedilab.nitterizeme/app.fedilab.nitterizeme.activities.MainActivity}" drawable="untrackme"/>
 	<item component="ComponentInfo{app.fedilab.nitterizemelite/app.fedilab.nitterizeme.activities.MainActivity}" drawable="untrackme"/>
 
+	<!-- Updater -->
+	<item component="ComponentInfo{pro.rudloff.lineageos_updater_shortcut/pro.rudloff.lineageos_updater_shortcut.MainActivity}" drawable="updater"/>
+
 	<!-- UPS -->
 	<item component="ComponentInfo{com.ups.mobile.android/crc6466778ac8e5630834.SplashActivity}" drawable="ups"/>
 
@@ -4758,6 +4789,9 @@
 
 	<!-- WhatsDeleted -->
 	<item component="ComponentInfo{com.gmail.anubhavdas54.whatsdeleted/com.gmail.anubhavdas54.whatsdeleted.MainActivity}" drawable="whatsdeleted"/>
+
+	<!-- whoBIRD -->
+	<item component="ComponentInfo{org.woheller69.whobird/org.tensorflow.lite.examples.soundclassifier.DownloadActivity}" drawable="whobird"/>
 
 	<!-- Wi-Fi Analyzer -->
 	<item component="ComponentInfo{com.vrem.wifianalyzer/com.vrem.wifianalyzer.MainActivity}" drawable="wifianalyzer"/>
@@ -4925,6 +4959,9 @@
 
 	<!-- ZeroNet -->
 	<item component="ComponentInfo{net.mkg20001.zeronet/org.kivy.android.PythonActivity}" drawable="zeronet"/>
+
+	<!-- ZipXtract FD -->
+	<item component="ComponentInfo{com.wirelessalien.zipxtract/com.wirelessalien.zipxtract.FragmentActivity}" drawable="zipxtract_fd"/>
 
 	<!-- zmNinja -->
 	<item component="ComponentInfo{com.pliablepixels.zmninja_pro/com.pliablepixels.zmninja_pro.MainActivity}" drawable="zmninja"/>
