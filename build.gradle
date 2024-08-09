@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.4'
+        classpath 'com.android.tools.build:gradle:8.5.1'
     }
 }
 
@@ -19,11 +19,12 @@ allprojects {
 
     rootProject.ext {
         MinSdk = 21
-        TargetSdk = 30
-        CompileSdk = 30
+        TargetSdk = 34
+        CompileSdk = 34
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
+tasks.register('clean', Delete) {
+    delete rootProject.layout.buildDirectory
+    delete fileTree(dir: 'app/src/main/res/drawable-anydpi')
 }

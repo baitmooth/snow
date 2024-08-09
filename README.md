@@ -1,4 +1,3 @@
-
 Snow is a simple monotone icon pack forked from [Frost](https://github.com/dkanada/frost). Snow is FOSS and provides mostly icons for open-source apps on F-Droid (but there are many other apps in this pack too). The design is aiming to be simple with easy recognisable shapes.
 
 Snow includes support for a lot of launchers like KISS, Nova, Apex, Holo, ZenUI, ADW, and many more. The installation depends on your launcher, it's probably somewhere in the settings.
@@ -41,7 +40,7 @@ One way to request icons is to use [IconRequest](https://github.com/Kaiserdragon
 
 #### Snows built-in feature
 
-This feature is not active at the moment, but will be very soon.
+You can submit a limited number of icons. The submit count will be reset next release. This is to prevent overwhelming large requests and keeping the artists sane.
 1. Open Snow
 2. Press the symbol on the upper-left corner and select `Icon Request`
 3. Choose the missing apps you wish to submit, it's also possible to select/deselect all missing apps
@@ -54,13 +53,13 @@ In case you accidentally close the app during the process, and want to clean the
 
 Making icons is fun and **you don't even have to know how to code**. Just install a vector graphic program like [Inkscape](https://inkscape.org/en/), Illustrator, Affinity Designer, [PenPot](https://penpot.app/) or [Vector Asset Creator](https://play.google.com/store/apps/details?id=com.inglesdivino.vectorassetcreator). 
 Read the full details here: 
-- [Contributing](CONTRIBUTING.md)
-- [Inkscape Guide](guides/Inkscape_Guide.md)
-- [Vector Asset Creator guide](guides/Vector_Asset_Creator.md)
+- [Contributing](docs/CONTRIBUTING.md)
+- [Inkscape Guide](docs/guides/Inkscape_Guide.md)
+- [Vector Asset Creator guide](docs/guides/Vector_Asset_Creator.md)
 
 ## License
 
-Snow is built with with [Arcticons's](https://github.com/Donnnno/Arcticons/) modified [CandyBar Dashboard](https://github.com/zixpo/candybar), licensed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)  which is compatible with the [GNU General Public License, Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) that we use.
+Snow is built with [Candybar-FOSS](https://github.com/Donnnno/candybar-foss), licensed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)  which is compatible with the [GNU General Public License, Version 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) that we use.
 
 All icons are licensed under [Creative Commonns Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/), with around 1100 of the first icons from [Frost](https://github.com/dkanada/frost).
 

@@ -12,7 +12,39 @@
 	<item drawable="foldersettings" />
 	
 	<category title="Calendar" />
-	
+	<item drawable="calendar" />
+	<item drawable="calendar1" />
+	<item drawable="calendar10" />
+	<item drawable="calendar11" />
+	<item drawable="calendar12" />
+	<item drawable="calendar13" />
+	<item drawable="calendar14" />
+	<item drawable="calendar15" />
+	<item drawable="calendar16" />
+	<item drawable="calendar17" />
+	<item drawable="calendar18" />
+	<item drawable="calendar19" />
+	<item drawable="calendar2" />
+	<item drawable="calendar20" />
+	<item drawable="calendar21" />
+	<item drawable="calendar22" />
+	<item drawable="calendar23" />
+	<item drawable="calendar24" />
+	<item drawable="calendar25" />
+	<item drawable="calendar26" />
+	<item drawable="calendar27" />
+	<item drawable="calendar28" />
+	<item drawable="calendar29" />
+	<item drawable="calendar3" />
+	<item drawable="calendar30" />
+	<item drawable="calendar31" />
+	<item drawable="calendar4" />
+	<item drawable="calendar5" />
+	<item drawable="calendar6" />
+	<item drawable="calendar7" />
+	<item drawable="calendar8" />
+	<item drawable="calendar9" />
+
 	<category title="Letters" />
 	
 	<category title="Numbers" />
@@ -323,7 +355,6 @@
 	<item drawable="devicesearch" />
 	<item drawable="devrant" />
 	<item drawable="dhlexpress" />
-	<item drawable="dhlpaket" />
 	<item drawable="diaguard" />
 	<item drawable="dial" />
 	<item drawable="diaspora" />
@@ -964,7 +995,7 @@
 	<item drawable="piholedroid" />
 	<item drawable="pimplepopper" />
 	<item drawable="pin" />
-	<item drawable="pintrest" />
+	<item drawable="pinterest" />
 	<item drawable="piwigo" />
 	<item drawable="pixeldungeon" />
 	<item drawable="pixellab" />
@@ -1370,7 +1401,7 @@
 	<item drawable="whatsapp" />
 	<item drawable="whatsappwebtogo" />
 	<item drawable="whatsdeleted" />
-	<item drawable="wiebetaaldwat" />
+	<item drawable="wiebetaaltwat" />
 	<item drawable="wifianalyzer" />
 	<item drawable="wifiautomatic" />
 	<item drawable="wifikeyshare" />

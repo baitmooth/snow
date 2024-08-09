@@ -1,65 +1,83 @@
 apply plugin: 'com.android.application'
 
+// build.gradle in the 'app' module
 android {
-    compileSdkVersion 30
-
-    defaultConfig {
-        applicationId "org.baitmooth.snow"
-        minSdkVersion rootProject.ext.MinSdk
-        targetSdkVersion rootProject.ext.TargetSdk
-        versionCode 2
-        versionName '1.0.1'
-        multiDexEnabled true
-
-        // Naming app bundles
-        setArchivesBaseName("${parent.name}-v${versionName}")
-
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled true
-            debug {
-                applicationIdSuffix '.debug'
-                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
-            }
-        }
-    }
-
-    compileOptions {
-        encoding = 'UTF-8'
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        abortOnError false
-    }
-    buildFeatures {
-        viewBinding true
-    }
+	compileSdk rootProject.ext.CompileSdk
+	
+	defaultConfig {
+		applicationId 'org.baitmooth.snow'
+		minSdkVersion rootProject.ext.MinSdk
+		targetSdkVersion rootProject.ext.TargetSdk
+		versionCode 2
+		versionName '1.1.0'
+		multiDexEnabled true
+		// Naming app bundles
+		setArchivesBaseName("${parent.name}-v${versionName}")
+	}
+	
+	// Create a variable called keystorePropertiesFile, and initialize it to the
+	// keystore.properties file, in the rootProject folder.
+	def keystorePropertiesFile = rootProject.file("keystore.properties")
+	def releaseSigning;
+	if (keystorePropertiesFile.exists()){
+		def keystoreProperties = new Properties()
+		keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+		releaseSigning = signingConfigs.create("release", signingConfig -> {
+		signingConfig.setKeyAlias(keystoreProperties.getProperty("keyAlias"));
+		signingConfig.setKeyPassword(keystoreProperties.getProperty("keyPassword"));
+		signingConfig.setStoreFile(rootProject.file(keystoreProperties.getProperty("storeFile")));
+		signingConfig.setStorePassword(keystoreProperties.getProperty("storePassword"));
+		});
+	} else {releaseSigning = signingConfigs.getByName("debug"); // Use getByName for safety
+	}
+	
+	bundle {
+		language {
+			enableSplit false
+		}
+	}
+	
+	buildTypes {
+		release {
+			debuggable false
+			minifyEnabled false
+			signingConfig = releaseSigning
+		}
+		
+		debug {
+			debuggable true
+			minifyEnabled false
+		}
+	}
+	namespace 'org.baitmooth.snow'
+	compileOptions {
+		encoding = 'UTF-8'
+		sourceCompatibility JavaVersion.VERSION_11
+		targetCompatibility JavaVersion.VERSION_11
+	}
 }
 
 dependencies {
-    /*
-     * CandyBar Material Dashboard Library
-     *
-     * TODO: How to update the dashboard?!
-     * Check this update guide for every version
-     *      - https://github.com/zixpo/candybar-sample/wiki/Updating-the-dashboard
-     * If you've missed some versions you've to also follow update guide for those versions
-     */
-
 
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.github.donnnno:candybar-foss:3.20.2'
+}
 
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'androidx.appcompat:appcompat:1.3.1'
+// Code for automatically copying appfilter.xml and drawable.xml
+// from `res/xml` directory to `assets` directory
+tasks.register('copyXMLs') {
+    ['appfilter.xml', 'drawable.xml'].each { file ->
+        copy {
+            from "$projectDir/src/main/res/xml/$file"
+            into "$projectDir/src/main/assets/"
+        }
+    }
+}
 
-    implementation project(':libs:candybar')
-    implementation project(':libs:extLibs:PreLollipopTransitions')
-
+tasks.configureEach { task ->
+    if (task.name == 'assembleDebug' || task.name == 'assembleRelease') {
+        task.dependsOn copyXMLs
+		task.dependsOn(':preparehelper:runnormal')
+    }
 }
