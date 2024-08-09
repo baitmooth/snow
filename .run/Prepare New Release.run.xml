@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Prepare New Release" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="com.donnnno.arcticons.helper.PrepareRelease" />
-    <module name="Arcticons.preparehelper.main" />
+    <option name="MAIN_CLASS_NAME" value="helper.PrepareRelease" />
+    <module name="snow.preparehelper.main" />
     <option name="PROGRAM_PARAMETERS" value="newrelease" />
     <method v="2">
       <option name="Make" enabled="true" />
