@@ -3,33 +3,33 @@ plugins {
 }
 
 application {
-    mainClass.set("com.donnnno.arcticons.helper.Start")
+    mainClass.set("helper.Start")
 }
 
 tasks.register('runyou', JavaExec) {
     // Configure the task as needed
-    mainClass = 'com.donnnno.arcticons.helper.Start'
+    mainClass = 'helper.Start'
     classpath = sourceSets.main.runtimeClasspath
     // Other configurations...
     args = ['you']
 }
 tasks.register('runblack', JavaExec) {
     // Configure the task as needed
-    mainClass = 'com.donnnno.arcticons.helper.Start'
+    mainClass = 'helper.Start'
     classpath = sourceSets.main.runtimeClasspath
     // Other configurations...
     args = ['black']
 }
 tasks.register('runnormal', JavaExec) {
     // Configure the task as needed
-    mainClass = 'com.donnnno.arcticons.helper.Start'
+    mainClass = 'helper.Start'
     classpath = sourceSets.main.runtimeClasspath
     // Other configurations...
     args = ['normal']
 }
 tasks.register('rundayNight', JavaExec) {
     // Configure the task as needed
-    mainClass = 'com.donnnno.arcticons.helper.Start'
+    mainClass = 'helper.Start'
     classpath = sourceSets.main.runtimeClasspath
     // Other configurations...
     args = ['dayNight']
