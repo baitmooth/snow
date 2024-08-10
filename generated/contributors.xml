@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <contributor
+        name="Baitmooth"
+        contribution="Maintainer of Snow"
+        image="https://github.com/baitmooth.png?size=400"
+        link="https://github.com/baitmooth" />
+
+    <contributor
+        name="Onno van den Dungen"
+        contribution="Creator of Arcticons"
+        image="https://avatars.githubusercontent.com/u/31142286?s=400"
+        link="https://www.onnno.nl/" />
+    <contributor
+        name="Aman9das "
+        contribution="Ported Arcticons to the Candybar dashboard and Icon Creator."
+        image="https://avatars.githubusercontent.com/u/39594914?v=4"
+        link="https://github.com/Aman9das" />
+    <contributor
+        name="Dkanada"
+        contribution="Creator of Frost, the original icon pack Snow is based of."
+        image=""
+        link="https://github.com/dkanada" />
+    <contributor
+        name="Kaiserdragon2"
+        contribution="Creator of Automation scripts"
+        image="https://avatars.githubusercontent.com/u/8929967?v=4"
+        link="https://github.com/Kaiserdragon2" />
+</resources>
