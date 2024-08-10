@@ -1040,6 +1040,9 @@
 	<!-- DroidShows -->
 	<item component="ComponentInfo{nl.asymmetrics.droidshows/nl.asymmetrics.droidshows.DroidShows}" drawable="droidshows"/>
 
+	<!-- DroidUPnP -->
+	<item component="ComponentInfo{org.droidupnp/org.droidupnp.Main}" drawable="droidupnp"/>
+
 	<!-- Dronecast -->
 	<item component="ComponentInfo{com.droneforecast.app/com.droneforecast.app.SplashScreenActivity}" drawable="dronecast"/>
 
@@ -1048,6 +1051,9 @@
 
 	<!-- DropTicket -->
 	<item component="ComponentInfo{com.atono.dropticket/com.atono.dropticket.store.StoreActivity}" drawable="dropticket"/>
+
+	<!-- DS audio -->
+	<item component="ComponentInfo{com.synology.DSaudio/com.synology.dsaudio.ui.splash.SplashActivity}" drawable="dsaudio"/>
 
 	<!-- DS file -->
 	<item component="ComponentInfo{com.synology.DSfile/com.synology.DSfile.Splash}" drawable="dsfile"/>
@@ -1304,6 +1310,9 @@
 
 	<!-- Firefox Klar -->
 	<item component="ComponentInfo{org.mozilla.klar/org.mozilla.focus.activity.MainActivity}" drawable="firefox"/>
+
+	<!-- Firefox Lite -->
+	<item component="ComponentInfo{org.mozilla.rocket/org.mozilla.rocket.activity.MainActivity}" drawable="firefoxlite"/>
 
 	<!-- Firefox Lockwise -->
 	<item component="ComponentInfo{mozilla.lockbox/mozilla.lockbox.view.RootActivity}" drawable="firefoxlockwise"/>
@@ -1700,6 +1709,9 @@
 	<!-- Guide du tri : recycling info-->
 	<item component="ComponentInfo{fr.ecoemballage.guidedutri/fr.ecoemballage.guidedutri.activities.SplashActivity}" drawable="recyclelocation"/>
 
+	<!-- Hacker Live Wallpaper -->
+	<item component="ComponentInfo{com.gulshansingh.hackerlivewallpaper/com.gulshansingh.hackerlivewallpaper.SettingsActivity}" drawable="hackerlivewallpaper"/>
+
 	<!-- Hacker's Keyboard -->
 	<item component="ComponentInfo{org.pocketworkstation.pckeyboard/org.pocketworkstation.pckeyboard.Main}" drawable="hackerskb"/>
 
@@ -1829,6 +1841,9 @@
 	<!-- iPrint&Scan -->
 	<item component="ComponentInfo{com.brother.mfc.brprint/com.brother.mfc.brprint.v2.ui.top.SplashActivity}" drawable="iprintscan"/>
 
+	<!-- Iriun Webcam -->
+	<item component="ComponentInfo{com.jacksoftw.webcam/com.iriun.webcam.IntroActivity}" drawable="iriunwebcam"/>
+
 	<!-- Island -->
 	<item component="ComponentInfo{com.oasisfeng.island/com.oasisfeng.island.MainActivity}" drawable="island"/>
 
@@ -1902,6 +1917,9 @@
 
 	<!-- Keep -->
 	<item component="ComponentInfo{com.gotokeep.keep/com.gotokeep.keep.splash.SplashActivity}" drawable="keep"/>
+
+	<!-- Keep Screen -->
+	<item component="ComponentInfo{com.a.construction.keep.display/com.a.construction.keep.display.views.MainActivity}" drawable="keepscreen"/>
 
 	<!-- Keepa -->
 	<item component="ComponentInfo{com.keepa.mobile/com.tns.NativeScriptActivity}" drawable="keepa"/>
@@ -2796,6 +2814,9 @@
 	<!-- OpenCV Manager -->
 	<item component="ComponentInfo{org.opencv.engine/org.opencv.engine.manager.ManagerActivity}" drawable="opencvmanager"/>
 
+	<!-- OpenDocument Reader -->
+	<item component="ComponentInfo{at.tomtasche.reader/at.tomtasche.reader.ui.activity.MainActivity}" drawable="opendocumentreader"/>
+
 	<!-- OpenLauncher -->
 	<item component="ComponentInfo{com.benny.openlauncher/com.benny.openlauncher.activity.InitActivity}" drawable="openlauncher"/>
 	<item component="ComponentInfo{com.benny.openlauncher/com.benny.openlauncher.activity.OnBoardActivity}" drawable="openlauncher"/>
@@ -3304,6 +3325,9 @@
 	<!-- RunnerUp -->
 	<item component="ComponentInfo{org.runnerup/org.runnerup.view.MainLayout}" drawable="runnerup"/>
 	<item component="ComponentInfo{org.runnerup.free/org.runnerup.view.MainLayout}" drawable="runnerup"/>
+
+	<!-- S-pushTAN -->
+	<item component="ComponentInfo{com.starfinanz.mobile.android.pushtan/com.starfinanz.mobile.android.spushtan.SPushTan}" drawable="spushtan"/>
 
 	<!-- SAI -->
 	<item component="ComponentInfo{com.aefyr.sai.fdroid/com.aefyr.sai.ui.activities.MainActivity}" drawable="sai"/>
@@ -4141,6 +4165,9 @@
 	<!-- Snap -->
 	<item component="ComponentInfo{org.cyanogenmod.snap/com.android.camera.CameraLauncher}" drawable="camera"/>
 
+	<!-- Snapcast -->
+	<item component="ComponentInfo{de.badaix.snapcast/de.badaix.snapcast.MainActivity}" drawable="snapcast"/>
+
 	<!-- Snapchat -->
 	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="snapchat"/>
 
@@ -4582,6 +4609,9 @@
 	<!-- Tuner -->
 	<item component="ComponentInfo{org.billthefarmer.tuner/org.billthefarmer.tuner.MainActivity}" drawable="tuner"/>
 
+	<!-- Tuner 2-->
+	<item component="ComponentInfo{de.moekadu.tuner/de.moekadu.tuner.MainActivity}" drawable="tuner2"/>
+
 	<!-- Turtl -->
 	<item component="ComponentInfo{org.xphnx.iconsubmit/org.xphnx.iconsubmit.MainActivity}" drawable="turtl"/>
 
@@ -4615,6 +4645,9 @@
 
 	<!-- Uber -->
 	<item component="ComponentInfo{com.ubercab/com.ubercab.presidio.app.core.root.RootActivity}" drawable="uber"/>
+
+	<!-- Uhr -->
+	<item component="ComponentInfo{com.chen.deskclock/com.chen.deskclock.DeskClock}" drawable="uhr"/>
 
 	<!-- Ultrasonic -->
 	<item component="ComponentInfo{org.moire.ultrasonic/org.moire.ultrasonic.activity.NavigationActivity}" drawable="ultrasonic"/>
@@ -4729,6 +4762,12 @@
 
 	<!-- Waistline -->
 	<item component="ComponentInfo{com.waist.line/com.waist.line.MainActivity}" drawable="waistline"/>
+
+	<!-- Wake On Lan -->
+	<item component="ComponentInfo{co.uk.mrwebb.wakeonlan/co.uk.mrwebb.wakeonlan.MainActivity}" drawable="wakeonlan1"/>
+
+	<!-- Wake On Lan -->
+	<item component="ComponentInfo{net.mafro.android.wakeonlan/net.mafro.android.wakeonlan.WakeOnLanActivity}" drawable="wakeonlan2"/>
 
 	<!-- Wallabag -->
 	<item component="ComponentInfo{fr.gaulupeau.apps.InThePoche/fr.gaulupeau.apps.Poche.ui.MainActivity}" drawable="wallabagger"/>
@@ -4857,6 +4896,9 @@
 
 	<!-- wX -->
 	<item component="ComponentInfo{joshuatee.wx/joshuatee.wx.StartupActivity}" drawable="wx"/>
+
+	<!-- X-plore -->
+	<item component="ComponentInfo{com.lonelycatgames.Xplore/com.lonelycatgames.Xplore.Browser}" drawable="xplore"/>
 
 	<!-- Xabber -->
 	<item component="ComponentInfo{com.xabber.androiddev/com.xabber.android.ui.activity.ContactList}" drawable="xabber"/>
