@@ -1236,6 +1236,10 @@
 	<!-- FastHub-Libre -->
 	<item component="ComponentInfo{com.fastaccess.github.libre/com.fastaccess.ui.modules.main.MainActivity}" drawable="fasthub"/>
 
+	<!-- Fate Grand Order (EN/JP) -->
+	<item component="ComponentInfo{com.aniplex.fategrandorder/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder"/>
+	<item component="ComponentInfo{com.aniplex.fategrandorder.en/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder"/>
+
 	<!-- FBReader -->
 	<item component="ComponentInfo{org.geometerplus.zlibrary.ui.android/org.geometerplus.android.fbreader.FBReader}" drawable="fbreader"/>
 
@@ -2852,7 +2856,6 @@
 
 	<!-- Osmand Telegram -->
 	<item component="ComponentInfo{net.osmand.telegram/net.osmand.telegram.ui.MainActivity}" drawable="osmandtelegram"/>
-		<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram"/>
 
 	<!-- Oto Music -->
 	<item component="ComponentInfo{com.piyush.music/com.piyush.music.activities.main.MainActivity}" drawable="otomusic"/>
@@ -4383,6 +4386,7 @@
 
 	<!-- Telegram -->
 	<item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram"/>
+	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram"/>
 
 	<!-- Terminal -->
 	<item component="ComponentInfo{com.android.terminal/com.android.terminal.TerminalActivity}" drawable="terminal"/>
