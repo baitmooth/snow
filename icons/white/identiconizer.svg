@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg data-name="Layer 1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <style>.cls-1{fill:#fff;}</style>
-    </defs>
-    <path class="cls-1" d="M24,2A22,22,0,1,0,46,24,22,22,0,0,0,24,2ZM36.5,26.5h-5v5h5v5h-5v-5h-5v5h-5v-5h-5v5h-5v-5h5v-5h-5v-10h5v-5h15v5h5Z"/>
-    <rect class="cls-1" x="26.5" y="16.5" width="5" height="5"/>
-    <rect class="cls-1" x="16.5" y="16.5" width="5" height="5"/>
+<svg data-name="Layer 1" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+    <path d="m12 4v8h8v8h-8v-8h-8v16h8v8h8v8h8v-8h8v-8h8v-16h-8v8h-8v-8h8v-8zm24 32v8h8v-8zm-24 0h-8v8h8z" fill="#fff" stroke-width="1.6"/>
 </svg>
