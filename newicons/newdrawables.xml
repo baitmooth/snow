@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<version>1</version>
+	<category title="New" />
+	<item drawable="ard_audiothek" />
+	<item drawable="assistant" />
+	<item drawable="berd_spoke_calculator" />
+	<item drawable="critical_maps" />
+	<item drawable="fennec" />
+	<item drawable="galerie" />
+	<item drawable="galerie1" />
+	<item drawable="iconrequest" />
+	<item drawable="mucke" />
+	<item drawable="orgzly_revived" />
+	<item drawable="snow" />
+	<item drawable="updater" />
+	<item drawable="whobird" />
+	<item drawable="zipxtract_fd" />
+</resources>
