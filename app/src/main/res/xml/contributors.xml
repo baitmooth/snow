@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <contributor
-        name="Baitmooth"
-        contribution="Maintainer of Snow"
-        image="https://github.com/baitmooth.png?size=400"
-        link="https://github.com/baitmooth" />
-
-    <contributor
-        name="Onno van den Dungen"
-        contribution="Creator of Arcticons"
-        image="https://avatars.githubusercontent.com/u/31142286?s=400"
-        link="https://www.onnno.nl/" />
-    <contributor
-        name="Aman9das "
-        contribution="Ported Arcticons to the Candybar dashboard and Icon Creator."
-        image="https://avatars.githubusercontent.com/u/39594914?v=4"
-        link="https://github.com/Aman9das" />
-    <contributor
-        name="Dkanada"
-        contribution="Creator of Frost, the original icon pack Snow is based of."
-        image=""
-        link="https://github.com/dkanada" />
+	<contributor
+		name="Baitmooth"
+		contribution="Maintainer of Snow"
+		image="assets://contributors/downloaded/contributor_0.webp"
+		link="https://github.com/baitmooth" />
+	<contributor
+		name="Onno van den Dungen"
+		contribution="Creator of Arcticons"
+		image="assets://contributors/downloaded/contributor_1.webp"
+		link="https://www.onnno.nl/" />
+	<contributor
+		name="Aman9das "
+		contribution="Ported Arcticons to the Candybar dashboard and Icon Creator."
+		image="assets://contributors/downloaded/contributor_2.webp"
+		link="https://github.com/Aman9das" />
+	<contributor
+		name="Dkanada"
+		contribution="Creator of Frost, the original icon pack Snow is based of."
+		image="assets://contributors/downloaded/contributor_3.webp"
+		link="https://github.com/dkanada" />
+	<contributor
+		name="Kaiserdragon2"
+		contribution="Creator of Automation scripts"
+		image="assets://contributors/downloaded/contributor_4.webp"
+		link="https://github.com/Kaiserdragon2" />
 </resources>
