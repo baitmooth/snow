@@ -4152,7 +4152,8 @@
 
 	<!-- Snow -->
 	<item component="ComponentInfo{org.baitmooth.snow/org.baitmooth.snow.activities.SplashActivity}" drawable="snow"/>
-	<item component="ComponentInfo{org.baitmooth.snow/org.baitmooth.snow.activities.MainActivity}" drawable="snow"/>
+	<item component="ComponentInfo{org.baitmooth.snow.debug/org.baitmooth.snow.activites.SplashActivity}" drawable="snow"/>
+
 	<!-- SofaScore -->
 	<item component="ComponentInfo{com.sofascore.results/com.sofascore.results.main.StartActivity}" drawable="sofascore"/>
 
@@ -4381,7 +4382,6 @@
 
 	<!-- Telegram -->
 	<item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram"/>
-	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram"/>
 
 	<!-- Terminal -->
 	<item component="ComponentInfo{com.android.terminal/com.android.terminal.TerminalActivity}" drawable="terminal"/>
