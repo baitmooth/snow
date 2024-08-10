@@ -1,4 +1,0 @@
-
-    <!-- Fate Grand Order (EN/JP) -->
-    <item component="ComponentInfo{com.aniplex.fategrandorder/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder" />
-    <item component="ComponentInfo{com.aniplex.fategrandorder.en/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder" />
