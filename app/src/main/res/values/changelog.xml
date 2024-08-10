@@ -12,7 +12,6 @@
     * <a href="linkUrl">Link Text</a> for links -->
     <string-array name="changelog">
         <item>Ported <a href="https://github.com/dkanada/frost">Frost</a>s  icons to Snow and integrated it into candybar</item>
-        <item></item>
     </string-array>
 
 </resources>
