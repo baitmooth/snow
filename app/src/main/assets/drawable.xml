@@ -545,6 +545,7 @@
 	<item drawable="conversations" />
 	<item drawable="coronamelder" />
 	<item drawable="coronatracing" />
+	<item drawable="cosmo" />
 	<item drawable="couchsurfing" />
 	<item drawable="cozydrive" />
 	<item drawable="cpustats" />
@@ -632,6 +633,7 @@
 	<item drawable="earmouse" />
 	<item drawable="earth" />
 	<item drawable="easer" />
+	<item drawable="easy_diary" />
 	<item drawable="easyxkcd" />
 	<item drawable="ebay" />
 	<item drawable="ebaykleinanzeigen" />
@@ -1149,6 +1151,7 @@
 	<item drawable="orfox" />
 	<item drawable="organicmaps" />
 	<item drawable="orgzly" />
+	<item drawable="orgzly_revived" />
 	<item drawable="oscilloscope" />
 	<item drawable="osmand" />
 	<item drawable="osmandtelegram" />

@@ -811,6 +811,9 @@
 	<item component="ComponentInfo{de.corona.tracing/de.rki.coronawarnapp.ui.LauncherActivity}" drawable="coronatracing"/>
 	<item component="ComponentInfo{de.corona.tracing/de.rki.coronawarnapp.ui.launcher.LauncherActivity}" drawable="coronatracing"/>
 
+	<!-- COSMO -->
+	<item component="ComponentInfo{de.WDR.COSMO/com.rnativewdrboilerplate.MainActivity}" drawable="cosmo"/>
+
 	<!-- Couchsurfing -->
 	<item component="ComponentInfo{com.couchsurfing.mobile.android/com.couchsurfing.mobile.ui.WelcomeActivity}" drawable="couchsurfing"/>
 
@@ -1088,6 +1091,9 @@
 	<!-- Easer -->
 	<item component="ComponentInfo{ryey.easer/ryey.easer.core.ui.MainActivity}" drawable="easer"/>
 	<item component="ComponentInfo{ryey.easer.beta/ryey.easer.core.ui.MainActivity}" drawable="easer"/>
+
+	<!-- Easy Diary -->
+	<item component="ComponentInfo{me.blog.korn123.easydiary/me.blog.korn123.easydiary.activities.DiaryMainActivity.EasyDiary}" drawable="easy_diary"/>
 
 	<!-- Easy XKCD -->
 	<item component="ComponentInfo{de.tap.easy_xkcd/de.tap.easy_xkcd.Activities.MainActivity}" drawable="easyxkcd"/>
@@ -2847,6 +2853,9 @@
 
 	<!-- Orgzly -->
 	<item component="ComponentInfo{com.orgzly/com.orgzly.android.ui.MainActivity}" drawable="orgzly"/>
+
+	<!-- Orgzly Revived -->
+	<item component="ComponentInfo{com.orgzlyrevived/com.orgzly.android.ui.LauncherActivity}" drawable="orgzly_revived"/>
 
 	<!-- OS Monitor -->
 	<item component="ComponentInfo{com.eolwral.osmonitor/com.eolwral.osmonitor.OSMonitor}" drawable="osmonitor"/>

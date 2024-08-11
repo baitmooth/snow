@@ -6,8 +6,10 @@
 	<item drawable="assistant" />
 	<item drawable="berd_spoke_calculator" />
 	<item drawable="cirrus" />
+	<item drawable="cosmo" />
 	<item drawable="critical_maps" />
 	<item drawable="digital_wellbeing" />
+	<item drawable="easy_diary" />
 	<item drawable="fahrplaner" />
 	<item drawable="feeder" />
 	<item drawable="fennec" />
@@ -15,6 +17,7 @@
 	<item drawable="galerie1" />
 	<item drawable="iconrequest" />
 	<item drawable="mucke" />
+	<item drawable="orgzly_revived" />
 	<item drawable="snow" />
 	<item drawable="updater" />
 	<item drawable="whobird" />
