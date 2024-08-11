@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="changelog_date">2024.08.12</string>
+    <string-array name="changelog">
+        <item>updated to latest candybar</item>
+        <item>added icons</item>
+        <item>reworked some icons</item>
+    </string-array>
 
     <!-- Leave empty if you don't want to show changelog date -->
 
@@ -12,7 +18,6 @@
     * <a href="linkUrl">Link Text</a> for links -->
     <string-array name="changelog">
         <item>Ported <a href="https://github.com/dkanada/frost">Frost</a>s  icons to Snow and integrated it into candybar</item>
-        <item></item>
     </string-array>
 
 </resources>
