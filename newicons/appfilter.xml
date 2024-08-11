@@ -1271,9 +1271,6 @@
 	<item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.FeedActivity}" drawable="feeder"/>
 	<item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.MainActivity}" drawable="feeder"/>
 
-	<!-- Feeder -->
-	<item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.MainActivity}" drawable="feeder"/>
-
 	<!-- Feedly Classic -->
 	<item component="ComponentInfo{com.devhd.feedly.classic/com.devhd.feedly.Main}" drawable="feedlyclassic"/>
 
@@ -4415,9 +4412,6 @@
 
 	<!-- Telegram -->
 	<item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram"/>
-	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram"/>
-
-	<!-- Telegram -->
 	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram"/>
 
 	<!-- Terminal -->
