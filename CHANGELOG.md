@@ -1,7 +1,7 @@
-### 1.3.9
+### 1.2.0
 ###### Released: Aug 09, 2024
-- more icons
-- some internal changes
+- more new icons
+- rework on some icons to be more consistent
 
 ### 1.1.0
 ###### Released: Aug 09, 2024

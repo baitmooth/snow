@@ -605,6 +605,7 @@
 	<item component="ComponentInfo{com.cyngn.cameranext/com.android.camera.CameraLauncher}" drawable="camera"/>
 	<item component="ComponentInfo{com.htc.camera2/com.htc.camera2.CameraEntry}" drawable="camera"/>
 	<item component="ComponentInfo{org.lineageos.snap/com.android.camera.CameraLauncher}" drawable="camera"/>
+	<item component="ComponentInfo{org.lineageos.aperture/org.lineageos.aperture.CameraLauncher}" drawable="camera"/>
 	<item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="camera"/>
 	<item component="ComponentInfo{com.amazon.camera/com.amazon.camera.AmazonCameraActivity}" drawable="camera"/>
 	<item component="ComponentInfo{com.blackberry.camera/com.blackberry.camera.ui.coordination.MainActivity}" drawable="camera"/>
@@ -1734,6 +1735,9 @@
 	<!-- Headi -->
 	<item component="ComponentInfo{com.headi.app/com.headi.app.MainActivity}" drawable="headi"/>
 
+	<!-- Headphones -->
+	<item component="ComponentInfo{com.sony.songpal.mdr/com.sony.songpal.mdr.vim.activity.MdrMainActivity}" drawable="headphones"/>
+
 	<!-- HeartBeat -->
 	<item component="ComponentInfo{eu.berdosi.app.heartbeat/eu.berdosi.app.heartbeat.MainActivity}" drawable="heartbeat"/>
 
@@ -1788,6 +1792,9 @@
 
 	<!-- ICSdroid -->
 	<item component="ComponentInfo{at.bitfire.icsdroid/at.bitfire.icsdroid.ui.CalendarListActivity}" drawable="icsdroid"/>
+
+	<!-- ICSx⁵ -->
+	<item component="ComponentInfo{at.bitfire.icsdroid/at.bitfire.icsdroid.ui.views.CalendarListActivity}" drawable="icsx"/>
 
 	<!-- Idagio -->
 	<item component="ComponentInfo{com.idagio.app/com.idagio.app.features.onboarding.IntroActivityBase}" drawable="idagio"/>
@@ -2173,6 +2180,7 @@
 
 	<!-- M.A.L.P. -->
 	<item component="ComponentInfo{org.gateshipone.malp/org.gateshipone.malp.application.activities.SplashActivity}" drawable="malp"/>
+	<item component="ComponentInfo{org.gateshipone.malp/org.gateshipone.malp.application.activities.MainActivity}" drawable="malp"/>
 
 	<!-- Ma Banque: Crédit Agricole -->
 	<item component="ComponentInfo{fr.creditagricole.androidapp/fr.creditagricole.androidapp.activities.identification.ConnectionActivity}" drawable="creditagricole"/>
@@ -2316,6 +2324,9 @@
 
 	<!-- Mi Fit -->
 	<item component="ComponentInfo{com.xiaomi.hm.health/com.xiaomi.hm.health.activity.StartUpActivity}" drawable="mifit"/>
+
+	<!-- Mi Fitness -->
+	<item component="ComponentInfo{com.xiaomi.wearable/com.xiaomi.fitness.login.SplashActivity}" drawable="mi_fitness"/>
 
 	<!-- Mi Music -->
 	<item component="ComponentInfo{com.miui.player/com.miui.player.ui.MusicBrowserActivity}" drawable="mimusic"/>
@@ -4301,6 +4312,7 @@
 
 	<!-- Suntimes -->
 	<item component="ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}" drawable="suntimes"/>
+	<item component="ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesLaunchActivity}" drawable="suntimes"/>
 
 	<!-- Suntimes Alarms -->
 	<item component="ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivityLauncher}" drawable="suntimesalarms"/>

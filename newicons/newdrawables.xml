@@ -8,6 +8,7 @@
 	<item drawable="cirrus" />
 	<item drawable="cosmo" />
 	<item drawable="critical_maps" />
+	<item drawable="davdroid" />
 	<item drawable="digital_wellbeing" />
 	<item drawable="easy_diary" />
 	<item drawable="fahrplaner" />
@@ -15,10 +16,16 @@
 	<item drawable="fennec" />
 	<item drawable="galerie" />
 	<item drawable="galerie1" />
+	<item drawable="headphones" />
 	<item drawable="iconrequest" />
+	<item drawable="icsx" />
+	<item drawable="mi_fitness" />
+	<item drawable="mifit" />
 	<item drawable="mucke" />
 	<item drawable="orgzly_revived" />
 	<item drawable="snow" />
+	<item drawable="suntimes" />
+	<item drawable="ulogger" />
 	<item drawable="updater" />
 	<item drawable="whobird" />
 	<item drawable="zipxtract_fd" />

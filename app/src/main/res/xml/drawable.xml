@@ -814,6 +814,7 @@
 	<item drawable="haven" />
 	<item drawable="hbomax" />
 	<item drawable="headi" />
+	<item drawable="headphones" />
 	<item drawable="heartbeat" />
 	<item drawable="hearth" />
 	<item drawable="hellotalk" />
@@ -832,6 +833,7 @@
 	<item drawable="icecat" />
 	<item drawable="iconrequest" />
 	<item drawable="icsdroid" />
+	<item drawable="icsx" />
 	<item drawable="idagio" />
 	<item drawable="identiconizer" />
 	<item drawable="ifixit" />
@@ -996,6 +998,7 @@
 	<item drawable="metrodroid" />
 	<item drawable="metroplayer" />
 	<item drawable="mgit" />
+	<item drawable="mi_fitness" />
 	<item drawable="microchip" />
 	<item drawable="microgsettings" />
 	<item drawable="microsoftlauncher" />
