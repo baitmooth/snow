@@ -1,5 +1,5 @@
 ### 1.3.8
-###### Released: Aug 09, 2024
+###### Released: Aug 12, 2024
 - more new icons
 - rework on some icons to be more consistent
 
