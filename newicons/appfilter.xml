@@ -1,5 +1,17 @@
 <resources>
 
+	<!-- BAUHAUS -->
+	<item component="ComponentInfo{info.bauhaus.bauhaus/info.bauhaus.bauhaus.MainActivity}" drawable="bauhaus" />
+
+	<!-- Care -->
+	<item component="ComponentInfo{com.beiersdorfgroup.care/de.appmotion.baseapp.gui.backendenvironments.BackendEnvironmentActivity}" drawable="care" />
+
+	<!-- comdirect -->
+	<item component="ComponentInfo{de.comdirect.app/de.comdirect.core.feature.splash.SplashActivity}" drawable="comdirect" />
+
+	<!-- Discovergy -->
+	<item component="ComponentInfo{com.discovergy.mobile/crc645940a567f3c8faa4.LogIn}" drawable="discovergy" />
+
 	<!-- /system/ App Mover -->
 	<item component="ComponentInfo{de.j4velin.systemappmover/de.j4velin.systemappmover.MoverActivity}" drawable="systemappmover"/>
 
