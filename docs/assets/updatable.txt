@@ -1,0 +1,36 @@
+<!-- Discord -->
+<item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="discord"/>
+
+<!-- Authenticator -->
+<item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator2.main.MainActivity}" drawable="authenticator"/>
+
+<!-- comdirect -->
+<item component="ComponentInfo{de.comdirect.app/de.comdirect.core.feature.splash.SplashActivity}" drawable="comdirect"/>
+
+<!-- Aurora Store -->
+<item component="ComponentInfo{com.aurora.store/com.aurora.store.MainActivity}" drawable="aurora_store"/>
+
+<!-- Snow -->
+<item component="ComponentInfo{org.baitmooth.snow/org.baitmooth.snow.activities.MainActivity}" drawable="snow"/>
+
+<!-- Telegram -->
+<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram"/>
+
+<!-- Т-Банк -->
+<item component="ComponentInfo{com.idamob.tinkoff.android/ru.tinkoff.mb.feature.splash.bank.ui.presentation.BankSplashActivity}" drawable="т_банк"/>
+
+<!-- Telegram -->
+<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.AquaIcon}" drawable="telegram_1"/>
+
+<!-- Proton VPN -->
+<item component="ComponentInfo{ch.protonvpn.android/ch.protonvpn.android.RoutingDark}" drawable="proton_vpn"/>
+
+<!-- Orbot -->
+<item component="ComponentInfo{org.torproject.android/org.torproject.android.OrbotActivity}" drawable="orbot"/>
+
+<!-- Proton Mail -->
+<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.MainActivity}" drawable="proton_mail"/>
+
+<!-- Arcticons -->
+<item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons"/>
+
