@@ -1,8 +1,5 @@
 <resources>
 
-  <!-- Kotatsu -->
-	<item component="ComponentInfo{org.koitharu.kotatsu/org.koitharu.kotatsu.main.ui.MainActivity}" drawable="kotatsu"/>
-
 	<!-- /system/ App Mover -->
 	<item component="ComponentInfo{de.j4velin.systemappmover/de.j4velin.systemappmover.MoverActivity}" drawable="systemappmover"/>
 
@@ -2018,6 +2015,9 @@
 
 	<!-- Koreader -->
 	<item component="ComponentInfo{org.koreader.launcher/org.koreader.launcher.MainActivity}" drawable="koreader"/>
+
+	<!-- Kotatsu -->
+	<item component="ComponentInfo{org.koitharu.kotatsu/org.koitharu.kotatsu.main.ui.MainActivity}" drawable="kotatsu"/>
 
 	<!-- koyu space -->
 	<item component="ComponentInfo{com.Sommerlichter.social/com.Sommerlichter.social.MainActivity}" drawable="koyuspace"/>
@@ -4973,7 +4973,7 @@
 	<!-- YouTube Vanced -->
 	<item component="ComponentInfo{com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube"/>
 	<item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube"/>
-	
+
 	<!-- YT Music -->
 	<item component="ComponentInfo{com.vanced.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="ytmusic"/>
 
