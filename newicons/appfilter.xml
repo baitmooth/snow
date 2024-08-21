@@ -12,6 +12,18 @@
 	<!-- Discovergy -->
 	<item component="ComponentInfo{com.discovergy.mobile/crc645940a567f3c8faa4.LogIn}" drawable="discovergy" />
 
+	<!-- Brawl Stars -->
+	<item component="ComponentInfo{com.supercell.brawlstars/com.supercell.brawlstars.GameApp}" drawable="brawl_stars"/>
+
+	<!-- CPU X -->
+	<item component="ComponentInfo{com.abs.cpu_z_advance/com.abs.cpu_z_advance.MainActivity}" drawable="cpu_x"/>
+
+	<!-- Galleria -->
+	<item component="ComponentInfo{com.google.android.apps.photosgo/com.google.android.apps.photosgo.home.HomeActivity}" drawable="galleria"/>
+
+	<!-- Orologio -->
+	<item component="ComponentInfo{com.android.deskclock.go/com.android.deskclock.DeskClockTabActivity}" drawable="orologio"/>
+
 	<!-- /system/ App Mover -->
 	<item component="ComponentInfo{de.j4velin.systemappmover/de.j4velin.systemappmover.MoverActivity}" drawable="systemappmover"/>
 
