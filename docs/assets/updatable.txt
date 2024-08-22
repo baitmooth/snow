@@ -10,12 +10,6 @@
 <!-- Aurora Store -->
 <item component="ComponentInfo{com.aurora.store/com.aurora.store.MainActivity}" drawable="aurora_store"/>
 
-<!-- Snow -->
-<item component="ComponentInfo{org.baitmooth.snow/org.baitmooth.snow.activities.MainActivity}" drawable="snow"/>
-
-<!-- Telegram -->
-<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram"/>
-
 <!-- Т-Банк -->
 <item component="ComponentInfo{com.idamob.tinkoff.android/ru.tinkoff.mb.feature.splash.bank.ui.presentation.BankSplashActivity}" drawable="т_банк"/>
 
@@ -33,4 +27,7 @@
 
 <!-- Arcticons -->
 <item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons"/>
+
+<!-- Tusky -->
+<item component="ComponentInfo{com.keylesspalace.tusky/com.keylesspalace.tusky.MainActivity}" drawable="tusky"/>
 

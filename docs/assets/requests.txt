@@ -1,5 +1,5 @@
 -------------------------------------------------------
-20 Requested Apps Pending (Updated 20 August 2024)
+23 Requested Apps Pending (Updated 22 August 2024)
 -------------------------------------------------------
 
 <!-- Notion -->
@@ -201,4 +201,34 @@ https://galaxystore.samsung.com/detail/com.android.deskclock.go
 https://www.ecosia.org/search?q=com.android.deskclock.go
 Requested 2 times
 Last requested 1723906490.0
+    
+<!-- AFL -->
+<item component="ComponentInfo{com.telstra.android.afl/afl.pl.com.afl.launch.LaunchActivity}" drawable="afl"/>
+https://play.google.com/store/apps/details?id=com.telstra.android.afl
+https://f-droid.org/en/packages/com.telstra.android.afl/
+https://apt.izzysoft.de/fdroid/index/apk/com.telstra.android.afl
+https://galaxystore.samsung.com/detail/com.telstra.android.afl
+https://www.ecosia.org/search?q=com.telstra.android.afl
+Requested 1 times
+Last requested 1724363463.0
+    
+<!-- Domino's -->
+<item component="ComponentInfo{au.com.dominos.olo.android.app/com.arizona.MainActivity}" drawable="dominos"/>
+https://play.google.com/store/apps/details?id=au.com.dominos.olo.android.app
+https://f-droid.org/en/packages/au.com.dominos.olo.android.app/
+https://apt.izzysoft.de/fdroid/index/apk/au.com.dominos.olo.android.app
+https://galaxystore.samsung.com/detail/au.com.dominos.olo.android.app
+https://www.ecosia.org/search?q=au.com.dominos.olo.android.app
+Requested 1 times
+Last requested 1724363463.0
+    
+<!-- Jerboa -->
+<item component="ComponentInfo{com.jerboa/com.jerboa.MainActivity}" drawable="jerboa"/>
+https://play.google.com/store/apps/details?id=com.jerboa
+https://f-droid.org/en/packages/com.jerboa/
+https://apt.izzysoft.de/fdroid/index/apk/com.jerboa
+https://galaxystore.samsung.com/detail/com.jerboa
+https://www.ecosia.org/search?q=com.jerboa
+Requested 1 times
+Last requested 1724363463.0
     
