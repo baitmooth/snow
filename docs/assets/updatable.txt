@@ -31,3 +31,6 @@
 <!-- Tusky -->
 <item component="ComponentInfo{com.keylesspalace.tusky/com.keylesspalace.tusky.MainActivity}" drawable="tusky"/>
 
+<!-- GitHub -->
+<item component="ComponentInfo{com.github.android/com.github.android.main.MainActivity}" drawable="github"/>
+

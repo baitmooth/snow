@@ -1,5 +1,5 @@
 -------------------------------------------------------
-23 Requested Apps Pending (Updated 22 August 2024)
+29 Requested Apps Pending (Updated 23 August 2024)
 -------------------------------------------------------
 
 <!-- Notion -->
@@ -231,4 +231,64 @@ https://galaxystore.samsung.com/detail/com.jerboa
 https://www.ecosia.org/search?q=com.jerboa
 Requested 1 times
 Last requested 1724363463.0
+    
+<!-- Buckwheat -->
+<item component="ComponentInfo{com.danilkinkin.buckwheat/com.danilkinkin.buckwheat.MainActivity}" drawable="buckwheat"/>
+https://play.google.com/store/apps/details?id=com.danilkinkin.buckwheat
+https://f-droid.org/en/packages/com.danilkinkin.buckwheat/
+https://apt.izzysoft.de/fdroid/index/apk/com.danilkinkin.buckwheat
+https://galaxystore.samsung.com/detail/com.danilkinkin.buckwheat
+https://www.ecosia.org/search?q=com.danilkinkin.buckwheat
+Requested 1 times
+Last requested 1724379376.0
+    
+<!-- Delta -->
+<item component="ComponentInfo{website.leifs.delta.foss/website.leifs.delta.activities.MainActivity}" drawable="delta"/>
+https://play.google.com/store/apps/details?id=website.leifs.delta.foss
+https://f-droid.org/en/packages/website.leifs.delta.foss/
+https://apt.izzysoft.de/fdroid/index/apk/website.leifs.delta.foss
+https://galaxystore.samsung.com/detail/website.leifs.delta.foss
+https://www.ecosia.org/search?q=website.leifs.delta.foss
+Requested 1 times
+Last requested 1724379376.0
+    
+<!-- mLauncher -->
+<item component="ComponentInfo{app.mlauncher/com.github.droidworksstudio.mlauncher.MainActivity}" drawable="mlauncher"/>
+https://play.google.com/store/apps/details?id=app.mlauncher
+https://f-droid.org/en/packages/app.mlauncher/
+https://apt.izzysoft.de/fdroid/index/apk/app.mlauncher
+https://galaxystore.samsung.com/detail/app.mlauncher
+https://www.ecosia.org/search?q=app.mlauncher
+Requested 1 times
+Last requested 1724379376.0
+    
+<!-- Grayjay -->
+<item component="ComponentInfo{com.futo.platformplayer/com.futo.platformplayer.activities.MainActivity}" drawable="grayjay"/>
+https://play.google.com/store/apps/details?id=com.futo.platformplayer
+https://f-droid.org/en/packages/com.futo.platformplayer/
+https://apt.izzysoft.de/fdroid/index/apk/com.futo.platformplayer
+https://galaxystore.samsung.com/detail/com.futo.platformplayer
+https://www.ecosia.org/search?q=com.futo.platformplayer
+Requested 1 times
+Last requested 1724395534.0
+    
+<!-- Milli Gazete -->
+<item component="ComponentInfo{tr.com.bayramboynukara.emilligazete/tr.com.bayramboynukara.emilligazete.MainActivity}" drawable="milli_gazete"/>
+https://play.google.com/store/apps/details?id=tr.com.bayramboynukara.emilligazete
+https://f-droid.org/en/packages/tr.com.bayramboynukara.emilligazete/
+https://apt.izzysoft.de/fdroid/index/apk/tr.com.bayramboynukara.emilligazete
+https://galaxystore.samsung.com/detail/tr.com.bayramboynukara.emilligazete
+https://www.ecosia.org/search?q=tr.com.bayramboynukara.emilligazete
+Requested 1 times
+Last requested 1724395534.0
+    
+<!-- Sahibinden -->
+<item component="ComponentInfo{com.sahibinden/com.sahibinden.ui.supplementary.SplashScreenActivity}" drawable="sahibinden"/>
+https://play.google.com/store/apps/details?id=com.sahibinden
+https://f-droid.org/en/packages/com.sahibinden/
+https://apt.izzysoft.de/fdroid/index/apk/com.sahibinden
+https://galaxystore.samsung.com/detail/com.sahibinden
+https://www.ecosia.org/search?q=com.sahibinden
+Requested 1 times
+Last requested 1724395534.0
     
