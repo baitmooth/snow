@@ -433,6 +433,7 @@
 	<item drawable="battery" />
 	<item drawable="batterycalibration" />
 	<item drawable="batterychargelimit" />
+	<item drawable="bauhaus" />
 	<item drawable="bbm" />
 	<item drawable="beats" />
 	<item drawable="berd_spoke_calculator" />
@@ -468,6 +469,7 @@
 	<item drawable="boxcryptor" />
 	<item drawable="brackeyside" />
 	<item drawable="brave" />
+	<item drawable="brawlstars" />
 	<item drawable="briar" />
 	<item drawable="bring" />
 	<item drawable="bromite" />
@@ -495,6 +497,7 @@
 	<item drawable="campfire" />
 	<item drawable="camscanner" />
 	<item drawable="canvasstudent" />
+	<item drawable="care" />
 	<item drawable="carnet" />
 	<item drawable="carreport" />
 	<item drawable="carscanner" />
@@ -527,6 +530,7 @@
 	<item drawable="clover" />
 	<item drawable="coinbase" />
 	<item drawable="collaboraoffice" />
+	<item drawable="comdirect" />
 	<item drawable="comdirectcore" />
 	<item drawable="comdirectphototan" />
 	<item drawable="comdirecttrading" />
@@ -548,6 +552,7 @@
 	<item drawable="cosmo" />
 	<item drawable="couchsurfing" />
 	<item drawable="cozydrive" />
+	<item drawable="cpu_x" />
 	<item drawable="cpustats" />
 	<item drawable="cpuz" />
 	<item drawable="creditagricole" />
@@ -596,6 +601,7 @@
 	<item drawable="dir" />
 	<item drawable="discord" />
 	<item drawable="discourse" />
+	<item drawable="discovergy" />
 	<item drawable="diskusage" />
 	<item drawable="disney" />
 	<item drawable="disroot" />
@@ -747,6 +753,7 @@
 	<item drawable="gag" />
 	<item drawable="galerie" />
 	<item drawable="galerie1" />
+	<item drawable="galleria" />
 	<item drawable="gallery" />
 	<item drawable="gardine" />
 	<item drawable="gasflow" />
@@ -862,6 +869,7 @@
 	<item drawable="joplin" />
 	<item drawable="jotatexteditor" />
 	<item drawable="jsupdater" />
+	<item drawable="jtx_board" />
 	<item drawable="juicessh" />
 	<item drawable="justeat" />
 	<item drawable="k9mail" />
@@ -902,6 +910,7 @@
 	<item drawable="kontakt" />
 	<item drawable="kore" />
 	<item drawable="koreader" />
+	<item drawable="kotatsu" />
 	<item drawable="koyuspace" />
 	<item drawable="kuroba" />
 	<item drawable="kusc" />
@@ -1044,6 +1053,7 @@
 	<item drawable="mumla" />
 	<item drawable="mupdf" />
 	<item drawable="music" />
+	<item drawable="musicbrainz" />
 	<item drawable="musicolet" />
 	<item drawable="musicpiped" />
 	<item drawable="musicplayergo" />
@@ -1155,6 +1165,7 @@
 	<item drawable="organicmaps" />
 	<item drawable="orgzly" />
 	<item drawable="orgzly_revived" />
+	<item drawable="orologio" />
 	<item drawable="oscilloscope" />
 	<item drawable="osmand" />
 	<item drawable="osmandtelegram" />
@@ -1238,6 +1249,7 @@
 	<item drawable="proexpense" />
 	<item drawable="protonmail" />
 	<item drawable="protonvpn" />
+	<item drawable="ps_app" />
 	<item drawable="pslab" />
 	<item drawable="puzzles" />
 	<item drawable="qfield" />

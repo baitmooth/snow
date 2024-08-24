@@ -1,29 +1,5 @@
 <resources>
 
-	<!-- BAUHAUS -->
-	<item component="ComponentInfo{info.bauhaus.bauhaus/info.bauhaus.bauhaus.MainActivity}" drawable="bauhaus" />
-
-	<!-- Care -->
-	<item component="ComponentInfo{com.beiersdorfgroup.care/de.appmotion.baseapp.gui.backendenvironments.BackendEnvironmentActivity}" drawable="care" />
-
-	<!-- comdirect -->
-	<item component="ComponentInfo{de.comdirect.app/de.comdirect.core.feature.splash.SplashActivity}" drawable="comdirect" />
-
-	<!-- Discovergy -->
-	<item component="ComponentInfo{com.discovergy.mobile/crc645940a567f3c8faa4.LogIn}" drawable="discovergy" />
-
-	<!-- Brawl Stars -->
-	<item component="ComponentInfo{com.supercell.brawlstars/com.supercell.brawlstars.GameApp}" drawable="brawl_stars"/>
-
-	<!-- CPU X -->
-	<item component="ComponentInfo{com.abs.cpu_z_advance/com.abs.cpu_z_advance.MainActivity}" drawable="cpu_x"/>
-
-	<!-- Galleria -->
-	<item component="ComponentInfo{com.google.android.apps.photosgo/com.google.android.apps.photosgo.home.HomeActivity}" drawable="galleria"/>
-
-	<!-- Orologio -->
-	<item component="ComponentInfo{com.android.deskclock.go/com.android.deskclock.DeskClockTabActivity}" drawable="orologio"/>
-
 	<!-- /system/ App Mover -->
 	<item component="ComponentInfo{de.j4velin.systemappmover/de.j4velin.systemappmover.MoverActivity}" drawable="systemappmover"/>
 
@@ -427,6 +403,9 @@
 	<!-- BatteryCalibration -->
 	<item component="ComponentInfo{de.perflyst.batterycalibration/de.perflyst.batterycalibration.MainActivity}" drawable="batterycalibration"/>
 
+	<!-- BAUHAUS -->
+	<item component="ComponentInfo{info.bauhaus.bauhaus/info.bauhaus.bauhaus.MainActivity}" drawable="bauhaus"/>
+
 	<!-- BBM -->
 	<item component="ComponentInfo{com.bbm/com.bbm.ui.activities.StartupActivity}" drawable="bbm"/>
 
@@ -531,6 +510,9 @@
 
 	<!-- Brave Browser -->
 	<item component="ComponentInfo{com.brave.browser/com.google.android.apps.chrome.Main}" drawable="brave"/>
+
+	<!-- Brawl Stars -->
+	<item component="ComponentInfo{com.supercell.brawlstars/com.supercell.brawlstars.GameApp}" drawable="brawlstars"/>
 
 	<!-- Briar -->
 	<item component="ComponentInfo{org.briarproject.briar.android/org.briarproject.briar.android.splash.SplashScreenActivity}" drawable="bring"/>
@@ -667,6 +649,9 @@
 	<!-- Car Smile -->
 	<item component="ComponentInfo{ru.smilemob.carsmile/host.exp.exponent.MainActivity}" drawable="carsmile"/>
 
+	<!-- Care -->
+	<item component="ComponentInfo{com.beiersdorfgroup.care/de.appmotion.baseapp.gui.backendenvironments.BackendEnvironmentActivity}" drawable="care"/>
+
 	<!-- Carnet -->
 	<item component="ComponentInfo{com.spisoft.quicknote/com.spisoft.quicknote.MainActivity}" drawable="carnet"/>
 
@@ -766,6 +751,9 @@
 	<!-- Collabora Office -->
 	<item component="ComponentInfo{com.collabora.libreoffice/org.libreoffice.androidapp.ui.LibreOfficeUIActivity}" drawable="collaboraoffice"/>
 
+	<!-- comdirect -->
+	<item component="ComponentInfo{de.comdirect.app/de.comdirect.core.feature.splash.SplashActivity}" drawable="comdirect"/>
+
 	<!-- comdirect core -->
 	<item component="ComponentInfo{de.comdirect.app/de.comdirect.core.module.splash.SplashActivity}" drawable="comdirectcore"/>
 
@@ -847,6 +835,9 @@
 
 	<!-- CPU Stats -->
 	<item component="ComponentInfo{jp.takke.cpustats/jp.takke.cpustats.PreviewActivity}" drawable="cpustats"/>
+
+	<!-- CPU X -->
+	<item component="ComponentInfo{com.abs.cpu_z_advance/com.abs.cpu_z_advance.MainActivity}" drawable="cpu_x"/>
 
 	<!-- Cpu-Z -->
 	<item component="ComponentInfo{com.cpuid.cpu_z/com.cpuid.cpu_z.MainActivity}" drawable="cpuz"/>
@@ -1003,6 +994,9 @@
 
 	<!-- Discourse -->
 	<item component="ComponentInfo{com.discourse/com.discourse.MainActivity}" drawable="discourse"/>
+
+	<!-- Discovergy -->
+	<item component="ComponentInfo{com.discovergy.mobile/crc645940a567f3c8faa4.LogIn}" drawable="discovergy"/>
 
 	<!-- DiskUsage -->
 	<item component="ComponentInfo{com.google.android.diskusage/com.google.android.diskusage.SelectActivity}" drawable="diskusage"/>
@@ -1506,6 +1500,9 @@
 	<!-- Galerie -->
 	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Green}" drawable="galerie1"/>
 
+	<!-- Galleria -->
+	<item component="ComponentInfo{com.google.android.apps.photosgo/com.google.android.apps.photosgo.home.HomeActivity}" drawable="galleria"/>
+
 	<!-- Gallery -->
 	<item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="gallery"/>
 	<item component="ComponentInfo{com.android.gallery3d/com.huawei.gallery.app.GalleryMain}" drawable="gallery"/>
@@ -1905,6 +1902,9 @@
 
 	<!-- Jota Text Editor -->
 	<item component="ComponentInfo{jp.sblo.pandora.jota/jp.sblo.pandora.jota.Main}" drawable="jotatexteditor"/>
+
+	<!-- jtx Board -->
+	<item component="ComponentInfo{at.techbee.jtx/at.techbee.jtx.MainActivity2}" drawable="jtx_board"/>
 
 	<!-- JuiceSSH -->
 	<item component="ComponentInfo{com.sonelli.juicessh/com.sonelli.juicessh.activities.MainActivity}" drawable="juicessh"/>
@@ -2537,6 +2537,9 @@
 	<item component="ComponentInfo{com.iven.musicplayergo/com.iven.musicplayergo.MainActivity}" drawable="musicplayergo"/>
 	<item component="ComponentInfo{com.iven.musicplayergo/com.iven.musicplayergo.ui.MainActivity}" drawable="musicplayergo"/>
 
+	<!-- MusicBrainz -->
+	<item component="ComponentInfo{org.metabrainz.android/org.metabrainz.android.ui.screens.dashboard.DashboardActivity}" drawable="musicbrainz"/>
+
 	<!-- Musicolet -->
 	<item component="ComponentInfo{in.krosbits.musicolet/in.krosbits.musicolet.MusicActivity}" drawable="musicolet"/>
 
@@ -2895,6 +2898,9 @@
 	<!-- Orgzly Revived -->
 	<item component="ComponentInfo{com.orgzlyrevived/com.orgzly.android.ui.LauncherActivity}" drawable="orgzly_revived"/>
 
+	<!-- Orologio -->
+	<item component="ComponentInfo{com.android.deskclock.go/com.android.deskclock.DeskClockTabActivity}" drawable="orologio"/>
+
 	<!-- OS Monitor -->
 	<item component="ComponentInfo{com.eolwral.osmonitor/com.eolwral.osmonitor.OSMonitor}" drawable="osmonitor"/>
 
@@ -3161,6 +3167,9 @@
 	<!-- ProtonVPN -->
 	<item component="ComponentInfo{com.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity}" drawable="protonvpn"/>
 	<item component="ComponentInfo{ch.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity}" drawable="protonvpn"/>
+
+	<!-- PS App -->
+	<item component="ComponentInfo{com.scee.psxandroid/com.scee.psxandroid.activity.TopActivity}" drawable="ps_app"/>
 
 	<!-- PSLab -->
 	<item component="ComponentInfo{io.pslab/io.pslab.activity.SplashActivity}" drawable="pslab"/>
