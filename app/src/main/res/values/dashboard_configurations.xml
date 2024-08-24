@@ -161,7 +161,7 @@
         After making 10 icon request the user will not be able to request again.
 
         See "reset_icon_request_limit" option to learn how to reset the limit. -->
-    <integer name="icon_request_limit">4</integer>
+    <integer name="icon_request_limit">2</integer>
 
     <!-- Reset regular icon request limit every update
         IGNORE if "enable_icon_request_limit" option is disabled
@@ -334,6 +334,6 @@
     <string name="config_json"></string>
 
     <!-- Show intro guides on first run -->
-    <bool name="show_intro">false</bool>
+    <bool name="show_intro">true</bool>
 
 </resources>
