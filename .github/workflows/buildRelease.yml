@@ -15,7 +15,11 @@ jobs:
               with:
                   distribution: 'zulu'
                   java-version: 21
-                  cache: gradle
+            
+            - uses: gradle/actions/setup-gradle@v4
+              with:
+                  gradle-version: 8.5
+
             - name: Write sign info
               run: |
                   if [ ! -z "${{ secrets.KEYSTORE }}" ]; then
