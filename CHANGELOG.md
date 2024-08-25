@@ -1,3 +1,8 @@
+### 1.3.9
+###### Released Aug 25, 2024
+- more new icons
+- set request limit to 2 icons
+
 ### 1.3.8
 ###### Released: Aug 12, 2024
 - more new icons

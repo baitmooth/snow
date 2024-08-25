@@ -8,8 +8,8 @@ android {
 		applicationId 'org.baitmooth.snow'
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 3
-		versionName '1.3.8'
+		versionCode 4
+		versionName '1.3.9'
 		multiDexEnabled true
 		// Naming app bundles
 		setArchivesBaseName("${parent.name}-v${versionName}")
