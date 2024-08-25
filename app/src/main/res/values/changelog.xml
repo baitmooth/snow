@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_date">2024.08.12</string>
+    <string name="changelog_date">2024.08.25</string>
     <string-array name="changelog">
-        <item>updated to latest candybar</item>
-        <item>added icons</item>
-        <item>reworked some icons</item>
+        <item>more new icons</item>
+        <item>set request limit to 2 icons</item>
     </string-array>
 
 </resources>
