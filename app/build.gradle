@@ -48,7 +48,37 @@ android {
 			debuggable true
 			minifyEnabled false
 		}
+		applicationVariants.all { variant ->
+
+			if (variant.flavorName == "you") {
+				variant.preBuildProvider.get().dependsOn(":preparehelper:runyou")
+			}else if (variant.flavorName == "normal") {
+				variant.preBuildProvider.get().dependsOn(":preparehelper:runnormal")
+			}
+			// Add more conditions for additional flavors
+		}
 	}
+
+	flavorDimensions += "variant"
+	productFlavors {
+		normal {
+			dimension "variant"
+			resValue "string", "app_name", "Snow"
+		}
+		you {
+			dimension "variant"
+			minSdkVersion "26"
+			applicationIdSuffix '.you'
+			resValue "string", "app_name", "Snow Material You"
+		}
+
+	}
+
+	sourceSets {
+		normal { res.srcDirs = ['src/normal/res'] }
+		you { res.srcDirs = ['src/you/res'] }
+	}
+
 	namespace 'org.baitmooth.snow'
 	compileOptions {
 		encoding = 'UTF-8'
@@ -62,6 +92,7 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.github.donnnno:candybar-foss:3.20.2'
 }
+
 
 
 // Code for automatically copying appfilter.xml and drawable.xml
