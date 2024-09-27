@@ -11,6 +11,7 @@
 
 	<!-- 2048 -->
 	<item component="ComponentInfo{com.uberspot.a2048/com.uberspot.a2048.MainActivity}" drawable="a2048"/>
+	<item component="ComponentInfo{org.secuso.privacyfriendly2048/org.secuso.privacyfriendly2048.activities.SplashActivity}" drawable="2048" />
 
 	<!-- 2050 -->
 	<item component="ComponentInfo{org.mattvchandler.a2050/org.mattvchandler.a2050.MainActivity}" drawable="a2050"/>
@@ -4797,6 +4798,9 @@
 	<!-- Wallabag -->
 	<item component="ComponentInfo{fr.gaulupeau.apps.InThePoche/fr.gaulupeau.apps.Poche.ui.MainActivity}" drawable="wallabagger"/>
 	<item component="ComponentInfo{fr.gaulupeau.apps.InThePoche/fr.gaulupeau.apps.Poche.ui.SplashActivity}" drawable="wallabagger"/>
+
+	<!-- Wallet -->
+	<item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.wallet.WalletActivity}" drawable="wallet" />
 
 	<!-- Wallpapers -->
 	<item component="ComponentInfo{com.google.android.apps.wallpaper/com.google.android.apps.wallpaper.picker.CategoryPickerActivity}" drawable="wallpapers"/>
