@@ -20,7 +20,7 @@ allprojects {
     rootProject.ext {
         MinSdk = 21
         TargetSdk = 34
-        CompileSdk = 34
+        CompileSdk = 35
     }
 }
 
