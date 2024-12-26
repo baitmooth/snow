@@ -23,8 +23,8 @@ def check_snow_path(path):
         return snow_folder
     else:
         app_folder = os.path.join(path, "app")
-        other_folder = os.path.join(path, "other")
-        if os.path.exists(other_folder) and os.path.isdir(other_folder) and os.path.exists(app_folder) and os.path.isdir(app_folder):
+        newicons_folder = os.path.join(path, "newicons")
+        if os.path.exists(newicons_folder) and os.path.isdir(newicons_folder) and os.path.exists(app_folder) and os.path.isdir(app_folder):
             return path
         else:
             print(f"The path '{path}' does not include the 'Snow' folder.")
@@ -366,7 +366,7 @@ def missingDrawable(appfilterpath:str,whitedir:str,otherdir:str):
 
     if len(drawables) > 0:
         print('\n\n______ Found non existent drawables ______\n')
-        print('Possible causes are typos or completly different naming of the icon\n\n')
+        print('Possible causes are typos or completely different naming of the icon\n\n')
         for item in drawables:
             toprint = etree.tostring(item,encoding='unicode',method='xml')
             print(f'{toprint}')
