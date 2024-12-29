@@ -2041,6 +2041,9 @@
 	<!-- Knock on Ports -->
 	<item component="ComponentInfo{me.impa.knockonports/me.impa.knockonports.MainActivity}" drawable="knockonports"/>
 
+	<!-- Kobo Books -->
+	<item component="ComponentInfo{com.kobobooks.android/com.kobobooks.android.screens.AppLoading}" drawable="kobobooks"/>
+
 	<!-- KoBoCollect -->
 	<item component="ComponentInfo{org.koboc.collect.android/org.odk.collect.android.activities.SplashScreenActivity}" drawable="kobocollect"/>
 
@@ -4260,6 +4263,9 @@
 	<!-- Snap -->
 	<item component="ComponentInfo{org.cyanogenmod.snap/com.android.camera.CameraLauncher}" drawable="camera"/>
 
+	<!-- SnapBridge -->
+	<item component="ComponentInfo{com.nikon.snapbridge.cmru/com.nikon.snapbridge.cmru.ui.init.NkLLicenceActivity}" drawable="snapbridge"/>
+
 	<!-- Snapchat -->
 	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="snapchat"/>
 
@@ -4863,6 +4869,9 @@
 
 	<!-- VRN eTarif -->
 	<item component="ComponentInfo{com.sevenre.linear/com.sevenre.linear.MainActivity}" drawable="vrnetarif"/>
+
+	<!-- VRT MAX -->
+	<item component="ComponentInfo{be.vrt.vrtnu/be.vrt.vrtnu.app.ui.splash.SplashScreenActivity}" drawable="vrtmax"/>
 
 	<!-- VSCO -->
 	<item component="ComponentInfo{com.vsco.cam/com.vsco.cam.gallery.ImageGridActivity}" drawable="vsco"/>
