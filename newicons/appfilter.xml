@@ -2790,6 +2790,9 @@
 	<!-- Notification Notes -->
 	<item component="ComponentInfo{com.khuttun.notificationnotes/com.khuttun.notificationnotes.MainActivity}" drawable="notificationnotes"/>
 
+	<!-- Notion -->
+	<item component="ComponentInfo{notion.id/notion.local.id.MainActivity}" drawable="notion"/>
+
 	<!-- Notizen -->
 	<item component="ComponentInfo{it.niedermann.owncloud.notes/it.niedermann.owncloud.notes.android.activity.SplashscreenActivity}" drawable="nextcloudnotes"/>
 

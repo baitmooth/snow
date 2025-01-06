@@ -1,16 +1,6 @@
 -------------------------------------------------------
-18 Requested Apps Pending (Updated 06 January 2025)
+17 Requested Apps Pending (Updated 06 January 2025)
 -------------------------------------------------------
-
-<!-- Notion -->
-<item component="ComponentInfo{notion.id/notion.local.id.MainActivity}" drawable="notion"/>
-https://play.google.com/store/apps/details?id=notion.id
-https://f-droid.org/en/packages/notion.id/
-https://apt.izzysoft.de/fdroid/index/apk/notion.id
-https://galaxystore.samsung.com/detail/notion.id
-https://www.ecosia.org/search?q=notion.id
-Requested 8 times
-Last requested 1724078069.0
     
 <!-- Браузер -->
 <item component="ComponentInfo{com.yandex.browser/com.yandex.browser.YandexBrowserActivity}" drawable="браузер"/>
