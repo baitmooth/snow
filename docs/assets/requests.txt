@@ -1,5 +1,5 @@
 -------------------------------------------------------
-20 Requested Apps Pending (Updated 29 December 2024)
+18 Requested Apps Pending (Updated 06 January 2025)
 -------------------------------------------------------
 
 <!-- Notion -->
@@ -11,16 +11,6 @@ https://galaxystore.samsung.com/detail/notion.id
 https://www.ecosia.org/search?q=notion.id
 Requested 8 times
 Last requested 1724078069.0
-    
-<!-- Clock -->
-<item component="ComponentInfo{com.transsion.deskclock/com.transsion.deskclock.DeskClock}" drawable="clock"/>
-https://play.google.com/store/apps/details?id=com.transsion.deskclock
-https://f-droid.org/en/packages/com.transsion.deskclock/
-https://apt.izzysoft.de/fdroid/index/apk/com.transsion.deskclock
-https://galaxystore.samsung.com/detail/com.transsion.deskclock
-https://www.ecosia.org/search?q=com.transsion.deskclock
-Requested 2 times
-Last requested 1724013089.0
     
 <!-- Браузер -->
 <item component="ComponentInfo{com.yandex.browser/com.yandex.browser.YandexBrowserActivity}" drawable="браузер"/>
@@ -61,16 +51,6 @@ https://galaxystore.samsung.com/detail/com.reactcorp.cocalero
 https://www.ecosia.org/search?q=com.reactcorp.cocalero
 Requested 2 times
 Last requested 1723966035.0
-    
-<!-- Amazon -->
-<item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon"/>
-https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping
-https://f-droid.org/en/packages/in.amazon.mShop.android.shopping/
-https://apt.izzysoft.de/fdroid/index/apk/in.amazon.mShop.android.shopping
-https://galaxystore.samsung.com/detail/in.amazon.mShop.android.shopping
-https://www.ecosia.org/search?q=in.amazon.mShop.android.shopping
-Requested 2 times
-Last requested 1724070194.0
     
 <!-- ChatGPT -->
 <item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}" drawable="chatgpt"/>
