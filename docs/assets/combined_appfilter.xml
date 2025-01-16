@@ -1721,6 +1721,7 @@
 	<item component="ComponentInfo{godau.fynn.usagedirect.system/godau.fynn.usagedirect.activity.SourceAppUsageStatisticsActivity}" drawable="usagedirect"/>
 	<item component="ComponentInfo{godau.fynn.usagedirect/godau.fynn.usagedirect.AppUsageStatisticsActivity}" drawable="usagedirect"/>
 	<item component="ComponentInfo{gov.faa.b4ufly2/gov.faa.b4ufly2.ui.start.SplashActivity}" drawable="b4ufly"/>
+	<item component="ComponentInfo{helium314.keyboard/helium314.keyboard.latin.setup.SetupActivity}" drawable="heliboard"/>
 	<item component="ComponentInfo{host.stjin.anonaddy/host.stjin.anonaddy.ui.SplashActivity}" drawable="anonaddy"/>
 	<item component="ComponentInfo{hu.vmiklos.plees_tracker/hu.vmiklos.plees_tracker.MainActivity}" drawable="pleestracker"/>
 	<item component="ComponentInfo{im.gitter.gitter/im.gitter.gitter.activities.StartActivity}" drawable="gitter"/>
