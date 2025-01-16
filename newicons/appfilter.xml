@@ -1784,6 +1784,9 @@
 	<!-- HeartBeat -->
 	<item component="ComponentInfo{eu.berdosi.app.heartbeat/eu.berdosi.app.heartbeat.MainActivity}" drawable="heartbeat"/>
 
+	<!-- HeliBoard -->
+	<item component="ComponentInfo{helium314.keyboard/helium314.keyboard.latin.setup.SetupActivity}" drawable="heliboard"/>
+
 	<!-- HelloTalk -->
 	<item component="ComponentInfo{com.hellotalk/com.hellotalkx.modules.sign.ui.LaunchActivity}" drawable="hellotalk"/>
 
