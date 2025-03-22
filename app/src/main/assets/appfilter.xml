@@ -1151,6 +1151,9 @@
 	<item component="ComponentInfo{im.vector.app/im.vector.app.features.MainActivity}" drawable="element"/>
 	<item component="ComponentInfo{im.vector.app.debug/im.vector.app.features.Alias}" drawable="element"/>
 
+	<!-- Element X -->
+	<item component="ComponentInfo{io.element.android.x/io.element.android.x.MainActivity}" drawable="element"/>
+
 	<!-- Elementary -->
 	<item component="ComponentInfo{com.ultramegatech.ey/com.ultramegatech.ey.PeriodicTableActivity}" drawable="elementary"/>
 
