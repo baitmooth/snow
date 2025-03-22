@@ -811,6 +811,7 @@
 	<item component="ComponentInfo{com.rhapsody.alditalk/com.rhapsodycore.SplashScreen}" drawable="napster"/>
 	<item component="ComponentInfo{com.rhapsody.napster/com.rhapsodycore.SplashScreen}" drawable="napster"/>
 	<item component="ComponentInfo{com.rk.xededitor/com.rk.xededitor.MainActivity.MainActivity}" drawable="karbon"/>
+	<item component="ComponentInfo{com.roblox.client/com.roblox.client.startup.ActivitySplash}" drawable="roblox"/>
 	<item component="ComponentInfo{com.roku.remote/com.roku.remote.ui.activities.SplashActivity}" drawable="roku"/>
 	<item component="ComponentInfo{com.roommate.android/com.roommate.android.ui.intro.SplashActivity}" drawable="roommate"/>
 	<item component="ComponentInfo{com.rtbishop.look4sat/com.rtbishop.look4sat.ui.Look4SatActivity}" drawable="look4sat"/>
@@ -1868,6 +1869,7 @@
 	<item component="ComponentInfo{net.osmand.plus/net.osmand.plus.activities.MapActivity}" drawable="osmand"/>
 	<item component="ComponentInfo{net.osmand.telegram/net.osmand.telegram.ui.MainActivity}" drawable="osmandtelegram"/>
 	<item component="ComponentInfo{net.osmand/net.osmand.plus.activities.MapActivity}" drawable="osmand"/>
+	<item component="ComponentInfo{net.osmtracker/net.osmtracker.activity.TrackManager}" drawable="osmtracker"/>
 	<item component="ComponentInfo{net.programmierecke.radiodroid2/net.programmierecke.radiodroid2.ActivityMain}" drawable="radiodroid"/>
 	<item component="ComponentInfo{net.rpdev.opentodolist/org.qtproject.qt5.android.bindings.QtActivity}" drawable="opentodolist"/>
 	<item component="ComponentInfo{net.schueller.peertube/net.schueller.peertube.activity.VideoListActivity}" drawable="peertube"/>
@@ -1876,6 +1878,7 @@
 	<item component="ComponentInfo{net.sourceforge.solitaire_cg/net.sourceforge.solitaire_cg.SolitaireCG}" drawable="solitairecg"/>
 	<item component="ComponentInfo{net.sourceforge.subsonic.androidapp/net.sourceforge.subsonic.androidapp.activity.MainActivity}" drawable="dsub"/>
 	<item component="ComponentInfo{net.syncthing.lite/net.syncthing.lite.activities.MainActivity}" drawable="syncthing"/>
+	<item component="ComponentInfo{net.thunderbird.android/com.fsck.k9.activity.MessageList}" drawable="thunderbird"/>
 	<item component="ComponentInfo{net.typeblog.shelter/net.typeblog.shelter.ui.DummyActivity}" drawable="shelter"/>
 	<item component="ComponentInfo{net.typeblog.shelter/net.typeblog.shelter.ui.MainActivity}" drawable="shelter"/>
 	<item component="ComponentInfo{net.yupol.transmissionremote.app/net.yupol.transmissionremote.app.MainActivity}" drawable="transmissionremote"/>
@@ -2061,6 +2064,7 @@
 	<item component="ComponentInfo{org.openobservatory.ooniprobe/org.openobservatory.ooniprobe.activity.MainActivity}" drawable="ooniprobe"/>
 	<item component="ComponentInfo{org.openpetfoodfacts.scanner/openfoodfacts.github.scrachx.openfood.features.splash.SplashActivity}" drawable="openpetfoodfacts"/>
 	<item component="ComponentInfo{org.ostrya.presencepublisher/org.ostrya.presencepublisher.MainActivity}" drawable="presencepublisher"/>
+	<item component="ComponentInfo{org.oxycblt.auxio/org.oxycblt.auxio.MainActivity}" drawable="auxio"/>
 	<item component="ComponentInfo{org.pacien.tincapp/org.pacien.tincapp.activities.StartActivity}" drawable="tinc"/>
 	<item component="ComponentInfo{org.pegasus_frontend.android/org.pegasus_frontend.android.MainActivity}" drawable="pegasus"/>
 	<item component="ComponentInfo{org.pipoypipagames.towerjumper/org.godotengine.godot.Godot}" drawable="towerjumper"/>
@@ -2070,6 +2074,7 @@
 	<item component="ComponentInfo{org.pocketworkstation.pckeyboard/org.pocketworkstation.pckeyboard.Main}" drawable="hackerskb"/>
 	<item component="ComponentInfo{org.ppsspp.ppsspp/org.ppsspp.ppsspp.PpssppActivity}" drawable="ppsspp"/>
 	<item component="ComponentInfo{org.primftpd/org.primftpd.PrimitiveFtpdActivity}" drawable="primitiveftpd"/>
+	<item component="ComponentInfo{org.privacymatters.safespace/org.privacymatters.safespace.AuthActivity}" drawable="safespace"/>
 	<item component="ComponentInfo{org.proninyaroslav.libretorrent/org.proninyaroslav.libretorrent.MainActivity}" drawable="libretorrent"/>
 	<item component="ComponentInfo{org.proninyaroslav.libretorrent/org.proninyaroslav.libretorrent.ui.main.MainActivity}" drawable="libretorrent"/>
 	<item component="ComponentInfo{org.quantumbadger.redreader/org.quantumbadger.redreader.activities.MainActivity}" drawable="redreader"/>
@@ -2129,6 +2134,7 @@
 	<item component="ComponentInfo{org.videolan.vlc/org.videolan.vlc.gui.MainActivity}" drawable="vlc"/>
 	<item component="ComponentInfo{org.wikipedia/org.wikipedia.main.MainActivity}" drawable="wikipedia"/>
 	<item component="ComponentInfo{org.wikipedia/org.wikipedia.page.PageActivity}" drawable="wikipedia"/>
+	<item component="ComponentInfo{org.woheller69.level/org.woheller69.level.Level}" drawable="bubble2"/>
 	<item component="ComponentInfo{org.woheller69.omweather/org.woheller69.weather.activities.SplashActivity}" drawable="cirrus"/>
 	<item component="ComponentInfo{org.woheller69.whobird/org.tensorflow.lite.examples.soundclassifier.DownloadActivity}" drawable="whobird"/>
 	<item component="ComponentInfo{org.xbmc.kodi/org.xbmc.kodi.Splash}" drawable="kodi"/>
