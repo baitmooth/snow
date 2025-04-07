@@ -1,86 +1,6 @@
 -------------------------------------------------------
-29 Requested Apps Pending (Updated 23 August 2024)
+17 Requested Apps Pending (Updated 06 January 2025)
 -------------------------------------------------------
-
-<!-- Notion -->
-<item component="ComponentInfo{notion.id/notion.local.id.MainActivity}" drawable="notion"/>
-https://play.google.com/store/apps/details?id=notion.id
-https://f-droid.org/en/packages/notion.id/
-https://apt.izzysoft.de/fdroid/index/apk/notion.id
-https://galaxystore.samsung.com/detail/notion.id
-https://www.ecosia.org/search?q=notion.id
-Requested 8 times
-Last requested 1724078069.0
-    
-<!-- Kotatsu -->
-<item component="ComponentInfo{org.koitharu.kotatsu/org.koitharu.kotatsu.main.ui.MainActivity}" drawable="kotatsu"/>
-https://play.google.com/store/apps/details?id=org.koitharu.kotatsu
-https://f-droid.org/en/packages/org.koitharu.kotatsu/
-https://apt.izzysoft.de/fdroid/index/apk/org.koitharu.kotatsu
-https://galaxystore.samsung.com/detail/org.koitharu.kotatsu
-https://www.ecosia.org/search?q=org.koitharu.kotatsu
-Requested 5 times
-Last requested 1723833610.0
-    
-<!-- YouTube -->
-<item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube"/>
-https://play.google.com/store/apps/details?id=app.revanced.android.youtube
-https://f-droid.org/en/packages/app.revanced.android.youtube/
-https://apt.izzysoft.de/fdroid/index/apk/app.revanced.android.youtube
-https://galaxystore.samsung.com/detail/app.revanced.android.youtube
-https://www.ecosia.org/search?q=app.revanced.android.youtube
-Requested 5 times
-Last requested 1723833610.0
-    
-<!-- BAUHAUS -->
-<item component="ComponentInfo{info.bauhaus.bauhaus/info.bauhaus.bauhaus.MainActivity}" drawable="bauhaus"/>
-https://play.google.com/store/apps/details?id=info.bauhaus.bauhaus
-https://f-droid.org/en/packages/info.bauhaus.bauhaus/
-https://apt.izzysoft.de/fdroid/index/apk/info.bauhaus.bauhaus
-https://galaxystore.samsung.com/detail/info.bauhaus.bauhaus
-https://www.ecosia.org/search?q=info.bauhaus.bauhaus
-Requested 4 times
-Last requested 1723829875.0
-    
-<!-- Care -->
-<item component="ComponentInfo{com.beiersdorfgroup.care/de.appmotion.baseapp.gui.backendenvironments.BackendEnvironmentActivity}" drawable="care"/>
-https://play.google.com/store/apps/details?id=com.beiersdorfgroup.care
-https://f-droid.org/en/packages/com.beiersdorfgroup.care/
-https://apt.izzysoft.de/fdroid/index/apk/com.beiersdorfgroup.care
-https://galaxystore.samsung.com/detail/com.beiersdorfgroup.care
-https://www.ecosia.org/search?q=com.beiersdorfgroup.care
-Requested 4 times
-Last requested 1723829875.0
-    
-<!-- Discovergy -->
-<item component="ComponentInfo{com.discovergy.mobile/crc645940a567f3c8faa4.LogIn}" drawable="discovergy"/>
-https://play.google.com/store/apps/details?id=com.discovergy.mobile
-https://f-droid.org/en/packages/com.discovergy.mobile/
-https://apt.izzysoft.de/fdroid/index/apk/com.discovergy.mobile
-https://galaxystore.samsung.com/detail/com.discovergy.mobile
-https://www.ecosia.org/search?q=com.discovergy.mobile
-Requested 4 times
-Last requested 1723829875.0
-    
-<!-- Brawl Stars -->
-<item component="ComponentInfo{com.supercell.brawlstars/com.supercell.brawlstars.GameApp}" drawable="brawl_stars"/>
-https://play.google.com/store/apps/details?id=com.supercell.brawlstars
-https://f-droid.org/en/packages/com.supercell.brawlstars/
-https://apt.izzysoft.de/fdroid/index/apk/com.supercell.brawlstars
-https://galaxystore.samsung.com/detail/com.supercell.brawlstars
-https://www.ecosia.org/search?q=com.supercell.brawlstars
-Requested 4 times
-Last requested 1724017673.0
-    
-<!-- Clock -->
-<item component="ComponentInfo{com.transsion.deskclock/com.transsion.deskclock.DeskClock}" drawable="clock"/>
-https://play.google.com/store/apps/details?id=com.transsion.deskclock
-https://f-droid.org/en/packages/com.transsion.deskclock/
-https://apt.izzysoft.de/fdroid/index/apk/com.transsion.deskclock
-https://galaxystore.samsung.com/detail/com.transsion.deskclock
-https://www.ecosia.org/search?q=com.transsion.deskclock
-Requested 2 times
-Last requested 1724013089.0
     
 <!-- Браузер -->
 <item component="ComponentInfo{com.yandex.browser/com.yandex.browser.YandexBrowserActivity}" drawable="браузер"/>
@@ -122,16 +42,6 @@ https://www.ecosia.org/search?q=com.reactcorp.cocalero
 Requested 2 times
 Last requested 1723966035.0
     
-<!-- Amazon -->
-<item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon"/>
-https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping
-https://f-droid.org/en/packages/in.amazon.mShop.android.shopping/
-https://apt.izzysoft.de/fdroid/index/apk/in.amazon.mShop.android.shopping
-https://galaxystore.samsung.com/detail/in.amazon.mShop.android.shopping
-https://www.ecosia.org/search?q=in.amazon.mShop.android.shopping
-Requested 2 times
-Last requested 1724070194.0
-    
 <!-- ChatGPT -->
 <item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}" drawable="chatgpt"/>
 https://play.google.com/store/apps/details?id=com.openai.chatgpt
@@ -171,36 +81,6 @@ https://galaxystore.samsung.com/detail/com.babbel.mobile.android.en
 https://www.ecosia.org/search?q=com.babbel.mobile.android.en
 Requested 2 times
 Last requested 1723935149.0
-    
-<!-- CPU X -->
-<item component="ComponentInfo{com.abs.cpu_z_advance/com.abs.cpu_z_advance.MainActivity}" drawable="cpu_x"/>
-https://play.google.com/store/apps/details?id=com.abs.cpu_z_advance
-https://f-droid.org/en/packages/com.abs.cpu_z_advance/
-https://apt.izzysoft.de/fdroid/index/apk/com.abs.cpu_z_advance
-https://galaxystore.samsung.com/detail/com.abs.cpu_z_advance
-https://www.ecosia.org/search?q=com.abs.cpu_z_advance
-Requested 2 times
-Last requested 1723906490.0
-    
-<!-- Galleria -->
-<item component="ComponentInfo{com.google.android.apps.photosgo/com.google.android.apps.photosgo.home.HomeActivity}" drawable="galleria"/>
-https://play.google.com/store/apps/details?id=com.google.android.apps.photosgo
-https://f-droid.org/en/packages/com.google.android.apps.photosgo/
-https://apt.izzysoft.de/fdroid/index/apk/com.google.android.apps.photosgo
-https://galaxystore.samsung.com/detail/com.google.android.apps.photosgo
-https://www.ecosia.org/search?q=com.google.android.apps.photosgo
-Requested 2 times
-Last requested 1723906490.0
-    
-<!-- Orologio -->
-<item component="ComponentInfo{com.android.deskclock.go/com.android.deskclock.DeskClockTabActivity}" drawable="orologio"/>
-https://play.google.com/store/apps/details?id=com.android.deskclock.go
-https://f-droid.org/en/packages/com.android.deskclock.go/
-https://apt.izzysoft.de/fdroid/index/apk/com.android.deskclock.go
-https://galaxystore.samsung.com/detail/com.android.deskclock.go
-https://www.ecosia.org/search?q=com.android.deskclock.go
-Requested 2 times
-Last requested 1723906490.0
     
 <!-- AFL -->
 <item component="ComponentInfo{com.telstra.android.afl/afl.pl.com.afl.launch.LaunchActivity}" drawable="afl"/>
@@ -271,7 +151,7 @@ https://galaxystore.samsung.com/detail/com.futo.platformplayer
 https://www.ecosia.org/search?q=com.futo.platformplayer
 Requested 1 times
 Last requested 1724395534.0
-    
+
 <!-- Milli Gazete -->
 <item component="ComponentInfo{tr.com.bayramboynukara.emilligazete/tr.com.bayramboynukara.emilligazete.MainActivity}" drawable="milli_gazete"/>
 https://play.google.com/store/apps/details?id=tr.com.bayramboynukara.emilligazete
