@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="changelog_date">2024.08.25</string>
+    <string-array name="changelog">
+        <item>more new icons</item>
+        <item>set request limit to 2 icons</item>
+    </string-array>
+
+</resources>
