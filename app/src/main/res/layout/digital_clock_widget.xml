@@ -1,13 +1,13 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Widget.Arcticons.AppWidget.Container"
+    style="@style/Widget.Snow.AppWidget.Container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/Theme.Arcticons.AppWidgetContainer"
+    android:theme="@style/Theme.Snow.AppWidgetContainer"
     android:background="#00000000">
 
     <TextClock
         android:id="@+id/digital_clock_view"
-        style="@style/Widget.Arcticons.AppWidget.InnerView"
+        style="@style/Widget.Snow.AppWidget.InnerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"

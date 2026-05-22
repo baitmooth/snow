@@ -1,12 +1,12 @@
 <resources>
 
-    <style name="Theme.Arcticons.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+    <style name="Theme.Snow.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
         <item name="appWidgetRadius">8dp</item>
         <item name="appWidgetPadding">4dp</item>
         <item name="appWidgetInnerRadius">4dp</item>
     </style>
 
-    <style name="Theme.Arcticons.AppWidgetContainer" parent="Theme.Arcticons.AppWidgetContainerParent" />
+    <style name="Theme.Snow.AppWidgetContainer" parent="Theme.Snow.AppWidgetContainerParent" />
 
     <style name="CandyBar.Theme.App.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
         <item name="appWidgetRadius">8dp</item>

@@ -1,5 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Widget.Arcticons.AppWidget.Container"
+    style="@style/Widget.Snow.AppWidget.Container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/CandyBar.Theme.App.AppWidgetContainer"
@@ -8,7 +8,7 @@
 
     <TextClock
         android:id="@+id/date_view"
-        style="@style/Widget.Arcticons.AppWidget.InnerView"
+        style="@style/Widget.Snow.AppWidget.InnerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
