@@ -76,7 +76,7 @@ public class Changelog {
 
     private static void savePlayStoreNotes(ChangelogData d, String rootDir) {
         String content = String.format(Locale.ROOT,
-                "🎉 %d new and updated icons!\n💡 Added support for %d apps using existing icons.\n🔥 %d icons in total!%s\n\n🔗 Detailed changes: https://github.com/Kaiserdragon2/snow/releases 📄",
+                "🎉 %d new and updated icons!\n💡 Added support for %d apps using existing icons.\n🔥 %d icons in total!%s\n\n🔗 Detailed changes: https://github.com/baitmooth/snow/releases 📄",
                 d.newIcons, d.reused, d.total, d.notes.isEmpty() ? "" : "\n\n" + d.notes);
 
         List<String> flavors = List.of("you", "normal", "black", "dayNight");
