@@ -1,82 +1,91 @@
 package helper;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import static helper.Changelog.generateChangelogs;
+import static helper.Checks.startChecks;
+import static helper.ImageCollageGenerator.generateReleaseImage;
+import static helper.NewDrawableXmlCreator.createNewDrawables;
+import static helper.SortAppfilter.sortXML;
+import static helper.WebpCreator.createWebpIcons;
+
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.Executors;
 
 public class PrepareRelease {
 
     public static void main(String[] args) throws Exception {
-        if (args.length > 0) {
-            //String
-            String rootDir = System.getProperty("user.dir");
-            // Get the path of the root directory
-            Path rootPath = Paths.get(rootDir);
-            // Get the name of the root directory
-            String rootDirName = rootPath.getFileName().toString();
-            if (rootDirName.equals("preparehelper")) {
-                rootDir = "..";
-            }
-            String xmlDir;
-            String assetsDir;
-            xmlDir = rootDir + "/app/src/main/res/xml";
-            assetsDir = rootDir + "/app/src/main/assets";
-            String contributorsXml = rootDir + "/generated/contributors.xml";
-            String task = args[0];
-            System.out.println("Processing with task: " + task);
-            switch (task) {
-                case "checkonly":
+        if (args.length == 0) {
+            System.err.println("No task specified.");
+            return;
+        }
 
-                    executePythonScript(rootDir + "/scripts/preparerelease.py","--checkonly");
-                    break;
-                case "release":
-                    executePythonScript(rootDir + "/scripts/preparerelease.py");
-                    try {
-                        ContributorImage.start(assetsDir, contributorsXml, xmlDir);
-                        System.out.println("Contributor Image task completed");
-                    } catch (Exception e) {
-                        System.out.println("Error occurred: " + e.getMessage());
-                    }
-                    break;
-                case "newrelease":
-                    executePythonScript(rootDir + "/scripts/preparerelease.py","--new");
-                    try {
-                        ContributorImage.start(assetsDir, contributorsXml, xmlDir);
-                        System.out.println("Contributor Image task completed");
-                    } catch (Exception e) {
-                        System.out.println("Error occurred: " + e.getMessage());
-                    }
-                    break;
-                default:
-            }
+        // Determine root path
+        final Path tempRoot = Paths.get(System.getProperty("user.dir"));
+        final Path root = tempRoot.getFileName().toString().equals("preparehelper")
+                ? tempRoot.getParent()
+                : tempRoot;
 
+        // Define all directory strings as FINAL
+        final String appRes = "app/src/main/res";
+        final String xmlDir = root.resolve(appRes + "/xml").toString();
+        final String assetsDir = root.resolve("app/src/main/assets").toString();
+        final String generatedDir = root.resolve("generated").toString();
+        final String valuesDir = root.resolve(appRes + "/values").toString();
+        final String appFilter = root.resolve("newicons/appfilter.xml").toString();
+        final String newIconsDir = root.resolve("newicons").toString();
+        final String sourceDir = root.resolve("icons/white").toString();
+        final String blackDir = root.resolve("icons/black").toString();
+        final String changelogXml = root.resolve(valuesDir + "/changelog.xml").toString();
+        final String exportWhiteDir = root.resolve("app/src/main/res/drawable-nodpi").toString();
+        final String exportBlackDir = root.resolve("app/src/black/res/drawable-nodpi").toString();
+        final String contributorsXml = root.resolve("generated/contributors.xml").toString();
+        final String gradlePath = root.resolve("app/build.gradle").toString();
+        final String rootString = root.toString();
+
+        final String task = args[0];
+        System.out.println("Starting task: " + task);
+
+        switch (task) {
+            case "checkonly" -> startChecks(appFilter, sourceDir, newIconsDir);
+
+            case "release", "newrelease" -> {
+                final boolean isNewRelease = task.equals("newrelease");
+
+                startChecks(appFilter, sourceDir, newIconsDir);
+
+                try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
+                    var task1 = CompletableFuture.runAsync(() ->
+                            runTask("Contributor Image", () -> ContributorImage.start(assetsDir, contributorsXml, xmlDir)), executor);
+
+                    var task2 = CompletableFuture.runAsync(() -> {
+                        runTask("New Drawables", () -> createNewDrawables(newIconsDir, generatedDir + "/newdrawables.xml", isNewRelease));
+                        runTask("Webp Creator", () -> createWebpIcons(newIconsDir, sourceDir, blackDir, exportWhiteDir, exportBlackDir));
+                        runTask("Sort Appfilter", () -> sortXML(Paths.get(appFilter)));
+                        runTask("XML Merger", () -> XMLCreator.mergeNewDrawables(valuesDir, generatedDir, assetsDir, sourceDir, xmlDir, appFilter));
+                        runTask("Create Changelogs", () -> generateChangelogs(generatedDir, valuesDir + "/custom_icon_count.xml", appFilter, changelogXml, rootString, isNewRelease));
+                        runTask("New Release Image", () -> generateReleaseImage(gradlePath,generatedDir + "/ArcticonsSans-Regular.otf", generatedDir + "/newdrawables.xml", sourceDir, generatedDir + "/releaseImage.webp"));
+                    }, executor);
+
+                    CompletableFuture.allOf(task1, task2).join();
+                }
+            }
+            default -> System.err.println("Unknown task: " + task);
         }
     }
 
-    public static void executePythonScript(String... args) throws Exception {
-            List<String> command = new ArrayList<>();
-            command.add("python");
-            // Add all provided argumentsto the command list
-            command.addAll(Arrays.asList(args));
-            command.add("..");
-
-        ProcessBuilder processBuilder = new ProcessBuilder(command);
-        processBuilder.redirectErrorStream(true);
-
-        Process process = processBuilder.start();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-        String line;
-        while ((line = reader.readLine()) != null) {
-            System.out.println(line);
+    private static void runTask(String name, TaskRunnable runnable) {
+        try {
+            runnable.run();
+            System.out.println(name + " completed");
+        } catch (Exception e) {
+            System.err.println(name + " failed: " + e.getMessage());
+            e.printStackTrace();
         }
+    }
 
-        int exitCode = process.waitFor();
-        if (exitCode != 0) {
-            System.err.println("Python script execution failed with exit code: " + exitCode);
-        }
+    @FunctionalInterface
+    interface TaskRunnable {
+        void run() throws Exception;
     }
 }

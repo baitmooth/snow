@@ -42,10 +42,17 @@ dependencies {
     implementation("com.android.tools:sdk-common:31.5.1")
     implementation("org.dom4j:dom4j:2.1.4")
     implementation("commons-io:commons-io:2.15.0")
-    implementation 'org.sejda.imageio:webp-imageio:0.1.6'
+    implementation 'io.github.darkxanter:webp-imageio:0.3.3'
+
+    // Apache Batik for SVG processing
+    implementation("org.apache.xmlgraphics:batik-transcoder:1.19")
+    implementation("org.apache.xmlgraphics:batik-dom:1.19")
+    implementation("org.apache.xmlgraphics:batik-codec:1.19")
+    implementation("org.apache.xmlgraphics:batik-anim:1.19")
+    implementation("org.apache.xmlgraphics:batik-util:1.19")
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_14
-    targetCompatibility = JavaVersion.VERSION_14
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
