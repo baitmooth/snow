@@ -2,6 +2,14 @@
 <resources>
 <version>1</version>
 
+	<category title="New" />
+	<item drawable="accrescent" />
+	<item drawable="chatgpt" />
+	<item drawable="cromite" />
+	<item drawable="discord" />
+	<item drawable="droid_ify" />
+	<item drawable="home_assistant" />
+
 	<category title="Folders" />
 	<item drawable="folder_favourites" />
 	<item drawable="folder_games" />
@@ -348,7 +356,6 @@
 	<item drawable="dimmer" />
 	<item drawable="diode" />
 	<item drawable="dir" />
-	<item drawable="discord" />
 	<item drawable="discourse" />
 	<item drawable="discovergy" />
 	<item drawable="diskusage" />

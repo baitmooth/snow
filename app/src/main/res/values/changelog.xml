@@ -2,6 +2,8 @@
 <resources>
     <string name="changelog_date">May 22, 2026</string>
     <string-array name="changelog">
-        <item>updated to latest CandyBar version</item>
+        <item>🎉 <b>6</b> new and updated icons!</item>
+        <item>💡 Added support for <b>2194</b> apps using existing icons.</item>
+        <item>🔥 <b>1400</b> icons in total!</item>
     </string-array>
 </resources>

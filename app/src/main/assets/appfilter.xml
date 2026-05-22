@@ -28,6 +28,9 @@
 	<!-- Aard 2 -->
 	<item component="ComponentInfo{itkach.aard2/itkach.aard2.MainActivity}" drawable="aard"/>
 
+	<!-- Accrescent -->
+	<item component="ComponentInfo{app.accrescent.client/app.accrescent.client.ui.MainActivity}" drawable="accrescent"/>
+
 	<!-- AcDisplay -->
 	<item component="ComponentInfo{com.achep.acdisplay/com.achep.acdisplay.ui.activities.MainActivity}" drawable="acdisplay"/>
 
@@ -673,6 +676,9 @@
 	<!-- Chase -->
 	<item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.LoginActivity}" drawable="chase"/>
 
+	<!-- ChatGPT -->
+	<item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}" drawable="chatgpt"/>
+
 	<!-- Checkey -->
 	<item component="ComponentInfo{info.guardianproject.checkey/info.guardianproject.checkey.MainActivity}" drawable="checkey"/>
 
@@ -842,6 +848,9 @@
 
 	<!-- Critical Maps -->
 	<item component="ComponentInfo{de.stephanlindauer.criticalmaps/de.stephanlindauer.criticalmaps.Main}" drawable="critical_maps"/>
+
+	<!-- Cromite -->
+	<item component="ComponentInfo{org.cromite.cromite/com.google.android.apps.chrome.Main}" drawable="cromite"/>
 
 	<!-- Cronograma -->
 	<item component="ComponentInfo{com.asdoi.timetable/com.ulan.timetable.activities.MainActivity}" drawable="cronograma"/>
@@ -1055,6 +1064,9 @@
 
 	<!-- Drive -->
 	<item component="ComponentInfo{com.synology.dsdrive/com.synology.dsdrive.activity.SplashActivity}" drawable="dsdrive"/>
+
+	<!-- Droid-ify -->
+	<item component="ComponentInfo{com.looker.droidify/com.looker.droidify.MainActivity}" drawable="droid_ify"/>
 
 	<!-- DroidCam -->
 	<item component="ComponentInfo{com.dev47apps.droidcam/com.dev47apps.droidcam.DroidCam}" drawable="droidcam"/>
@@ -1774,6 +1786,9 @@
 
 	<!-- Holo Launcher -->
 	<item component="ComponentInfo{com.mobint.hololauncher/com.mobint.hololauncher.Launcher}" drawable="holo"/>
+
+	<!-- Home Assistant -->
+	<item component="ComponentInfo{io.homeassistant.companion.android/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="home_assistant"/>
 
 	<!-- HP All-in-one Printer Remote -->
 	<item component="ComponentInfo{com.hp.printercontrol/com.hp.printercontrol.base.PrinterControlActivity}" drawable="hpprinteraio"/>
@@ -4278,6 +4293,7 @@
 
 	<!-- Steam -->
 	<item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.activity.MainActivity}" drawable="steam"/>
+	<item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}" drawable="steam"/>
 
 	<!-- Steam Chat -->
 	<item component="ComponentInfo{com.valvesoftware.android.steam.friendsui/host.exp.exponent.MainActivity}" drawable="steamchat"/>
