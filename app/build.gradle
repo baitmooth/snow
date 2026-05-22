@@ -12,7 +12,10 @@ android {
 		versionName '1.3.9'
 		multiDexEnabled true
 		// Naming app bundles
-		setArchivesBaseName("${parent.name}-v${versionName}")
+	}
+
+	base {
+		archivesName = "${parent.name}-v${defaultConfig.versionName}"
 	}
 	
 	// Create a variable called keystorePropertiesFile, and initialize it to the
@@ -60,7 +63,7 @@ android {
 dependencies {
 
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'com.github.donnnno:candybar-foss:3.20.2'
+    implementation 'com.github.donnnno:candybar-foss:3.22.2'
 }
 
 
