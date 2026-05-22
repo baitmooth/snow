@@ -8,8 +8,8 @@ android {
 		applicationId 'org.baitmooth.snow'
 		minSdkVersion rootProject.ext.MinSdk
 		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 4
-		versionName '1.3.9'
+		versionCode 5
+		versionName '1.4.0'
 		multiDexEnabled true
 		// Naming app bundles
 	}
@@ -21,17 +21,17 @@ android {
 	// Create a variable called keystorePropertiesFile, and initialize it to the
 	// keystore.properties file, in the rootProject folder.
 	def keystorePropertiesFile = rootProject.file("keystore.properties")
-	def releaseSigning;
+	def releaseSigning
 	if (keystorePropertiesFile.exists()){
 		def keystoreProperties = new Properties()
 		keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 		releaseSigning = signingConfigs.create("release", signingConfig -> {
-		signingConfig.setKeyAlias(keystoreProperties.getProperty("keyAlias"));
-		signingConfig.setKeyPassword(keystoreProperties.getProperty("keyPassword"));
-		signingConfig.setStoreFile(rootProject.file(keystoreProperties.getProperty("storeFile")));
-		signingConfig.setStorePassword(keystoreProperties.getProperty("storePassword"));
-		});
-	} else {releaseSigning = signingConfigs.getByName("debug"); // Use getByName for safety
+		signingConfig.setKeyAlias(keystoreProperties.getProperty("keyAlias"))
+		signingConfig.setKeyPassword(keystoreProperties.getProperty("keyPassword"))
+		signingConfig.setStoreFile(rootProject.file(keystoreProperties.getProperty("storeFile")))
+		signingConfig.setStorePassword(keystoreProperties.getProperty("storePassword"))
+		})
+	} else {releaseSigning = signingConfigs.getByName("debug") // Use getByName for safety
 	}
 	
 	bundle {

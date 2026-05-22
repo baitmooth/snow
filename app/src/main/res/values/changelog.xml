@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_date">Mai 04, 2026</string>
+    <string name="changelog_date">May 22, 2026</string>
     <string-array name="changelog">
-        <item>🎉 <b>0</b> new and updated icons!</item>
-        <item>💡 Added support for <b>2194</b> apps using existing icons.</item>
-        <item>🔥 <b>1395</b> icons in total!</item>
+        <item>updated to latest CandyBar version</item>
     </string-array>
 </resources>
