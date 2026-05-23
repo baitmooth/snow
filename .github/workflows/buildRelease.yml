@@ -1,8 +1,9 @@
 name: Build Release
 
 on:
-    workflow_dispatch:
-
+  push:
+    tags:
+     - 'v*'
 jobs:
     build:
         name: Build Snow Release APK
@@ -36,5 +37,5 @@ jobs:
             - name: Upload artifact
               uses: actions/upload-artifact@v4
               with:
-                  name: snow.apk
-                  path: app/build/outputs/apk/release/*.apk
+                  name: snow-apks
+                  path: app/build/outputs/apk/**/release/*.apk
