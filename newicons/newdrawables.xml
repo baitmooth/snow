@@ -4,9 +4,11 @@
 	<category title="New" />
 	<item drawable="ard_audiothek" />
 	<item drawable="assistant" />
+	<item drawable="auxio" />
 	<item drawable="bauhaus" />
 	<item drawable="berd_spoke_calculator" />
 	<item drawable="brawlstars" />
+	<item drawable="bubble2" />
 	<item drawable="care" />
 	<item drawable="cirrus" />
 	<item drawable="comdirect" />
@@ -34,9 +36,13 @@
 	<item drawable="musicbrainz" />
 	<item drawable="orgzly_revived" />
 	<item drawable="orologio" />
+	<item drawable="osmtracker" />
 	<item drawable="ps_app" />
+	<item drawable="roblox" />
+	<item drawable="safespace" />
 	<item drawable="snow" />
 	<item drawable="suntimes" />
+	<item drawable="thunderbird" />
 	<item drawable="ulogger" />
 	<item drawable="updater" />
 	<item drawable="whobird" />
