@@ -1,86 +1,171 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+}
 
 // build.gradle in the 'app' module
+
 android {
-	compileSdk rootProject.ext.CompileSdk
-	
-	defaultConfig {
-		applicationId 'org.baitmooth.snow'
-		minSdkVersion rootProject.ext.MinSdk
-		targetSdkVersion rootProject.ext.TargetSdk
-		versionCode 5
-		versionName '1.4.0'
-		multiDexEnabled true
-		// Naming app bundles
-	}
+    compileSdk = rootProject.ext.CompileSdk
 
-	base {
-		archivesName = "${parent.name}-v${defaultConfig.versionName}"
-	}
-	
-	// Create a variable called keystorePropertiesFile, and initialize it to the
-	// keystore.properties file, in the rootProject folder.
-	def keystorePropertiesFile = rootProject.file("keystore.properties")
-	def releaseSigning
-	if (keystorePropertiesFile.exists()){
-		def keystoreProperties = new Properties()
-		keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-		releaseSigning = signingConfigs.create("release", signingConfig -> {
-		signingConfig.setKeyAlias(keystoreProperties.getProperty("keyAlias"))
-		signingConfig.setKeyPassword(keystoreProperties.getProperty("keyPassword"))
-		signingConfig.setStoreFile(rootProject.file(keystoreProperties.getProperty("storeFile")))
-		signingConfig.setStorePassword(keystoreProperties.getProperty("storePassword"))
-		})
-	} else {releaseSigning = signingConfigs.getByName("debug") // Use getByName for safety
-	}
-	
-	bundle {
-		language {
-			enableSplit false
-		}
-	}
-	
-	buildTypes {
-		release {
-			debuggable false
-			minifyEnabled false
-			signingConfig = releaseSigning
-		}
-		
-		debug {
-			debuggable true
-			minifyEnabled false
-		}
-	}
-	namespace 'org.baitmooth.snow'
-	compileOptions {
-		encoding = 'UTF-8'
-		sourceCompatibility JavaVersion.VERSION_11
-		targetCompatibility JavaVersion.VERSION_11
-	}
+    defaultConfig {
+        applicationId = "org.baitmooth.snow"
+        minSdk = rootProject.ext.MinSdk
+        targetSdk = rootProject.ext.TargetSdk
+        versionCode = 5
+        versionName = '1.4.0'
+        multiDexEnabled = true
+    }
+
+    // Configure signing
+    def keystorePropertiesFile = rootProject.file("keystore.properties")
+    def releaseSigning
+    if (keystorePropertiesFile.exists()){
+        def keystoreProperties = new Properties()
+        keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+        releaseSigning = signingConfigs.create("release", signingConfig -> {
+            signingConfig.setKeyAlias(keystoreProperties.getProperty("keyAlias"))
+            signingConfig.setKeyPassword(keystoreProperties.getProperty("keyPassword"))
+            signingConfig.setStoreFile(rootProject.file(keystoreProperties.getProperty("storeFile")))
+            signingConfig.setStorePassword(keystoreProperties.getProperty("storePassword"))
+        })
+    } else {releaseSigning = signingConfigs.getByName("debug") // Use getByName for safety
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = false
+            signingConfig releaseSigning
+        }
+        debug {
+            applicationIdSuffix = '.debug'
+        }
+    }
+
+    flavorDimensions += "variant"
+    productFlavors {
+        normal {
+            dimension = "variant"
+            resValue  "string", "app_name", "Snow"
+        }
+        black {
+            dimension = "variant"
+            //noinspection GradlePath
+            applicationIdSuffix = '.light'
+            resValue "string", "app_name", "Snow Black"
+        }
+        you {
+            dimension = "variant"
+            minSdk = 26
+            applicationIdSuffix = '.you'
+            resValue "string", "app_name", "Snow Material You"
+        }
+        dayNight {
+            dimension = "variant"
+            minSdk = 29
+            applicationIdSuffix = '.daynight'
+            resValue "string", "app_name", "Snow Day & Night"
+        }
+    }
+
+    sourceSets {
+        normal { res.srcDirs = ['src/normalFree/res/', 'src/normal/res', 'src/dark/res'] }
+        black { res.srcDirs = ['src/blackFree/res/', 'src/black/res', 'src/light/res'] }
+        you { res.srcDirs = ['src/youFree/res/', 'src/you/res'] }
+        dayNight { res.srcDirs = ['src/dayNightFree/res/', 'src/dayNight/res'] }
+    }
+
+    base {
+        // Output file name
+        archivesName = "snow-v${android.defaultConfig.versionName}"
+    }
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(21)
+        }
+    }
+
+    buildFeatures {
+        resValues = true
+        buildConfig = true
+        viewBinding = true
+    }
+    namespace = 'org.baitmooth.snow'
+    lint {
+        abortOnError = false
+        checkReleaseBuilds = false
+    //    lintConfig = file("lint.xml")
+    }
+
+    dependenciesInfo {
+        // Disables dependency metadata when building APKs.
+        includeInApk = false
+        // Disables dependency metadata when building Android App Bundles.
+        includeInBundle = false
+    }
 }
 
-dependencies {
+androidComponents {
+    onVariants(selector().all()) { variant ->
+        project.afterEvaluate {
 
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'com.github.donnnno:candybar-foss:3.22.2'
-}
+            def flavor = variant.flavorName
+            def helperTaskName = null
 
+            if (flavor.contains("you")) {
+                helperTaskName = "runyou"
+            } else if (flavor.contains("black")) {
+                helperTaskName = "runblack"
+            } else if (flavor.contains("normal")) {
+                helperTaskName = "runnormal"
+            } else if (flavor.contains("dayNight")) {
+                helperTaskName = "rundayNight"
+            }
 
-// Code for automatically copying appfilter.xml and drawable.xml
-// from `res/xml` directory to `assets` directory
-tasks.register('copyXMLs') {
-    ['appfilter.xml', 'drawable.xml'].each { file ->
-        copy {
-            from "$projectDir/src/main/res/xml/$file"
-            into "$projectDir/src/main/assets/"
+            if (helperTaskName != null) {
+                tasks.named("pre${variant.name.capitalize()}Build") {
+                    dependsOn(":preparehelper:${helperTaskName}")
+                }
+            }
         }
     }
 }
 
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    normalImplementation 'com.github.Donnnno:candybar-foss:3.22.2'
+    blackImplementation 'com.github.Donnnno:candybar-foss:3.22.2'
+    youImplementation 'com.github.Donnnno:candybar-foss:3.22.2'
+    dayNightImplementation 'com.github.Donnnno:candybar-foss:3.22.2'
+}
+
+/*
+import com.android.tools.profgen.ArtProfileKt
+import com.android.tools.profgen.ArtProfileSerializer
+import com.android.tools.profgen.DexFile
+
+
+// F-Droid Reproducible Build tasks
+
 tasks.configureEach { task ->
-    if (task.name == 'assembleDebug' || task.name == 'assembleRelease') {
-        task.dependsOn copyXMLs
-		task.dependsOn(':preparehelper:runnormal')
+    if (task.name.startsWith("compile") && task.name.endsWith("ReleaseArtProfile")) {
+        task.doLast {
+            outputs.files.each { file ->
+                if (file.name.endsWith(".profm")) {
+                    println("Sorting ${file} ...")
+                    def version = ArtProfileSerializer.valueOf("METADATA_0_0_2")
+                    def profile = ArtProfileKt.ArtProfile(file)
+                    def keys = new ArrayList(profile.profileData.keySet())
+                    def sortedData = new LinkedHashMap()
+                    Collections.sort(keys, new DexFile.Companion())
+                    keys.each { key -> sortedData[key] = profile.profileData[key] }
+                    new FileOutputStream(file).with {
+                        write(version.magicBytes$profgen)
+                        write(version.versionBytes$profgen)
+                        version.write$profgen(it, sortedData, "")
+                    }
+                }
+            }
+        }
     }
 }
+*/
