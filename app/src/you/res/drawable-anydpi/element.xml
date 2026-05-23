@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/icon_background_color"/>
+    <foreground>
+        <inset android:inset="25%">
+            <vector android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">  
+                <path android:pathData="M18,5.08A2.59,2.59 0,0 1,20.56 2.5a17.2,17.2 0,0 1,17.2 17.2,2.58 2.58,0 0,1 -5.16,0 12,12 0,0 0,-12 -12A2.59,2.59 0,0 1,18 5.08Z" android:fillColor="@color/icon_color" android:fillType="evenOdd" android:strokeWidth="1.2"/>  
+                <path android:pathData="M30,42.92a2.59,2.59 0,0 1,-2.58 2.58,17.2 17.2,0 0,1 -17.2,-17.2 2.58,2.58 0,1 1,5.16 0,12 12,0 0,0 12,12A2.59,2.59 0,0 1,30 42.92Z" android:fillColor="@color/icon_color" android:fillType="evenOdd" android:strokeWidth="1.2"/>  
+                <path android:pathData="M5.08,30A2.59,2.59 0,0 1,2.5 27.44a17.2,17.2 0,0 1,17.2 -17.2,2.58 2.58,0 1,1 0,5.16 12,12 0,0 0,-12 12A2.59,2.59 0,0 1,5.08 30Z" android:fillColor="@color/icon_color" android:fillType="evenOdd" android:strokeWidth="1.2"/>  
+                <path android:pathData="M42.92,18a2.59,2.59 0,0 1,2.58 2.58,17.2 17.2,0 0,1 -17.2,17.2 2.58,2.58 0,0 1,0 -5.16,12 12,0 0,0 12,-12A2.59,2.59 0,0 1,42.92 18Z" android:fillColor="@color/icon_color" android:fillType="evenOdd" android:strokeWidth="1.2"/> 
+            </vector>
+        </inset>
+    </foreground>
+</adaptive-icon>
