@@ -2,10 +2,14 @@
 <resources>
 	<version>1</version>
 	<category title="New" />
-	<item drawable="accrescent" />
-	<item drawable="chatgpt" />
-	<item drawable="cromite" />
-	<item drawable="discord" />
-	<item drawable="droid_ify" />
-	<item drawable="home_assistant" />
+	<item drawable="accuweather" />
+	<item drawable="acode" />
+	<item drawable="alembicons" />
+	<item drawable="appverifier" />
+	<item drawable="bluesky" />
+	<item drawable="calculadora" />
+	<item drawable="dgis" />
+	<item drawable="gemini" />
+	<item drawable="grayjay" />
+	<item drawable="shizuku" />
 </resources>

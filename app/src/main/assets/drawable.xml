@@ -3,12 +3,16 @@
 <version>1</version>
 
 	<category title="New" />
-	<item drawable="accrescent" />
-	<item drawable="chatgpt" />
-	<item drawable="cromite" />
-	<item drawable="discord" />
-	<item drawable="droid_ify" />
-	<item drawable="home_assistant" />
+	<item drawable="accuweather" />
+	<item drawable="acode" />
+	<item drawable="alembicons" />
+	<item drawable="appverifier" />
+	<item drawable="bluesky" />
+	<item drawable="calculadora" />
+	<item drawable="dgis" />
+	<item drawable="gemini" />
+	<item drawable="grayjay" />
+	<item drawable="shizuku" />
 
 	<category title="Folders" />
 	<item drawable="folder_favourites" />
@@ -75,6 +79,7 @@
 	<item drawable="a2048" />
 	<item drawable="a2050" />
 	<item drawable="aard" />
+	<item drawable="accrescent" />
 	<item drawable="acdisplay" />
 	<item drawable="acm" />
 	<item drawable="acrobat" />
@@ -267,6 +272,7 @@
 	<item drawable="changelog" />
 	<item drawable="chanu" />
 	<item drawable="chase" />
+	<item drawable="chatgpt" />
 	<item drawable="checkey" />
 	<item drawable="chefkoch" />
 	<item drawable="chip" />
@@ -315,6 +321,7 @@
 	<item drawable="creditagricole" />
 	<item drawable="creditas" />
 	<item drawable="critical_maps" />
+	<item drawable="cromite" />
 	<item drawable="cronograma" />
 	<item drawable="crontosignswiss" />
 	<item drawable="cryptomator" />
@@ -356,6 +363,7 @@
 	<item drawable="dimmer" />
 	<item drawable="diode" />
 	<item drawable="dir" />
+	<item drawable="discord" />
 	<item drawable="discourse" />
 	<item drawable="discovergy" />
 	<item drawable="diskusage" />
@@ -377,6 +385,7 @@
 	<item drawable="drawer" />
 	<item drawable="drinks" />
 	<item drawable="drive" />
+	<item drawable="droid_ify" />
 	<item drawable="droidcam" />
 	<item drawable="droidshows" />
 	<item drawable="dronecast" />
@@ -587,6 +596,7 @@
 	<item drawable="here" />
 	<item drawable="herecomesthebus" />
 	<item drawable="holo" />
+	<item drawable="home_assistant" />
 	<item drawable="hpprinteraio" />
 	<item drawable="huaweisystemmanager" />
 	<item drawable="hub" />

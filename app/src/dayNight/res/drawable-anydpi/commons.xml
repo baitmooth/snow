@@ -13,10 +13,6 @@
     <path android:pathData="m13.988,27.545l4.059,2.327 -4.059,2.327" android:fillColor="@color/icon_color" android:strokeWidth="1"/>  
     <path android:pathData="m17.532,22.563l-4.516,-4.516l-0.842,0.842l4.516,4.516" android:fillColor="@color/icon_color" android:strokeWidth="1"/>  
     <path android:pathData="m18.566,21.147l1.225,4.516 -4.516,-1.225" android:fillColor="@color/icon_color" android:strokeWidth="1"/>  
-    <path android:pathData="m31.309,36.34l4.516,4.516l-0.842,0.842l-4.516,-4.516" android:fillColor="@color/icon_color" android:strokeWidth="1"/>  
-    <path android:pathData="m32.725,35.306l-4.516,-1.225 1.225,4.516" android:fillColor="@color/icon_color" android:strokeWidth="1"/>  
-    <path android:pathData="m33.742,29.277l6.386,0l0,1.191l-6.386,0" android:fillColor="@color/icon_color" android:strokeWidth="1"/>  
-    <path android:pathData="m34.012,27.545l-4.059,2.327 4.059,2.327" android:fillColor="@color/icon_color" android:strokeWidth="1"/>  
     <path android:pathData="m30.468,22.563l4.516,-4.516l0.842,0.842l-4.516,4.516" android:fillColor="@color/icon_color" android:strokeWidth="1"/>  
     <path android:pathData="m29.434,21.147l-1.225,4.516 4.516,-1.225" android:fillColor="@color/icon_color" android:strokeWidth="1"/>  
     <path android:pathData="m14.203,20.075a13.855,13.855 0,1 0,19.594 0c-3.827,-3.827 -9.606,-1.875 -10.754,-10.294" android:strokeWidth="1" android:fillColor="#00000000" android:strokeColor="@color/icon_color"/>  

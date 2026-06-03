@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_date">May 22, 2026</string>
+    <string name="changelog_date">Jun 03, 2026</string>
     <string-array name="changelog">
-        <item>🎉 <b>6</b> new and updated icons!</item>
-        <item>💡 Added support for <b>2194</b> apps using existing icons.</item>
-        <item>🔥 <b>1400</b> icons in total!</item>
+        <item>🎉 <b>10</b> new and updated icons!</item>
+        <item>💡 Added support for <b>6</b> apps using existing icons.</item>
+        <item>🔥 <b>1410</b> icons in total!</item>
     </string-array>
 </resources>

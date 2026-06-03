@@ -39,9 +39,3 @@ jobs:
               with:
                   name: snow-apks
                   path: app/build/outputs/apk/**/release/*.apk
-            - name: Create Release
-              uses: softprops/action-gh-release@v2
-              with:
-                  body_path: generated/changelog.md
-                  files: app/build/outputs/apk/**/release/*.apk
-                  generate_release_notes: false

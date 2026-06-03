@@ -1,4 +1,3 @@
-* 🎉 **6** new and updated icons!
-* 💡 Added support for **2194** apps using existing icons.
-* 🔥 **1400** icons in total!
-* Fix splash screen scaling
+* 🎉 **10** new and updated icons!
+* 💡 Added support for **6** apps using existing icons.
+* 🔥 **1410** icons in total!
