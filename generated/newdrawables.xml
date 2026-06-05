@@ -9,7 +9,11 @@
 	<item drawable="bluesky" />
 	<item drawable="calculadora" />
 	<item drawable="dgis" />
+	<item drawable="ebaykleinanzeigen" />
+	<item drawable="ebaykleinanzeigen_old" />
 	<item drawable="gemini" />
 	<item drawable="grayjay" />
+	<item drawable="lighthouse2" />
+	<item drawable="pady" />
 	<item drawable="shizuku" />
 </resources>

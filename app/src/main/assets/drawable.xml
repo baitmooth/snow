@@ -10,8 +10,12 @@
 	<item drawable="bluesky" />
 	<item drawable="calculadora" />
 	<item drawable="dgis" />
+	<item drawable="ebaykleinanzeigen" />
+	<item drawable="ebaykleinanzeigen_old" />
 	<item drawable="gemini" />
 	<item drawable="grayjay" />
+	<item drawable="lighthouse2" />
+	<item drawable="pady" />
 	<item drawable="shizuku" />
 
 	<category title="Folders" />
@@ -407,7 +411,6 @@
 	<item drawable="easy_diary" />
 	<item drawable="easyxkcd" />
 	<item drawable="ebay" />
-	<item drawable="ebaykleinanzeigen" />
 	<item drawable="ebtart" />
 	<item drawable="echo" />
 	<item drawable="editor" />
@@ -704,7 +707,6 @@
 	<item drawable="license" />
 	<item drawable="lichess" />
 	<item drawable="lighthouse" />
-	<item drawable="lighthouse2" />
 	<item drawable="lightning" />
 	<item drawable="line" />
 	<item drawable="lineagerec" />
@@ -946,7 +948,6 @@
 	<item drawable="owncloud" />
 	<item drawable="oxdrive" />
 	<item drawable="packlist" />
-	<item drawable="pady" />
 	<item drawable="pairz" />
 	<item drawable="palmcalc2019" />
 	<item drawable="passandroid" />
