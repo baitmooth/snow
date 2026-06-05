@@ -46,7 +46,7 @@ public class Changelog {
 
         // Generate all formats
         saveMarkdown(data, generatedDir + "/changelog.md");
-        savePlayStoreNotes(data, rootDir);
+        // savePlayStoreNotes(data, rootDir);
         saveXml(data, changelogXml);
 
         if (newRelease) {
@@ -74,6 +74,7 @@ public class Changelog {
         safeWrite(content.toString(), path);
     }
 
+    /*
     private static void savePlayStoreNotes(ChangelogData d, String rootDir) {
         String content = String.format(Locale.ROOT,
                 "🎉 %d new and updated icons!\n💡 Added support for %d apps using existing icons.\n🔥 %d icons in total!%s\n\n🔗 Detailed changes: https://github.com/baitmooth/snow/releases 📄",
@@ -85,6 +86,7 @@ public class Changelog {
             safeWrite(content, path);
         }
     }
+    */
 
     private static void saveXml(ChangelogData d, String path) {
         StringBuilder items = new StringBuilder();
