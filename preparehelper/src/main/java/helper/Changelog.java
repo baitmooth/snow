@@ -46,8 +46,8 @@ public class Changelog {
 
         // Generate all formats
         saveMarkdown(data, generatedDir + "/changelog.md");
-        // savePlayStoreNotes(data, rootDir);
         saveXml(data, changelogXml);
+        saveFDroidNotes(data, rootDir);
 
         if (newRelease) {
             safeWrite(String.valueOf(countFilterTotal), generatedDir + "/countFilterTotal.txt");
@@ -74,19 +74,44 @@ public class Changelog {
         safeWrite(content.toString(), path);
     }
 
-    /*
-    private static void savePlayStoreNotes(ChangelogData d, String rootDir) {
+    private static void saveFDroidNotes(ChangelogData d, String rootDir) {
+        int versionCode = getVersionCode(rootDir);
+        if (versionCode == 0) {
+            System.err.println("Could not determine versionCode, skipping F-Droid changelog.");
+            return;
+        }
+
         String content = String.format(Locale.ROOT,
-                "🎉 %d new and updated icons!\n💡 Added support for %d apps using existing icons.\n🔥 %d icons in total!%s\n\n🔗 Detailed changes: https://github.com/baitmooth/snow/releases 📄",
+                "🎉 %d new and updated icons!\n💡 Added support for %d apps using existing icons.\n🔥 %d icons in total!%s",
                 d.newIcons, d.reused, d.total, d.notes.isEmpty() ? "" : "\n\n" + d.notes);
 
-        List<String> flavors = List.of("you", "normal", "black", "dayNight");
-        for (String flavor : flavors) {
-            String path = String.format(Locale.ROOT,"%s/app/src/%s/play/release-notes/en-US/default.txt", rootDir, flavor);
-            safeWrite(content, path);
-        }
+        String path = String.format(Locale.ROOT, "%s/fastlane/metadata/android/en-US/changelogs/%d.txt", rootDir, versionCode);
+        safeWrite(content, path);
     }
-    */
+
+    private static int getVersionCode(String rootDir) {
+        try {
+            Path gradlePath = Paths.get(rootDir, "app", "build.gradle");
+            List<String> lines = Files.readAllLines(gradlePath);
+            for (String line : lines) {
+                // Trim to handle potential indentation
+                String trimmedLine = line.trim();
+                if (trimmedLine.startsWith("versionCode")) {
+                    String[] parts = trimmedLine.split("=");
+                    if (parts.length > 1) {
+                        String value = parts[1].trim();
+                        // Try to parse, if it fails, it's not a valid number
+                        return Integer.parseInt(value);
+                    }
+                }
+            }
+        } catch (NumberFormatException e) {
+            System.err.println("Error: versionCode is not a valid integer.");
+        } catch (Exception e) {
+            System.err.println("Error reading versionCode: " + e.getMessage());
+        }
+        return 0;
+    }
 
     private static void saveXml(ChangelogData d, String path) {
         StringBuilder items = new StringBuilder();
