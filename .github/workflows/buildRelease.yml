@@ -4,6 +4,7 @@ on:
   push:
     tags:
      - 'v*'
+
 jobs:
     build:
         name: Build Snow Release APK
@@ -39,3 +40,24 @@ jobs:
               with:
                   name: snow-apks
                   path: app/build/outputs/apk/**/release/*.apk
+
+    release:
+        needs: build
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        steps:
+            - name: Checkout branch
+              uses: actions/checkout@v4
+            - name: Download artifacts
+              uses: actions/download-artifact@v4
+              with:
+                  name: snow-apks
+                  path: artifacts
+            - name: Create GitHub Release
+              uses: softprops/action-gh-release@v2
+              with:
+                  body_path: generated/changelog.md
+                  files: |
+                      artifacts/**/*.apk
+                      generated/releaseImage.webp
