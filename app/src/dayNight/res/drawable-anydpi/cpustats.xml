@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48" android:tint="@color/icon_color">  
-    <path android:pathData="m7,5c-1.108,0 -2,0.892 -2,2v34c0,1.108 0.892,2 2,2h34c1.108,0 2,-0.892 2,-2v-34c0,-1.108 -0.892,-2 -2,-2h-34zM33,15.25h6c0.536,2 0.536,3 0,5h-6c-0.536,-2 -0.536,-3 0,-5zM25,21.5h6c0.536,2 0.536,3 0,5h-6c-0.536,-2 -0.536,-3 0,-5zM33,21.5h6c0.536,2 0.536,3 0,5h-6c-0.536,-2 -0.536,-3 0,-5zM17,27.75h6c0.536,2 0.536,3 0,5h-6c-0.536,-2 -0.536,-3 0,-5zM25,27.75h6c0.536,2 0.536,3 0,5h-6c-0.536,-2 -0.536,-3 0,-5zM33,27.75h6c0.536,2 0.536,3 0,5h-6c-0.536,-2 -0.536,-3 0,-5zM9,34h6c0.536,2 0.536,3 0,5h-6c-0.536,-2 -0.536,-3 0,-5zM17,34h6c0.536,2 0.536,3 0,5h-6c-0.536,-2 -0.536,-3 0,-5zM25,34h6c0.536,2 0.536,3 0,5h-6c-0.536,-2 -0.536,-3 0,-5zM33,34h6c0.536,2 0.536,3 0,5h-6c-0.536,-2 -0.536,-3 0,-5z" android:fillColor="@color/icon_color" android:strokeWidth="1"/> 
-</vector>
