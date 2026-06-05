@@ -93,7 +93,7 @@ android {
     lint {
         abortOnError = false
         checkReleaseBuilds = false
-    //    lintConfig = file("lint.xml")
+        lintConfig = file("lint.xml")
     }
 
     dependenciesInfo {
