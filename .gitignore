@@ -16,6 +16,7 @@ bin/
 gen/
 out/
 app/debug/
+app/src/*/res/drawable-anydpi/*.xml
 
 # Gradle files
 .gradle/
