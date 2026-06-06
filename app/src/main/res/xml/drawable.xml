@@ -2,22 +2,6 @@
 <resources>
 <version>1</version>
 
-	<category title="New" />
-	<item drawable="accuweather" />
-	<item drawable="acode" />
-	<item drawable="alembicons" />
-	<item drawable="appverifier" />
-	<item drawable="bluesky" />
-	<item drawable="calculadora" />
-	<item drawable="dgis" />
-	<item drawable="ebaykleinanzeigen" />
-	<item drawable="ebaykleinanzeigen_old" />
-	<item drawable="gemini" />
-	<item drawable="grayjay" />
-	<item drawable="lighthouse2" />
-	<item drawable="pady" />
-	<item drawable="shizuku" />
-
 	<category title="Folders" />
 	<item drawable="folder_favourites" />
 	<item drawable="folder_games" />
@@ -84,8 +68,10 @@
 	<item drawable="a2050" />
 	<item drawable="aard" />
 	<item drawable="accrescent" />
+	<item drawable="accuweather" />
 	<item drawable="acdisplay" />
 	<item drawable="acm" />
+	<item drawable="acode" />
 	<item drawable="acrobat" />
 	<item drawable="actiondash" />
 	<item drawable="actionlauncher" />
@@ -115,6 +101,7 @@
 	<item drawable="alarmio" />
 	<item drawable="alarmklock" />
 	<item drawable="alditalk" />
+	<item drawable="alembicons" />
 	<item drawable="aliexpress" />
 	<item drawable="alipay" />
 	<item drawable="alliant" />
@@ -158,6 +145,7 @@
 	<item drawable="apps2org" />
 	<item drawable="apps2sd" />
 	<item drawable="appspackagesinfo" />
+	<item drawable="appverifier" />
 	<item drawable="arbeitszeitkonto" />
 	<item drawable="arbetsfor" />
 	<item drawable="archwikiviewer" />
@@ -225,6 +213,7 @@
 	<item drawable="blogger" />
 	<item drawable="blokada" />
 	<item drawable="blueminimal" />
+	<item drawable="bluesky" />
 	<item drawable="bluetooth" />
 	<item drawable="bluetoothkeyboardmouse" />
 	<item drawable="boinc" />
@@ -249,6 +238,7 @@
 	<item drawable="bus_square" />
 	<item drawable="busybox" />
 	<item drawable="cabinet" />
+	<item drawable="calculadora" />
 	<item drawable="calculator" />
 	<item drawable="calculatorplusplus" />
 	<item drawable="calendarcolor" />
@@ -358,6 +348,7 @@
 	<item drawable="deviceinfo" />
 	<item drawable="devicesearch" />
 	<item drawable="devrant" />
+	<item drawable="dgis" />
 	<item drawable="dhlexpress" />
 	<item drawable="diaguard" />
 	<item drawable="dial" />
@@ -411,6 +402,8 @@
 	<item drawable="easy_diary" />
 	<item drawable="easyxkcd" />
 	<item drawable="ebay" />
+	<item drawable="ebaykleinanzeigen" />
+	<item drawable="ebaykleinanzeigen_old" />
 	<item drawable="ebtart" />
 	<item drawable="echo" />
 	<item drawable="editor" />
@@ -532,6 +525,7 @@
 	<item drawable="geekttrss" />
 	<item drawable="geicomobile" />
 	<item drawable="gelli" />
+	<item drawable="gemini" />
 	<item drawable="geogebra" />
 	<item drawable="geogebragraphingcalculator" />
 	<item drawable="geohashdroid" />
@@ -571,6 +565,7 @@
 	<item drawable="gplaystore" />
 	<item drawable="gpsstatus" />
 	<item drawable="gpstest" />
+	<item drawable="grayjay" />
 	<item drawable="greader" />
 	<item drawable="greatcourses" />
 	<item drawable="greenbits" />
@@ -707,6 +702,7 @@
 	<item drawable="license" />
 	<item drawable="lichess" />
 	<item drawable="lighthouse" />
+	<item drawable="lighthouse2" />
 	<item drawable="lightning" />
 	<item drawable="line" />
 	<item drawable="lineagerec" />
@@ -948,6 +944,7 @@
 	<item drawable="owncloud" />
 	<item drawable="oxdrive" />
 	<item drawable="packlist" />
+	<item drawable="pady" />
 	<item drawable="pairz" />
 	<item drawable="palmcalc2019" />
 	<item drawable="passandroid" />
@@ -1118,6 +1115,7 @@
 	<item drawable="shazam" />
 	<item drawable="shell" />
 	<item drawable="shelter" />
+	<item drawable="shizuku" />
 	<item drawable="shoppinglist" />
 	<item drawable="showly20" />
 	<item drawable="shrug" />

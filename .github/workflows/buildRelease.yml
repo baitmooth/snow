@@ -54,10 +54,16 @@ jobs:
               with:
                   name: snow-apks
                   path: artifacts
+            - name: Read changelog
+              id: read_changelog
+              run: echo "content<<EOF" >> $GITHUB_OUTPUT && cat generated/changelog.md >> $GITHUB_OUTPUT && echo "EOF" >> $GITHUB_OUTPUT
+
             - name: Create GitHub Release
               uses: softprops/action-gh-release@v2
               with:
-                  body_path: generated/changelog.md
-                  files: |
-                      artifacts/**/*.apk
-                      generated/releaseImage.webp
+                body: |
+                  ${{ steps.read_changelog.outputs.content }}
+                  ![Release Image](releaseImage.webp)
+                files: |
+                  artifacts/**/*.apk
+                  generated/releaseImage.webp

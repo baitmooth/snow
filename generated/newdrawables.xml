@@ -2,18 +2,4 @@
 <resources>
 	<version>1</version>
 	<category title="New" />
-	<item drawable="accuweather" />
-	<item drawable="acode" />
-	<item drawable="alembicons" />
-	<item drawable="appverifier" />
-	<item drawable="bluesky" />
-	<item drawable="calculadora" />
-	<item drawable="dgis" />
-	<item drawable="ebaykleinanzeigen" />
-	<item drawable="ebaykleinanzeigen_old" />
-	<item drawable="gemini" />
-	<item drawable="grayjay" />
-	<item drawable="lighthouse2" />
-	<item drawable="pady" />
-	<item drawable="shizuku" />
 </resources>
