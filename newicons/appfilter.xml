@@ -5078,4 +5078,8 @@
     <!-- Fate Grand Order (EN/JP) -->
     <item component="ComponentInfo{com.aniplex.fategrandorder/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder" />
     <item component="ComponentInfo{com.aniplex.fategrandorder.en/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder" />
+    <!-- 2048 -->
+    <item component="ComponentInfo{com.uberspot.a2048/com.uberspot.a2048.MainActivity}" drawable="2048"/>
+    <!-- Google Wallet -->
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.mywallet.home.HomeActivity}" drawable="wallet" />
 </resources>
