@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
 	<!-- /system/ App Mover -->
@@ -27,11 +28,20 @@
 	<!-- Aard 2 -->
 	<item component="ComponentInfo{itkach.aard2/itkach.aard2.MainActivity}" drawable="aard"/>
 
+	<!-- Accrescent -->
+	<item component="ComponentInfo{app.accrescent.client/app.accrescent.client.ui.MainActivity}" drawable="accrescent"/>
+
+	<!-- AccuWeather -->
+	<item component="ComponentInfo{com.accuweather.android/com.accuweather.android.splashscreen.SplashActivity}" drawable="accuweather"/>
+
 	<!-- AcDisplay -->
 	<item component="ComponentInfo{com.achep.acdisplay/com.achep.acdisplay.ui.activities.MainActivity}" drawable="acdisplay"/>
 
 	<!-- ACM -->
 	<item component="ComponentInfo{com.narvii.amino.manager/com.narvii.manager.ManagerActivity}" drawable="acm"/>
+
+	<!-- Acode -->
+	<item component="ComponentInfo{com.foxdebug.acode/com.foxdebug.acode.MainActivity}" drawable="acode"/>
 
 	<!-- Action Launcher -->
 	<item component="ComponentInfo{com.actionlauncher.playstore/com.actionlauncher.ActionLauncherActivity}" drawable="actionlauncher"/>
@@ -99,6 +109,7 @@
 
 	<!-- AIMP -->
 	<item component="ComponentInfo{com.aimp.player/com.aimp.player.views.Main.MainActivity}" drawable="aimp"/>
+	<item component="ComponentInfo{com.aimp.player/com.aimp.player.ui.activities.main.MainActivity}" drawable="aimp"/>
 
 	<!-- AIMSICD -->
 	<item component="ComponentInfo{com.SecUpwN.AIMSICD/com.secupwn.aimsicd.ui.activities.MainActivity}" drawable="aimsicd"/>
@@ -125,7 +136,11 @@
 	<!-- ALDI TALK -->
 	<item component="ComponentInfo{de.eplus.mappecc.client.android.alditalk/de.eplus.mappecc.client.android.feature.splashscreen.SplashActivity}" drawable="alditalk"/>
 
+	<!-- Alembicons -->
+	<item component="ComponentInfo{com.kaanelloed.iconeration/com.kaanelloed.iconeration.MainActivity}" drawable="alembicons"/>
+
 	<!-- AliExpress -->
+	<item component="ComponentInfo{com.alibaba.aliexpresshd/com.aliexpress.app.FirstActivity}" drawable="aliexpress"/>
 	<item component="ComponentInfo{com.alibaba.aliexpresshd/com.aliexpress.module.home.MainActivity}" drawable="aliexpress"/>
 	<item component="ComponentInfo{com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.home.ui.MainActivity}" drawable="aliexpress"/>
 
@@ -262,6 +277,9 @@
 	<!-- apps_Packages Info -->
 	<item component="ComponentInfo{com.oF2pks.applicationsinfo/com.oF2pks.applicationsinfo.MainActivity}" drawable="appspackagesinfo"/>
 
+	<!-- AppVerifier -->
+	<item component="ComponentInfo{dev.soupslurpr.appverifier/dev.soupslurpr.appverifier.MainActivity}" drawable="appverifier"/>
+
 	<!-- Arbeitszeitkonto -->
 	<item component="ComponentInfo{askanimus.arbeitszeiterfassung2/askanimus.arbeitszeiterfassung2.MainActivity}" drawable="arbeitszeitkonto"/>
 
@@ -332,8 +350,6 @@
 
 	<!-- Authenticator -->
 	<item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity}" drawable="azureauthenticator"/>
-
-	<!-- Authenticator -->
 	<item component="ComponentInfo{me.jmh.authenticatorpro/crc646be539cf0a2d8609.MainActivity}" drawable="authenticator"/>
 
 	<!-- Authenticator (LastPass) -->
@@ -358,6 +374,7 @@
 	<item component="ComponentInfo{com.avans.oneapp/com.avans.oneapp.MainActivity}" drawable="avans"/>
 
 	<!-- Aves -->
+	<item component="ComponentInfo{deckers.thibault.aves.libre/deckers.thibault.aves.MainActivity}" drawable="aves"/>
 	<item component="ComponentInfo{deckers.thibault.aves/deckers.thibault.aves.MainActivity}" drawable="aves"/>
 
 	<!-- Aviasales -->
@@ -482,6 +499,9 @@
 	<item component="ComponentInfo{de.baumann.thema/de.baumann.thema.MainActivity}" drawable="blueminimal"/>
 	<item component="ComponentInfo{de.baumann.thema/de.baumann.thema.Screen_Main}" drawable="blueminimal"/>
 
+	<!-- Bluesky -->
+	<item component="ComponentInfo{xyz.blueskyweb.app/xyz.blueskyweb.app.MainActivity}" drawable="bluesky"/>
+
 	<!-- Bluetooth Extension -->
 	<item component="ComponentInfo{org.codeaurora.bluetooth/org.coreaurora.bluetooth.ftp.BluetoothFtpActivity}" drawable="bluetooth"/>
 
@@ -555,14 +575,15 @@
 	<!-- Cabinet Beta -->
 	<item component="ComponentInfo{com.afollestad.cabinet/com.afollestad.cabinet.ui.MainActivity}" drawable="cabinet"/>
 
+	<!-- Calculadora -->
+	<item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="calculadora"/>
+
 	<!-- Calculator -->
 	<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="calculator"/>
 	<item component="ComponentInfo{com.xlythe.calculator.material/com.xlythe.calculator.material.Calculator}" drawable="calculator"/>
 	<item component="ComponentInfo{com.tct.calculator.bb/com.tct.calculator.Calculator}" drawable="calculator"/>
 	<item component="ComponentInfo{com.oneplus.calculator/com.oneplus.calculator.Calculator}" drawable="calculator"/>
 	<item component="ComponentInfo{com.miui.calculator/com.miui.calculator.cal.CalculatorActivity}" drawable="calculator"/>
-
-	<!-- Calculator -->
 	<item component="ComponentInfo{com.sonymobile.exactcalculator/com.sonymobile.exactcalculator.Calculator}" drawable="calculator"/>
 
 	<!-- Calculator++ -->
@@ -583,15 +604,15 @@
 	<item component="ComponentInfo{ch.ihdg.calendarcolor/ch.ihdg.calendarcolor.CalendarListActivity}" drawable="calendarcolor"/>
 
 	<!-- Calendar dynamic icons -->
-  <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.blackberry.calendar/com.blackberry.calendar.AllInOneActivity}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity}" prefix="calendar"/>
-  <calendar component="ComponentInfo{org.sufficientlysecure.localcalendar/org.sufficientlysecure.localcalendar.ui.MainActivity}" prefix="calendar"/>
-  <calendar component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
-  <calendar component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
-  <calendar component="ComponentInfo{foundation.e.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.blackberry.calendar/com.blackberry.calendar.AllInOneActivity}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity}" prefix="calendar"/>
+	<calendar component="ComponentInfo{org.sufficientlysecure.localcalendar/org.sufficientlysecure.localcalendar.ui.MainActivity}" prefix="calendar"/>
+	<calendar component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
+	<calendar component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
+	<calendar component="ComponentInfo{foundation.e.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar"/>
 
 	<!-- Calendar Import-Export -->
 	<item component="ComponentInfo{org.sufficientlysecure.ical/org.sufficientlysecure.ical.ui.MainActivity}" drawable="calendarimportexport"/>
@@ -676,6 +697,9 @@
 
 	<!-- Chase -->
 	<item component="ComponentInfo{com.chase.sig.android/com.chase.sig.android.activity.LoginActivity}" drawable="chase"/>
+
+	<!-- ChatGPT -->
+	<item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}" drawable="chatgpt"/>
 
 	<!-- Checkey -->
 	<item component="ComponentInfo{info.guardianproject.checkey/info.guardianproject.checkey.MainActivity}" drawable="checkey"/>
@@ -792,12 +816,11 @@
 	<item component="ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts"/>
 	<item component="ComponentInfo{com.blackberry.contacts/com.android.contacts.activities.PeopleDrawerActivity}" drawable="contacts"/>
 	<item component="ComponentInfo{com.samsung.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts"/>
+	<item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="contacts"/>
 	<item component="ComponentInfo{com.samsung.android.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="contacts"/>
 	<item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.LaunchActivity}" drawable="contacts"/>
 	<item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.DialerEntryActivity}" drawable="contacts"/>
 	<item component="ComponentInfo{com.android.contacts/com.oneplus.contacts.activities.OPPeopleActivity}" drawable="contacts"/>
-
-	<!-- Contacts -->
 	<item component="ComponentInfo{com.sonymobile.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contactscircle"/>
 
 	<!-- Contacts Sync -->
@@ -848,6 +871,9 @@
 
 	<!-- Critical Maps -->
 	<item component="ComponentInfo{de.stephanlindauer.criticalmaps/de.stephanlindauer.criticalmaps.Main}" drawable="critical_maps"/>
+
+	<!-- Cromite -->
+	<item component="ComponentInfo{org.cromite.cromite/com.google.android.apps.chrome.Main}" drawable="cromite"/>
 
 	<!-- Cronograma -->
 	<item component="ComponentInfo{com.asdoi.timetable/com.ulan.timetable.activities.MainActivity}" drawable="cronograma"/>
@@ -961,6 +987,9 @@
 	<!-- devRant -->
 	<item component="ComponentInfo{com.hexicallabs.devrant/com.hexicallabs.devrant.DevrantActivity}" drawable="devrant"/>
 
+	<!-- Dgis -->
+	<item component="ComponentInfo{ru.dublgis.dgismobile/ru.dublgis.dgismobile.GrymMobileActivity}" drawable="dgis"/>
+
 	<!-- DHL Express -->
 	<item component="ComponentInfo{com.dhl.exp.dhlmobile/com.dhl.exp.dhlmobile.MainActivity}" drawable="dhlexpress"/>
 
@@ -1038,8 +1067,6 @@
 	<!-- Documents -->
 	<item component="ComponentInfo{com.android.documentsui/com.android.documentsui.DocumentsActivity}" drawable="files"/>
 	<item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="files"/>
-
-	<!-- Documents -->
 	<item component="ComponentInfo{com.onlyoffice.documents/app.editors.manager.ui.activities.login.SplashActivity}" drawable="documents"/>
 
 	<!-- Docus -->
@@ -1065,6 +1092,9 @@
 
 	<!-- Drive -->
 	<item component="ComponentInfo{com.synology.dsdrive/com.synology.dsdrive.activity.SplashActivity}" drawable="dsdrive"/>
+
+	<!-- Droid-ify -->
+	<item component="ComponentInfo{com.looker.droidify/com.looker.droidify.MainActivity}" drawable="droid_ify"/>
 
 	<!-- DroidCam -->
 	<item component="ComponentInfo{com.dev47apps.droidcam/com.dev47apps.droidcam.DroidCam}" drawable="droidcam"/>
@@ -1481,7 +1511,7 @@
 	<item component="ComponentInfo{com.dkanada.icecons/com.dkanada.icecons.activities.MainActivity}" drawable="frost"/>
 	<item component="ComponentInfo{com.dkanada.icecons.debug/com.dkanada.icecons.activities.MainActivity}" drawable="frost"/>
 
-	<!-- Frost Facebook-->
+	<!-- Frost Facebook -->
 	<item component="ComponentInfo{com.pitchedapps.frost/com.pitchedapps.frost.StartActivity}" drawable="frostfacebook"/>
 
 	<!-- Fruit Radar -->
@@ -1499,8 +1529,6 @@
 
 	<!-- Galerie -->
 	<item component="ComponentInfo{org.lineageos.glimpse/org.lineageos.glimpse.MainActivity}" drawable="galerie"/>
-
-	<!-- Galerie -->
 	<item component="ComponentInfo{org.fossify.gallery/org.fossify.gallery.activities.SplashActivity.Green}" drawable="galerie1"/>
 
 	<!-- Galleria -->
@@ -1542,6 +1570,9 @@
 	<!-- Gello -->
 	<item component="ComponentInfo{org.cyanogenmod.gello.browser/com.android.browser.BrowserLauncher}" drawable="browser"/>
 
+	<!-- Gemini -->
+	<item component="ComponentInfo{com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity}" drawable="gemini"/>
+
 	<!-- Geo++ RINEX Logger -->
 	<item component="ComponentInfo{de.geopp.rinexlogger/de.geopp.android.rinexlogger.MainActivity}" drawable="georinexlogger"/>
 
@@ -1568,6 +1599,7 @@
 	<item component="ComponentInfo{com.ghostsq.commander/com.ghostsq.commander.FileCommander}" drawable="ghostcommander"/>
 
 	<!-- GitHub -->
+	<item component="ComponentInfo{com.github.android/com.github.android.main.MainActivity}" drawable="github"/>
 	<item component="ComponentInfo{com.github.android/com.github.android.activities.MainActivity}" drawable="github"/>
 
 	<!-- GitNex -->
@@ -1717,6 +1749,9 @@
 	<!-- GPSTest -->
 	<item component="ComponentInfo{com.android.gpstest.osmdroid/com.android.gpstest.GpsTestActivity}" drawable="gpstest"/>
 
+	<!-- Grayjay -->
+	<item component="ComponentInfo{com.futo.platformplayer/com.futo.platformplayer.activities.MainActivity}" drawable="grayjay"/>
+
 	<!-- gReader Pro -->
 	<item component="ComponentInfo{com.noinnion.android.greader.readerpro/com.noinnion.android.greader.ui.login.LoginActivity}" drawable="greader"/>
 
@@ -1735,7 +1770,7 @@
 	<!-- Guardian -->
 	<item component="ComponentInfo{com.altitudeangel.guardian/crc6491718922274746ad.SplashActivity}" drawable="guardian"/>
 
-	<!-- Guide du tri : recycling info-->
+	<!-- Guide du tri : recycling info -->
 	<item component="ComponentInfo{fr.ecoemballage.guidedutri/fr.ecoemballage.guidedutri.activities.SplashActivity}" drawable="recyclelocation"/>
 
 	<!-- Hacker's Keyboard -->
@@ -1786,6 +1821,9 @@
 
 	<!-- Holo Launcher -->
 	<item component="ComponentInfo{com.mobint.hololauncher/com.mobint.hololauncher.Launcher}" drawable="holo"/>
+
+	<!-- Home Assistant -->
+	<item component="ComponentInfo{io.homeassistant.companion.android/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="home_assistant"/>
 
 	<!-- HP All-in-one Printer Remote -->
 	<item component="ComponentInfo{com.hp.printercontrol/com.hp.printercontrol.base.PrinterControlActivity}" drawable="hpprinteraio"/>
@@ -2657,11 +2695,7 @@
 
 	<!-- News -->
 	<item component="ComponentInfo{co.appreactor.news/common.AppActivity}" drawable="appreactornews"/>
-
-	<!-- News -->
 	<item component="ComponentInfo{com.microsoft.amp.apps.bingnews/microsoft.msn.news.android.activities.LaunchActivity}" drawable="msnews"/>
-
-	<!-- News -->
 	<item component="ComponentInfo{de.luhmer.owncloudnewsreader/de.luhmer.owncloudnewsreader.NewsReaderListActivity}" drawable="news"/>
 
 	<!-- Nextcloud -->
@@ -2724,8 +2758,6 @@
 	<item component="ComponentInfo{com.oneplus.note/com.oneplus.note.ui.MainActivity}" drawable="notes"/>
 	<item component="ComponentInfo{com.miui.notes/com.miui.notes.ui.NotesListActivity}" drawable="notes"/>
 	<item component="ComponentInfo{foundation.e.notes/foundation.e.notes.android.activity.SplashscreenActivity}" drawable="notes"/>
-
-	<!-- Notes -->
 	<item component="ComponentInfo{com.potatoproject.notes/com.potatoproject.notes.MainActivity}" drawable="potatoprojectnotes"/>
 
 	<!-- Notification Cron -->
@@ -3018,8 +3050,6 @@
 	<item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="phone"/>
 	<item component="ComponentInfo{org.dnaq.dialer2/org.dnaq.dialer2.DialerActivity}" drawable="phone"/>
 	<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer}" drawable="phone"/>
-
-	<!-- Phone -->
 	<item component="ComponentInfo{com.sonymobile.android.dialer/com.android.dialer.app.DialtactsActivity}" drawable="phonedial"/>
 
 	<!-- Phone Manager -->
@@ -3064,7 +3094,7 @@
 	<!-- Pixel Dungeon -->
 	<item component="ComponentInfo{com.watabou.pixeldungeon/com.watabou.pixeldungeon.PixelDungeon}" drawable="pixeldungeon"/>
 
-	<!-- PixelLab-->
+	<!-- PixelLab -->
 	<item component="ComponentInfo{com.imaginstudio.imagetools.pixellab/com.imaginstudio.imagetools.pixellab.MainActivity}" drawable="pixellab"/>
 
 	<!-- Pixiv -->
@@ -3268,8 +3298,6 @@
 
 	<!-- Recorder -->
 	<item component="ComponentInfo{org.calyxos.recorder/org.lineageos.recorder.RecorderActivity}" drawable="calyxosrecorder"/>
-
-	<!-- Recorder -->
 	<item component="ComponentInfo{org.lineageos.recorder/org.lineageos.recorder.RecorderActivity}" drawable="lineagerec"/>
 
 	<!-- Recurrence -->
@@ -3502,10 +3530,11 @@
 	<!-- SHIELD TV -->
 	<item component="ComponentInfo{com.nvidia.shield.remote/com.nvidia.shield.remote.MainActivity}" drawable="nvidia"/>
 
-	<!-- Shopping List -->
-	<item component="ComponentInfo{com.woefe.shoppinglist/com.woefe.shoppinglist.activity.MainActivity}" drawable="shoppinglist"/>
+	<!-- Shizuku -->
+	<item component="ComponentInfo{moe.shizuku.privileged.api/moe.shizuku.manager.MainActivity}" drawable="shizuku"/>
 
 	<!-- Shopping List -->
+	<item component="ComponentInfo{com.woefe.shoppinglist/com.woefe.shoppinglist.activity.MainActivity}" drawable="shoppinglist"/>
 	<item component="ComponentInfo{privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist/privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.main.SplashActivity}" drawable="secusoshoppinglist"/>
 
 	<!-- Showly 2.0 -->
@@ -3596,24 +3625,24 @@
 	<item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Grey_black}" drawable="simplecalendar"/>
 
 	<!-- Simple Calendar Dynamic icon -->
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Pink}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Purple}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Deep_purple}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Indigo}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Blue}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Light_blue}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Cyan}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Teal}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Green}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Light_green}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Lime}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Yellow}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Amber}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Orange}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Deep_orange}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Brown}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Blue_grey}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Grey_black}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Pink}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Purple}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Deep_purple}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Indigo}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Blue}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Light_blue}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Cyan}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Teal}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Green}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Light_green}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Lime}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Yellow}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Amber}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Orange}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Deep_orange}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Brown}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Blue_grey}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Grey_black}" prefix="calendar"/>
 
 	<!-- Simple Calendar Pro -->
 	<item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Pink}" drawable="simplecalendar"/>
@@ -3636,24 +3665,24 @@
 	<item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Grey_black}" drawable="simplecalendar"/>
 
 	<!-- Simple Calendar Pro Dynamic icon -->
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Pink}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Purple}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Deep_purple}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Indigo}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Light_blue}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Cyan}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Teal}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Green}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Light_green}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Lime}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Yellow}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Amber}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Orange}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Deep_orange}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Brown}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue_grey}" prefix="calendar"/>
-  <calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Grey_black}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Pink}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Purple}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Deep_purple}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Indigo}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Light_blue}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Cyan}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Teal}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Green}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Light_green}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Lime}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Yellow}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Amber}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Orange}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Deep_orange}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Brown}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue_grey}" prefix="calendar"/>
+	<calendar component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Grey_black}" prefix="calendar"/>
 
 	<!-- Simple Camera -->
 	<item component="ComponentInfo{com.simplemobiletools.camera/com.simplemobiletools.camera.activities.SplashActivity.Pink}" drawable="simplecamera"/>
@@ -4192,8 +4221,6 @@
 	<!-- Slide -->
 	<item component="ComponentInfo{me.ccrama.redditslide/me.ccrama.redditslide.Activities.Slide}" drawable="slidereddit"/>
 	<item component="ComponentInfo{me.ccrama.redditslide/me.ccrama.redditslide.Activities.SlideDefault}" drawable="slidereddit"/>
-
-	<!-- Slide -->
 	<item component="ComponentInfo{trikita.slide/trikita.slide.ui.MainActivity}" drawable="slide"/>
 
 	<!-- SlimSocial -->
@@ -4221,8 +4248,6 @@
 	<!-- Snow -->
 	<item component="ComponentInfo{org.baitmooth.snow/org.baitmooth.snow.activities.SplashActivity}" drawable="snow"/>
 	<item component="ComponentInfo{org.baitmooth.snow.debug/org.baitmooth.snow.activites.SplashActivity}" drawable="snow"/>
-
-	<!-- Snow -->
 	<item component="ComponentInfo{org.baitmooth.snow/org.baitmooth.snow.activities.MainActivity}" drawable="snow"/>
 
 	<!-- SofaScore -->
@@ -4307,6 +4332,7 @@
 
 	<!-- Steam -->
 	<item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.activity.MainActivity}" drawable="steam"/>
+	<item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}" drawable="steam"/>
 
 	<!-- Steam Chat -->
 	<item component="ComponentInfo{com.valvesoftware.android.steam.friendsui/host.exp.exponent.MainActivity}" drawable="steamchat"/>
@@ -4442,8 +4468,6 @@
 	<item component="ComponentInfo{org.tasks/com.todoroo.astrid.activity.TaskListActivity}" drawable="tasks"/>
 	<item component="ComponentInfo{org.tasks/com.todoroo.astrid.activity.TaskListActivity.Red}" drawable="tasks"/>
 	<item component="ComponentInfo{foundation.e.tasks/org.dmfs.tasks.TaskListActivity}" drawable="tasks"/>
-
-	<!-- Tasks -->
 	<item component="ComponentInfo{com.google.android.apps.tasks/com.google.android.apps.tasks.ui.TaskListsActivity}" drawable="gtasks"/>
 
 	<!-- Taskwarrior -->
@@ -4461,8 +4485,6 @@
 
 	<!-- Terminal Emulator -->
 	<item component="ComponentInfo{com.termoneplus/com.termoneplus.TermActivity}" drawable="terminalemulator"/>
-
-	<!-- Terminal Emulator -->
 	<item component="ComponentInfo{jackpal.androidterm/jackpal.androidterm.Term}" drawable="androidterm"/>
 
 	<!-- Termius -->
@@ -4663,6 +4685,9 @@
 	<!-- Tutanota -->
 	<item component="ComponentInfo{de.tutao.tutanota/de.tutao.tutanota.MainActivity}" drawable="tutanota"/>
 
+	<!-- tv kill -->
+	<item component="ComponentInfo{com.redirectapps.tvkill/com.redirectapps.tvkill.MainActivity}" drawable="tvkill"/>
+
 	<!-- Twidere -->
 	<item component="ComponentInfo{org.mariotaku.twidere/org.mariotaku.twidere.activity.MainActivity}" drawable="twidere"/>
 
@@ -4829,8 +4854,6 @@
 	<!-- Weather -->
 	<item component="ComponentInfo{de.baumann.weather/de.baumann.weather.MainActivity}" drawable="weather"/>
 	<item component="ComponentInfo{de.baumann.weather/de.baumann.weather.helper.SplashActivity}" drawable="weather"/>
-
-	<!-- Weather -->
 	<item component="ComponentInfo{nl.implode.weer/nl.implode.weer.SettingsActivity}" drawable="weatherwidget"/>
 
 	<!-- Web Video Caster -->
@@ -5051,8 +5074,5 @@
 
 	<!-- μlogger -->
 	<item component="ComponentInfo{net.fabiszewski.ulogger/net.fabiszewski.ulogger.MainActivity}" drawable="ulogger"/>
-
-	<!--tv kill -->
-	<item component="ComponentInfo{com.redirectapps.tvkill/com.redirectapps.tvkill.MainActivity}" drawable="tvkill"/>
 
 </resources>

@@ -4,8 +4,8 @@
     <!-- FOR ATOM LAUNCHER -->
 
     <packageName>org.baitmooth.snow</packageName>
-    <versionName>2.1.8</versionName>
-    <versionCode>67</versionCode>
+    <versionName>1.4.0</versionName>
+    <versionCode>5</versionCode>
     <themeName>Theme Name</themeName>
 
     <!-- Default Component Color -->

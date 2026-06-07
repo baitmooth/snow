@@ -1,7 +1,9 @@
 name: Build Release
 
 on:
-    workflow_dispatch:
+  push:
+    tags:
+     - 'v*'
 
 jobs:
     build:
@@ -18,7 +20,7 @@ jobs:
             
             - uses: gradle/actions/setup-gradle@v4
               with:
-                  gradle-version: 8.7
+                  gradle-version: 9.4.1
 
             - name: Write sign info
               run: |
@@ -29,8 +31,6 @@ jobs:
                       echo storeFile='${{ github.workspace }}/key.jks' >> keystore.properties
                       echo ${{ secrets.KEYSTORE }} | base64 --decode > ${{ github.workspace }}/key.jks
                     fi
-            - name: Get Gradle
-              run: gradle wrapper
             - name: Grant execute permission for gradlew
               run: chmod +x gradlew
             - name: Build Release apk
@@ -38,5 +38,26 @@ jobs:
             - name: Upload artifact
               uses: actions/upload-artifact@v4
               with:
-                  name: snow.apk
-                  path: app/build/outputs/apk/release/*.apk
+                  name: snow-apks
+                  path: app/build/outputs/apk/**/release/*.apk
+
+    release:
+        needs: build
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        steps:
+            - name: Checkout branch
+              uses: actions/checkout@v4
+            - name: Download artifacts
+              uses: actions/download-artifact@v4
+              with:
+                  name: snow-apks
+                  path: artifacts
+            - name: Create GitHub Release
+              uses: softprops/action-gh-release@v2
+              with:
+                  body_path: generated/changelog.md
+                  files: |
+                      artifacts/**/*.apk
+                      generated/releaseImage.webp

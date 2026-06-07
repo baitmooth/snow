@@ -5,7 +5,7 @@
     <option name="PROGRAM_PARAMETERS" value="release" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="com.donnnno.arcticons.helper.*" />
+        <option name="PATTERN" value="helper.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>

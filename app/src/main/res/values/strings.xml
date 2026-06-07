@@ -9,4 +9,9 @@
     <string name="date_text">DATE</string>
     <string name="add_date_widget">Add date widget</string>
     <string name="date_description">This is a date widget</string>
+
+    <string name="apply_manual_evie">Trykk og hold på hjemmeskjermen. Innstillinger → Ikonpakke → Velg %s.</string>
+    <string name="request_arctic_error">Kunne ikke sende forespørsel til Arctic-håndterer. Feilen er %s</string>
+    <string name="request_arctic_sending">Sender forespørsel til Arctic-håndterer …</string>
+    <string name="request_arctic_success">Sendte forespørsel til Arctic-håndterer</string>
 </resources>

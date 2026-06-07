@@ -1,12 +1,12 @@
 <resources>
 
-    <style name="Theme.Arcticons.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+    <style name="Theme.Snow.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
         <item name="appWidgetRadius">8dp</item>
         <item name="appWidgetPadding">4dp</item>
         <item name="appWidgetInnerRadius">4dp</item>
     </style>
 
-    <style name="Theme.Arcticons.AppWidgetContainer" parent="Theme.Arcticons.AppWidgetContainerParent" />
+    <style name="Theme.Snow.AppWidgetContainer" parent="Theme.Snow.AppWidgetContainerParent" />
 
     <style name="CandyBar.Theme.App.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
         <item name="appWidgetRadius">8dp</item>
@@ -15,4 +15,13 @@
     </style>
 
     <style name="CandyBar.Theme.App.AppWidgetContainer" parent="CandyBar.Theme.App.AppWidgetContainerParent" />
+
+    <style name="CandyBar.Theme.App.DayNight" parent="CandyBar.Theme.Base">
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splashColor</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/CandyBar.Theme.App.DayNight</item>
+    </style>
 </resources>

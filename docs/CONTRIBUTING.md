@@ -15,7 +15,7 @@
 
 - use the template files as a reference, the document size should be *48px*
 - lines have a thickness of **1px (Inkscape), 1pt (Illustrator)**
-- lines should have a **round cap & round corner﻿**
+- lines should have a **round cap & round corner**
 - try to be consistent with sizing your icons, make sure it's not to big or small (use the templates as a reference)
 - we don't accept files that are directly image traced, they are a mess to work with and look sloppy
 - if you use any letters or numbers make sure to use the font document from the templates folder.

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_date">2024.08.25</string>
+    <string name="changelog_date">Jun 05, 2026</string>
     <string-array name="changelog">
-        <item>more new icons</item>
-        <item>set request limit to 2 icons</item>
+        <item>🎉 <b>14</b> new and updated icons!</item>
+        <item>💡 Added support for <b>2202</b> apps using existing icons.</item>
+        <item>🔥 <b>1411</b> icons in total!</item>
     </string-array>
-
 </resources>

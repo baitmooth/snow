@@ -16,6 +16,8 @@ bin/
 gen/
 out/
 app/debug/
+app/src/*/res/drawable-anydpi/*.xml
+app/src/*/res/drawable-nodpi/*.xml
 
 # Gradle files
 .gradle/
@@ -168,3 +170,4 @@ app/release/baselineProfiles/1/snow-v1-release.dm
 app/release/output-metadata.json
 /app/release
 /mail
+/newicons/*.zip
