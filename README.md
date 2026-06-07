@@ -1,4 +1,7 @@
-Snow is a simple monotone icon pack forked from [Frost](https://github.com/dkanada/frost). It is FOSS and provides mostly icons for open-source apps on F-Droid (but there are many other apps in this pack too). The design aims for simplicity with easily recognizable shapes.
+Snow
+---
+
+a simple monotone icon pack forked from [Frost](https://github.com/dkanada/frost). It is FOSS and provides mostly icons for open-source apps on F-Droid (but there are many other apps in this pack too). The design aims for simplicity with easily recognizable shapes.
 
 Built with [Candybar-FOSS](https://github.com/Donnnno/candybar-foss), Snow includes support for a wide range of launchers, including:
 **ABC, Action, ADW, Apex, Atom, Aviate, BlackBerry, Evie, Flick, Go EX, Holo, Hyperion, Lawnchair, Lucid, Niagara, Nova, Pixel, Poco, Smart, Solo, Square, ZenUI**, and maybe more.
@@ -10,6 +13,9 @@ The installation process depends on your launcher and can usually be found withi
 
 <img src="https://user-images.githubusercontent.com/23211478/147795715-e8146c39-155d-4c7e-b149-90281e59f110.png" alt="Screenshot Homescreen" width="40%"> <img src="https://user-images.githubusercontent.com/23211478/147795701-b09a2084-d317-4323-9ce1-bc25a4539cfc.png" alt="Screenshot App Drawer" width="40%">
 
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/org.baitmooth.snow/)
 
 ## Contributing
 I appreciate your icon requests! Please keep in mind that maintaining this project is a voluntary effort, so adding new icons may take some time. I value your patience and welcome any contributions. If you have the skills and interest, you can contribute by creating icons or submitting requests. Here are some ways to get involved:
