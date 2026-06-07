@@ -5072,4 +5072,10 @@
 	<!-- μlogger -->
 	<item component="ComponentInfo{net.fabiszewski.ulogger/net.fabiszewski.ulogger.MainActivity}" drawable="ulogger"/>
 
+    <!-- Fate Grand Order (EN/JP) -->
+    <item component="ComponentInfo{com.aniplex.fategrandorder/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder" />
+    <item component="ComponentInfo{com.aniplex.fategrandorder.en/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder" />
+    <!-- Fate Grand Order (EN/JP) -->
+    <item component="ComponentInfo{com.aniplex.fategrandorder/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder" />
+    <item component="ComponentInfo{com.aniplex.fategrandorder.en/jp.delightworks.Fgo.player.AndroidPlugin}" drawable="fategrandorder" />
 </resources>
