@@ -2,6 +2,25 @@
 <resources>
 <version>1</version>
 
+	<category title="New" />
+	<item drawable="appstore" />
+	<item drawable="auditor" />
+	<item drawable="authpass" />
+	<item drawable="auxio" />
+	<item drawable="battery" />
+	<item drawable="batterychargelimit" />
+	<item drawable="beautyxt" />
+	<item drawable="bob" />
+	<item drawable="congstar" />
+	<item drawable="dbnavigator" />
+	<item drawable="glsbanking" />
+	<item drawable="info" />
+	<item drawable="phone" />
+	<item drawable="phonetrack" />
+	<item drawable="squeezer" />
+	<item drawable="streetcomplete" />
+	<item drawable="vanadium" />
+
 	<category title="Folders" />
 	<item drawable="folder_favourites" />
 	<item drawable="folder_games" />
@@ -164,7 +183,6 @@
 	<item drawable="aurorastore" />
 	<item drawable="authenticate" />
 	<item drawable="authenticator" />
-	<item drawable="authpass" />
 	<item drawable="authy" />
 	<item drawable="autoairplanemode" />
 	<item drawable="autotools" />
@@ -184,9 +202,7 @@
 	<item drawable="banquepostale" />
 	<item drawable="barcode" />
 	<item drawable="barinsta" />
-	<item drawable="battery" />
 	<item drawable="batterycalibration" />
-	<item drawable="batterychargelimit" />
 	<item drawable="bauhaus" />
 	<item drawable="bbm" />
 	<item drawable="beats" />
@@ -332,7 +348,6 @@
 	<item drawable="daserste" />
 	<item drawable="davdroid" />
 	<item drawable="dawn" />
-	<item drawable="dbnavigator" />
 	<item drawable="deck" />
 	<item drawable="deco" />
 	<item drawable="decsyncc" />
@@ -963,10 +978,8 @@
 	<item drawable="pep" />
 	<item drawable="periodical" />
 	<item drawable="permissionchecker" />
-	<item drawable="phone" />
 	<item drawable="phonedial" />
 	<item drawable="phonesaver" />
-	<item drawable="phonetrack" />
 	<item drawable="phonograph" />
 	<item drawable="photoeditor" />
 	<item drawable="pianopartner2" />
@@ -1200,7 +1213,6 @@
 	<item drawable="stormradar" />
 	<item drawable="strava" />
 	<item drawable="streaming" />
-	<item drawable="streetcomplete" />
 	<item drawable="studiumunict" />
 	<item drawable="stumbler" />
 	<item drawable="su" />

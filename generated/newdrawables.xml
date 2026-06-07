@@ -2,4 +2,21 @@
 <resources>
 	<version>1</version>
 	<category title="New" />
+	<item drawable="appstore" />
+	<item drawable="auditor" />
+	<item drawable="authpass" />
+	<item drawable="auxio" />
+	<item drawable="battery" />
+	<item drawable="batterychargelimit" />
+	<item drawable="beautyxt" />
+	<item drawable="bob" />
+	<item drawable="congstar" />
+	<item drawable="dbnavigator" />
+	<item drawable="glsbanking" />
+	<item drawable="info" />
+	<item drawable="phone" />
+	<item drawable="phonetrack" />
+	<item drawable="squeezer" />
+	<item drawable="streetcomplete" />
+	<item drawable="vanadium" />
 </resources>
