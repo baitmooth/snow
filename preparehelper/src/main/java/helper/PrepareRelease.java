@@ -43,6 +43,9 @@ public class PrepareRelease {
         final String gradlePath = root.resolve("app/build.gradle").toString();
         final String rootString = root.toString();
 
+        final CategoryDiscoveryService categoryDiscoveryService = new CategoryDiscoveryService();
+        categoryDiscoveryService.initialize();
+
         final String task = args[0];
         System.out.println("Starting task: " + task);
 
@@ -62,7 +65,7 @@ public class PrepareRelease {
                         runTask("New Drawables", () -> createNewDrawables(newIconsDir, generatedDir + "/newdrawables.xml", isNewRelease));
                         runTask("Webp Creator", () -> createWebpIcons(newIconsDir, sourceDir, blackDir, exportWhiteDir, exportBlackDir));
                         runTask("Sort Appfilter", () -> sortXML(Paths.get(appFilter)));
-                        runTask("XML Merger", () -> XMLCreator.mergeNewDrawables(valuesDir, generatedDir, assetsDir, sourceDir, xmlDir, appFilter));
+                        runTask("XML Merger", () -> XMLCreator.mergeNewDrawables(valuesDir, generatedDir, assetsDir, sourceDir, xmlDir, appFilter, categoryDiscoveryService));
                         runTask("Create Changelogs", () -> generateChangelogs(generatedDir, valuesDir + "/custom_icon_count.xml", appFilter, changelogXml, rootString, isNewRelease));
                         runTask("New Release Image", () -> generateReleaseImage(gradlePath,generatedDir + "/ArcticonsSans-Regular.otf", generatedDir + "/newdrawables.xml", sourceDir, generatedDir + "/releaseImage.webp"));
                     }, executor);

@@ -50,6 +50,7 @@ dependencies {
     implementation("org.apache.xmlgraphics:batik-codec:1.19")
     implementation("org.apache.xmlgraphics:batik-anim:1.19")
     implementation("org.apache.xmlgraphics:batik-util:1.19")
+    implementation("com.google.code.gson:gson:2.10.1")
 }
 
 java {

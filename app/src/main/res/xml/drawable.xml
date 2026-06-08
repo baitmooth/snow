@@ -63,29 +63,71 @@
 	<item drawable="xbox" />
 
 	<category title="Games" />
-	<item drawable="drastic" />
-	<item drawable="falloutshelter" />
-	<item drawable="flowfree" />
-	<item drawable="flowfreebridges" />
-	<item drawable="flowfreehexes" />
-	<item drawable="flowfreewarps" />
-	<item drawable="justchess" />
-	<item drawable="minecraft" />
+	<item drawable="a2050" />
+	<item drawable="antimine" />
+	<item drawable="anutotd" />
+	<item drawable="balancetheball" />
+	<item drawable="cuberite" />
+	<item drawable="glxy" />
+	<item drawable="mastermindy" />
+	<item drawable="mindustry" />
 	<item drawable="minesweeper" />
 	<item drawable="minetest" />
-	<item drawable="organtrail" />
-	<item drawable="pixeldungeon" />
-	<item drawable="retroarch" />
-	<item drawable="steam" />
-	<item drawable="trexrunner" />
+	<item drawable="opensudoku" />
+	<item drawable="puzzles" />
+	<item drawable="rocksndiamonds" />
+	<item drawable="screeps" />
+	<item drawable="shatteredpixeldungeon" />
+	<item drawable="sudoku" />
+	<item drawable="supertuxkart" />
+	<item drawable="towerjumper" />
+	<item drawable="unciv" />
+	<item drawable="zoysii" />
 
-	<category title="A-Z" />
+	<category title="System" />
+	<item drawable="amaze" />
+	<item drawable="appmanager" />
+	<item drawable="appspackagesinfo" />
+	<item drawable="blocker" />
+	<item drawable="busybox" />
+	<item drawable="classysharkexodus" />
+	<item drawable="cpustats" />
+	<item drawable="deviceinfo" />
+	<item drawable="diskusage" />
+	<item drawable="editor" />
+	<item drawable="etchdroid" />
+	<item drawable="gardine" />
+	<item drawable="ghostcommander" />
+	<item drawable="keepon" />
+	<item drawable="magisk" />
+	<item drawable="permissionchecker" />
+	<item drawable="phonesaver" />
+	<item drawable="prepaidguthaben" />
+	<item drawable="qr" />
+	<item drawable="redmoon" />
+	<item drawable="sai" />
+	<item drawable="scrambledexif" />
+	<item drawable="screencam" />
+	<item drawable="sharetoclipboard" />
+	<item drawable="shelter" />
+	<item drawable="smartpack" />
+	<item drawable="superfreezz" />
+	<item drawable="tapnturn" />
+	<item drawable="terminalemulator" />
+	<item drawable="timelimit" />
+	<item drawable="updater" />
+	<item drawable="usagedirect" />
+	<item drawable="wrongpinshutdown" />
+
+	<category title="A" />
 	<item drawable="a2048" />
 	<item drawable="a2050" />
 	<item drawable="aard" />
 	<item drawable="accrescent" />
+	<item drawable="accuweather" />
 	<item drawable="acdisplay" />
 	<item drawable="acm" />
+	<item drawable="acode" />
 	<item drawable="acrobat" />
 	<item drawable="actiondash" />
 	<item drawable="actionlauncher" />
@@ -115,6 +157,7 @@
 	<item drawable="alarmio" />
 	<item drawable="alarmklock" />
 	<item drawable="alditalk" />
+	<item drawable="alembicons" />
 	<item drawable="aliexpress" />
 	<item drawable="alipay" />
 	<item drawable="alliant" />
@@ -158,6 +201,7 @@
 	<item drawable="apps2org" />
 	<item drawable="apps2sd" />
 	<item drawable="appspackagesinfo" />
+	<item drawable="appverifier" />
 	<item drawable="arbeitszeitkonto" />
 	<item drawable="arbetsfor" />
 	<item drawable="archwikiviewer" />
@@ -184,6 +228,8 @@
 	<item drawable="aves" />
 	<item drawable="aviasales" />
 	<item drawable="azureauthenticator" />
+
+	<category title="B" />
 	<item drawable="b4ufly" />
 	<item drawable="balancetheball" />
 	<item drawable="bandcamp" />
@@ -225,6 +271,7 @@
 	<item drawable="blogger" />
 	<item drawable="blokada" />
 	<item drawable="blueminimal" />
+	<item drawable="bluesky" />
 	<item drawable="bluetooth" />
 	<item drawable="bluetoothkeyboardmouse" />
 	<item drawable="boinc" />
@@ -248,7 +295,10 @@
 	<item drawable="bus_circle" />
 	<item drawable="bus_square" />
 	<item drawable="busybox" />
+
+	<category title="C" />
 	<item drawable="cabinet" />
+	<item drawable="calculadora" />
 	<item drawable="calculator" />
 	<item drawable="calculatorplusplus" />
 	<item drawable="calendarcolor" />
@@ -336,6 +386,8 @@
 	<item drawable="curve" />
 	<item drawable="cyberghost" />
 	<item drawable="cythara" />
+
+	<category title="D" />
 	<item drawable="dal" />
 	<item drawable="darksky" />
 	<item drawable="darq" />
@@ -358,6 +410,7 @@
 	<item drawable="deviceinfo" />
 	<item drawable="devicesearch" />
 	<item drawable="devrant" />
+	<item drawable="dgis" />
 	<item drawable="dhlexpress" />
 	<item drawable="diaguard" />
 	<item drawable="dial" />
@@ -386,6 +439,7 @@
 	<item drawable="douban" />
 	<item drawable="downloadnavi" />
 	<item drawable="downloads" />
+	<item drawable="drastic" />
 	<item drawable="drawer" />
 	<item drawable="drinks" />
 	<item drawable="drive" />
@@ -404,6 +458,8 @@
 	<item drawable="duo" />
 	<item drawable="duolingo" />
 	<item drawable="duomobile" />
+
+	<category title="E" />
 	<item drawable="eapps" />
 	<item drawable="earmouse" />
 	<item drawable="earth" />
@@ -411,6 +467,8 @@
 	<item drawable="easy_diary" />
 	<item drawable="easyxkcd" />
 	<item drawable="ebay" />
+	<item drawable="ebaykleinanzeigen" />
+	<item drawable="ebaykleinanzeigen_old" />
 	<item drawable="ebtart" />
 	<item drawable="echo" />
 	<item drawable="editor" />
@@ -443,11 +501,14 @@
 	<item drawable="exodus" />
 	<item drawable="exodusprivacy" />
 	<item drawable="exportcontacts" />
+
+	<category title="F" />
 	<item drawable="facebook" />
 	<item drawable="fahrplaner" />
 	<item drawable="fairemail" />
 	<item drawable="faketraveler" />
 	<item drawable="faketraveller" />
+	<item drawable="falloutshelter" />
 	<item drawable="familylink" />
 	<item drawable="fasthub" />
 	<item drawable="fastreset" />
@@ -488,6 +549,10 @@
 	<item drawable="floatplane" />
 	<item drawable="florisboard" />
 	<item drawable="flow" />
+	<item drawable="flowfree" />
+	<item drawable="flowfreebridges" />
+	<item drawable="flowfreehexes" />
+	<item drawable="flowfreewarps" />
 	<item drawable="flstudiomobile" />
 	<item drawable="flux" />
 	<item drawable="flym" />
@@ -516,6 +581,8 @@
 	<item drawable="fruux" />
 	<item drawable="fuelflash" />
 	<item drawable="fujifilmconnect" />
+
+	<category title="G" />
 	<item drawable="g2step" />
 	<item drawable="gadgetbridge" />
 	<item drawable="gag" />
@@ -532,6 +599,7 @@
 	<item drawable="geekttrss" />
 	<item drawable="geicomobile" />
 	<item drawable="gelli" />
+	<item drawable="gemini" />
 	<item drawable="geogebra" />
 	<item drawable="geogebragraphingcalculator" />
 	<item drawable="geohashdroid" />
@@ -571,6 +639,7 @@
 	<item drawable="gplaystore" />
 	<item drawable="gpsstatus" />
 	<item drawable="gpstest" />
+	<item drawable="grayjay" />
 	<item drawable="greader" />
 	<item drawable="greatcourses" />
 	<item drawable="greenbits" />
@@ -581,6 +650,8 @@
 	<item drawable="gtasks" />
 	<item drawable="gtranslate" />
 	<item drawable="guardian" />
+
+	<category title="H" />
 	<item drawable="hackerskb" />
 	<item drawable="handynewsreader" />
 	<item drawable="hangouts" />
@@ -606,6 +677,8 @@
 	<item drawable="hue" />
 	<item drawable="hulu" />
 	<item drawable="humpback" />
+
+	<category title="I" />
 	<item drawable="icecat" />
 	<item drawable="iconrequest" />
 	<item drawable="icsdroid" />
@@ -631,6 +704,8 @@
 	<item drawable="itualight" />
 	<item drawable="ivi" />
 	<item drawable="iwanttfc" />
+
+	<category title="J" />
 	<item drawable="jamendo" />
 	<item drawable="jelly" />
 	<item drawable="jellyfin" />
@@ -640,7 +715,10 @@
 	<item drawable="jsupdater" />
 	<item drawable="jtx_board" />
 	<item drawable="juicessh" />
+	<item drawable="justchess" />
 	<item drawable="justeat" />
+
+	<category title="K" />
 	<item drawable="k9mail" />
 	<item drawable="kaku" />
 	<item drawable="kakugo" />
@@ -683,6 +761,8 @@
 	<item drawable="koyuspace" />
 	<item drawable="kuroba" />
 	<item drawable="kusc" />
+
+	<category title="L" />
 	<item drawable="lastfmscrobbler" />
 	<item drawable="lastpass" />
 	<item drawable="lastpassauthenticator" />
@@ -707,6 +787,7 @@
 	<item drawable="license" />
 	<item drawable="lichess" />
 	<item drawable="lighthouse" />
+	<item drawable="lighthouse2" />
 	<item drawable="lightning" />
 	<item drawable="line" />
 	<item drawable="lineagerec" />
@@ -729,6 +810,8 @@
 	<item drawable="loyaltycardkeychain" />
 	<item drawable="ltecleaner" />
 	<item drawable="luisterbieb" />
+
+	<category title="M" />
 	<item drawable="magicearth" />
 	<item drawable="magisk" />
 	<item drawable="mail" />
@@ -782,6 +865,9 @@
 	<item drawable="mifit" />
 	<item drawable="mimusic" />
 	<item drawable="mindustry" />
+	<item drawable="minecraft" />
+	<item drawable="minesweeper" />
+	<item drawable="minetest" />
 	<item drawable="minimal" />
 	<item drawable="minminguard" />
 	<item drawable="mirry" />
@@ -842,6 +928,8 @@
 	<item drawable="mytargets" />
 	<item drawable="mytim" />
 	<item drawable="myuu" />
+
+	<category title="N" />
 	<item drawable="n26" />
 	<item drawable="napster" />
 	<item drawable="navigator" />
@@ -887,6 +975,8 @@
 	<item drawable="nubank" />
 	<item drawable="nvidia" />
 	<item drawable="nzb360" />
+
+	<category title="O" />
 	<item drawable="oandbackup" />
 	<item drawable="oandbackupx" />
 	<item drawable="octodroid" />
@@ -931,6 +1021,7 @@
 	<item drawable="orbot" />
 	<item drawable="orfox" />
 	<item drawable="organicmaps" />
+	<item drawable="organtrail" />
 	<item drawable="orgzly" />
 	<item drawable="orgzly_revived" />
 	<item drawable="orologio" />
@@ -947,7 +1038,10 @@
 	<item drawable="overdrive" />
 	<item drawable="owncloud" />
 	<item drawable="oxdrive" />
+
+	<category title="P" />
 	<item drawable="packlist" />
+	<item drawable="pady" />
 	<item drawable="pairz" />
 	<item drawable="palmcalc2019" />
 	<item drawable="passandroid" />
@@ -980,6 +1074,7 @@
 	<item drawable="pin" />
 	<item drawable="pinterest" />
 	<item drawable="piwigo" />
+	<item drawable="pixeldungeon" />
 	<item drawable="pixellab" />
 	<item drawable="pixiv" />
 	<item drawable="pixlr" />
@@ -1019,6 +1114,8 @@
 	<item drawable="ps_app" />
 	<item drawable="pslab" />
 	<item drawable="puzzles" />
+
+	<category title="Q" />
 	<item drawable="qfield" />
 	<item drawable="qgroundcontrol" />
 	<item drawable="qksms" />
@@ -1033,6 +1130,8 @@
 	<item drawable="quizlet" />
 	<item drawable="quran" />
 	<item drawable="quranformyandroid" />
+
+	<category title="R" />
 	<item drawable="radio" />
 	<item drawable="radiodroid" />
 	<item drawable="radiofrance" />
@@ -1061,6 +1160,7 @@
 	<item drawable="remotedesktop" />
 	<item drawable="reroll" />
 	<item drawable="retrica" />
+	<item drawable="retroarch" />
 	<item drawable="revolut" />
 	<item drawable="revolution" />
 	<item drawable="rewards" />
@@ -1078,6 +1178,8 @@
 	<item drawable="rtsinfo" />
 	<item drawable="ruler" />
 	<item drawable="runnerup" />
+
+	<category title="S" />
 	<item drawable="sai" />
 	<item drawable="samsunghealth" />
 	<item drawable="satorbit" />
@@ -1118,6 +1220,7 @@
 	<item drawable="shazam" />
 	<item drawable="shell" />
 	<item drawable="shelter" />
+	<item drawable="shizuku" />
 	<item drawable="shoppinglist" />
 	<item drawable="showly20" />
 	<item drawable="shrug" />
@@ -1193,6 +1296,7 @@
 	<item drawable="standardnotes" />
 	<item drawable="starbucks" />
 	<item drawable="starkeverben" />
+	<item drawable="steam" />
 	<item drawable="steamchat" />
 	<item drawable="stellarium" />
 	<item drawable="stepstone" />
@@ -1227,6 +1331,8 @@
 	<item drawable="syphon" />
 	<item drawable="systemappmover" />
 	<item drawable="systemuituner" />
+
+	<category title="T" />
 	<item drawable="tachiyomi" />
 	<item drawable="talalarmo" />
 	<item drawable="tan2go" />
@@ -1292,6 +1398,7 @@
 	<item drawable="trebleshot" />
 	<item drawable="trello" />
 	<item drawable="trenord" />
+	<item drawable="trexrunner" />
 	<item drawable="tricount" />
 	<item drawable="trigger" />
 	<item drawable="tumblr" />
@@ -1307,6 +1414,8 @@
 	<item drawable="twitlatte" />
 	<item drawable="twitter" />
 	<item drawable="twrp" />
+
+	<category title="U" />
 	<item drawable="uber" />
 	<item drawable="ulogger" />
 	<item drawable="ultrasonic" />
@@ -1323,6 +1432,8 @@
 	<item drawable="urbandroid" />
 	<item drawable="usagedirect" />
 	<item drawable="uspsmobile" />
+
+	<category title="V" />
 	<item drawable="vancedmanager" />
 	<item drawable="vanillamusic" />
 	<item drawable="vasttrafik" />
@@ -1345,6 +1456,8 @@
 	<item drawable="vrmediaplayer" />
 	<item drawable="vrnetarif" />
 	<item drawable="vsco" />
+
+	<category title="W" />
 	<item drawable="waistline" />
 	<item drawable="wallabagger" />
 	<item drawable="wallpapers" />
@@ -1388,11 +1501,16 @@
 	<item drawable="wrongpinshutdown" />
 	<item drawable="wunderlist" />
 	<item drawable="wx" />
+
+	<category title="X" />
 	<item drawable="xabber" />
+	<item drawable="xbox" />
 	<item drawable="xdadevelopers" />
 	<item drawable="xdalabs" />
 	<item drawable="xposedinstaller" />
 	<item drawable="xprivacy" />
+
+	<category title="Y" />
 	<item drawable="yaauto" />
 	<item drawable="yadrive" />
 	<item drawable="yaeda" />
@@ -1416,6 +1534,8 @@
 	<item drawable="ytstudio" />
 	<item drawable="yubicoauthenticator" />
 	<item drawable="yuzubrowser" />
+
+	<category title="Z" />
 	<item drawable="zapp" />
 	<item drawable="zarchiver" />
 	<item drawable="zeronet" />
