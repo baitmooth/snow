@@ -11,9 +11,23 @@ import java.util.stream.Stream;
 public class XMLCreator {
     private static final Pattern DRAWABLE_PATTERN = Pattern.compile("drawable=\"([\\w_]+)\"");
     private static final Locale LOCALE = Locale.ROOT;
+    private static final Set<String> NON_ALPHABETICAL_CATEGORIES = Set.of("Folders", "Calendar");
 
     public static void mergeNewDrawables(String valuesDir, String generatedDir, String assetPath, String iconsDir,
-                                         String xmlDir, String appFilterPath) throws IOException {
+                                         String xmlDir, String appFilterPath, CategoryDiscoveryService categoryDiscoveryService) throws IOException {
+
+        // Build drawable to package name map
+        Map<String, String> drawableToPackageName = new HashMap<>();
+        Path appFilter = Paths.get(appFilterPath);
+        if (Files.exists(appFilter)) {
+            String content = Files.readString(appFilter);
+            Matcher m = Pattern.compile("component=\"ComponentInfo\\{([\\w.]+)/[\\w.]+\\}\"\\s+drawable=\"([\\w_]+)\"").matcher(content);
+            while (m.find()) {
+                String packageName = m.group(1);
+                String drawableName = m.group(2);
+                drawableToPackageName.putIfAbsent(drawableName, packageName);
+            }
+        }
 
         // 1. Load all available icon names from the directory first
         Set<String> availableIcons = new HashSet<>();
@@ -44,7 +58,11 @@ public class XMLCreator {
         categories.put("Numbers", new TreeSet<>());
         categories.put("Letters", new TreeSet<>());
         categories.put("0-9", new TreeSet<>());
-        categories.put("A-Z", new TreeSet<>());
+
+        // Pre-initialize A-Z categories
+        for (char c = 'A'; c <= 'Z'; c++) {
+            categories.put(String.valueOf(c), new TreeSet<>());
+        }
 
         // 2. Load existing data, strictly filtering against availableIcons
         // Note: Arcticons looks for newdrawables.xml in generatedDir
@@ -57,7 +75,7 @@ public class XMLCreator {
         loadLinesToSet(pathSystem, system, availableIcons);
 
         // 3. Classify all icons (using the already loaded set)
-        availableIcons.forEach(name -> classify(name, categories));
+        availableIcons.forEach(name -> classify(name, categories, drawableToPackageName, categoryDiscoveryService));
 
         // Save total count
         int totalIcons = categories.values().stream()
@@ -79,7 +97,8 @@ public class XMLCreator {
         StringBuilder xml = new StringBuilder("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n<version>1</version>\n");
         categories.forEach((title, items) -> {
             if (!items.isEmpty()) {
-                xml.append(String.format(LOCALE, "\n\t<category title=\"%s\" />\n", title));
+                String escapedTitle = title.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\"", "&quot;").replace("'", "&apos;");
+                xml.append(String.format(LOCALE, "\n\t<category title=\"%s\" />\n", escapedTitle));
                 for (String item : items) {
                     xml.append(String.format(LOCALE, "\t<item drawable=\"%s\" />\n", item));
                 }
@@ -97,23 +116,49 @@ public class XMLCreator {
                 Path.of(xmlDir, "icon_config.xml"));
     }
 
-    private static void classify(String name, Map<String, Set<String>> categories) {
-        if (categories.get("New").contains(name) || 
-            categories.get("Games").contains(name) || 
-            categories.get("System").contains(name)) {
-            return;
+    private static void classify(String name, Map<String, Set<String>> categories, Map<String, String> drawableToPackageName, CategoryDiscoveryService categoryDiscoveryService) {
+        String category = null;
+
+        // Try to get category from F-Droid
+        String packageName = drawableToPackageName.get(name);
+        if (packageName != null) {
+            List<String> fDroidCategories = categoryDiscoveryService.getCategories(packageName);
+            if (fDroidCategories != null && !fDroidCategories.isEmpty()) {
+                category = fDroidCategories.get(0);
+            }
+        }
+        
+        // Fallback patterns if no F-Droid category found
+        if (category == null) {
+            if (name.startsWith("folder_")) category = "Folders";
+            else if (name.startsWith("calendar_")) category = "Calendar";
+            else if (name.startsWith("google_")) category = "Google";
+            else if (name.startsWith("microsoft_") || name.startsWith("xbox")) category = "Microsoft";
+            else if (name.startsWith("emoji_")) category = "Emoji";
+            else if (name.startsWith("letter_")) category = "Letters";
+            else if (name.startsWith("currency_") || name.startsWith("symbol_")) category = "Symbols";
+            else if (name.startsWith("number_")) category = "Numbers";
+            else if (name.startsWith("_")) category = "0-9";
         }
 
-        if (name.startsWith("folder_")) categories.get("Folders").add(name);
-        else if (name.startsWith("calendar_")) categories.get("Calendar").add(name);
-        else if (name.startsWith("google_")) categories.get("Google").add(name);
-        else if (name.startsWith("microsoft_") || name.startsWith("xbox")) categories.get("Microsoft").add(name);
-        else if (name.startsWith("emoji_")) categories.get("Emoji").add(name);
-        else if (name.startsWith("letter_")) categories.get("Letters").add(name);
-        else if (name.startsWith("currency_") || name.startsWith("symbol_")) categories.get("Symbols").add(name);
-        else if (name.startsWith("number_")) categories.get("Numbers").add(name);
-        else if (name.startsWith("_")) categories.get("0-9").add(name);
-        else categories.get("A-Z").add(name);
+        // Add to thematic category
+        if (category != null && categories.containsKey(category)) {
+            categories.get(category).add(name);
+        }
+
+        // Alphabetical assignment (skip if specifically excluded)
+        if (category == null || !NON_ALPHABETICAL_CATEGORIES.contains(category)) {
+            if (name.startsWith("_")) {
+                categories.get("0-9").add(name);
+            } else {
+                String firstLetter = name.substring(0, 1).toUpperCase();
+                if (categories.containsKey(firstLetter)) {
+                    categories.get(firstLetter).add(name);
+                } else {
+                    categories.get("Symbols").add(name);
+                }
+            }
+        }
     }
 
     private static void loadDrawablesFromXml(Path path, Set<String> target, Set<String> validIcons) {

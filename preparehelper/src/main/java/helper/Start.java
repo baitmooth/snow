@@ -27,6 +27,14 @@ public class Start {
         final String flavor = args[0];
         System.out.println("Processing flavor: " + flavor);
 
+        final CategoryDiscoveryService categoryDiscoveryService = new CategoryDiscoveryService();
+        try {
+            categoryDiscoveryService.initialize();
+        } catch (Exception e) {
+            System.err.println("Failed to initialize CategoryDiscoveryService: " + e.getMessage());
+            return;
+        }
+
         final String destDir = switch (flavor) {
             case "you"      -> root.resolve("app/src/you/res/drawable-anydpi").toString();
             case "dayNight" -> root.resolve("app/src/dayNight/res/drawable-anydpi").toString();
@@ -48,7 +56,8 @@ public class Start {
 
             var xmlTask = CompletableFuture.runAsync(() -> {
                 runTimedTask("XML Merger", () ->
-                        XMLCreator.mergeNewDrawables(valuesDir, generatedDir, assetsDir, sourceDir, xmlDir, appFilter));
+                        XMLCreator.mergeNewDrawables(valuesDir, generatedDir, assetsDir, sourceDir, xmlDir, appFilter, categoryDiscoveryService));
+                categoryDiscoveryService.writeUnmappedReport();
             }, executor);
 
             CompletableFuture.allOf(svgTask, xmlTask).join();
