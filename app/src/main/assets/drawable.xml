@@ -106,22 +106,30 @@
 	<item drawable="a2050" />
 	<item drawable="antimine" />
 	<item drawable="anutotd" />
+	<item drawable="appleflinger" />
 	<item drawable="balancetheball" />
 	<item drawable="cuberite" />
 	<item drawable="glxy" />
+	<item drawable="justchess" />
+	<item drawable="lexica" />
 	<item drawable="mastermindy" />
 	<item drawable="mindustry" />
 	<item drawable="minesweeper" />
 	<item drawable="minetest" />
 	<item drawable="opensudoku" />
 	<item drawable="puzzles" />
+	<item drawable="reckoningskills" />
+	<item drawable="regex" />
 	<item drawable="rocksndiamonds" />
 	<item drawable="screeps" />
 	<item drawable="shatteredpixeldungeon" />
+	<item drawable="solitaire" />
+	<item drawable="solitairecg" />
 	<item drawable="sudoku" />
 	<item drawable="supertuxkart" />
 	<item drawable="towerjumper" />
 	<item drawable="unciv" />
+	<item drawable="vectorpinball" />
 	<item drawable="zoysii" />
 
 	<category title="System" />
@@ -140,6 +148,7 @@
 	<item drawable="ghostcommander" />
 	<item drawable="keepon" />
 	<item drawable="magisk" />
+	<item drawable="packagemanager" />
 	<item drawable="permissionchecker" />
 	<item drawable="phonesaver" />
 	<item drawable="prepaidguthaben" />
@@ -158,6 +167,9 @@
 	<item drawable="updater" />
 	<item drawable="usagedirect" />
 	<item drawable="wrongpinshutdown" />
+
+	<category title="Symbols" />
+	<item drawable="2048" />
 
 	<category title="A" />
 	<item drawable="a2048" />
@@ -210,6 +222,7 @@
 	<item drawable="ampere" />
 	<item drawable="an2linux" />
 	<item drawable="anchor" />
+	<item drawable="ancvbeneficiaire" />
 	<item drawable="andotp" />
 	<item drawable="android" />
 	<item drawable="androidcustomization" />
@@ -241,6 +254,7 @@
 	<item drawable="apps2org" />
 	<item drawable="apps2sd" />
 	<item drawable="appspackagesinfo" />
+	<item drawable="appstore" />
 	<item drawable="appverifier" />
 	<item drawable="arbeitszeitkonto" />
 	<item drawable="arbetsfor" />
@@ -255,14 +269,17 @@
 	<item drawable="audioanchor" />
 	<item drawable="audiofx" />
 	<item drawable="audiotechnicaconnect" />
+	<item drawable="auditor" />
 	<item drawable="auroradroid" />
 	<item drawable="auroraservices" />
 	<item drawable="aurorastore" />
 	<item drawable="authenticate" />
 	<item drawable="authenticator" />
+	<item drawable="authpass" />
 	<item drawable="authy" />
 	<item drawable="autoairplanemode" />
 	<item drawable="autotools" />
+	<item drawable="auxio" />
 	<item drawable="avans" />
 	<item drawable="aves" />
 	<item drawable="aviasales" />
@@ -278,12 +295,16 @@
 	<item drawable="banking" />
 	<item drawable="banking4" />
 	<item drawable="banquepostale" />
+	<item drawable="banxo" />
 	<item drawable="barcode" />
 	<item drawable="barinsta" />
+	<item drawable="battery" />
 	<item drawable="batterycalibration" />
+	<item drawable="batterychargelimit" />
 	<item drawable="bauhaus" />
 	<item drawable="bbm" />
 	<item drawable="beats" />
+	<item drawable="beautyxt" />
 	<item drawable="berd_spoke_calculator" />
 	<item drawable="bestbuy" />
 	<item drawable="bestiary" />
@@ -310,10 +331,12 @@
 	<item drawable="bluesky" />
 	<item drawable="bluetooth" />
 	<item drawable="bluetoothkeyboardmouse" />
+	<item drawable="bob" />
 	<item drawable="boinc" />
 	<item drawable="book" />
 	<item drawable="booking" />
 	<item drawable="bookreader" />
+	<item drawable="boursobank" />
 	<item drawable="boxcryptor" />
 	<item drawable="brackeyside" />
 	<item drawable="brave" />
@@ -390,6 +413,7 @@
 	<item drawable="commons" />
 	<item drawable="commonvoice" />
 	<item drawable="compass" />
+	<item drawable="congstar" />
 	<item drawable="connect" />
 	<item drawable="contacts" />
 	<item drawable="contactscircle" />
@@ -429,6 +453,7 @@
 	<item drawable="daserste" />
 	<item drawable="davdroid" />
 	<item drawable="dawn" />
+	<item drawable="dbnavigator" />
 	<item drawable="deck" />
 	<item drawable="deco" />
 	<item drawable="decsyncc" />
@@ -454,6 +479,7 @@
 	<item drawable="dimmer" />
 	<item drawable="diode" />
 	<item drawable="dir" />
+	<item drawable="discord" />
 	<item drawable="discourse" />
 	<item drawable="discovergy" />
 	<item drawable="diskusage" />
@@ -545,6 +571,7 @@
 	<item drawable="familylink" />
 	<item drawable="fasthub" />
 	<item drawable="fastreset" />
+	<item drawable="fategrandorder" />
 	<item drawable="fbreader" />
 	<item drawable="fdroid" />
 	<item drawable="fdroidclassic" />
@@ -556,6 +583,7 @@
 	<item drawable="fennec" />
 	<item drawable="ffupdater" />
 	<item drawable="fidelity" />
+	<item drawable="filbleu" />
 	<item drawable="files" />
 	<item drawable="filmstaden" />
 	<item drawable="financemanager" />
@@ -600,6 +628,11 @@
 	<item drawable="fossilhybrid" />
 	<item drawable="foxitpdf" />
 	<item drawable="foxydroid" />
+	<item drawable="francetravailespace" />
+	<item drawable="francetravailformation" />
+	<item drawable="francetravailoffres" />
+	<item drawable="francetravailrecrute" />
+	<item drawable="francetravailsphereemploi" />
 	<item drawable="freebox" />
 	<item drawable="freebox2" />
 	<item drawable="freedcamviewer" />
@@ -637,6 +670,7 @@
 	<item drawable="geohashdroid" />
 	<item drawable="geologischezeitskala" />
 	<item drawable="georinexlogger" />
+	<item drawable="geovelo" />
 	<item drawable="ghost" />
 	<item drawable="ghostcommander" />
 	<item drawable="github" />
@@ -647,6 +681,7 @@
 	<item drawable="gkeep" />
 	<item drawable="gkeyboard" />
 	<item drawable="gkeyboardjp" />
+	<item drawable="glsbanking" />
 	<item drawable="glxy" />
 	<item drawable="gmail" />
 	<item drawable="gmaps" />
@@ -695,6 +730,7 @@
 	<item drawable="headphones" />
 	<item drawable="heartbeat" />
 	<item drawable="hearth" />
+	<item drawable="heliboard" />
 	<item drawable="hellotalk" />
 	<item drawable="helm" />
 	<item drawable="helmsync" />
@@ -717,6 +753,7 @@
 	<item drawable="icsx" />
 	<item drawable="idagio" />
 	<item drawable="identiconizer" />
+	<item drawable="idfmobilites" />
 	<item drawable="ifixit" />
 	<item drawable="ifood" />
 	<item drawable="imagepipe" />
@@ -726,6 +763,7 @@
 	<item drawable="imgurviewer" />
 	<item drawable="inaturalist" />
 	<item drawable="infinity" />
+	<item drawable="info" />
 	<item drawable="informeddelivery" />
 	<item drawable="instacart" />
 	<item drawable="instagrabber" />
@@ -757,6 +795,7 @@
 	<item drawable="kamusku" />
 	<item drawable="kanadrill" />
 	<item drawable="kaqui" />
+	<item drawable="karbon" />
 	<item drawable="kdeconnect" />
 	<item drawable="keep" />
 	<item drawable="keepa" />
@@ -781,6 +820,7 @@
 	<item drawable="kiwix" />
 	<item drawable="kleinewettervorschaudeutschland" />
 	<item drawable="knockonports" />
+	<item drawable="kobobooks" />
 	<item drawable="kobocollect" />
 	<item drawable="kodi" />
 	<item drawable="kodiremote" />
@@ -793,6 +833,7 @@
 	<item drawable="koyuspace" />
 	<item drawable="kuroba" />
 	<item drawable="kusc" />
+	<item drawable="kvaesitso" />
 
 	<category title="L" />
 	<item drawable="lastfmscrobbler" />
@@ -912,6 +953,7 @@
 	<item drawable="mmt365" />
 	<item drawable="mobilepay" />
 	<item drawable="modpizza" />
+	<item drawable="molly" />
 	<item drawable="money" />
 	<item drawable="moneymanagerex" />
 	<item drawable="moneywallet" />
@@ -963,6 +1005,7 @@
 
 	<category title="N" />
 	<item drawable="n26" />
+	<item drawable="naolib" />
 	<item drawable="napster" />
 	<item drawable="navigator" />
 	<item drawable="ncalcplus" />
@@ -988,6 +1031,8 @@
 	<item drawable="nfctools" />
 	<item drawable="nhbooks" />
 	<item drawable="nine" />
+	<item drawable="nintendomusic" />
+	<item drawable="nintendoswitchonline" />
 	<item drawable="noice" />
 	<item drawable="nordnet" />
 	<item drawable="nordvpn" />
@@ -998,6 +1043,7 @@
 	<item drawable="notes" />
 	<item drawable="notificationcron" />
 	<item drawable="notificationnotes" />
+	<item drawable="notion" />
 	<item drawable="nova" />
 	<item drawable="nova7" />
 	<item drawable="nprnews" />
@@ -1036,6 +1082,7 @@
 	<item drawable="openconnect" />
 	<item drawable="opencontacts" />
 	<item drawable="opencvmanager" />
+	<item drawable="openfoodfacts" />
 	<item drawable="openlauncher" />
 	<item drawable="openmaps" />
 	<item drawable="openmensa" />
@@ -1070,6 +1117,7 @@
 	<item drawable="oxdrive" />
 
 	<category title="P" />
+	<item drawable="packagemanager" />
 	<item drawable="packlist" />
 	<item drawable="pady" />
 	<item drawable="pairz" />
@@ -1090,8 +1138,10 @@
 	<item drawable="pep" />
 	<item drawable="periodical" />
 	<item drawable="permissionchecker" />
+	<item drawable="phone" />
 	<item drawable="phonedial" />
 	<item drawable="phonesaver" />
+	<item drawable="phonetrack" />
 	<item drawable="phonograph" />
 	<item drawable="photoeditor" />
 	<item drawable="pianopartner2" />
@@ -1134,6 +1184,7 @@
 	<item drawable="primitiveftpd" />
 	<item drawable="privacy" />
 	<item drawable="privacybrowser" />
+	<item drawable="privacyfriendlynotes" />
 	<item drawable="privacyshade" />
 	<item drawable="privatelocation" />
 	<item drawable="proexpense" />
@@ -1187,6 +1238,7 @@
 	<item drawable="remixeddungeon" />
 	<item drawable="remotedesktop" />
 	<item drawable="reroll" />
+	<item drawable="resabus" />
 	<item drawable="retrica" />
 	<item drawable="retroarch" />
 	<item drawable="revolut" />
@@ -1291,8 +1343,10 @@
 	<item drawable="slidereddit" />
 	<item drawable="slimsocial" />
 	<item drawable="smartpack" />
+	<item drawable="snapbridge" />
 	<item drawable="snapchat" />
 	<item drawable="snapseed" />
+	<item drawable="sncfconnect" />
 	<item drawable="snippet" />
 	<item drawable="snooperstopper" />
 	<item drawable="snow" />
@@ -1320,6 +1374,7 @@
 	<item drawable="spotify" />
 	<item drawable="spritpreise" />
 	<item drawable="sproutedpixeldungeon" />
+	<item drawable="squeezer" />
 	<item drawable="stadtmobil" />
 	<item drawable="standardnotes" />
 	<item drawable="starbucks" />
@@ -1334,6 +1389,7 @@
 	<item drawable="stormradar" />
 	<item drawable="strava" />
 	<item drawable="streaming" />
+	<item drawable="streetcomplete" />
 	<item drawable="studiumunict" />
 	<item drawable="stumbler" />
 	<item drawable="su" />
@@ -1361,13 +1417,17 @@
 
 	<category title="T" />
 	<item drawable="tachiyomi" />
+	<item drawable="tadidfm" />
+	<item drawable="tagmo" />
 	<item drawable="talalarmo" />
 	<item drawable="tan2go" />
+	<item drawable="tao" />
 	<item drawable="tapemeasure" />
 	<item drawable="tapnturn" />
 	<item drawable="tasker" />
 	<item drawable="tasks" />
 	<item drawable="taskwarrior" />
+	<item drawable="tbm" />
 	<item drawable="teams" />
 	<item drawable="teamviewer" />
 	<item drawable="telegram" />
@@ -1378,6 +1438,7 @@
 	<item drawable="termux" />
 	<item drawable="terragenesis" />
 	<item drawable="tether" />
+	<item drawable="tgvinouipro" />
 	<item drawable="themes" />
 	<item drawable="theswitch" />
 	<item drawable="thinkfree" />
@@ -1461,6 +1522,7 @@
 	<item drawable="uspsmobile" />
 
 	<category title="V" />
+	<item drawable="vanadium" />
 	<item drawable="vancedmanager" />
 	<item drawable="vanillamusic" />
 	<item drawable="vasttrafik" />
@@ -1482,11 +1544,13 @@
 	<item drawable="voice" />
 	<item drawable="vrmediaplayer" />
 	<item drawable="vrnetarif" />
+	<item drawable="vrtmax" />
 	<item drawable="vsco" />
 
 	<category title="W" />
 	<item drawable="waistline" />
 	<item drawable="wallabagger" />
+	<item drawable="wallet" />
 	<item drawable="wallpapers" />
 	<item drawable="wand" />
 	<item drawable="warden" />
@@ -1549,6 +1613,7 @@
 	<item drawable="yapd" />
 	<item drawable="yatse" />
 	<item drawable="yaweather" />
+	<item drawable="yelo" />
 	<item drawable="yetanothercallblocker" />
 	<item drawable="yetanothervideoplayer" />
 	<item drawable="ynab" />
@@ -1571,5 +1636,441 @@
 	<item drawable="zonky" />
 	<item drawable="zooforzotero" />
 	<item drawable="zoysii" />
+
+	<category title="Icon Pack" />
+	<item drawable="alembicons" />
+	<item drawable="arcticons" />
+	<item drawable="snow" />
+	<item drawable="themes" />
+	<item drawable="turtl" />
+
+	<category title="Multimedia" />
+	<item drawable="antennapod" />
+	<item drawable="audioanchor" />
+	<item drawable="auxio" />
+	<item drawable="aves" />
+	<item drawable="binaryeye" />
+	<item drawable="chubbyclick" />
+	<item drawable="cinelog" />
+	<item drawable="dsub" />
+	<item drawable="echo" />
+	<item drawable="escapepod" />
+	<item drawable="espeak" />
+	<item drawable="galerie1" />
+	<item drawable="gelli" />
+	<item drawable="jellyfin" />
+	<item drawable="kid3" />
+	<item drawable="kodi" />
+	<item drawable="libreflix" />
+	<item drawable="listen" />
+	<item drawable="materialplayer" />
+	<item drawable="metroplayer" />
+	<item drawable="mpd" />
+	<item drawable="mpv" />
+	<item drawable="mucke" />
+	<item drawable="music" />
+	<item drawable="muzei" />
+	<item drawable="odyssey" />
+	<item drawable="opencamera" />
+	<item drawable="oscilloscope" />
+	<item drawable="qrcode" />
+	<item drawable="ruler" />
+	<item drawable="semitone" />
+	<item drawable="squeezer" />
+	<item drawable="tapemeasure" />
+	<item drawable="transistor" />
+	<item drawable="tuner" />
+	<item drawable="vanillamusic" />
+	<item drawable="vinyl" />
+	<item drawable="vlc" />
+	<item drawable="voice" />
+	<item drawable="waves" />
+	<item drawable="yaga" />
+	<item drawable="ytmusic" />
+	<item drawable="zapp" />
+
+	<category title="Diet" />
+	<item drawable="diaguard" />
+	<item drawable="foodtracker" />
+	<item drawable="openfoodfacts" />
+	<item drawable="openpetfoodfacts" />
+	<item drawable="seasoncalendar" />
+	<item drawable="waistline" />
+
+	<category title="Phone &amp; SMS" />
+	<item drawable="emeralddialer" />
+	<item drawable="jitsimeet" />
+	<item drawable="linphone" />
+	<item drawable="nextcloudsms" />
+	<item drawable="silence" />
+	<item drawable="yetanothercallblocker" />
+
+	<category title="Sports &amp; Health" />
+	<item drawable="circuittrainer" />
+	<item drawable="detoxdroid" />
+	<item drawable="ditmm" />
+	<item drawable="fitotrack" />
+	<item drawable="headi" />
+	<item drawable="openbeautyfacts" />
+	<item drawable="openmensa" />
+	<item drawable="opentracks" />
+	<item drawable="pleestracker" />
+
+	<category title="Finance Manager" />
+	<item drawable="financemanager" />
+	<item drawable="fireflyiiimobile" />
+	<item drawable="moneymanagerex" />
+	<item drawable="moneywallet" />
+	<item drawable="myexpenses" />
+	<item drawable="proexpense" />
+	<item drawable="simpleaccounting" />
+
+	<category title="Security" />
+	<item drawable="afwall" />
+	<item drawable="exodusprivacy" />
+	<item drawable="keychain" />
+	<item drawable="knockonports" />
+	<item drawable="motioneyeapp" />
+	<item drawable="okcagent" />
+	<item drawable="ripple" />
+	<item drawable="trackercontrol" />
+
+	<category title="Navigation" />
+	<item drawable="cityzen" />
+	<item drawable="metrodroid" />
+	<item drawable="oeffidirections" />
+	<item drawable="oeffiplans" />
+	<item drawable="oeffistations" />
+	<item drawable="openmaps" />
+	<item drawable="organicmaps" />
+	<item drawable="osmand" />
+	<item drawable="pmetro" />
+	<item drawable="railwaystationphotos" />
+	<item drawable="skymap" />
+	<item drawable="streetcomplete" />
+	<item drawable="towercollector" />
+	<item drawable="trafictransportsparisiens" />
+	<item drawable="trailsense" />
+	<item drawable="transportr" />
+
+	<category title="Development" />
+	<item drawable="acode" />
+	<item drawable="faketraveler" />
+	<item drawable="mgit" />
+	<item drawable="octodroid" />
+	<item drawable="shadereditor" />
+	<item drawable="termux" />
+	<item drawable="trebleinfo" />
+
+	<category title="Download" />
+	<item drawable="biglybt" />
+	<item drawable="deluge" />
+	<item drawable="downloadnavi" />
+	<item drawable="libretorrent" />
+	<item drawable="transdroid" />
+	<item drawable="transdrone" />
+
+	<category title="Internet" />
+	<item drawable="andstatus" />
+	<item drawable="appreactornews" />
+	<item drawable="archwikiviewer" />
+	<item drawable="campfire" />
+	<item drawable="changedetection" />
+	<item drawable="cirrus" />
+	<item drawable="clima" />
+	<item drawable="commons" />
+	<item drawable="conversations" />
+	<item drawable="critical_maps" />
+	<item drawable="davdroid" />
+	<item drawable="deck" />
+	<item drawable="diaspora" />
+	<item drawable="disroot" />
+	<item drawable="droidshows" />
+	<item drawable="eduroamcat" />
+	<item drawable="element" />
+	<item drawable="fedilab" />
+	<item drawable="feeder" />
+	<item drawable="fennec" />
+	<item drawable="forecastie" />
+	<item drawable="fossbrowser" />
+	<item drawable="freifunkkarte" />
+	<item drawable="fruitradar" />
+	<item drawable="geekttrss" />
+	<item drawable="gitlab" />
+	<item drawable="gitnex" />
+	<item drawable="goblim" />
+	<item drawable="handynewsreader" />
+	<item drawable="imgurviewer" />
+	<item drawable="kleinewettervorschaudeutschland" />
+	<item drawable="koyuspace" />
+	<item drawable="lightning" />
+	<item drawable="mumla" />
+	<item drawable="musicbrainz" />
+	<item drawable="newpipe" />
+	<item drawable="news" />
+	<item drawable="nextcloudnotes" />
+	<item drawable="ooniprobe" />
+	<item drawable="openvpn" />
+	<item drawable="privacybrowser" />
+	<item drawable="radiodroid" />
+	<item drawable="redreader" />
+	<item drawable="revolution" />
+	<item drawable="ring" />
+	<item drawable="shell" />
+	<item drawable="simplesearch" />
+	<item drawable="skytube" />
+	<item drawable="slimsocial" />
+	<item drawable="trigger" />
+	<item drawable="tusky" />
+	<item drawable="twire" />
+	<item drawable="ultrasonic" />
+	<item drawable="untrackme" />
+	<item drawable="watomatic" />
+	<item drawable="websitemonitor" />
+	<item drawable="whatsapp" />
+	<item drawable="whatsappwebtogo" />
+	<item drawable="whatsdeleted" />
+	<item drawable="wikipedia" />
+	<item drawable="wire" />
+	<item drawable="youtube" />
+
+	<category title="Pass Wallet" />
+	<item drawable="passandroid" />
+
+	<category title="Education" />
+	<item drawable="aard" />
+	<item drawable="ankidroid" />
+	<item drawable="bible" />
+	<item drawable="boinc" />
+	<item drawable="commonvoice" />
+	<item drawable="cronograma" />
+	<item drawable="deepl" />
+	<item drawable="easyxkcd" />
+	<item drawable="equate" />
+	<item drawable="geologischezeitskala" />
+	<item drawable="growtracker" />
+	<item drawable="kaku" />
+	<item drawable="kakugo" />
+	<item drawable="kaqui" />
+	<item drawable="libreofficeviewer" />
+	<item drawable="librerapro" />
+	<item drawable="linuxcommandlibrary" />
+	<item drawable="logischeselbstverteidigung" />
+	<item drawable="look4sat" />
+	<item drawable="onelist" />
+	<item drawable="packlist" />
+	<item drawable="pslab" />
+	<item drawable="quickdic" />
+	<item drawable="starkeverben" />
+	<item drawable="survivalmanual" />
+	<item drawable="unitconverterultimate" />
+	<item drawable="whobird" />
+	<item drawable="wx" />
+
+	<category title="Graphics" />
+	<item drawable="freedcamviewer" />
+	<item drawable="imagepipe" />
+	<item drawable="metadataremover" />
+	<item drawable="opennotescanner" />
+	<item drawable="sendreducedfree" />
+
+	<category title="Emulator" />
+	<item drawable="chip" />
+	<item drawable="moonlight" />
+	<item drawable="ppsspp" />
+	<item drawable="retroarch" />
+
+	<category title="Time" />
+	<item drawable="activitywatch" />
+	<item drawable="alarmklock" />
+	<item drawable="birthdaydroid" />
+	<item drawable="goodtime" />
+	<item drawable="notificationcron" />
+	<item drawable="stockswidget" />
+	<item drawable="trackworktime" />
+
+	<category title="Cloud Storage &amp; File Sync" />
+	<item drawable="decsyncc" />
+	<item drawable="owncloud" />
+	<item drawable="seafile" />
+	<item drawable="syncopoli" />
+	<item drawable="syncthing" />
+
+	<category title="Location Tracker &amp; Sharer" />
+	<item drawable="gpstest" />
+	<item drawable="hauk" />
+	<item drawable="phonetrack" />
+	<item drawable="satstat" />
+	<item drawable="tinytraveltracker" />
+	<item drawable="trackbook" />
+	<item drawable="ulogger" />
+
+	<category title="Email" />
+	<item drawable="anonaddy" />
+	<item drawable="fairemail" />
+	<item drawable="k9mail" />
+	<item drawable="simplelogin" />
+	<item drawable="tutanota" />
+
+	<category title="File Transfer" />
+	<item drawable="kdeconnect" />
+
+	<category title="Password &amp; 2FA" />
+	<item drawable="aegis" />
+	<item drawable="authpass" />
+	<item drawable="freeotp" />
+	<item drawable="freeotpplus" />
+	<item drawable="keepassdroid" />
+	<item drawable="tinykeepass" />
+	<item drawable="yubicoauthenticator" />
+
+	<category title="Keyboard &amp; IME" />
+	<item drawable="anysoftkeyboard" />
+	<item drawable="florisboard" />
+	<item drawable="hackerskb" />
+	<item drawable="heliboard" />
+	<item drawable="morse" />
+	<item drawable="simplekeyboard" />
+
+	<category title="Note" />
+	<item drawable="carnet" />
+	<item drawable="easy_diary" />
+	<item drawable="joplin" />
+	<item drawable="markor" />
+	<item drawable="notepad" />
+	<item drawable="omninotes" />
+	<item drawable="pin" />
+	<item drawable="privacyfriendlynotes" />
+
+	<category title="DNS &amp; Hosts" />
+	<item drawable="adaway" />
+	<item drawable="dnsfilter" />
+	<item drawable="motioneye" />
+	<item drawable="netguard" />
+
+	<category title="Shopping List" />
+	<item drawable="secusoshoppinglist" />
+	<item drawable="shoppinglist" />
+
+	<category title="App Store &amp; Updater" />
+	<item drawable="droid_ify" />
+	<item drawable="fdroid" />
+	<item drawable="fdroidclassic" />
+	<item drawable="ffupdater" />
+	<item drawable="foxydroid" />
+	<item drawable="mitch" />
+
+	<category title="Habit Tracker" />
+	<item drawable="loop" />
+	<item drawable="tickmate" />
+
+	<category title="Calendar &amp; Agenda" />
+	<item drawable="birthdayadapter" />
+	<item drawable="calendarcolor" />
+	<item drawable="calendarimportexport" />
+	<item drawable="etesync" />
+	<item drawable="geburtstagskalender" />
+	<item drawable="icsdroid" />
+	<item drawable="icsx" />
+	<item drawable="jtx_board" />
+	<item drawable="nextcloud" />
+	<item drawable="orgzly_revived" />
+	<item drawable="periodical" />
+	<item drawable="suntimescalendars" />
+	<item drawable="todoagenda" />
+
+	<category title="Clock" />
+	<item drawable="suntimes" />
+	<item drawable="suntimesalarms" />
+
+	<category title="Money" />
+	<item drawable="altcoinprices" />
+	<item drawable="arbeitszeitkonto" />
+	<item drawable="bitcoin" />
+	<item drawable="currency" />
+	<item drawable="greenbits" />
+
+	<category title="Connectivity" />
+	<item drawable="an2linux" />
+	<item drawable="asteroidossync" />
+	<item drawable="bring" />
+	<item drawable="calyxvpn" />
+	<item drawable="controlloid" />
+	<item drawable="gadgetbridge" />
+	<item drawable="hue" />
+	<item drawable="librespeed" />
+	<item drawable="malp" />
+	<item drawable="meshtastic" />
+	<item drawable="mullvadvpn" />
+	<item drawable="multivnc" />
+	<item drawable="ncpasswords" />
+	<item drawable="nextcloudtalk" />
+	<item drawable="pebbledialer" />
+	<item drawable="piholedroid" />
+	<item drawable="presencepublisher" />
+	<item drawable="primitiveftpd" />
+	<item drawable="riseupvpn" />
+	<item drawable="shadowsocks" />
+	<item drawable="sharetocomputer" />
+	<item drawable="tinc" />
+	<item drawable="wifianalyzer" />
+	<item drawable="wifiautomatic" />
+	<item drawable="windscribevpn" />
+
+	<category title="Contact" />
+	<item drawable="identiconizer" />
+	<item drawable="opencontacts" />
+
+	<category title="Remote Controller" />
+	<item drawable="kore" />
+
+	<category title="Flashlight" />
+	<item drawable="flashy" />
+	<item drawable="simpleflashlight" />
+	<item drawable="torchie" />
+
+	<category title="Launcher" />
+	<item drawable="android" />
+	<item drawable="kiss" />
+	<item drawable="kvaesitso" />
+
+	<category title="Calculator" />
+	<item drawable="calculatorplusplus" />
+	<item drawable="mather" />
+
+	<category title="Health Manager" />
+	<item drawable="heartbeat" />
+	<item drawable="openscale" />
+
+	<category title="Bookmark" />
+	<item drawable="nextcloudbookmarks" />
+	<item drawable="turtlsync" />
+	<item drawable="wallabagger" />
+
+	<category title="Meditation" />
+	<item drawable="meditationassistant" />
+	<item drawable="noice" />
+	<item drawable="om" />
+
+	<category title="Voice &amp; Video Chat" />
+	<item drawable="meshenger" />
+
+	<category title="Remote Access" />
+	<item drawable="fissh" />
+
+	<category title="Draw" />
+	<item drawable="pocketpaint" />
+
+	<category title="AI Chat" />
+	<item drawable="duckduckgo" />
+
+	<category title="Recipe Manager" />
+	<item drawable="nextcloudcookbook" />
+
+	<category title="Text Editor" />
+	<item drawable="karbon" />
+
+	<category title="Task" />
+	<item drawable="opentasks" />
 
 </resources>

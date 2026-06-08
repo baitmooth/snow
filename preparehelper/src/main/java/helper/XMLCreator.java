@@ -142,8 +142,8 @@ public class XMLCreator {
         }
 
         // Add to thematic category
-        if (category != null && categories.containsKey(category)) {
-            categories.get(category).add(name);
+        if (category != null) {
+            categories.computeIfAbsent(category, k -> new TreeSet<>()).add(name);
         }
 
         // Alphabetical assignment (skip if specifically excluded)

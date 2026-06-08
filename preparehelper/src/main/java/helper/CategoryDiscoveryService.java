@@ -15,8 +15,8 @@ public class CategoryDiscoveryService {
     private Map<String, List<String>> packageToCategories = new HashMap<>();
     private Map<String, List<String>> manualCategories = new HashMap<>();
     private Set<String> unmappedPackages = new HashSet<>();
-    private static final String INDEX_FILE = "data/index-v1.json";
-    private static final String MANUAL_CATEGORIES_FILE = "manual_categories.json";
+    private static final String INDEX_FILE = "preparehelper/data/index-v1.json";
+    private static final String MANUAL_CATEGORIES_FILE = "newicons/manual_categories.json";
     private static final String UNCATEGORIZED_FILE = "newicons/uncategorized.txt";
 
     private static class FdroidIndex {
@@ -107,7 +107,7 @@ public class CategoryDiscoveryService {
         return switch (rawCategory) {
             case "Finance" -> "Finance";
             case "Security", "Firewall" -> "Security";
-            case "Games", "Puzzle Game", "Strategy Game", "Role-Playing Game", "Action Game", "Sport Game" -> "Games";
+            case "Games", "Puzzle Game", "Strategy Game", "Role-Playing Game", "Action Game", "Sport Game", "Board Game", "Card Game", "Casual Game", "Educational Game", "Game Helper", "Party Game", "Platformer Game", "Shooter Game", "Word Game" -> "Games";
             case "Internet", "Browser", "News", "Forum" -> "Internet";
             case "Multimedia", "Local Media Player", "Wallpaper", "Gallery", "Text to Speech" -> "Multimedia";
             case "System", "App Manager" -> "System";
