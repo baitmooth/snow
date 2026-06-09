@@ -26,10 +26,30 @@ tasks.register('runnormal', JavaExec) {
 }
 tasks.register('rundayNight', JavaExec) {
     workingDir = rootProject.projectDir
-    mainClass = 'helper.Start'
+    mainClass = 'helper.PrepareRelease'
     classpath = sourceSets.main.runtimeClasspath
     args = ['dayNight']
 }
+
+tasks.register('runchecks', JavaExec) {
+    workingDir = rootProject.projectDir
+    mainClass = 'helper.PrepareRelease'
+    classpath = sourceSets.main.runtimeClasspath
+    args = ['checkonly']
+}
+tasks.register('runrelease', JavaExec) {
+    workingDir = rootProject.projectDir
+    mainClass = 'helper.PrepareRelease'
+    classpath = sourceSets.main.runtimeClasspath
+    args = ['release']
+}
+tasks.register('runnewrelease', JavaExec) {
+    workingDir = rootProject.projectDir
+    mainClass = 'helper.PrepareRelease'
+    classpath = sourceSets.main.runtimeClasspath
+    args = ['newrelease']
+}
+
 
 
 
