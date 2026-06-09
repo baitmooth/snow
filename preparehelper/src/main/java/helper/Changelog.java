@@ -17,7 +17,7 @@ import java.util.Locale;
 
 public class Changelog {
 
-    public record ChangelogData(int total, int newIcons, int reused, String notes, String date) {}
+    public record ChangelogData(String versionName, int total, int newIcons, int reused, String notes, String date) {}
 
     public static void main(String[] args) {
         String rootDir = System.getProperty("user.dir");
@@ -39,8 +39,9 @@ public class Changelog {
         int countReused = countFilterTotal - countFilterOld - countNew;
 
         ChangelogData data = new ChangelogData(
+                getVersionName(rootDir),
                 countTotal, countNew, countReused,
-                getReleaseNotes(generatedDir),
+                getReleaseNotes(rootDir),
                 LocalDate.now().format(DateTimeFormatter.ofPattern("MMM dd, yyyy"))
         );
 
@@ -48,9 +49,72 @@ public class Changelog {
         saveMarkdown(data, generatedDir + "/changelog.md");
         saveXml(data, changelogXml);
         saveFDroidNotes(data, rootDir);
+        updateMainChangelog(data, rootDir);
 
         if (newRelease) {
             safeWrite(String.valueOf(countFilterTotal), generatedDir + "/countFilterTotal.txt");
+        }
+    }
+
+    private static void updateMainChangelog(ChangelogData d, String rootDir) {
+        Path path = Paths.get(rootDir, "CHANGELOG.md");
+        
+        StringBuilder entryBuilder = new StringBuilder();
+        entryBuilder.append(String.format(Locale.ROOT, "### %s\n###### Released %s\n", d.versionName, d.date));
+        entryBuilder.append(String.format(Locale.ROOT, "- 🎉 **%d** new and updated icons!\n", d.newIcons));
+        entryBuilder.append(String.format(Locale.ROOT, "- 💡 Added support for **%d** apps using existing icons.\n", d.reused));
+        entryBuilder.append(String.format(Locale.ROOT, "- 🔥 **%d** icons in total!\n", d.total));
+
+        if (!d.notes.isEmpty()) {
+            entryBuilder.append("\n---\n"); // Internal separator
+            for (String line : d.notes.split("\n")) {
+                if (!line.isBlank()) {
+                    String trimmedLine = line.trim();
+                    if (trimmedLine.startsWith("-") || trimmedLine.startsWith("*")) {
+                        entryBuilder.append(trimmedLine).append("\n");
+                    } else {
+                        entryBuilder.append("- ").append(trimmedLine).append("\n");
+                    }
+                }
+            }
+        }
+
+        String githubUrl = String.format(Locale.ROOT, "https://github.com/baitmooth/snow/releases/tag/v%s", d.versionName);
+        entryBuilder.append(String.format(Locale.ROOT, "\n[Visit Release Page](%s)\n", githubUrl));
+        entryBuilder.append("\n***\n"); // End of release separator
+
+        String newEntry = entryBuilder.toString();
+
+        try {
+            String content = Files.exists(path) ? Files.readString(path).replace("\r\n", "\n") : "";
+            String versionHeader = "### " + d.versionName + "\n";
+
+            if (content.contains(versionHeader)) {
+                // Idempotent update: replace existing version entry
+                int start = content.indexOf(versionHeader);
+                int end = -1;
+                int searchStart = start + versionHeader.length();
+                while (true) {
+                    int nextH3 = content.indexOf("\n### ", searchStart);
+                    if (nextH3 == -1) break;
+                    if (!content.startsWith("####", nextH3 + 1)) {
+                        end = nextH3 + 1;
+                        break;
+                    }
+                    searchStart = nextH3 + 5;
+                }
+                
+                if (end == -1) end = content.length();
+
+                content = content.substring(0, start) + newEntry + "\n" + content.substring(end).stripLeading();
+            } else {
+                // Prepend new version
+                content = newEntry + "\n" + content;
+            }
+
+            safeWrite(content.strip(), path.toString());
+        } catch (IOException e) {
+            System.err.println("Error updating main CHANGELOG.md: " + e.getMessage());
         }
     }
 
@@ -66,7 +130,12 @@ public class Changelog {
         if (!d.notes.isEmpty()) {
             for (String line : d.notes.split("\n")) {
                 if (!line.isBlank()) {
-                    content.append("\n* ").append(line.trim());
+                    String trimmedLine = line.trim();
+                    if (trimmedLine.startsWith("-") || trimmedLine.startsWith("*")) {
+                        content.append("\n* ").append(trimmedLine.substring(1).trim());
+                    } else {
+                        content.append("\n* ").append(trimmedLine);
+                    }
                 }
             }
         }
@@ -87,6 +156,22 @@ public class Changelog {
 
         String path = String.format(Locale.ROOT, "%s/fastlane/metadata/android/en-US/changelogs/%d.txt", rootDir, versionCode);
         safeWrite(content, path);
+    }
+
+    private static String getVersionName(String rootDir) {
+        try {
+            Path gradlePath = Paths.get(rootDir, "app", "build.gradle");
+            List<String> lines = Files.readAllLines(gradlePath);
+            for (String line : lines) {
+                String trimmedLine = line.trim();
+                if (trimmedLine.startsWith("versionName")) {
+                    return trimmedLine.split("=")[1].replace("'", "").replace("\"", "").trim();
+                }
+            }
+        } catch (Exception e) {
+            System.err.println("Error reading versionName: " + e.getMessage());
+        }
+        return "Unknown";
     }
 
     private static int getVersionCode(String rootDir) {
@@ -121,7 +206,13 @@ public class Changelog {
 
         if (!d.notes.isEmpty()) {
             for (String line : d.notes.split("\n")) {
-                if (!line.isBlank()) items.append("        <item>").append(line.trim()).append("</item>\n");
+                if (!line.isBlank()) {
+                    String trimmedLine = line.trim();
+                    if (trimmedLine.startsWith("-") || trimmedLine.startsWith("*")) {
+                        trimmedLine = trimmedLine.substring(1).trim();
+                    }
+                    items.append("        <item>").append(trimmedLine).append("</item>\n");
+                }
             }
         }
 
@@ -137,11 +228,12 @@ public class Changelog {
 
     // --- Helper Logic ---
 
-    private static String getReleaseNotes(String generatedDir) {
+    private static String getReleaseNotes(String rootDir) {
         try {
-            return Files.readString(Paths.get(generatedDir, "additionalReleaseNotes.txt")).strip();
+            return Files.readString(Paths.get(rootDir, "metadata", "additionalReleaseNotes.md")).strip();
         } catch (IOException e) { return ""; }
     }
+
 
     private static int readStoredCount(String path) {
         try {
