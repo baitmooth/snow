@@ -3,7 +3,7 @@
 <version>1</version>
 
 	<category title="New" />
-	<item drawable="2048" />
+	<item drawable="a2048" />
 	<item drawable="ancvbeneficiaire" />
 	<item drawable="appstore" />
 	<item drawable="auditor" />
@@ -167,9 +167,6 @@
 	<item drawable="updater" />
 	<item drawable="usagedirect" />
 	<item drawable="wrongpinshutdown" />
-
-	<category title="Symbols" />
-	<item drawable="2048" />
 
 	<category title="A" />
 	<item drawable="a2048" />

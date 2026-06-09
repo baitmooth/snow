@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_date">Jun 08, 2026</string>
+    <string name="changelog_date">Jun 09, 2026</string>
     <string-array name="changelog">
         <item>🎉 <b>54</b> new and updated icons!</item>
         <item>💡 Added support for <b>10</b> apps using existing icons.</item>
