@@ -4,18 +4,28 @@
 
 	<category title="New" />
 	<item drawable="a2048" />
+	<item drawable="airbnb" />
 	<item drawable="ancvbeneficiaire" />
+	<item drawable="appleflinger" />
 	<item drawable="appstore" />
+	<item drawable="arbeitszeitkonto" />
 	<item drawable="auditor" />
 	<item drawable="authpass" />
 	<item drawable="auxio" />
+	<item drawable="banquepostale" />
 	<item drawable="banxo" />
 	<item drawable="battery" />
 	<item drawable="batterychargelimit" />
 	<item drawable="beautyxt" />
 	<item drawable="bob" />
 	<item drawable="boursobank" />
+	<item drawable="busybox" />
+	<item drawable="callabike" />
+	<item drawable="comdirectphototan" />
+	<item drawable="comdirecttrading" />
 	<item drawable="congstar" />
+	<item drawable="criticalmaps" />
+	<item drawable="crontosignswiss" />
 	<item drawable="dbnavigator" />
 	<item drawable="discord" />
 	<item drawable="fategrandorder" />
@@ -316,7 +326,6 @@
 	<item drawable="bitcoin" />
 	<item drawable="bitwarden" />
 	<item drawable="blabla" />
-	<item drawable="blablaalt" />
 	<item drawable="blackberrylauncher" />
 	<item drawable="blackboard" />
 	<item drawable="blocker" />
@@ -431,6 +440,7 @@
 	<item drawable="creditagricole" />
 	<item drawable="creditas" />
 	<item drawable="critical_maps" />
+	<item drawable="criticalmaps" />
 	<item drawable="cromite" />
 	<item drawable="cronograma" />
 	<item drawable="crontosignswiss" />
