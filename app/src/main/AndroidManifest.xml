@@ -10,10 +10,9 @@
         android:xlargeScreens="true" />
 
     <!-- The following permissions are not a hard requirement for the app to work, it is used to fetch the GitHub contributor avatars for example -->
-    <!--
+
       <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" tools:node="remove"/>
       <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" tools:node="remove" />
-     -->
 
     <!-- Remove the following line if you're using cloud-based wallpapers -->  
     <uses-permission android:name="android.permission.INTERNET" tools:node="remove" />
