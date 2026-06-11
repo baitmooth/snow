@@ -13,6 +13,7 @@ import org.w3c.dom.NodeList;
 import javax.imageio.ImageIO;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.awt.*;
+import java.awt.geom.Point2D;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.nio.file.Files;
@@ -29,7 +30,8 @@ public class ImageCollageGenerator {
     private static final int SPACING = 10;
     private static final int PADDING = 100;
     private static final int TITLE_HEIGHT = 300;
-    private static final Color BG_COLOR = Color.decode("#050714");
+    private static final Color GRADIENT_START = Color.decode("#050714"); // Dark Blue
+    private static final Color GRADIENT_END = Color.decode("#330000");   // Dark Red
     private static final Color TEXT_COLOR = Color.WHITE;
 
     public static void main(String[] args) {
@@ -102,7 +104,7 @@ public class ImageCollageGenerator {
             g2d.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
             g2d.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BICUBIC);
 
-            g2d.setColor(BG_COLOR);
+            g2d.setPaint(new GradientPaint(0, 0, GRADIENT_START, width, height, GRADIENT_END));
             g2d.fillRect(0, 0, width, height);
 
             String title = String.format("Snow %s - %d new icons", versionName,count);
