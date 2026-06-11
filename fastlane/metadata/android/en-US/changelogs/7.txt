@@ -1,3 +1,9 @@
 🎉 64 new and updated icons!
 💡 Added support for 0 apps using existing icons.
 🔥 1451 icons in total!
+
+introduced categories in icon list
+removed network permissions
+started updating icons to optimize svg paths
+merged many contributed icons
+added lost entries for 1.4.0 and 1.4.1 in the Changelog

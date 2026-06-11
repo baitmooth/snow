@@ -12,10 +12,16 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
 public class Changelog {
+
+    private static final String ITEM_NEW = "🎉 %s%d%s new and updated icons!";
+    private static final String ITEM_REUSED = "💡 Added support for %s%d%s apps using existing icons.";
+    private static final String ITEM_TOTAL = "🔥 %s%d%s icons in total!";
 
     public record ChangelogData(String versionName, int total, int newIcons, int reused, String notes, String date) {}
 
@@ -61,21 +67,16 @@ public class Changelog {
         
         StringBuilder entryBuilder = new StringBuilder();
         entryBuilder.append(String.format(Locale.ROOT, "### %s\n###### Released %s\n", d.versionName, d.date));
-        entryBuilder.append(String.format(Locale.ROOT, "- 🎉 **%d** new and updated icons!\n", d.newIcons));
-        entryBuilder.append(String.format(Locale.ROOT, "- 💡 Added support for **%d** apps using existing icons.\n", d.reused));
-        entryBuilder.append(String.format(Locale.ROOT, "- 🔥 **%d** icons in total!\n", d.total));
 
-        if (!d.notes.isEmpty()) {
+        for (String msg : getCoreMessages(d, "**", "**")) {
+            entryBuilder.append("- ").append(msg).append("\n");
+        }
+
+        List<String> notes = getCleanNotes(d.notes);
+        if (!notes.isEmpty()) {
             entryBuilder.append("\n---\n"); // Internal separator
-            for (String line : d.notes.split("\n")) {
-                if (!line.isBlank()) {
-                    String trimmedLine = line.trim();
-                    if (trimmedLine.startsWith("-") || trimmedLine.startsWith("*")) {
-                        entryBuilder.append(trimmedLine).append("\n");
-                    } else {
-                        entryBuilder.append("- ").append(trimmedLine).append("\n");
-                    }
-                }
+            for (String line : notes) {
+                entryBuilder.append("- ").append(line).append("\n");
             }
         }
 
@@ -121,26 +122,15 @@ public class Changelog {
     private static void saveMarkdown(ChangelogData d, String path) {
         StringBuilder content = new StringBuilder();
 
-        // Header bullet points
-        content.append(String.format(Locale.ROOT,"* 🎉 **%d** new and updated icons!\n", d.newIcons));
-        content.append(String.format(Locale.ROOT,"* 💡 Added support for **%d** apps using existing icons.\n", d.reused));
-        content.append(String.format(Locale.ROOT,"* 🔥 **%d** icons in total!", d.total));
-
-        // Process notes into bullet points
-        if (!d.notes.isEmpty()) {
-            for (String line : d.notes.split("\n")) {
-                if (!line.isBlank()) {
-                    String trimmedLine = line.trim();
-                    if (trimmedLine.startsWith("-") || trimmedLine.startsWith("*")) {
-                        content.append("\n* ").append(trimmedLine.substring(1).trim());
-                    } else {
-                        content.append("\n* ").append(trimmedLine);
-                    }
-                }
-            }
+        for (String msg : getCoreMessages(d, "**", "**")) {
+            content.append("* ").append(msg).append("\n");
         }
 
-        safeWrite(content.toString(), path);
+        for (String line : getCleanNotes(d.notes)) {
+            content.append("* ").append(line).append("\n");
+        }
+
+        safeWrite(content.toString().trim(), path);
     }
 
     private static void saveFDroidNotes(ChangelogData d, String rootDir) {
@@ -150,12 +140,21 @@ public class Changelog {
             return;
         }
 
-        String content = String.format(Locale.ROOT,
-                "🎉 %d new and updated icons!\n💡 Added support for %d apps using existing icons.\n🔥 %d icons in total!%s",
-                d.newIcons, d.reused, d.total, d.notes.isEmpty() ? "" : "\n\n" + d.notes);
+        StringBuilder content = new StringBuilder();
+        for (String msg : getCoreMessages(d, "", "")) {
+            content.append(msg).append("\n");
+        }
+
+        List<String> notes = getCleanNotes(d.notes);
+        if (!notes.isEmpty()) {
+            content.append("\n");
+            for (String line : notes) {
+                content.append(line).append("\n");
+            }
+        }
 
         String path = String.format(Locale.ROOT, "%s/fastlane/metadata/android/en-US/changelogs/%d.txt", rootDir, versionCode);
-        safeWrite(content, path);
+        safeWrite(content.toString().trim(), path);
     }
 
     private static String getVersionName(String rootDir) {
@@ -200,20 +199,13 @@ public class Changelog {
 
     private static void saveXml(ChangelogData d, String path) {
         StringBuilder items = new StringBuilder();
-        items.append(String.format(Locale.ROOT,"        <item>🎉 <b>%d</b> new and updated icons!</item>\n", d.newIcons));
-        items.append(String.format(Locale.ROOT,"        <item>💡 Added support for <b>%d</b> apps using existing icons.</item>\n", d.reused));
-        items.append(String.format(Locale.ROOT,"        <item>🔥 <b>%d</b> icons in total!</item>\n", d.total));
 
-        if (!d.notes.isEmpty()) {
-            for (String line : d.notes.split("\n")) {
-                if (!line.isBlank()) {
-                    String trimmedLine = line.trim();
-                    if (trimmedLine.startsWith("-") || trimmedLine.startsWith("*")) {
-                        trimmedLine = trimmedLine.substring(1).trim();
-                    }
-                    items.append("        <item>").append(trimmedLine).append("</item>\n");
-                }
-            }
+        for (String msg : getCoreMessages(d, "<b>", "</b>")) {
+            items.append("        <item>").append(msg).append("</item>\n");
+        }
+
+        for (String line : getCleanNotes(d.notes)) {
+            items.append("        <item>").append(line).append("</item>\n");
         }
 
         String xml = String.format(Locale.ROOT,"""
@@ -224,6 +216,31 @@ public class Changelog {
                 %s    </string-array>
                 </resources>""", d.date, items);
         safeWrite(xml, path);
+    }
+
+    private static List<String> getCoreMessages(ChangelogData d, String boldStart, String boldEnd) {
+        return Arrays.asList(
+                String.format(Locale.ROOT, ITEM_NEW, boldStart, d.newIcons, boldEnd),
+                String.format(Locale.ROOT, ITEM_REUSED, boldStart, d.reused, boldEnd),
+                String.format(Locale.ROOT, ITEM_TOTAL, boldStart, d.total, boldEnd)
+        );
+    }
+
+    private static List<String> getCleanNotes(String notes) {
+        List<String> clean = new ArrayList<>();
+        if (notes == null || notes.isEmpty()) return clean;
+
+        for (String line : notes.split("\n")) {
+            if (!line.isBlank()) {
+                String trimmedLine = line.trim();
+                if (trimmedLine.startsWith("-") || trimmedLine.startsWith("*")) {
+                    clean.add(trimmedLine.substring(1).trim());
+                } else {
+                    clean.add(trimmedLine);
+                }
+            }
+        }
+        return clean;
     }
 
     // --- Helper Logic ---

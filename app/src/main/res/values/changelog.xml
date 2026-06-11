@@ -5,5 +5,10 @@
         <item>🎉 <b>64</b> new and updated icons!</item>
         <item>💡 Added support for <b>0</b> apps using existing icons.</item>
         <item>🔥 <b>1451</b> icons in total!</item>
+        <item>introduced categories in icon list</item>
+        <item>removed network permissions</item>
+        <item>started updating icons to optimize svg paths</item>
+        <item>merged many contributed icons</item>
+        <item>added lost entries for 1.4.0 and 1.4.1 in the Changelog</item>
     </string-array>
 </resources>

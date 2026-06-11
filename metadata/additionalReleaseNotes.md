@@ -1,0 +1,5 @@
+ - introduced categories in icon list
+ - removed network permissions
+ - started updating icons to optimize svg paths
+ - merged many contributed icons
+ - added lost entries for 1.4.0 and 1.4.1 in the Changelog
