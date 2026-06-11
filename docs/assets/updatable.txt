@@ -4,6 +4,15 @@
 <!-- Proton Mail -->
 <item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.MainActivity}" drawable="proton_mail"/>
 
+<!-- Element -->
+<item component="ComponentInfo{im.vector.app/im.vector.application.features.Alias}" drawable="element_1"/>
+
+<!-- eBay -->
+<item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.home.impl.main.MainActivity}" drawable="ebay_1"/>
+
+<!-- ウォレット -->
+<item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.wallet.WalletActivity}" drawable="ウォレット_1"/>
+
 <!-- Т-Банк -->
 <item component="ComponentInfo{com.idamob.tinkoff.android/ru.tinkoff.mb.feature.splash.bank.ui.presentation.BankSplashActivity}" drawable="т_банк"/>
 
@@ -15,18 +24,6 @@
 
 <!-- Tusky -->
 <item component="ComponentInfo{com.keylesspalace.tusky/com.keylesspalace.tusky.MainActivity}" drawable="tusky"/>
-
-<!-- Element -->
-<item component="ComponentInfo{im.vector.app/im.vector.application.features.Alias}" drawable="element_1"/>
-
-<!-- eBay -->
-<item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.home.impl.main.MainActivity}" drawable="ebay_1"/>
-
-<!-- ウォレット -->
-<item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.wallet.WalletActivity}" drawable="ウォレット_1"/>
-
-<!-- Arcticons -->
-<item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons"/>
 
 <!-- Termius -->
 <item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.MainActivity}" drawable="termius_1"/>
@@ -117,4 +114,7 @@
 
 <!-- Диктофон -->
 <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.StartActivity}" drawable="диктофон_1"/>
+
+<!-- Arcticons -->
+<item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons"/>
 

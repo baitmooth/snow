@@ -3,7 +3,7 @@
 -------------------------------------------------------
 
 <!-- Thunderbird -->
-<item component="ComponentInfo{net.thunderbird.android/com.fsck.k9.activity.MessageList}" drawable="thunderbird_1"/>
+<item component="ComponentInfo{net.thunderbird.android/com.fsck.k9.activity.MessageList}" drawable="thunderbird"/>
 https://play.google.com/store/apps/details?id=net.thunderbird.android
 https://f-droid.org/en/packages/net.thunderbird.android/
 https://apt.izzysoft.de/fdroid/index/apk/net.thunderbird.android
@@ -13,7 +13,7 @@ Requested 4 times
 Last requested 1769941285.0
     
 <!-- Camera -->
-<item component="ComponentInfo{com.motorola.camera3/com.motorola.camera.Camera}" drawable="camera_6"/>
+<item component="ComponentInfo{com.motorola.camera3/com.motorola.camera.Camera}" drawable="camera"/>
 https://play.google.com/store/apps/details?id=com.motorola.camera3
 https://f-droid.org/en/packages/com.motorola.camera3/
 https://apt.izzysoft.de/fdroid/index/apk/com.motorola.camera3
@@ -23,7 +23,7 @@ Requested 4 times
 Last requested 1772031178.0
     
 <!-- 広告ブロッカーPro -->
-<item component="ComponentInfo{jp.snowlife01.android.ad_blocker/jp.snowlife01.android.ad_blocker.AdsStopActivity}" drawable="広告ブロッカpro_1"/>
+<item component="ComponentInfo{jp.snowlife01.android.ad_blocker/jp.snowlife01.android.ad_blocker.AdsStopActivity}" drawable="広告ブロッカpro"/>
 https://play.google.com/store/apps/details?id=jp.snowlife01.android.ad_blocker
 https://f-droid.org/en/packages/jp.snowlife01.android.ad_blocker/
 https://apt.izzysoft.de/fdroid/index/apk/jp.snowlife01.android.ad_blocker
@@ -33,7 +33,7 @@ Requested 2 times
 Last requested 1771963285.0
     
 <!-- PayPay -->
-<item component="ComponentInfo{jp.ne.paypay.android.app/jp.ne.paypay.android.app.MainActivity}" drawable="paypay_1"/>
+<item component="ComponentInfo{jp.ne.paypay.android.app/jp.ne.paypay.android.app.MainActivity}" drawable="paypay"/>
 https://play.google.com/store/apps/details?id=jp.ne.paypay.android.app
 https://f-droid.org/en/packages/jp.ne.paypay.android.app/
 https://apt.izzysoft.de/fdroid/index/apk/jp.ne.paypay.android.app
@@ -43,7 +43,7 @@ Requested 2 times
 Last requested 1771963285.0
     
 <!-- GPay -->
-<item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.nbu.paisa.flutter.gpay.app.LauncherActivity}" drawable="gpay_1"/>
+<item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.nbu.paisa.flutter.gpay.app.LauncherActivity}" drawable="gpay"/>
 https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user
 https://f-droid.org/en/packages/com.google.android.apps.nbu.paisa.user/
 https://apt.izzysoft.de/fdroid/index/apk/com.google.android.apps.nbu.paisa.user
@@ -53,7 +53,7 @@ Requested 2 times
 Last requested 1768027841.0
     
 <!-- Clash of Clans -->
-<item component="ComponentInfo{com.supercell.clashofclans/com.supercell.titan.GameApp}" drawable="clash_of_clans_1"/>
+<item component="ComponentInfo{com.supercell.clashofclans/com.supercell.titan.GameApp}" drawable="clash_of_clans"/>
 https://play.google.com/store/apps/details?id=com.supercell.clashofclans
 https://f-droid.org/en/packages/com.supercell.clashofclans/
 https://apt.izzysoft.de/fdroid/index/apk/com.supercell.clashofclans
@@ -63,7 +63,7 @@ Requested 2 times
 Last requested 1754628741.0
     
 <!-- Cx File Explorer -->
-<item component="ComponentInfo{com.cxinventor.file.explorer/com.alphainventor.filemanager.activity.MainActivity}" drawable="cx_file_explorer_1"/>
+<item component="ComponentInfo{com.cxinventor.file.explorer/com.alphainventor.filemanager.activity.MainActivity}" drawable="cx_file_explorer"/>
 https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer
 https://f-droid.org/en/packages/com.cxinventor.file.explorer/
 https://apt.izzysoft.de/fdroid/index/apk/com.cxinventor.file.explorer
@@ -73,7 +73,7 @@ Requested 2 times
 Last requested 1754816169.0
     
 <!-- Catima -->
-<item component="ComponentInfo{me.hackerchick.catima/protect.card_locker.MainActivity}" drawable="catima_1"/>
+<item component="ComponentInfo{me.hackerchick.catima/protect.card_locker.MainActivity}" drawable="catima"/>
 https://play.google.com/store/apps/details?id=me.hackerchick.catima
 https://f-droid.org/en/packages/me.hackerchick.catima/
 https://apt.izzysoft.de/fdroid/index/apk/me.hackerchick.catima
@@ -83,7 +83,7 @@ Requested 2 times
 Last requested 1730804849.0
     
 <!-- Home Assistant -->
-<item component="ComponentInfo{io.homeassistant.companion.android.minimal/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="home_assistant_3"/>
+<item component="ComponentInfo{io.homeassistant.companion.android.minimal/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="home_assistant_1"/>
 https://play.google.com/store/apps/details?id=io.homeassistant.companion.android.minimal
 https://f-droid.org/en/packages/io.homeassistant.companion.android.minimal/
 https://apt.izzysoft.de/fdroid/index/apk/io.homeassistant.companion.android.minimal
@@ -93,7 +93,7 @@ Requested 2 times
 Last requested 1730804849.0
     
 <!-- Molly -->
-<item component="ComponentInfo{im.molly.app.unifiedpush/org.thoughtcrime.securesms.RoutingActivity}" drawable="molly_1"/>
+<item component="ComponentInfo{im.molly.app.unifiedpush/org.thoughtcrime.securesms.RoutingActivity}" drawable="molly"/>
 https://play.google.com/store/apps/details?id=im.molly.app.unifiedpush
 https://f-droid.org/en/packages/im.molly.app.unifiedpush/
 https://apt.izzysoft.de/fdroid/index/apk/im.molly.app.unifiedpush
@@ -103,7 +103,7 @@ Requested 2 times
 Last requested 1730804849.0
     
 <!-- CoMaps -->
-<item component="ComponentInfo{app.comaps.fdroid/app.organicmaps.DownloadResourcesActivity}" drawable="comaps_1"/>
+<item component="ComponentInfo{app.comaps.fdroid/app.organicmaps.DownloadResourcesActivity}" drawable="comaps"/>
 https://play.google.com/store/apps/details?id=app.comaps.fdroid
 https://f-droid.org/en/packages/app.comaps.fdroid/
 https://apt.izzysoft.de/fdroid/index/apk/app.comaps.fdroid
@@ -113,7 +113,7 @@ Requested 2 times
 Last requested 1758703844.0
     
 <!-- Edge -->
-<item component="ComponentInfo{com.microsoft.emmx/com.microsoft.ruby.Main}" drawable="edge_1"/>
+<item component="ComponentInfo{com.microsoft.emmx/com.microsoft.ruby.Main}" drawable="edge"/>
 https://play.google.com/store/apps/details?id=com.microsoft.emmx
 https://f-droid.org/en/packages/com.microsoft.emmx/
 https://apt.izzysoft.de/fdroid/index/apk/com.microsoft.emmx
@@ -123,7 +123,7 @@ Requested 2 times
 Last requested 1750965065.0
     
 <!-- Camera -->
-<item component="ComponentInfo{com.transsion.camera/com.android.camera.CameraLauncher}" drawable="camera_7"/>
+<item component="ComponentInfo{com.transsion.camera/com.android.camera.CameraLauncher}" drawable="camera_1"/>
 https://play.google.com/store/apps/details?id=com.transsion.camera
 https://f-droid.org/en/packages/com.transsion.camera/
 https://apt.izzysoft.de/fdroid/index/apk/com.transsion.camera
@@ -133,7 +133,7 @@ Requested 2 times
 Last requested 1765235029.0
     
 <!-- Babbel -->
-<item component="ComponentInfo{com.babbel.mobile.android.en/com.babbel.mobile.android.core.presentation.mainactivity.screens.MainActivity}" drawable="babbel_2"/>
+<item component="ComponentInfo{com.babbel.mobile.android.en/com.babbel.mobile.android.core.presentation.mainactivity.screens.MainActivity}" drawable="babbel"/>
 https://play.google.com/store/apps/details?id=com.babbel.mobile.android.en
 https://f-droid.org/en/packages/com.babbel.mobile.android.en/
 https://apt.izzysoft.de/fdroid/index/apk/com.babbel.mobile.android.en
@@ -143,7 +143,7 @@ Requested 2 times
 Last requested 1763909964.0
     
 <!-- AccuBattery -->
-<item component="ComponentInfo{com.digibites.accubattery/com.digibites.abatterysaver.BatterySaverActivity}" drawable="accubattery_1"/>
+<item component="ComponentInfo{com.digibites.accubattery/com.digibites.abatterysaver.BatterySaverActivity}" drawable="accubattery"/>
 https://play.google.com/store/apps/details?id=com.digibites.accubattery
 https://f-droid.org/en/packages/com.digibites.accubattery/
 https://apt.izzysoft.de/fdroid/index/apk/com.digibites.accubattery
@@ -153,7 +153,7 @@ Requested 2 times
 Last requested 1752813249.0
     
 <!-- Immich -->
-<item component="ComponentInfo{app.alextran.immich/app.alextran.immich.MainActivity}" drawable="immich_1"/>
+<item component="ComponentInfo{app.alextran.immich/app.alextran.immich.MainActivity}" drawable="immich"/>
 https://play.google.com/store/apps/details?id=app.alextran.immich
 https://f-droid.org/en/packages/app.alextran.immich/
 https://apt.izzysoft.de/fdroid/index/apk/app.alextran.immich
@@ -163,7 +163,7 @@ Requested 2 times
 Last requested 1760764409.0
     
 <!-- Helena -->
-<item component="ComponentInfo{care.helena.patient/care.helena.patient.MainActivity}" drawable="helena_1"/>
+<item component="ComponentInfo{care.helena.patient/care.helena.patient.MainActivity}" drawable="helena"/>
 https://play.google.com/store/apps/details?id=care.helena.patient
 https://f-droid.org/en/packages/care.helena.patient/
 https://apt.izzysoft.de/fdroid/index/apk/care.helena.patient
@@ -173,7 +173,7 @@ Requested 2 times
 Last requested 1777404196.0
     
 <!-- itsme -->
-<item component="ComponentInfo{be.bmid.itsme/be.bmid.bootstrap.impl.ui.BootstrapActivity}" drawable="itsme_1"/>
+<item component="ComponentInfo{be.bmid.itsme/be.bmid.bootstrap.impl.ui.BootstrapActivity}" drawable="itsme"/>
 https://play.google.com/store/apps/details?id=be.bmid.itsme
 https://f-droid.org/en/packages/be.bmid.itsme/
 https://apt.izzysoft.de/fdroid/index/apk/be.bmid.itsme
@@ -183,7 +183,7 @@ Requested 2 times
 Last requested 1777404196.0
     
 <!-- Tailscale -->
-<item component="ComponentInfo{com.tailscale.ipn/com.tailscale.ipn.MainActivity}" drawable="tailscale_1"/>
+<item component="ComponentInfo{com.tailscale.ipn/com.tailscale.ipn.MainActivity}" drawable="tailscale"/>
 https://play.google.com/store/apps/details?id=com.tailscale.ipn
 https://f-droid.org/en/packages/com.tailscale.ipn/
 https://apt.izzysoft.de/fdroid/index/apk/com.tailscale.ipn
@@ -193,7 +193,7 @@ Requested 2 times
 Last requested 1775316144.0
     
 <!-- WA Business -->
-<item component="ComponentInfo{com.whatsapp.w4b/com.whatsapp.Main}" drawable="wa_business_1"/>
+<item component="ComponentInfo{com.whatsapp.w4b/com.whatsapp.Main}" drawable="wa_business"/>
 https://play.google.com/store/apps/details?id=com.whatsapp.w4b
 https://f-droid.org/en/packages/com.whatsapp.w4b/
 https://apt.izzysoft.de/fdroid/index/apk/com.whatsapp.w4b
@@ -203,7 +203,7 @@ Requested 2 times
 Last requested 1758892985.0
     
 <!-- Crunchyroll -->
-<item component="ComponentInfo{com.crunchyroll.crunchyroid/com.ellation.crunchyroll.presentation.startup.StartupActivity}" drawable="crunchyroll_1"/>
+<item component="ComponentInfo{com.crunchyroll.crunchyroid/com.ellation.crunchyroll.presentation.startup.StartupActivity}" drawable="crunchyroll"/>
 https://play.google.com/store/apps/details?id=com.crunchyroll.crunchyroid
 https://f-droid.org/en/packages/com.crunchyroll.crunchyroid/
 https://apt.izzysoft.de/fdroid/index/apk/com.crunchyroll.crunchyroid
@@ -213,7 +213,7 @@ Requested 2 times
 Last requested 1774911162.0
     
 <!-- YT Music -->
-<item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="yt_music_1"/>
+<item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="yt_music"/>
 https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music
 https://f-droid.org/en/packages/com.google.android.apps.youtube.music/
 https://apt.izzysoft.de/fdroid/index/apk/com.google.android.apps.youtube.music
@@ -223,7 +223,7 @@ Requested 2 times
 Last requested 1774336381.0
     
 <!-- 2FAS Auth -->
-<item component="ComponentInfo{com.twofasapp/com.twofasapp.ui.main.StartActivity}" drawable="_2fas_auth_1"/>
+<item component="ComponentInfo{com.twofasapp/com.twofasapp.ui.main.StartActivity}" drawable="_2fas_auth"/>
 https://play.google.com/store/apps/details?id=com.twofasapp
 https://f-droid.org/en/packages/com.twofasapp/
 https://apt.izzysoft.de/fdroid/index/apk/com.twofasapp
@@ -233,7 +233,7 @@ Requested 2 times
 Last requested 1725293059.0
     
 <!-- YouTube -->
-<item component="ComponentInfo{app.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube_4"/>
+<item component="ComponentInfo{app.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube"/>
 https://play.google.com/store/apps/details?id=app.rvx.android.youtube
 https://f-droid.org/en/packages/app.rvx.android.youtube/
 https://apt.izzysoft.de/fdroid/index/apk/app.rvx.android.youtube
@@ -243,7 +243,7 @@ Requested 2 times
 Last requested 1774888740.0
     
 <!-- Авито -->
-<item component="ComponentInfo{com.avito.android/com.avito.android.Launcher}" drawable="авито_1"/>
+<item component="ComponentInfo{com.avito.android/com.avito.android.Launcher}" drawable="авито"/>
 https://play.google.com/store/apps/details?id=com.avito.android
 https://f-droid.org/en/packages/com.avito.android/
 https://apt.izzysoft.de/fdroid/index/apk/com.avito.android
@@ -253,7 +253,7 @@ Requested 2 times
 Last requested 1772566239.0
     
 <!-- IKEA -->
-<item component="ComponentInfo{com.ingka.ikea.app/com.ingka.ikea.app.splash.FirstEntryActivity}" drawable="ikea_1"/>
+<item component="ComponentInfo{com.ingka.ikea.app/com.ingka.ikea.app.splash.FirstEntryActivity}" drawable="ikea"/>
 https://play.google.com/store/apps/details?id=com.ingka.ikea.app
 https://f-droid.org/en/packages/com.ingka.ikea.app/
 https://apt.izzysoft.de/fdroid/index/apk/com.ingka.ikea.app
@@ -263,7 +263,7 @@ Requested 2 times
 Last requested 1737549369.0
     
 <!-- neutriNote CE -->
-<item component="ComponentInfo{com.appmindlab.nano/com.appmindlab.nano.IntroActivity}" drawable="neutrinote_ce_1"/>
+<item component="ComponentInfo{com.appmindlab.nano/com.appmindlab.nano.IntroActivity}" drawable="neutrinote_ce"/>
 https://play.google.com/store/apps/details?id=com.appmindlab.nano
 https://f-droid.org/en/packages/com.appmindlab.nano/
 https://apt.izzysoft.de/fdroid/index/apk/com.appmindlab.nano
@@ -273,7 +273,7 @@ Requested 2 times
 Last requested 1737549369.0
     
 <!-- Браузер -->
-<item component="ComponentInfo{com.yandex.browser/com.yandex.browser.YandexBrowserActivity}" drawable="браузер_2"/>
+<item component="ComponentInfo{com.yandex.browser/com.yandex.browser.YandexBrowserActivity}" drawable="браузер"/>
 https://play.google.com/store/apps/details?id=com.yandex.browser
 https://f-droid.org/en/packages/com.yandex.browser/
 https://apt.izzysoft.de/fdroid/index/apk/com.yandex.browser
@@ -283,7 +283,7 @@ Requested 2 times
 Last requested 1767214304.0
     
 <!-- Clipious -->
-<item component="ComponentInfo{com.github.lamarios.clipious/com.github.lamarios.clipious.MainActivity}" drawable="clipious_1"/>
+<item component="ComponentInfo{com.github.lamarios.clipious/com.github.lamarios.clipious.MainActivity}" drawable="clipious"/>
 https://play.google.com/store/apps/details?id=com.github.lamarios.clipious
 https://f-droid.org/en/packages/com.github.lamarios.clipious/
 https://apt.izzysoft.de/fdroid/index/apk/com.github.lamarios.clipious
@@ -293,7 +293,7 @@ Requested 1 times
 Last requested 1724717710.0
     
 <!-- LibreTube -->
-<item component="ComponentInfo{com.github.libretube/com.github.libretube.Default}" drawable="libretube_1"/>
+<item component="ComponentInfo{com.github.libretube/com.github.libretube.Default}" drawable="libretube"/>
 https://play.google.com/store/apps/details?id=com.github.libretube
 https://f-droid.org/en/packages/com.github.libretube/
 https://apt.izzysoft.de/fdroid/index/apk/com.github.libretube
@@ -303,7 +303,7 @@ Requested 1 times
 Last requested 1724717987.0
     
 <!-- LinkSheet -->
-<item component="ComponentInfo{fe.linksheet/fe.linksheet.activity.MainActivity}" drawable="linksheet_1"/>
+<item component="ComponentInfo{fe.linksheet/fe.linksheet.activity.MainActivity}" drawable="linksheet"/>
 https://play.google.com/store/apps/details?id=fe.linksheet
 https://f-droid.org/en/packages/fe.linksheet/
 https://apt.izzysoft.de/fdroid/index/apk/fe.linksheet
@@ -313,7 +313,7 @@ Requested 1 times
 Last requested 1724717987.0
     
 <!-- Pawscout -->
-<item component="ComponentInfo{com.rulegrid.pawscout/com.rulegrid.pawscout.activities.IntroActivity}" drawable="pawscout_1"/>
+<item component="ComponentInfo{com.rulegrid.pawscout/com.rulegrid.pawscout.activities.IntroActivity}" drawable="pawscout"/>
 https://play.google.com/store/apps/details?id=com.rulegrid.pawscout
 https://f-droid.org/en/packages/com.rulegrid.pawscout/
 https://apt.izzysoft.de/fdroid/index/apk/com.rulegrid.pawscout
@@ -323,7 +323,7 @@ Requested 1 times
 Last requested 1753441847.0
     
 <!-- Snes9x EX+ -->
-<item component="ComponentInfo{com.explusalpha.Snes9xPlus/com.imagine.BaseActivity}" drawable="snes9x_ex__1"/>
+<item component="ComponentInfo{com.explusalpha.Snes9xPlus/com.imagine.BaseActivity}" drawable="snes9x_ex_"/>
 https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus
 https://f-droid.org/en/packages/com.explusalpha.Snes9xPlus/
 https://apt.izzysoft.de/fdroid/index/apk/com.explusalpha.Snes9xPlus
@@ -333,7 +333,7 @@ Requested 1 times
 Last requested 1753441847.0
     
 <!-- TradingView -->
-<item component="ComponentInfo{com.tradingview.tradingviewapp/com.tradingview.tradingviewapp.root.view.RootActivity}" drawable="tradingview_1"/>
+<item component="ComponentInfo{com.tradingview.tradingviewapp/com.tradingview.tradingviewapp.root.view.RootActivity}" drawable="tradingview"/>
 https://play.google.com/store/apps/details?id=com.tradingview.tradingviewapp
 https://f-droid.org/en/packages/com.tradingview.tradingviewapp/
 https://apt.izzysoft.de/fdroid/index/apk/com.tradingview.tradingviewapp
@@ -343,7 +343,7 @@ Requested 1 times
 Last requested 1753441847.0
     
 <!-- Iceraven -->
-<item component="ComponentInfo{io.github.forkmaintainers.iceraven/io.github.forkmaintainers.iceraven.App}" drawable="iceraven_1"/>
+<item component="ComponentInfo{io.github.forkmaintainers.iceraven/io.github.forkmaintainers.iceraven.App}" drawable="iceraven"/>
 https://play.google.com/store/apps/details?id=io.github.forkmaintainers.iceraven
 https://f-droid.org/en/packages/io.github.forkmaintainers.iceraven/
 https://apt.izzysoft.de/fdroid/index/apk/io.github.forkmaintainers.iceraven
@@ -353,7 +353,7 @@ Requested 1 times
 Last requested 1775002566.0
     
 <!-- Arknights -->
-<item component="ComponentInfo{com.YoStarEN.Arknights/com.u8.sdk.U8UnityContext}" drawable="arknights_1"/>
+<item component="ComponentInfo{com.YoStarEN.Arknights/com.u8.sdk.U8UnityContext}" drawable="arknights"/>
 https://play.google.com/store/apps/details?id=com.YoStarEN.Arknights
 https://f-droid.org/en/packages/com.YoStarEN.Arknights/
 https://apt.izzysoft.de/fdroid/index/apk/com.YoStarEN.Arknights
@@ -363,7 +363,7 @@ Requested 1 times
 Last requested 1738612009.0
     
 <!-- Blue Archive -->
-<item component="ComponentInfo{com.nexon.bluearchive/com.nexon.bluearchive.MxUnityPlayerActivity}" drawable="blue_archive_1"/>
+<item component="ComponentInfo{com.nexon.bluearchive/com.nexon.bluearchive.MxUnityPlayerActivity}" drawable="blue_archive"/>
 https://play.google.com/store/apps/details?id=com.nexon.bluearchive
 https://f-droid.org/en/packages/com.nexon.bluearchive/
 https://apt.izzysoft.de/fdroid/index/apk/com.nexon.bluearchive
@@ -373,7 +373,7 @@ Requested 1 times
 Last requested 1738612009.0
     
 <!-- NIKKE -->
-<item component="ComponentInfo{com.proximabeta.nikke/com.shiftup.nk.MainActivity}" drawable="nikke_1"/>
+<item component="ComponentInfo{com.proximabeta.nikke/com.shiftup.nk.MainActivity}" drawable="nikke"/>
 https://play.google.com/store/apps/details?id=com.proximabeta.nikke
 https://f-droid.org/en/packages/com.proximabeta.nikke/
 https://apt.izzysoft.de/fdroid/index/apk/com.proximabeta.nikke
@@ -383,7 +383,7 @@ Requested 1 times
 Last requested 1738612009.0
     
 <!-- PGR -->
-<item component="ComponentInfo{com.kurogame.gplay.punishing.grayraven.en/com.kuro.hgsdk.SplashActivity}" drawable="pgr_1"/>
+<item component="ComponentInfo{com.kurogame.gplay.punishing.grayraven.en/com.kuro.hgsdk.SplashActivity}" drawable="pgr"/>
 https://play.google.com/store/apps/details?id=com.kurogame.gplay.punishing.grayraven.en
 https://f-droid.org/en/packages/com.kurogame.gplay.punishing.grayraven.en/
 https://apt.izzysoft.de/fdroid/index/apk/com.kurogame.gplay.punishing.grayraven.en
@@ -393,7 +393,7 @@ Requested 1 times
 Last requested 1738612009.0
     
 <!-- ReVanced Manager -->
-<item component="ComponentInfo{app.revanced.manager.flutter/app.revanced.manager.flutter.MainActivity}" drawable="revanced_manager_1"/>
+<item component="ComponentInfo{app.revanced.manager.flutter/app.revanced.manager.flutter.MainActivity}" drawable="revanced_manager"/>
 https://play.google.com/store/apps/details?id=app.revanced.manager.flutter
 https://f-droid.org/en/packages/app.revanced.manager.flutter/
 https://apt.izzysoft.de/fdroid/index/apk/app.revanced.manager.flutter
@@ -403,7 +403,7 @@ Requested 1 times
 Last requested 1738415632.0
     
 <!-- AFL -->
-<item component="ComponentInfo{com.telstra.android.afl/afl.pl.com.afl.launch.LaunchActivity}" drawable="afl_2"/>
+<item component="ComponentInfo{com.telstra.android.afl/afl.pl.com.afl.launch.LaunchActivity}" drawable="afl"/>
 https://play.google.com/store/apps/details?id=com.telstra.android.afl
 https://f-droid.org/en/packages/com.telstra.android.afl/
 https://apt.izzysoft.de/fdroid/index/apk/com.telstra.android.afl
@@ -413,7 +413,7 @@ Requested 1 times
 Last requested 1724363463.0
     
 <!-- Domino's -->
-<item component="ComponentInfo{au.com.dominos.olo.android.app/com.arizona.MainActivity}" drawable="dominos_2"/>
+<item component="ComponentInfo{au.com.dominos.olo.android.app/com.arizona.MainActivity}" drawable="dominos"/>
 https://play.google.com/store/apps/details?id=au.com.dominos.olo.android.app
 https://f-droid.org/en/packages/au.com.dominos.olo.android.app/
 https://apt.izzysoft.de/fdroid/index/apk/au.com.dominos.olo.android.app
@@ -423,7 +423,7 @@ Requested 1 times
 Last requested 1724363463.0
     
 <!-- Jerboa -->
-<item component="ComponentInfo{com.jerboa/com.jerboa.MainActivity}" drawable="jerboa_2"/>
+<item component="ComponentInfo{com.jerboa/com.jerboa.MainActivity}" drawable="jerboa"/>
 https://play.google.com/store/apps/details?id=com.jerboa
 https://f-droid.org/en/packages/com.jerboa/
 https://apt.izzysoft.de/fdroid/index/apk/com.jerboa
@@ -433,7 +433,7 @@ Requested 1 times
 Last requested 1724363463.0
     
 <!-- FluffyChat -->
-<item component="ComponentInfo{chat.fluffy.fluffychat/chat.fluffy.fluffychat.MainActivity}" drawable="fluffychat_1"/>
+<item component="ComponentInfo{chat.fluffy.fluffychat/chat.fluffy.fluffychat.MainActivity}" drawable="fluffychat"/>
 https://play.google.com/store/apps/details?id=chat.fluffy.fluffychat
 https://f-droid.org/en/packages/chat.fluffy.fluffychat/
 https://apt.izzysoft.de/fdroid/index/apk/chat.fluffy.fluffychat
@@ -443,7 +443,7 @@ Requested 1 times
 Last requested 1748994791.0
     
 <!-- Moshidon -->
-<item component="ComponentInfo{org.joinmastodon.android.moshinda/org.joinmastodon.android.MainActivity}" drawable="moshidon_1"/>
+<item component="ComponentInfo{org.joinmastodon.android.moshinda/org.joinmastodon.android.MainActivity}" drawable="moshidon"/>
 https://play.google.com/store/apps/details?id=org.joinmastodon.android.moshinda
 https://f-droid.org/en/packages/org.joinmastodon.android.moshinda/
 https://apt.izzysoft.de/fdroid/index/apk/org.joinmastodon.android.moshinda
@@ -453,7 +453,7 @@ Requested 1 times
 Last requested 1748994791.0
     
 <!-- 1DM+ -->
-<item component="ComponentInfo{idm.internet.download.manager.plus/idm.internet.download.manager.MainActivity}" drawable="_1dm__1"/>
+<item component="ComponentInfo{idm.internet.download.manager.plus/idm.internet.download.manager.MainActivity}" drawable="_1dm_"/>
 https://play.google.com/store/apps/details?id=idm.internet.download.manager.plus
 https://f-droid.org/en/packages/idm.internet.download.manager.plus/
 https://apt.izzysoft.de/fdroid/index/apk/idm.internet.download.manager.plus
@@ -463,7 +463,7 @@ Requested 1 times
 Last requested 1775327103.0
     
 <!-- Al-Qur'an Indonesia -->
-<item component="ComponentInfo{com.andi.alquran.id/com.andi.alquran.ActivityHome}" drawable="al_quran_indonesia_1"/>
+<item component="ComponentInfo{com.andi.alquran.id/com.andi.alquran.ActivityHome}" drawable="al_quran_indonesia"/>
 https://play.google.com/store/apps/details?id=com.andi.alquran.id
 https://f-droid.org/en/packages/com.andi.alquran.id/
 https://apt.izzysoft.de/fdroid/index/apk/com.andi.alquran.id
@@ -473,7 +473,7 @@ Requested 1 times
 Last requested 1775327103.0
     
 <!-- BRImo -->
-<item component="ComponentInfo{id.co.bri.brimo/id.co.bri.brimo.DefaultIcon}" drawable="brimo_1"/>
+<item component="ComponentInfo{id.co.bri.brimo/id.co.bri.brimo.DefaultIcon}" drawable="brimo"/>
 https://play.google.com/store/apps/details?id=id.co.bri.brimo
 https://f-droid.org/en/packages/id.co.bri.brimo/
 https://apt.izzysoft.de/fdroid/index/apk/id.co.bri.brimo
@@ -483,7 +483,7 @@ Requested 1 times
 Last requested 1775327103.0
     
 <!-- Call of Duty -->
-<item component="ComponentInfo{com.garena.game.codm/com.tencent.tmgp.cod.CODMPrivatePermissionActivity}" drawable="call_of_duty_2"/>
+<item component="ComponentInfo{com.garena.game.codm/com.tencent.tmgp.cod.CODMPrivatePermissionActivity}" drawable="call_of_duty"/>
 https://play.google.com/store/apps/details?id=com.garena.game.codm
 https://f-droid.org/en/packages/com.garena.game.codm/
 https://apt.izzysoft.de/fdroid/index/apk/com.garena.game.codm
@@ -493,7 +493,7 @@ Requested 1 times
 Last requested 1775327103.0
     
 <!-- AI Gallery -->
-<item component="ComponentInfo{com.gallery20/com.gallery20.activities.GalleryActivity}" drawable="ai_gallery_2"/>
+<item component="ComponentInfo{com.gallery20/com.gallery20.activities.GalleryActivity}" drawable="ai_gallery"/>
 https://play.google.com/store/apps/details?id=com.gallery20
 https://f-droid.org/en/packages/com.gallery20/
 https://apt.izzysoft.de/fdroid/index/apk/com.gallery20
@@ -503,7 +503,7 @@ Requested 1 times
 Last requested 1754445277.0
     
 <!-- Tusk -->
-<item component="ComponentInfo{com.ulsoft.tusk/com.ulsoft.tusk.MainActivity}" drawable="tusk_1"/>
+<item component="ComponentInfo{com.ulsoft.tusk/com.ulsoft.tusk.MainActivity}" drawable="tusk"/>
 https://play.google.com/store/apps/details?id=com.ulsoft.tusk
 https://f-droid.org/en/packages/com.ulsoft.tusk/
 https://apt.izzysoft.de/fdroid/index/apk/com.ulsoft.tusk
@@ -513,7 +513,7 @@ Requested 1 times
 Last requested 1754445277.0
     
 <!-- Xender -->
-<item component="ComponentInfo{cn.xender/cn.xender.ui.activity.SplashActivity}" drawable="xender_1"/>
+<item component="ComponentInfo{cn.xender/cn.xender.ui.activity.SplashActivity}" drawable="xender"/>
 https://play.google.com/store/apps/details?id=cn.xender
 https://f-droid.org/en/packages/cn.xender/
 https://apt.izzysoft.de/fdroid/index/apk/cn.xender
@@ -523,7 +523,7 @@ Requested 1 times
 Last requested 1754445277.0
     
 <!-- 1DM -->
-<item component="ComponentInfo{idm.internet.download.manager/idm.internet.download.manager.MainActivity}" drawable="_1dm_1"/>
+<item component="ComponentInfo{idm.internet.download.manager/idm.internet.download.manager.MainActivity}" drawable="_1dm"/>
 https://play.google.com/store/apps/details?id=idm.internet.download.manager
 https://f-droid.org/en/packages/idm.internet.download.manager/
 https://apt.izzysoft.de/fdroid/index/apk/idm.internet.download.manager
@@ -533,7 +533,7 @@ Requested 1 times
 Last requested 1744811938.0
     
 <!-- Call of Duty -->
-<item component="ComponentInfo{com.activision.callofduty.shooter/com.tencent.tmgp.cod.CODMPrivatePermissionActivity}" drawable="call_of_duty_3"/>
+<item component="ComponentInfo{com.activision.callofduty.shooter/com.tencent.tmgp.cod.CODMPrivatePermissionActivity}" drawable="call_of_duty_1"/>
 https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter
 https://f-droid.org/en/packages/com.activision.callofduty.shooter/
 https://apt.izzysoft.de/fdroid/index/apk/com.activision.callofduty.shooter
@@ -543,7 +543,7 @@ Requested 1 times
 Last requested 1744811938.0
     
 <!-- evcc -->
-<item component="ComponentInfo{io.evcc.android/io.evcc.android.MainActivity}" drawable="evcc_1"/>
+<item component="ComponentInfo{io.evcc.android/io.evcc.android.MainActivity}" drawable="evcc"/>
 https://play.google.com/store/apps/details?id=io.evcc.android
 https://f-droid.org/en/packages/io.evcc.android/
 https://apt.izzysoft.de/fdroid/index/apk/io.evcc.android
@@ -553,7 +553,7 @@ Requested 1 times
 Last requested 1753707812.0
     
 <!-- MyShows -->
-<item component="ComponentInfo{ru.myshows.app/ru.myshows.app.ui.navigation.LauncherActivity}" drawable="myshows_1"/>
+<item component="ComponentInfo{ru.myshows.app/ru.myshows.app.ui.navigation.LauncherActivity}" drawable="myshows"/>
 https://play.google.com/store/apps/details?id=ru.myshows.app
 https://f-droid.org/en/packages/ru.myshows.app/
 https://apt.izzysoft.de/fdroid/index/apk/ru.myshows.app
@@ -563,7 +563,7 @@ Requested 1 times
 Last requested 1753707812.0
     
 <!-- PowerSignal -->
-<item component="ComponentInfo{com.energycharts.stromampel/com.energycharts.stromampel.MainActivity}" drawable="powersignal_1"/>
+<item component="ComponentInfo{com.energycharts.stromampel/com.energycharts.stromampel.MainActivity}" drawable="powersignal"/>
 https://play.google.com/store/apps/details?id=com.energycharts.stromampel
 https://f-droid.org/en/packages/com.energycharts.stromampel/
 https://apt.izzysoft.de/fdroid/index/apk/com.energycharts.stromampel
@@ -573,7 +573,7 @@ Requested 1 times
 Last requested 1753707812.0
     
 <!-- White Noise Generator -->
-<item component="ComponentInfo{com.amikulich.noise/com.amikulich.noise.MainActivity}" drawable="white_noise_generator_1"/>
+<item component="ComponentInfo{com.amikulich.noise/com.amikulich.noise.MainActivity}" drawable="white_noise_generator"/>
 https://play.google.com/store/apps/details?id=com.amikulich.noise
 https://f-droid.org/en/packages/com.amikulich.noise/
 https://apt.izzysoft.de/fdroid/index/apk/com.amikulich.noise
@@ -583,7 +583,7 @@ Requested 1 times
 Last requested 1753707812.0
     
 <!-- ARTE -->
-<item component="ComponentInfo{tv.arte.plus7/tv.arte.plus7.mobile.presentation.home.HomeActivityPortraitMobile}" drawable="arte_1"/>
+<item component="ComponentInfo{tv.arte.plus7/tv.arte.plus7.mobile.presentation.home.HomeActivityPortraitMobile}" drawable="arte"/>
 https://play.google.com/store/apps/details?id=tv.arte.plus7
 https://f-droid.org/en/packages/tv.arte.plus7/
 https://apt.izzysoft.de/fdroid/index/apk/tv.arte.plus7
@@ -593,7 +593,7 @@ Requested 1 times
 Last requested 1749970230.0
     
 <!-- Movie! Plus -->
-<item component="ComponentInfo{com.gamesxploit.gameballtap/com.gamesxploit.gameballtap.ActivityIntro}" drawable="movie_plus_1"/>
+<item component="ComponentInfo{com.gamesxploit.gameballtap/com.gamesxploit.gameballtap.ActivityIntro}" drawable="movie_plus"/>
 https://play.google.com/store/apps/details?id=com.gamesxploit.gameballtap
 https://f-droid.org/en/packages/com.gamesxploit.gameballtap/
 https://apt.izzysoft.de/fdroid/index/apk/com.gamesxploit.gameballtap
@@ -603,7 +603,7 @@ Requested 1 times
 Last requested 1737058650.0
     
 <!-- Plata -->
-<item component="ComponentInfo{dif.tech.plata/dif.tech.plata.platform.feature.root.RootActivity.OneYear}" drawable="plata_1"/>
+<item component="ComponentInfo{dif.tech.plata/dif.tech.plata.platform.feature.root.RootActivity.OneYear}" drawable="plata"/>
 https://play.google.com/store/apps/details?id=dif.tech.plata
 https://f-droid.org/en/packages/dif.tech.plata/
 https://apt.izzysoft.de/fdroid/index/apk/dif.tech.plata
@@ -613,7 +613,7 @@ Requested 1 times
 Last requested 1737058650.0
     
 <!-- PlayHUB -->
-<item component="ComponentInfo{com.teamhub.playhub/com.teamhub.playhub.MainActivity}" drawable="playhub_1"/>
+<item component="ComponentInfo{com.teamhub.playhub/com.teamhub.playhub.MainActivity}" drawable="playhub"/>
 https://play.google.com/store/apps/details?id=com.teamhub.playhub
 https://f-droid.org/en/packages/com.teamhub.playhub/
 https://apt.izzysoft.de/fdroid/index/apk/com.teamhub.playhub
@@ -623,7 +623,7 @@ Requested 1 times
 Last requested 1737058650.0
     
 <!-- Soriana App -->
-<item component="ComponentInfo{com.soriana.appsoriana/com.soriana.appsorianasf.SplashActivity}" drawable="soriana_app_1"/>
+<item component="ComponentInfo{com.soriana.appsoriana/com.soriana.appsorianasf.SplashActivity}" drawable="soriana_app"/>
 https://play.google.com/store/apps/details?id=com.soriana.appsoriana
 https://f-droid.org/en/packages/com.soriana.appsoriana/
 https://apt.izzysoft.de/fdroid/index/apk/com.soriana.appsoriana
@@ -633,7 +633,7 @@ Requested 1 times
 Last requested 1737058650.0
     
 <!-- Delta Force -->
-<item component="ComponentInfo{com.proxima.dfm/com.epicgames.ue4.SplashActivity}" drawable="delta_force_1"/>
+<item component="ComponentInfo{com.proxima.dfm/com.epicgames.ue4.SplashActivity}" drawable="delta_force"/>
 https://play.google.com/store/apps/details?id=com.proxima.dfm
 https://f-droid.org/en/packages/com.proxima.dfm/
 https://apt.izzysoft.de/fdroid/index/apk/com.proxima.dfm
@@ -643,7 +643,7 @@ Requested 1 times
 Last requested 1751293482.0
     
 <!-- Wuthering Waves -->
-<item component="ComponentInfo{com.kurogame.wutheringwaves.global/com.kurogame.wutheringwaves.global.KuroSplashActivity}" drawable="wuthering_waves_1"/>
+<item component="ComponentInfo{com.kurogame.wutheringwaves.global/com.kurogame.wutheringwaves.global.KuroSplashActivity}" drawable="wuthering_waves"/>
 https://play.google.com/store/apps/details?id=com.kurogame.wutheringwaves.global
 https://f-droid.org/en/packages/com.kurogame.wutheringwaves.global/
 https://apt.izzysoft.de/fdroid/index/apk/com.kurogame.wutheringwaves.global
@@ -653,7 +653,7 @@ Requested 1 times
 Last requested 1751293482.0
     
 <!-- Aniyomi -->
-<item component="ComponentInfo{xyz.jmir.tachiyomi.mi/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="aniyomi_1"/>
+<item component="ComponentInfo{xyz.jmir.tachiyomi.mi/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="aniyomi"/>
 https://play.google.com/store/apps/details?id=xyz.jmir.tachiyomi.mi
 https://f-droid.org/en/packages/xyz.jmir.tachiyomi.mi/
 https://apt.izzysoft.de/fdroid/index/apk/xyz.jmir.tachiyomi.mi
@@ -663,7 +663,7 @@ Requested 1 times
 Last requested 1746920797.0
     
 <!-- Another Term -->
-<item component="ComponentInfo{green_green_avk.anotherterm/green_green_avk.anotherterm.SessionsActivity}" drawable="another_term_2"/>
+<item component="ComponentInfo{green_green_avk.anotherterm/green_green_avk.anotherterm.SessionsActivity}" drawable="another_term"/>
 https://play.google.com/store/apps/details?id=green_green_avk.anotherterm
 https://f-droid.org/en/packages/green_green_avk.anotherterm/
 https://apt.izzysoft.de/fdroid/index/apk/green_green_avk.anotherterm
@@ -673,7 +673,7 @@ Requested 1 times
 Last requested 1746920797.0
     
 <!-- Flipper -->
-<item component="ComponentInfo{com.flipperdevices.app/com.flipperdevices.singleactivity.impl.SingleActivity}" drawable="flipper_1"/>
+<item component="ComponentInfo{com.flipperdevices.app/com.flipperdevices.singleactivity.impl.SingleActivity}" drawable="flipper"/>
 https://play.google.com/store/apps/details?id=com.flipperdevices.app
 https://f-droid.org/en/packages/com.flipperdevices.app/
 https://apt.izzysoft.de/fdroid/index/apk/com.flipperdevices.app
@@ -683,7 +683,7 @@ Requested 1 times
 Last requested 1764726939.0
     
 <!-- USAA -->
-<item component="ComponentInfo{com.usaa.mobile.android.usaa/com.usaa.mobile.android.app.entry.view.MainEntryActivity}" drawable="usaa_1"/>
+<item component="ComponentInfo{com.usaa.mobile.android.usaa/com.usaa.mobile.android.app.entry.view.MainEntryActivity}" drawable="usaa"/>
 https://play.google.com/store/apps/details?id=com.usaa.mobile.android.usaa
 https://f-droid.org/en/packages/com.usaa.mobile.android.usaa/
 https://apt.izzysoft.de/fdroid/index/apk/com.usaa.mobile.android.usaa
@@ -693,7 +693,7 @@ Requested 1 times
 Last requested 1764726939.0
     
 <!-- Yahoo Mail -->
-<item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MainActivity}" drawable="yahoo_mail_1"/>
+<item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MainActivity}" drawable="yahoo_mail"/>
 https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.mail
 https://f-droid.org/en/packages/com.yahoo.mobile.client.android.mail/
 https://apt.izzysoft.de/fdroid/index/apk/com.yahoo.mobile.client.android.mail
@@ -703,7 +703,7 @@ Requested 1 times
 Last requested 1764726939.0
     
 <!-- AdGuard -->
-<item component="ComponentInfo{com.adguard.android/com.adguard.android.ui.activity.SplashActivity}" drawable="adguard_1"/>
+<item component="ComponentInfo{com.adguard.android/com.adguard.android.ui.activity.SplashActivity}" drawable="adguard"/>
 https://play.google.com/store/apps/details?id=com.adguard.android
 https://f-droid.org/en/packages/com.adguard.android/
 https://apt.izzysoft.de/fdroid/index/apk/com.adguard.android
@@ -713,7 +713,7 @@ Requested 1 times
 Last requested 1727123091.0
     
 <!-- Authenticator -->
-<item component="ComponentInfo{com.bitwarden.authenticator/com.bitwarden.authenticator.MainActivity}" drawable="authenticator_3"/>
+<item component="ComponentInfo{com.bitwarden.authenticator/com.bitwarden.authenticator.MainActivity}" drawable="authenticator"/>
 https://play.google.com/store/apps/details?id=com.bitwarden.authenticator
 https://f-droid.org/en/packages/com.bitwarden.authenticator/
 https://apt.izzysoft.de/fdroid/index/apk/com.bitwarden.authenticator
@@ -723,7 +723,7 @@ Requested 1 times
 Last requested 1727123091.0
     
 <!-- Copilot -->
-<item component="ComponentInfo{com.microsoft.copilot/com.microsoft.sapphire.app.main.SapphireMainActivity}" drawable="copilot_1"/>
+<item component="ComponentInfo{com.microsoft.copilot/com.microsoft.sapphire.app.main.SapphireMainActivity}" drawable="copilot"/>
 https://play.google.com/store/apps/details?id=com.microsoft.copilot
 https://f-droid.org/en/packages/com.microsoft.copilot/
 https://apt.izzysoft.de/fdroid/index/apk/com.microsoft.copilot
@@ -733,7 +733,7 @@ Requested 1 times
 Last requested 1727123091.0
     
 <!-- Aisleron -->
-<item component="ComponentInfo{com.aisleron/com.aisleron.MainActivity}" drawable="aisleron_1"/>
+<item component="ComponentInfo{com.aisleron/com.aisleron.MainActivity}" drawable="aisleron"/>
 https://play.google.com/store/apps/details?id=com.aisleron
 https://f-droid.org/en/packages/com.aisleron/
 https://apt.izzysoft.de/fdroid/index/apk/com.aisleron
@@ -743,7 +743,7 @@ Requested 1 times
 Last requested 1776278563.0
     
 <!-- Authenticator -->
-<item component="ComponentInfo{com.stratumauth.app/com.stratumauth.app.MainActivity}" drawable="authenticator_4"/>
+<item component="ComponentInfo{com.stratumauth.app/com.stratumauth.app.MainActivity}" drawable="authenticator_1"/>
 https://play.google.com/store/apps/details?id=com.stratumauth.app
 https://f-droid.org/en/packages/com.stratumauth.app/
 https://apt.izzysoft.de/fdroid/index/apk/com.stratumauth.app
@@ -753,7 +753,7 @@ Requested 1 times
 Last requested 1776278563.0
     
 <!-- DeepSeek -->
-<item component="ComponentInfo{com.deepseek.chat/com.deepseek.chat.MainActivity}" drawable="deepseek_1"/>
+<item component="ComponentInfo{com.deepseek.chat/com.deepseek.chat.MainActivity}" drawable="deepseek"/>
 https://play.google.com/store/apps/details?id=com.deepseek.chat
 https://f-droid.org/en/packages/com.deepseek.chat/
 https://apt.izzysoft.de/fdroid/index/apk/com.deepseek.chat
@@ -763,7 +763,7 @@ Requested 1 times
 Last requested 1752231814.0
     
 <!-- UserLAnd -->
-<item component="ComponentInfo{tech.ula/tech.ula.library.MainActivity}" drawable="userland_1"/>
+<item component="ComponentInfo{tech.ula/tech.ula.library.MainActivity}" drawable="userland"/>
 https://play.google.com/store/apps/details?id=tech.ula
 https://f-droid.org/en/packages/tech.ula/
 https://apt.izzysoft.de/fdroid/index/apk/tech.ula
@@ -773,7 +773,7 @@ Requested 1 times
 Last requested 1756046898.0
     
 <!-- Code Studio -->
-<item component="ComponentInfo{com.alif.ide/com.alif.app.AppActivity}" drawable="code_studio_1"/>
+<item component="ComponentInfo{com.alif.ide/com.alif.app.AppActivity}" drawable="code_studio"/>
 https://play.google.com/store/apps/details?id=com.alif.ide
 https://f-droid.org/en/packages/com.alif.ide/
 https://apt.izzysoft.de/fdroid/index/apk/com.alif.ide
@@ -783,7 +783,7 @@ Requested 1 times
 Last requested 1756046961.0
     
 <!-- BCA mobile -->
-<item component="ComponentInfo{com.bca/com.bca.mobile.MainActivity}" drawable="bca_mobile_1"/>
+<item component="ComponentInfo{com.bca/com.bca.mobile.MainActivity}" drawable="bca_mobile"/>
 https://play.google.com/store/apps/details?id=com.bca
 https://f-droid.org/en/packages/com.bca/
 https://apt.izzysoft.de/fdroid/index/apk/com.bca
@@ -793,7 +793,7 @@ Requested 1 times
 Last requested 1754816169.0
     
 <!-- Charge+ -->
-<item component="ComponentInfo{com.chargeplus.chargeapp/com.chargeplus.chargeapp.MainActivity}" drawable="charge__1"/>
+<item component="ComponentInfo{com.chargeplus.chargeapp/com.chargeplus.chargeapp.MainActivity}" drawable="charge_"/>
 https://play.google.com/store/apps/details?id=com.chargeplus.chargeapp
 https://f-droid.org/en/packages/com.chargeplus.chargeapp/
 https://apt.izzysoft.de/fdroid/index/apk/com.chargeplus.chargeapp
@@ -803,7 +803,7 @@ Requested 1 times
 Last requested 1754816169.0
     
 <!-- Xanh SM Driver -->
-<item component="ComponentInfo{net.gsm.driver.app/net.gsm.driver.app.ui.splash.SplashActivity}" drawable="xanh_sm_driver_1"/>
+<item component="ComponentInfo{net.gsm.driver.app/net.gsm.driver.app.ui.splash.SplashActivity}" drawable="xanh_sm_driver"/>
 https://play.google.com/store/apps/details?id=net.gsm.driver.app
 https://f-droid.org/en/packages/net.gsm.driver.app/
 https://apt.izzysoft.de/fdroid/index/apk/net.gsm.driver.app
@@ -813,7 +813,7 @@ Requested 1 times
 Last requested 1754816169.0
     
 <!-- BBC Basic -->
-<item component="ComponentInfo{com.rtrussell.bbcbasic/com.rtrussell.bbcbasic.BBCBasic}" drawable="bbc_basic_1"/>
+<item component="ComponentInfo{com.rtrussell.bbcbasic/com.rtrussell.bbcbasic.BBCBasic}" drawable="bbc_basic"/>
 https://play.google.com/store/apps/details?id=com.rtrussell.bbcbasic
 https://f-droid.org/en/packages/com.rtrussell.bbcbasic/
 https://apt.izzysoft.de/fdroid/index/apk/com.rtrussell.bbcbasic
@@ -823,7 +823,7 @@ Requested 1 times
 Last requested 1771305933.0
     
 <!-- Temporizador de Cocina -->
-<item component="ComponentInfo{com.maxxt.kitchentimer/com.maxxt.kitchentimer.ui.activities.main_view.MainActivity}" drawable="temporizador_de_cocina_1"/>
+<item component="ComponentInfo{com.maxxt.kitchentimer/com.maxxt.kitchentimer.ui.activities.main_view.MainActivity}" drawable="temporizador_de_cocina"/>
 https://play.google.com/store/apps/details?id=com.maxxt.kitchentimer
 https://f-droid.org/en/packages/com.maxxt.kitchentimer/
 https://apt.izzysoft.de/fdroid/index/apk/com.maxxt.kitchentimer
@@ -833,7 +833,7 @@ Requested 1 times
 Last requested 1771305933.0
     
 <!-- UnicodePad -->
-<item component="ComponentInfo{jp.ddo.hotmist.unicodepad/jp.ddo.hotmist.unicodepad.UnicodeActivity}" drawable="unicodepad_1"/>
+<item component="ComponentInfo{jp.ddo.hotmist.unicodepad/jp.ddo.hotmist.unicodepad.UnicodeActivity}" drawable="unicodepad"/>
 https://play.google.com/store/apps/details?id=jp.ddo.hotmist.unicodepad
 https://f-droid.org/en/packages/jp.ddo.hotmist.unicodepad/
 https://apt.izzysoft.de/fdroid/index/apk/jp.ddo.hotmist.unicodepad
@@ -843,7 +843,7 @@ Requested 1 times
 Last requested 1771305933.0
     
 <!-- Automate -->
-<item component="ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}" drawable="automate_1"/>
+<item component="ComponentInfo{com.llamalab.automate/com.llamalab.automate.FlowListActivity}" drawable="automate"/>
 https://play.google.com/store/apps/details?id=com.llamalab.automate
 https://f-droid.org/en/packages/com.llamalab.automate/
 https://apt.izzysoft.de/fdroid/index/apk/com.llamalab.automate
@@ -853,7 +853,7 @@ Requested 1 times
 Last requested 1727244929.0
     
 <!-- FX -->
-<item component="ComponentInfo{nextapp.fx/nextapp.fx.ui.ExplorerActivity}" drawable="fx_1"/>
+<item component="ComponentInfo{nextapp.fx/nextapp.fx.ui.ExplorerActivity}" drawable="fx"/>
 https://play.google.com/store/apps/details?id=nextapp.fx
 https://f-droid.org/en/packages/nextapp.fx/
 https://apt.izzysoft.de/fdroid/index/apk/nextapp.fx
@@ -863,7 +863,7 @@ Requested 1 times
 Last requested 1727244929.0
     
 <!-- KillApps -->
-<item component="ComponentInfo{com.tafayor.killall/com.tafayor.killall.MainActivity}" drawable="killapps_1"/>
+<item component="ComponentInfo{com.tafayor.killall/com.tafayor.killall.MainActivity}" drawable="killapps"/>
 https://play.google.com/store/apps/details?id=com.tafayor.killall
 https://f-droid.org/en/packages/com.tafayor.killall/
 https://apt.izzysoft.de/fdroid/index/apk/com.tafayor.killall
@@ -873,7 +873,7 @@ Requested 1 times
 Last requested 1727244929.0
     
 <!-- MacroDroid -->
-<item component="ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}" drawable="macrodroid_1"/>
+<item component="ComponentInfo{com.arlosoft.macrodroid/com.arlosoft.macrodroid.intro.IntroActivity}" drawable="macrodroid"/>
 https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid
 https://f-droid.org/en/packages/com.arlosoft.macrodroid/
 https://apt.izzysoft.de/fdroid/index/apk/com.arlosoft.macrodroid
@@ -883,7 +883,7 @@ Requested 1 times
 Last requested 1727244929.0
     
 <!-- Another Term -->
-<item component="ComponentInfo{green_green_avk.anotherterm.redist/green_green_avk.anotherterm.SessionsActivity}" drawable="another_term_3"/>
+<item component="ComponentInfo{green_green_avk.anotherterm.redist/green_green_avk.anotherterm.SessionsActivity}" drawable="another_term_1"/>
 https://play.google.com/store/apps/details?id=green_green_avk.anotherterm.redist
 https://f-droid.org/en/packages/green_green_avk.anotherterm.redist/
 https://apt.izzysoft.de/fdroid/index/apk/green_green_avk.anotherterm.redist
@@ -893,7 +893,7 @@ Requested 1 times
 Last requested 1747467771.0
     
 <!-- Easy Words -->
-<item component="ComponentInfo{com.easybrain.word.puzzle.game/com.easybrain.template.SplashActivity}" drawable="easy_words_1"/>
+<item component="ComponentInfo{com.easybrain.word.puzzle.game/com.easybrain.template.SplashActivity}" drawable="easy_words"/>
 https://play.google.com/store/apps/details?id=com.easybrain.word.puzzle.game
 https://f-droid.org/en/packages/com.easybrain.word.puzzle.game/
 https://apt.izzysoft.de/fdroid/index/apk/com.easybrain.word.puzzle.game
@@ -903,7 +903,7 @@ Requested 1 times
 Last requested 1747467771.0
     
 <!-- Mauth -->
-<item component="ComponentInfo{com.xinto.mauth/com.xinto.mauth.ui.MainActivity}" drawable="mauth_1"/>
+<item component="ComponentInfo{com.xinto.mauth/com.xinto.mauth.ui.MainActivity}" drawable="mauth"/>
 https://play.google.com/store/apps/details?id=com.xinto.mauth
 https://f-droid.org/en/packages/com.xinto.mauth/
 https://apt.izzysoft.de/fdroid/index/apk/com.xinto.mauth
@@ -913,7 +913,7 @@ Requested 1 times
 Last requested 1747467771.0
     
 <!-- Archiwum powiadomień -->
-<item component="ComponentInfo{net.difer.notiarch/net.difer.notiarch.AMain}" drawable="archiwum_powiadomien_1"/>
+<item component="ComponentInfo{net.difer.notiarch/net.difer.notiarch.AMain}" drawable="archiwum_powiadomien"/>
 https://play.google.com/store/apps/details?id=net.difer.notiarch
 https://f-droid.org/en/packages/net.difer.notiarch/
 https://apt.izzysoft.de/fdroid/index/apk/net.difer.notiarch
@@ -923,7 +923,7 @@ Requested 1 times
 Last requested 1735774026.0
     
 <!-- Cake Wallet -->
-<item component="ComponentInfo{com.cakewallet.cake_wallet/com.cakewallet.cake_wallet.MainActivity}" drawable="cake_wallet_1"/>
+<item component="ComponentInfo{com.cakewallet.cake_wallet/com.cakewallet.cake_wallet.MainActivity}" drawable="cake_wallet"/>
 https://play.google.com/store/apps/details?id=com.cakewallet.cake_wallet
 https://f-droid.org/en/packages/com.cakewallet.cake_wallet/
 https://apt.izzysoft.de/fdroid/index/apk/com.cakewallet.cake_wallet
@@ -933,7 +933,7 @@ Requested 1 times
 Last requested 1735774026.0
     
 <!-- Solitaire Master -->
-<item component="ComponentInfo{org.rrl.solitaire.master.pro/org.rrl.solitaire.master.pro.AndroidLauncher}" drawable="solitaire_master_1"/>
+<item component="ComponentInfo{org.rrl.solitaire.master.pro/org.rrl.solitaire.master.pro.AndroidLauncher}" drawable="solitaire_master"/>
 https://play.google.com/store/apps/details?id=org.rrl.solitaire.master.pro
 https://f-droid.org/en/packages/org.rrl.solitaire.master.pro/
 https://apt.izzysoft.de/fdroid/index/apk/org.rrl.solitaire.master.pro
@@ -943,7 +943,7 @@ Requested 1 times
 Last requested 1725727798.0
     
 <!-- aCalendar+ -->
-<item component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendar.ACalendar}" drawable="acalendar__1"/>
+<item component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendar.ACalendar}" drawable="acalendar_"/>
 https://play.google.com/store/apps/details?id=org.withouthat.acalendarplus
 https://f-droid.org/en/packages/org.withouthat.acalendarplus/
 https://apt.izzysoft.de/fdroid/index/apk/org.withouthat.acalendarplus
@@ -953,7 +953,7 @@ Requested 1 times
 Last requested 1754678073.0
     
 <!-- Grocy -->
-<item component="ComponentInfo{xyz.zedler.patrick.grocy/xyz.zedler.patrick.grocy.activity.SplashActivity}" drawable="grocy_1"/>
+<item component="ComponentInfo{xyz.zedler.patrick.grocy/xyz.zedler.patrick.grocy.activity.SplashActivity}" drawable="grocy"/>
 https://play.google.com/store/apps/details?id=xyz.zedler.patrick.grocy
 https://f-droid.org/en/packages/xyz.zedler.patrick.grocy/
 https://apt.izzysoft.de/fdroid/index/apk/xyz.zedler.patrick.grocy
@@ -963,7 +963,7 @@ Requested 1 times
 Last requested 1753086580.0
     
 <!-- Proxmox Virtual Environment -->
-<item component="ComponentInfo{com.proxmox.app.pve_flutter_frontend/com.proxmox.app.pve_flutter_frontend.MainActivity}" drawable="proxmox_virtual_environment_1"/>
+<item component="ComponentInfo{com.proxmox.app.pve_flutter_frontend/com.proxmox.app.pve_flutter_frontend.MainActivity}" drawable="proxmox_virtual_environment"/>
 https://play.google.com/store/apps/details?id=com.proxmox.app.pve_flutter_frontend
 https://f-droid.org/en/packages/com.proxmox.app.pve_flutter_frontend/
 https://apt.izzysoft.de/fdroid/index/apk/com.proxmox.app.pve_flutter_frontend
@@ -973,7 +973,7 @@ Requested 1 times
 Last requested 1753301112.0
     
 <!-- CallApp -->
-<item component="ComponentInfo{com.callapp.contacts/com.callapp.contacts.activity.contact.list.ContactsListActivity}" drawable="callapp_1"/>
+<item component="ComponentInfo{com.callapp.contacts/com.callapp.contacts.activity.contact.list.ContactsListActivity}" drawable="callapp"/>
 https://play.google.com/store/apps/details?id=com.callapp.contacts
 https://f-droid.org/en/packages/com.callapp.contacts/
 https://apt.izzysoft.de/fdroid/index/apk/com.callapp.contacts
@@ -983,7 +983,7 @@ Requested 1 times
 Last requested 1760743340.0
     
 <!-- WELT News -->
-<item component="ComponentInfo{de.cellular.n24hybrid/de.weltn24.news.main.view.MainScreenActivity}" drawable="welt_news_1"/>
+<item component="ComponentInfo{de.cellular.n24hybrid/de.weltn24.news.main.view.MainScreenActivity}" drawable="welt_news"/>
 https://play.google.com/store/apps/details?id=de.cellular.n24hybrid
 https://f-droid.org/en/packages/de.cellular.n24hybrid/
 https://apt.izzysoft.de/fdroid/index/apk/de.cellular.n24hybrid
@@ -993,7 +993,7 @@ Requested 1 times
 Last requested 1760743340.0
     
 <!-- Chess -->
-<item component="ComponentInfo{com.chess/com.chess.splash.SplashActivity}" drawable="chess_1"/>
+<item component="ComponentInfo{com.chess/com.chess.splash.SplashActivity}" drawable="chess"/>
 https://play.google.com/store/apps/details?id=com.chess
 https://f-droid.org/en/packages/com.chess/
 https://apt.izzysoft.de/fdroid/index/apk/com.chess
@@ -1003,7 +1003,7 @@ Requested 1 times
 Last requested 1728347370.0
     
 <!-- Google One -->
-<item component="ComponentInfo{com.google.android.apps.subscriptions.red/com.google.android.apps.subscriptions.red.LauncherActivity}" drawable="google_one_1"/>
+<item component="ComponentInfo{com.google.android.apps.subscriptions.red/com.google.android.apps.subscriptions.red.LauncherActivity}" drawable="google_one"/>
 https://play.google.com/store/apps/details?id=com.google.android.apps.subscriptions.red
 https://f-droid.org/en/packages/com.google.android.apps.subscriptions.red/
 https://apt.izzysoft.de/fdroid/index/apk/com.google.android.apps.subscriptions.red
@@ -1013,7 +1013,7 @@ Requested 1 times
 Last requested 1728347370.0
     
 <!-- Kanji Dojo -->
-<item component="ComponentInfo{ua.syt0r.kanji.fdroid/ua.syt0r.kanji.presentation.screen.main.FdroidMainActivity}" drawable="kanji_dojo_1"/>
+<item component="ComponentInfo{ua.syt0r.kanji.fdroid/ua.syt0r.kanji.presentation.screen.main.FdroidMainActivity}" drawable="kanji_dojo"/>
 https://play.google.com/store/apps/details?id=ua.syt0r.kanji.fdroid
 https://f-droid.org/en/packages/ua.syt0r.kanji.fdroid/
 https://apt.izzysoft.de/fdroid/index/apk/ua.syt0r.kanji.fdroid
@@ -1023,7 +1023,7 @@ Requested 1 times
 Last requested 1728347370.0
     
 <!-- Brevent -->
-<item component="ComponentInfo{me.piebridge.brevent/me.piebridge.brevent.ui.BreventActivity}" drawable="brevent_1"/>
+<item component="ComponentInfo{me.piebridge.brevent/me.piebridge.brevent.ui.BreventActivity}" drawable="brevent"/>
 https://play.google.com/store/apps/details?id=me.piebridge.brevent
 https://f-droid.org/en/packages/me.piebridge.brevent/
 https://apt.izzysoft.de/fdroid/index/apk/me.piebridge.brevent
@@ -1033,7 +1033,7 @@ Requested 1 times
 Last requested 1749840090.0
     
 <!-- Cámara -->
-<item component="ComponentInfo{com.motorola.odm.camera3/com.android.camera.CameraLauncher}" drawable="camara_1"/>
+<item component="ComponentInfo{com.motorola.odm.camera3/com.android.camera.CameraLauncher}" drawable="camara"/>
 https://play.google.com/store/apps/details?id=com.motorola.odm.camera3
 https://f-droid.org/en/packages/com.motorola.odm.camera3/
 https://apt.izzysoft.de/fdroid/index/apk/com.motorola.odm.camera3
@@ -1043,7 +1043,7 @@ Requested 1 times
 Last requested 1749840090.0
     
 <!-- Izly -->
-<item component="ComponentInfo{fr.smoney.android.izly.REC/fr.smoney.android.izly.ui.publicview.login.LoginActivity}" drawable="izly_1"/>
+<item component="ComponentInfo{fr.smoney.android.izly.REC/fr.smoney.android.izly.ui.publicview.login.LoginActivity}" drawable="izly"/>
 https://play.google.com/store/apps/details?id=fr.smoney.android.izly.REC
 https://f-droid.org/en/packages/fr.smoney.android.izly.REC/
 https://apt.izzysoft.de/fdroid/index/apk/fr.smoney.android.izly.REC
@@ -1053,7 +1053,7 @@ Requested 1 times
 Last requested 1726824142.0
     
 <!-- BeReal. -->
-<item component="ComponentInfo{com.bereal.ft/bereal.app.MainActivity}" drawable="bereal_1"/>
+<item component="ComponentInfo{com.bereal.ft/bereal.app.MainActivity}" drawable="bereal"/>
 https://play.google.com/store/apps/details?id=com.bereal.ft
 https://f-droid.org/en/packages/com.bereal.ft/
 https://apt.izzysoft.de/fdroid/index/apk/com.bereal.ft
@@ -1063,7 +1063,7 @@ Requested 1 times
 Last requested 1726827341.0
     
 <!-- Ente Auth -->
-<item component="ComponentInfo{io.ente.auth/io.ente.auth.MainActivity}" drawable="ente_auth_1"/>
+<item component="ComponentInfo{io.ente.auth/io.ente.auth.MainActivity}" drawable="ente_auth"/>
 https://play.google.com/store/apps/details?id=io.ente.auth
 https://f-droid.org/en/packages/io.ente.auth/
 https://apt.izzysoft.de/fdroid/index/apk/io.ente.auth
@@ -1073,7 +1073,7 @@ Requested 1 times
 Last requested 1758703844.0
     
 <!-- Geo Share -->
-<item component="ComponentInfo{page.ooooo.geoshare/page.ooooo.geoshare.MainActivity}" drawable="geo_share_1"/>
+<item component="ComponentInfo{page.ooooo.geoshare/page.ooooo.geoshare.MainActivity}" drawable="geo_share"/>
 https://play.google.com/store/apps/details?id=page.ooooo.geoshare
 https://f-droid.org/en/packages/page.ooooo.geoshare/
 https://apt.izzysoft.de/fdroid/index/apk/page.ooooo.geoshare
@@ -1083,7 +1083,7 @@ Requested 1 times
 Last requested 1758703844.0
     
 <!-- KOReader -->
-<item component="ComponentInfo{org.koreader.launcher.fdroid/org.koreader.launcher.MainActivity}" drawable="koreader_1"/>
+<item component="ComponentInfo{org.koreader.launcher.fdroid/org.koreader.launcher.MainActivity}" drawable="koreader"/>
 https://play.google.com/store/apps/details?id=org.koreader.launcher.fdroid
 https://f-droid.org/en/packages/org.koreader.launcher.fdroid/
 https://apt.izzysoft.de/fdroid/index/apk/org.koreader.launcher.fdroid
@@ -1093,7 +1093,7 @@ Requested 1 times
 Last requested 1758703844.0
     
 <!-- Biblia -->
-<item component="ComponentInfo{com.sirma.mobile.bible.android/youversion.bible.app.MainActivity}" drawable="biblia_1"/>
+<item component="ComponentInfo{com.sirma.mobile.bible.android/youversion.bible.app.MainActivity}" drawable="biblia"/>
 https://play.google.com/store/apps/details?id=com.sirma.mobile.bible.android
 https://f-droid.org/en/packages/com.sirma.mobile.bible.android/
 https://apt.izzysoft.de/fdroid/index/apk/com.sirma.mobile.bible.android
@@ -1103,7 +1103,7 @@ Requested 1 times
 Last requested 1759639750.0
     
 <!-- Daijishō -->
-<item component="ComponentInfo{com.magneticchen.daijishou/com.magneticchen.daijishou.activities.BootstrapActivity}" drawable="daijisho_1"/>
+<item component="ComponentInfo{com.magneticchen.daijishou/com.magneticchen.daijishou.activities.BootstrapActivity}" drawable="daijisho"/>
 https://play.google.com/store/apps/details?id=com.magneticchen.daijishou
 https://f-droid.org/en/packages/com.magneticchen.daijishou/
 https://apt.izzysoft.de/fdroid/index/apk/com.magneticchen.daijishou
@@ -1113,7 +1113,7 @@ Requested 1 times
 Last requested 1759639750.0
     
 <!-- AI Gallery -->
-<item component="ComponentInfo{com.gallery20/com.gallery20.HomeActivity}" drawable="ai_gallery_3"/>
+<item component="ComponentInfo{com.gallery20/com.gallery20.HomeActivity}" drawable="ai_gallery_1"/>
 https://play.google.com/store/apps/details?id=com.gallery20
 https://f-droid.org/en/packages/com.gallery20/
 https://apt.izzysoft.de/fdroid/index/apk/com.gallery20
@@ -1123,7 +1123,7 @@ Requested 1 times
 Last requested 1765235029.0
     
 <!-- Calendar -->
-<item component="ComponentInfo{com.transsion.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar_1"/>
+<item component="ComponentInfo{com.transsion.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar"/>
 https://play.google.com/store/apps/details?id=com.transsion.calendar
 https://f-droid.org/en/packages/com.transsion.calendar/
 https://apt.izzysoft.de/fdroid/index/apk/com.transsion.calendar
@@ -1133,7 +1133,7 @@ Requested 1 times
 Last requested 1765235029.0
     
 <!-- Discogs -->
-<item component="ComponentInfo{com.discogs.app/com.discogs.app.MainActivity}" drawable="discogs_1"/>
+<item component="ComponentInfo{com.discogs.app/com.discogs.app.MainActivity}" drawable="discogs"/>
 https://play.google.com/store/apps/details?id=com.discogs.app
 https://f-droid.org/en/packages/com.discogs.app/
 https://apt.izzysoft.de/fdroid/index/apk/com.discogs.app
@@ -1143,7 +1143,7 @@ Requested 1 times
 Last requested 1731446435.0
     
 <!-- JRemote2 -->
-<item component="ComponentInfo{com.jriver.jremote2/com.jriver.jremote.activities.MainActivity}" drawable="jremote2_1"/>
+<item component="ComponentInfo{com.jriver.jremote2/com.jriver.jremote.activities.MainActivity}" drawable="jremote2"/>
 https://play.google.com/store/apps/details?id=com.jriver.jremote2
 https://f-droid.org/en/packages/com.jriver.jremote2/
 https://apt.izzysoft.de/fdroid/index/apk/com.jriver.jremote2
@@ -1153,7 +1153,7 @@ Requested 1 times
 Last requested 1731446435.0
     
 <!-- Neutron Player -->
-<item component="ComponentInfo{com.neutroncode.mp/com.neutroncode.mp.NeutronMPCore}" drawable="neutron_player_1"/>
+<item component="ComponentInfo{com.neutroncode.mp/com.neutroncode.mp.NeutronMPCore}" drawable="neutron_player"/>
 https://play.google.com/store/apps/details?id=com.neutroncode.mp
 https://f-droid.org/en/packages/com.neutroncode.mp/
 https://apt.izzysoft.de/fdroid/index/apk/com.neutroncode.mp
@@ -1163,7 +1163,7 @@ Requested 1 times
 Last requested 1731446435.0
     
 <!-- BlackPlayer -->
-<item component="ComponentInfo{com.musicplayer.blackplayerfree/com.kodarkooperativet.blackplayerfree.activities.ViewPagerActivity}" drawable="blackplayer_1"/>
+<item component="ComponentInfo{com.musicplayer.blackplayerfree/com.kodarkooperativet.blackplayerfree.activities.ViewPagerActivity}" drawable="blackplayer"/>
 https://play.google.com/store/apps/details?id=com.musicplayer.blackplayerfree
 https://f-droid.org/en/packages/com.musicplayer.blackplayerfree/
 https://apt.izzysoft.de/fdroid/index/apk/com.musicplayer.blackplayerfree
@@ -1173,7 +1173,7 @@ Requested 1 times
 Last requested 1736172710.0
     
 <!-- Contacts -->
-<item component="ComponentInfo{com.oneplus.contacts/com.oneplus.contacts.activities.OPPeopleActivity}" drawable="contacts_2"/>
+<item component="ComponentInfo{com.oneplus.contacts/com.oneplus.contacts.activities.OPPeopleActivity}" drawable="contacts"/>
 https://play.google.com/store/apps/details?id=com.oneplus.contacts
 https://f-droid.org/en/packages/com.oneplus.contacts/
 https://apt.izzysoft.de/fdroid/index/apk/com.oneplus.contacts
@@ -1183,7 +1183,7 @@ Requested 1 times
 Last requested 1736172710.0
     
 <!-- Finch -->
-<item component="ComponentInfo{com.finch.finch/com.finch.finch.MainActivity}" drawable="finch_1"/>
+<item component="ComponentInfo{com.finch.finch/com.finch.finch.MainActivity}" drawable="finch"/>
 https://play.google.com/store/apps/details?id=com.finch.finch
 https://f-droid.org/en/packages/com.finch.finch/
 https://apt.izzysoft.de/fdroid/index/apk/com.finch.finch
@@ -1193,7 +1193,7 @@ Requested 1 times
 Last requested 1772546095.0
     
 <!-- Lovense Remote -->
-<item component="ComponentInfo{com.lovense.wear/com.wear.main.FlashActivity}" drawable="lovense_remote_1"/>
+<item component="ComponentInfo{com.lovense.wear/com.wear.main.FlashActivity}" drawable="lovense_remote"/>
 https://play.google.com/store/apps/details?id=com.lovense.wear
 https://f-droid.org/en/packages/com.lovense.wear/
 https://apt.izzysoft.de/fdroid/index/apk/com.lovense.wear
@@ -1203,7 +1203,7 @@ Requested 1 times
 Last requested 1772546095.0
     
 <!-- Evira -->
-<item component="ComponentInfo{se.evira/se.evira.MainActivity}" drawable="evira_1"/>
+<item component="ComponentInfo{se.evira/se.evira.MainActivity}" drawable="evira"/>
 https://play.google.com/store/apps/details?id=se.evira
 https://f-droid.org/en/packages/se.evira/
 https://apt.izzysoft.de/fdroid/index/apk/se.evira
@@ -1213,7 +1213,7 @@ Requested 1 times
 Last requested 1771290779.0
     
 <!-- Iriun Webcam -->
-<item component="ComponentInfo{com.jacksoftw.webcam/com.iriun.webcam.IntroActivity}" drawable="iriun_webcam_1"/>
+<item component="ComponentInfo{com.jacksoftw.webcam/com.iriun.webcam.IntroActivity}" drawable="iriun_webcam"/>
 https://play.google.com/store/apps/details?id=com.jacksoftw.webcam
 https://f-droid.org/en/packages/com.jacksoftw.webcam/
 https://apt.izzysoft.de/fdroid/index/apk/com.jacksoftw.webcam
@@ -1223,7 +1223,7 @@ Requested 1 times
 Last requested 1771290779.0
     
 <!-- Dokkan -->
-<item component="ComponentInfo{com.bandainamcogames.dbzdokkanww/org.cocos2dx.cpp.AppActivity}" drawable="dokkan_1"/>
+<item component="ComponentInfo{com.bandainamcogames.dbzdokkanww/org.cocos2dx.cpp.AppActivity}" drawable="dokkan"/>
 https://play.google.com/store/apps/details?id=com.bandainamcogames.dbzdokkanww
 https://f-droid.org/en/packages/com.bandainamcogames.dbzdokkanww/
 https://apt.izzysoft.de/fdroid/index/apk/com.bandainamcogames.dbzdokkanww
@@ -1233,7 +1233,7 @@ Requested 1 times
 Last requested 1724981005.0
     
 <!-- Kuukiyomi -->
-<item component="ComponentInfo{xyz.luft.tachiyomi.mi.debug/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="kuukiyomi_1"/>
+<item component="ComponentInfo{xyz.luft.tachiyomi.mi.debug/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="kuukiyomi"/>
 https://play.google.com/store/apps/details?id=xyz.luft.tachiyomi.mi.debug
 https://f-droid.org/en/packages/xyz.luft.tachiyomi.mi.debug/
 https://apt.izzysoft.de/fdroid/index/apk/xyz.luft.tachiyomi.mi.debug
@@ -1243,7 +1243,7 @@ Requested 1 times
 Last requested 1724981005.0
     
 <!-- Max -->
-<item component="ComponentInfo{com.wbd.stream/com.wbd.fuse.appcore.FuseActivity}" drawable="max_1"/>
+<item component="ComponentInfo{com.wbd.stream/com.wbd.fuse.appcore.FuseActivity}" drawable="max"/>
 https://play.google.com/store/apps/details?id=com.wbd.stream
 https://f-droid.org/en/packages/com.wbd.stream/
 https://apt.izzysoft.de/fdroid/index/apk/com.wbd.stream
@@ -1253,7 +1253,7 @@ Requested 1 times
 Last requested 1724981005.0
     
 <!-- A-Trust Signatur -->
-<item component="ComponentInfo{at.atrust.tanapp/at.atrust.tanapp.MainActivity}" drawable="a_trust_signatur_1"/>
+<item component="ComponentInfo{at.atrust.tanapp/at.atrust.tanapp.MainActivity}" drawable="a_trust_signatur"/>
 https://play.google.com/store/apps/details?id=at.atrust.tanapp
 https://f-droid.org/en/packages/at.atrust.tanapp/
 https://apt.izzysoft.de/fdroid/index/apk/at.atrust.tanapp
@@ -1263,7 +1263,7 @@ Requested 1 times
 Last requested 1752813249.0
     
 <!-- aBattery -->
-<item component="ComponentInfo{me.linshen.abattery/me.linshen.abattery.MainActivity}" drawable="abattery_1"/>
+<item component="ComponentInfo{me.linshen.abattery/me.linshen.abattery.MainActivity}" drawable="abattery"/>
 https://play.google.com/store/apps/details?id=me.linshen.abattery
 https://f-droid.org/en/packages/me.linshen.abattery/
 https://apt.izzysoft.de/fdroid/index/apk/me.linshen.abattery
@@ -1273,7 +1273,7 @@ Requested 1 times
 Last requested 1752813249.0
     
 <!-- ČSOB Smart -->
-<item component="ComponentInfo{cz.csob.smart/cz.csob.smartbanking.app.LauncherActivity}" drawable="csob_smart_1"/>
+<item component="ComponentInfo{cz.csob.smart/cz.csob.smartbanking.app.LauncherActivity}" drawable="csob_smart"/>
 https://play.google.com/store/apps/details?id=cz.csob.smart
 https://f-droid.org/en/packages/cz.csob.smart/
 https://apt.izzysoft.de/fdroid/index/apk/cz.csob.smart
@@ -1283,7 +1283,7 @@ Requested 1 times
 Last requested 1776086687.0
     
 <!-- ČSOB Smart klíč -->
-<item component="ComponentInfo{cz.csob.smartklic/com.aheaditec.smartkey.flows.presentation.view.LauncherActivity}" drawable="csob_smart_klic_1"/>
+<item component="ComponentInfo{cz.csob.smartklic/com.aheaditec.smartkey.flows.presentation.view.LauncherActivity}" drawable="csob_smart_klic"/>
 https://play.google.com/store/apps/details?id=cz.csob.smartklic
 https://f-droid.org/en/packages/cz.csob.smartklic/
 https://apt.izzysoft.de/fdroid/index/apk/cz.csob.smartklic
@@ -1293,7 +1293,7 @@ Requested 1 times
 Last requested 1776086687.0
     
 <!-- BC Services Card -->
-<item component="ComponentInfo{ca.bc.gov.id.servicescard/ca.bc.gov.id.servicescard.screens.splash.SplashActivity}" drawable="bc_services_card_1"/>
+<item component="ComponentInfo{ca.bc.gov.id.servicescard/ca.bc.gov.id.servicescard.screens.splash.SplashActivity}" drawable="bc_services_card"/>
 https://play.google.com/store/apps/details?id=ca.bc.gov.id.servicescard
 https://f-droid.org/en/packages/ca.bc.gov.id.servicescard/
 https://apt.izzysoft.de/fdroid/index/apk/ca.bc.gov.id.servicescard
@@ -1303,7 +1303,7 @@ Requested 1 times
 Last requested 1760764409.0
     
 <!-- MahjongSoul -->
-<item component="ComponentInfo{com.YoStarEN.MahjongSoul/com.yostar.sdk.bridge.AiriSDKPlayerAct}" drawable="mahjongsoul_1"/>
+<item component="ComponentInfo{com.YoStarEN.MahjongSoul/com.yostar.sdk.bridge.AiriSDKPlayerAct}" drawable="mahjongsoul"/>
 https://play.google.com/store/apps/details?id=com.YoStarEN.MahjongSoul
 https://f-droid.org/en/packages/com.YoStarEN.MahjongSoul/
 https://apt.izzysoft.de/fdroid/index/apk/com.YoStarEN.MahjongSoul
@@ -1313,7 +1313,7 @@ Requested 1 times
 Last requested 1760764409.0
     
 <!-- TraffickCam -->
-<item component="ComponentInfo{com.exchangeinitiative.traffickcam/com.exchangeinitiative.traffickcam.MainActivity}" drawable="traffickcam_1"/>
+<item component="ComponentInfo{com.exchangeinitiative.traffickcam/com.exchangeinitiative.traffickcam.MainActivity}" drawable="traffickcam"/>
 https://play.google.com/store/apps/details?id=com.exchangeinitiative.traffickcam
 https://f-droid.org/en/packages/com.exchangeinitiative.traffickcam/
 https://apt.izzysoft.de/fdroid/index/apk/com.exchangeinitiative.traffickcam
@@ -1323,7 +1323,7 @@ Requested 1 times
 Last requested 1760764409.0
     
 <!-- Perplexity -->
-<item component="ComponentInfo{ai.perplexity.app.android/ai.perplexity.app.android.ui.main.MainActivity}" drawable="perplexity_1"/>
+<item component="ComponentInfo{ai.perplexity.app.android/ai.perplexity.app.android.ui.main.MainActivity}" drawable="perplexity"/>
 https://play.google.com/store/apps/details?id=ai.perplexity.app.android
 https://f-droid.org/en/packages/ai.perplexity.app.android/
 https://apt.izzysoft.de/fdroid/index/apk/ai.perplexity.app.android
@@ -1333,7 +1333,7 @@ Requested 1 times
 Last requested 1751273346.0
     
 <!-- Telegram -->
-<item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.DefaultIcon}" drawable="telegram_3"/>
+<item component="ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.DefaultIcon}" drawable="telegram"/>
 https://play.google.com/store/apps/details?id=org.telegram.messenger.web
 https://f-droid.org/en/packages/org.telegram.messenger.web/
 https://apt.izzysoft.de/fdroid/index/apk/org.telegram.messenger.web
@@ -1343,7 +1343,7 @@ Requested 1 times
 Last requested 1751273346.0
     
 <!-- Weather -->
-<item component="ComponentInfo{com.yahoo.mobile.client.android.weather/com.yahoo.mobile.client.android.weather.ui.WeatherMainActivity}" drawable="weather_1"/>
+<item component="ComponentInfo{com.yahoo.mobile.client.android.weather/com.yahoo.mobile.client.android.weather.ui.WeatherMainActivity}" drawable="weather"/>
 https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.weather
 https://f-droid.org/en/packages/com.yahoo.mobile.client.android.weather/
 https://apt.izzysoft.de/fdroid/index/apk/com.yahoo.mobile.client.android.weather
@@ -1353,7 +1353,7 @@ Requested 1 times
 Last requested 1751273346.0
     
 <!-- 1.1.1.1 -->
-<item component="ComponentInfo{com.cloudflare.onedotonedotonedotone/com.cloudflare.app.presentation.main.SplashActivity}" drawable="_1111_1"/>
+<item component="ComponentInfo{com.cloudflare.onedotonedotonedotone/com.cloudflare.app.presentation.main.SplashActivity}" drawable="_1111"/>
 https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone
 https://f-droid.org/en/packages/com.cloudflare.onedotonedotonedotone/
 https://apt.izzysoft.de/fdroid/index/apk/com.cloudflare.onedotonedotonedotone
@@ -1363,7 +1363,7 @@ Requested 1 times
 Last requested 1746863435.0
     
 <!-- Monzo -->
-<item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity}" drawable="monzo_1"/>
+<item component="ComponentInfo{co.uk.getmondo/co.uk.getmondo.splash.SplashActivity}" drawable="monzo"/>
 https://play.google.com/store/apps/details?id=co.uk.getmondo
 https://f-droid.org/en/packages/co.uk.getmondo/
 https://apt.izzysoft.de/fdroid/index/apk/co.uk.getmondo
@@ -1373,7 +1373,7 @@ Requested 1 times
 Last requested 1753858566.0
     
 <!-- NHS App -->
-<item component="ComponentInfo{com.nhs.online.nhsonline/com.nhs.online.nhsonline.MainActivity}" drawable="nhs_app_1"/>
+<item component="ComponentInfo{com.nhs.online.nhsonline/com.nhs.online.nhsonline.MainActivity}" drawable="nhs_app"/>
 https://play.google.com/store/apps/details?id=com.nhs.online.nhsonline
 https://f-droid.org/en/packages/com.nhs.online.nhsonline/
 https://apt.izzysoft.de/fdroid/index/apk/com.nhs.online.nhsonline
@@ -1383,7 +1383,7 @@ Requested 1 times
 Last requested 1753858566.0
     
 <!-- Gallery -->
-<item component="ComponentInfo{com.nothing.gallery/com.nothing.gallery.activity.EntryActivity}" drawable="gallery_2"/>
+<item component="ComponentInfo{com.nothing.gallery/com.nothing.gallery.activity.EntryActivity}" drawable="gallery"/>
 https://play.google.com/store/apps/details?id=com.nothing.gallery
 https://f-droid.org/en/packages/com.nothing.gallery/
 https://apt.izzysoft.de/fdroid/index/apk/com.nothing.gallery
@@ -1393,7 +1393,7 @@ Requested 1 times
 Last requested 1768027841.0
     
 <!-- IndSMART -->
-<item component="ComponentInfo{com.iexceed.ib.digitalbankingprod/com.iexceed.SplashScreen}" drawable="indsmart_1"/>
+<item component="ComponentInfo{com.iexceed.ib.digitalbankingprod/com.iexceed.SplashScreen}" drawable="indsmart"/>
 https://play.google.com/store/apps/details?id=com.iexceed.ib.digitalbankingprod
 https://f-droid.org/en/packages/com.iexceed.ib.digitalbankingprod/
 https://apt.izzysoft.de/fdroid/index/apk/com.iexceed.ib.digitalbankingprod
@@ -1403,7 +1403,7 @@ Requested 1 times
 Last requested 1768027841.0
     
 <!-- Battle.net -->
-<item component="ComponentInfo{com.blizzard.messenger/com.blizzard.messenger.ui.splash.SplashActivity}" drawable="battlenet_1"/>
+<item component="ComponentInfo{com.blizzard.messenger/com.blizzard.messenger.ui.splash.SplashActivity}" drawable="battlenet"/>
 https://play.google.com/store/apps/details?id=com.blizzard.messenger
 https://f-droid.org/en/packages/com.blizzard.messenger/
 https://apt.izzysoft.de/fdroid/index/apk/com.blizzard.messenger
@@ -1413,7 +1413,7 @@ Requested 1 times
 Last requested 1755513790.0
     
 <!-- NeoStumbler -->
-<item component="ComponentInfo{xyz.malkki.neostumbler/xyz.malkki.neostumbler.MainActivity}" drawable="neostumbler_1"/>
+<item component="ComponentInfo{xyz.malkki.neostumbler/xyz.malkki.neostumbler.MainActivity}" drawable="neostumbler"/>
 https://play.google.com/store/apps/details?id=xyz.malkki.neostumbler
 https://f-droid.org/en/packages/xyz.malkki.neostumbler/
 https://apt.izzysoft.de/fdroid/index/apk/xyz.malkki.neostumbler
@@ -1423,7 +1423,7 @@ Requested 1 times
 Last requested 1755513790.0
     
 <!-- FUTO Keyboard -->
-<item component="ComponentInfo{org.futo.inputmethod.latin.playstore/org.futo.inputmethod.latin.uix.settings.SettingsActivity}" drawable="futo_keyboard_1"/>
+<item component="ComponentInfo{org.futo.inputmethod.latin.playstore/org.futo.inputmethod.latin.uix.settings.SettingsActivity}" drawable="futo_keyboard"/>
 https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin.playstore
 https://f-droid.org/en/packages/org.futo.inputmethod.latin.playstore/
 https://apt.izzysoft.de/fdroid/index/apk/org.futo.inputmethod.latin.playstore
@@ -1433,7 +1433,7 @@ Requested 1 times
 Last requested 1745855724.0
     
 <!-- Contacts -->
-<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Green}" drawable="contacts_3"/>
+<item component="ComponentInfo{org.fossify.contacts/org.fossify.contacts.activities.SplashActivity.Green}" drawable="contacts_1"/>
 https://play.google.com/store/apps/details?id=org.fossify.contacts
 https://f-droid.org/en/packages/org.fossify.contacts/
 https://apt.izzysoft.de/fdroid/index/apk/org.fossify.contacts
@@ -1443,7 +1443,7 @@ Requested 1 times
 Last requested 1756490047.0
     
 <!-- Divya Bhaskar -->
-<item component="ComponentInfo{com.ak.ta.divya.bhaskar.activity/com.dainikbhaskar.ui.MainActivity}" drawable="divya_bhaskar_1"/>
+<item component="ComponentInfo{com.ak.ta.divya.bhaskar.activity/com.dainikbhaskar.ui.MainActivity}" drawable="divya_bhaskar"/>
 https://play.google.com/store/apps/details?id=com.ak.ta.divya.bhaskar.activity
 https://f-droid.org/en/packages/com.ak.ta.divya.bhaskar.activity/
 https://apt.izzysoft.de/fdroid/index/apk/com.ak.ta.divya.bhaskar.activity
@@ -1453,7 +1453,7 @@ Requested 1 times
 Last requested 1756490047.0
     
 <!-- Family Space -->
-<item component="ComponentInfo{com.motorola.spaces/com.motorola.spaces.presentation.LauncherActivity}" drawable="family_space_1"/>
+<item component="ComponentInfo{com.motorola.spaces/com.motorola.spaces.presentation.LauncherActivity}" drawable="family_space"/>
 https://play.google.com/store/apps/details?id=com.motorola.spaces
 https://f-droid.org/en/packages/com.motorola.spaces/
 https://apt.izzysoft.de/fdroid/index/apk/com.motorola.spaces
@@ -1463,7 +1463,7 @@ Requested 1 times
 Last requested 1756490047.0
     
 <!-- leboncoin -->
-<item component="ComponentInfo{fr.leboncoin/fr.leboncoin.features.splashscreen.ui.activities.SplashScreenActivity}" drawable="leboncoin_1"/>
+<item component="ComponentInfo{fr.leboncoin/fr.leboncoin.features.splashscreen.ui.activities.SplashScreenActivity}" drawable="leboncoin"/>
 https://play.google.com/store/apps/details?id=fr.leboncoin
 https://f-droid.org/en/packages/fr.leboncoin/
 https://apt.izzysoft.de/fdroid/index/apk/fr.leboncoin
@@ -1473,7 +1473,7 @@ Requested 1 times
 Last requested 1756322329.0
     
 <!-- Vinted -->
-<item component="ComponentInfo{fr.vinted/com.vinted.feature.shell.MDActivity}" drawable="vinted_1"/>
+<item component="ComponentInfo{fr.vinted/com.vinted.feature.shell.MDActivity}" drawable="vinted"/>
 https://play.google.com/store/apps/details?id=fr.vinted
 https://f-droid.org/en/packages/fr.vinted/
 https://apt.izzysoft.de/fdroid/index/apk/fr.vinted
@@ -1483,7 +1483,7 @@ Requested 1 times
 Last requested 1756322329.0
     
 <!-- Limbo PowerPC -->
-<item component="ComponentInfo{com.limbo.emu.main.ppc/com.limbo.emu.main.ppc.LimboEmuActivity}" drawable="limbo_powerpc_1"/>
+<item component="ComponentInfo{com.limbo.emu.main.ppc/com.limbo.emu.main.ppc.LimboEmuActivity}" drawable="limbo_powerpc"/>
 https://play.google.com/store/apps/details?id=com.limbo.emu.main.ppc
 https://f-droid.org/en/packages/com.limbo.emu.main.ppc/
 https://apt.izzysoft.de/fdroid/index/apk/com.limbo.emu.main.ppc
@@ -1493,7 +1493,7 @@ Requested 1 times
 Last requested 1747305240.0
     
 <!-- Messages -->
-<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Green}" drawable="messages_1"/>
+<item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Green}" drawable="messages"/>
 https://play.google.com/store/apps/details?id=org.fossify.messages
 https://f-droid.org/en/packages/org.fossify.messages/
 https://apt.izzysoft.de/fdroid/index/apk/org.fossify.messages
@@ -1503,7 +1503,7 @@ Requested 1 times
 Last requested 1747305277.0
     
 <!-- Phone -->
-<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Green}" drawable="phone_1"/>
+<item component="ComponentInfo{org.fossify.phone/org.fossify.phone.activities.SplashActivity.Green}" drawable="phone"/>
 https://play.google.com/store/apps/details?id=org.fossify.phone
 https://f-droid.org/en/packages/org.fossify.phone/
 https://apt.izzysoft.de/fdroid/index/apk/org.fossify.phone
@@ -1513,7 +1513,7 @@ Requested 1 times
 Last requested 1747305277.0
     
 <!-- The Battle Cats -->
-<item component="ComponentInfo{jp.co.ponos.battlecatsen/jp.co.ponos.battlecats.MyActivity}" drawable="the_battle_cats_1"/>
+<item component="ComponentInfo{jp.co.ponos.battlecatsen/jp.co.ponos.battlecats.MyActivity}" drawable="the_battle_cats"/>
 https://play.google.com/store/apps/details?id=jp.co.ponos.battlecatsen
 https://f-droid.org/en/packages/jp.co.ponos.battlecatsen/
 https://apt.izzysoft.de/fdroid/index/apk/jp.co.ponos.battlecatsen
@@ -1523,7 +1523,7 @@ Requested 1 times
 Last requested 1747305792.0
     
 <!-- myRaiffeisen -->
-<item component="ComponentInfo{com.rbinternational.retail.mobileapp/com.rbinternational.retail.mobileapp.splash.SplashActivity}" drawable="myraiffeisen_1"/>
+<item component="ComponentInfo{com.rbinternational.retail.mobileapp/com.rbinternational.retail.mobileapp.splash.SplashActivity}" drawable="myraiffeisen"/>
 https://play.google.com/store/apps/details?id=com.rbinternational.retail.mobileapp
 https://f-droid.org/en/packages/com.rbinternational.retail.mobileapp/
 https://apt.izzysoft.de/fdroid/index/apk/com.rbinternational.retail.mobileapp
@@ -1533,7 +1533,7 @@ Requested 1 times
 Last requested 1752551857.0
     
 <!-- Roblox -->
-<item component="ComponentInfo{com.roblox.client/com.roblox.client.startup.ActivitySplash}" drawable="roblox_1"/>
+<item component="ComponentInfo{com.roblox.client/com.roblox.client.startup.ActivitySplash}" drawable="roblox"/>
 https://play.google.com/store/apps/details?id=com.roblox.client
 https://f-droid.org/en/packages/com.roblox.client/
 https://apt.izzysoft.de/fdroid/index/apk/com.roblox.client
@@ -1543,7 +1543,7 @@ Requested 1 times
 Last requested 1752551857.0
     
 <!-- Pi -->
-<item component="ComponentInfo{com.blockchainvault/com.pinetwork.MainActivity}" drawable="pi_1"/>
+<item component="ComponentInfo{com.blockchainvault/com.pinetwork.MainActivity}" drawable="pi"/>
 https://play.google.com/store/apps/details?id=com.blockchainvault
 https://f-droid.org/en/packages/com.blockchainvault/
 https://apt.izzysoft.de/fdroid/index/apk/com.blockchainvault
@@ -1553,7 +1553,7 @@ Requested 1 times
 Last requested 1764753941.0
     
 <!-- TENN -->
-<item component="ComponentInfo{com.tenn.app/com.tenn.app.StartPageActivity}" drawable="tenn_1"/>
+<item component="ComponentInfo{com.tenn.app/com.tenn.app.StartPageActivity}" drawable="tenn"/>
 https://play.google.com/store/apps/details?id=com.tenn.app
 https://f-droid.org/en/packages/com.tenn.app/
 https://apt.izzysoft.de/fdroid/index/apk/com.tenn.app
@@ -1563,7 +1563,7 @@ Requested 1 times
 Last requested 1764753941.0
     
 <!-- TikTok Lite -->
-<item component="ComponentInfo{com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.main.homepage.MainActivity}" drawable="tiktok_lite_1"/>
+<item component="ComponentInfo{com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.main.homepage.MainActivity}" drawable="tiktok_lite"/>
 https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically.go
 https://f-droid.org/en/packages/com.zhiliaoapp.musically.go/
 https://apt.izzysoft.de/fdroid/index/apk/com.zhiliaoapp.musically.go
@@ -1573,7 +1573,7 @@ Requested 1 times
 Last requested 1764753941.0
     
 <!-- TSOFAFFIN WAKOKIN HAUSA -->
-<item component="ComponentInfo{com.andromo.dev693396.app725646/com.andromo.dev693396.app725646.Dashboard_000}" drawable="tsofaffin_wakokin_hausa_1"/>
+<item component="ComponentInfo{com.andromo.dev693396.app725646/com.andromo.dev693396.app725646.Dashboard_000}" drawable="tsofaffin_wakokin_hausa"/>
 https://play.google.com/store/apps/details?id=com.andromo.dev693396.app725646
 https://f-droid.org/en/packages/com.andromo.dev693396.app725646/
 https://apt.izzysoft.de/fdroid/index/apk/com.andromo.dev693396.app725646
@@ -1583,7 +1583,7 @@ Requested 1 times
 Last requested 1764753941.0
     
 <!-- Gramophone -->
-<item component="ComponentInfo{org.akanework.gramophone/org.akanework.gramophone.ui.MainActivity}" drawable="gramophone_1"/>
+<item component="ComponentInfo{org.akanework.gramophone/org.akanework.gramophone.ui.MainActivity}" drawable="gramophone"/>
 https://play.google.com/store/apps/details?id=org.akanework.gramophone
 https://f-droid.org/en/packages/org.akanework.gramophone/
 https://apt.izzysoft.de/fdroid/index/apk/org.akanework.gramophone
@@ -1593,7 +1593,7 @@ Requested 1 times
 Last requested 1764574501.0
     
 <!-- Nekogram -->
-<item component="ComponentInfo{tw.nekomimi.nekogram/org.telegram.messenger.MerioIcon}" drawable="nekogram_1"/>
+<item component="ComponentInfo{tw.nekomimi.nekogram/org.telegram.messenger.MerioIcon}" drawable="nekogram"/>
 https://play.google.com/store/apps/details?id=tw.nekomimi.nekogram
 https://f-droid.org/en/packages/tw.nekomimi.nekogram/
 https://apt.izzysoft.de/fdroid/index/apk/tw.nekomimi.nekogram
@@ -1603,7 +1603,7 @@ Requested 1 times
 Last requested 1764574501.0
     
 <!-- Orgro -->
-<item component="ComponentInfo{com.madlonkay.orgro/com.madlonkay.orgro.MainActivity}" drawable="orgro_1"/>
+<item component="ComponentInfo{com.madlonkay.orgro/com.madlonkay.orgro.MainActivity}" drawable="orgro"/>
 https://play.google.com/store/apps/details?id=com.madlonkay.orgro
 https://f-droid.org/en/packages/com.madlonkay.orgro/
 https://apt.izzysoft.de/fdroid/index/apk/com.madlonkay.orgro
@@ -1613,7 +1613,7 @@ Requested 1 times
 Last requested 1764574501.0
     
 <!-- Truecaller -->
-<item component="ComponentInfo{com.truecaller/com.truecaller.ui.TruecallerInit}" drawable="truecaller_1"/>
+<item component="ComponentInfo{com.truecaller/com.truecaller.ui.TruecallerInit}" drawable="truecaller"/>
 https://play.google.com/store/apps/details?id=com.truecaller
 https://f-droid.org/en/packages/com.truecaller/
 https://apt.izzysoft.de/fdroid/index/apk/com.truecaller
@@ -1623,7 +1623,7 @@ Requested 1 times
 Last requested 1740477556.0
     
 <!-- Camera -->
-<item component="ComponentInfo{com.mediatek.camera/com.mediatek.camera.CameraLauncher}" drawable="camera_8"/>
+<item component="ComponentInfo{com.mediatek.camera/com.mediatek.camera.CameraLauncher}" drawable="camera_2"/>
 https://play.google.com/store/apps/details?id=com.mediatek.camera
 https://f-droid.org/en/packages/com.mediatek.camera/
 https://apt.izzysoft.de/fdroid/index/apk/com.mediatek.camera
@@ -1633,7 +1633,7 @@ Requested 1 times
 Last requested 1737810634.0
     
 <!-- Gett -->
-<item component="ComponentInfo{com.gettaxi.android/com.gettaxi.android.redesign.ui.gett.GettActivity}" drawable="gett_1"/>
+<item component="ComponentInfo{com.gettaxi.android/com.gettaxi.android.redesign.ui.gett.GettActivity}" drawable="gett"/>
 https://play.google.com/store/apps/details?id=com.gettaxi.android
 https://f-droid.org/en/packages/com.gettaxi.android/
 https://apt.izzysoft.de/fdroid/index/apk/com.gettaxi.android
@@ -1643,7 +1643,7 @@ Requested 1 times
 Last requested 1737810634.0
     
 <!-- Aqua Mail -->
-<item component="ComponentInfo{org.kman.AquaMail/org.kman.AquaMail.ui.AccountListActivity}" drawable="aqua_mail_1"/>
+<item component="ComponentInfo{org.kman.AquaMail/org.kman.AquaMail.ui.AccountListActivity}" drawable="aqua_mail"/>
 https://play.google.com/store/apps/details?id=org.kman.AquaMail
 https://f-droid.org/en/packages/org.kman.AquaMail/
 https://apt.izzysoft.de/fdroid/index/apk/org.kman.AquaMail
@@ -1653,7 +1653,7 @@ Requested 1 times
 Last requested 1771333021.0
     
 <!-- QuikTrip -->
-<item component="ComponentInfo{app.quiktrip.com.quiktrip/com.vml.app.quiktrip.ui.main.SplashActivity}" drawable="quiktrip_1"/>
+<item component="ComponentInfo{app.quiktrip.com.quiktrip/com.vml.app.quiktrip.ui.main.SplashActivity}" drawable="quiktrip"/>
 https://play.google.com/store/apps/details?id=app.quiktrip.com.quiktrip
 https://f-droid.org/en/packages/app.quiktrip.com.quiktrip/
 https://apt.izzysoft.de/fdroid/index/apk/app.quiktrip.com.quiktrip
@@ -1663,7 +1663,7 @@ Requested 1 times
 Last requested 1771333021.0
     
 <!-- Alibi -->
-<item component="ComponentInfo{app.myzel394.alibi/app.myzel394.alibi.MainActivity}" drawable="alibi_1"/>
+<item component="ComponentInfo{app.myzel394.alibi/app.myzel394.alibi.MainActivity}" drawable="alibi"/>
 https://play.google.com/store/apps/details?id=app.myzel394.alibi
 https://f-droid.org/en/packages/app.myzel394.alibi/
 https://apt.izzysoft.de/fdroid/index/apk/app.myzel394.alibi
@@ -1673,7 +1673,7 @@ Requested 1 times
 Last requested 1772031178.0
     
 <!-- Athena -->
-<item component="ComponentInfo{com.kin.athena/com.kin.athena.presentation.MainActivity}" drawable="athena_1"/>
+<item component="ComponentInfo{com.kin.athena/com.kin.athena.presentation.MainActivity}" drawable="athena"/>
 https://play.google.com/store/apps/details?id=com.kin.athena
 https://f-droid.org/en/packages/com.kin.athena/
 https://apt.izzysoft.de/fdroid/index/apk/com.kin.athena
@@ -1683,7 +1683,7 @@ Requested 1 times
 Last requested 1772031178.0
     
 <!-- Audiobookshelf -->
-<item component="ComponentInfo{com.audiobookshelf.app/com.audiobookshelf.app.MainActivity}" drawable="audiobookshelf_1"/>
+<item component="ComponentInfo{com.audiobookshelf.app/com.audiobookshelf.app.MainActivity}" drawable="audiobookshelf"/>
 https://play.google.com/store/apps/details?id=com.audiobookshelf.app
 https://f-droid.org/en/packages/com.audiobookshelf.app/
 https://apt.izzysoft.de/fdroid/index/apk/com.audiobookshelf.app
@@ -1693,7 +1693,7 @@ Requested 1 times
 Last requested 1750494474.0
     
 <!-- El tiempo -->
-<item component="ComponentInfo{org.breezyweather/org.breezyweather.ui.main.MainActivity}" drawable="el_tiempo_1"/>
+<item component="ComponentInfo{org.breezyweather/org.breezyweather.ui.main.MainActivity}" drawable="el_tiempo"/>
 https://play.google.com/store/apps/details?id=org.breezyweather
 https://f-droid.org/en/packages/org.breezyweather/
 https://apt.izzysoft.de/fdroid/index/apk/org.breezyweather
@@ -1703,7 +1703,7 @@ Requested 1 times
 Last requested 1750494474.0
     
 <!-- Hinge -->
-<item component="ComponentInfo{co.hinge.app/co.hinge.app.ui.AppActivity}" drawable="hinge_1"/>
+<item component="ComponentInfo{co.hinge.app/co.hinge.app.ui.AppActivity}" drawable="hinge"/>
 https://play.google.com/store/apps/details?id=co.hinge.app
 https://f-droid.org/en/packages/co.hinge.app/
 https://apt.izzysoft.de/fdroid/index/apk/co.hinge.app
@@ -1713,7 +1713,7 @@ Requested 1 times
 Last requested 1775316144.0
     
 <!-- KurobaEx -->
-<item component="ComponentInfo{com.github.k1rakishou.chan/com.github.k1rakishou.chan.ui.activity.StartActivity}" drawable="kurobaex_1"/>
+<item component="ComponentInfo{com.github.k1rakishou.chan/com.github.k1rakishou.chan.ui.activity.StartActivity}" drawable="kurobaex"/>
 https://play.google.com/store/apps/details?id=com.github.k1rakishou.chan
 https://f-droid.org/en/packages/com.github.k1rakishou.chan/
 https://apt.izzysoft.de/fdroid/index/apk/com.github.k1rakishou.chan
@@ -1723,7 +1723,7 @@ Requested 1 times
 Last requested 1775316144.0
     
 <!-- Calculator -->
-<item component="ComponentInfo{com.vivo.calculator/com.vivo.calculator.Calculator}" drawable="calculator_3"/>
+<item component="ComponentInfo{com.vivo.calculator/com.vivo.calculator.Calculator}" drawable="calculator_1"/>
 https://play.google.com/store/apps/details?id=com.vivo.calculator
 https://f-droid.org/en/packages/com.vivo.calculator/
 https://apt.izzysoft.de/fdroid/index/apk/com.vivo.calculator
@@ -1733,7 +1733,7 @@ Requested 1 times
 Last requested 1727542665.0
     
 <!-- Music -->
-<item component="ComponentInfo{com.android.bbkmusic/com.android.bbkmusic.WidgetToTrackActivity}" drawable="music_1"/>
+<item component="ComponentInfo{com.android.bbkmusic/com.android.bbkmusic.WidgetToTrackActivity}" drawable="music"/>
 https://play.google.com/store/apps/details?id=com.android.bbkmusic
 https://f-droid.org/en/packages/com.android.bbkmusic/
 https://apt.izzysoft.de/fdroid/index/apk/com.android.bbkmusic
@@ -1743,7 +1743,7 @@ Requested 1 times
 Last requested 1727542665.0
     
 <!-- Video -->
-<item component="ComponentInfo{com.android.VideoPlayer/com.android.VideoPlayer.VideoPlayer}" drawable="video_1"/>
+<item component="ComponentInfo{com.android.VideoPlayer/com.android.VideoPlayer.VideoPlayer}" drawable="video"/>
 https://play.google.com/store/apps/details?id=com.android.VideoPlayer
 https://f-droid.org/en/packages/com.android.VideoPlayer/
 https://apt.izzysoft.de/fdroid/index/apk/com.android.VideoPlayer
@@ -1753,7 +1753,7 @@ Requested 1 times
 Last requested 1727542665.0
     
 <!-- Gaming Mode -->
-<item component="ComponentInfo{com.symphony.app.gamezone/com.pri.gamespace.ui.splash.GameSpaceSplashActivity}" drawable="gaming_mode_1"/>
+<item component="ComponentInfo{com.symphony.app.gamezone/com.pri.gamespace.ui.splash.GameSpaceSplashActivity}" drawable="gaming_mode"/>
 https://play.google.com/store/apps/details?id=com.symphony.app.gamezone
 https://f-droid.org/en/packages/com.symphony.app.gamezone/
 https://apt.izzysoft.de/fdroid/index/apk/com.symphony.app.gamezone
@@ -1763,7 +1763,7 @@ Requested 1 times
 Last requested 1724633433.0
     
 <!-- Software Update -->
-<item component="ComponentInfo{com.android.softwareupdate/com.android.softwareupdate.MainActivity}" drawable="software_update_1"/>
+<item component="ComponentInfo{com.android.softwareupdate/com.android.softwareupdate.MainActivity}" drawable="software_update"/>
 https://play.google.com/store/apps/details?id=com.android.softwareupdate
 https://f-droid.org/en/packages/com.android.softwareupdate/
 https://apt.izzysoft.de/fdroid/index/apk/com.android.softwareupdate
@@ -1773,7 +1773,7 @@ Requested 1 times
 Last requested 1724633433.0
     
 <!-- デジタル認証アプリ -->
-<item component="ComponentInfo{jp.go.digital.auth_and_sign/jp.go.digital.auth_and_sign.ui.main.MainActivity}" drawable="デジタル認証アプリ_1"/>
+<item component="ComponentInfo{jp.go.digital.auth_and_sign/jp.go.digital.auth_and_sign.ui.main.MainActivity}" drawable="デジタル認証アプリ"/>
 https://play.google.com/store/apps/details?id=jp.go.digital.auth_and_sign
 https://f-droid.org/en/packages/jp.go.digital.auth_and_sign/
 https://apt.izzysoft.de/fdroid/index/apk/jp.go.digital.auth_and_sign
@@ -1783,7 +1783,7 @@ Requested 1 times
 Last requested 1725394400.0
     
 <!-- Bus Simulation -->
-<item component="ComponentInfo{com.coach.bus.simulator.driving.games/com.coach.bus.simulator.driving.games.UnityPlayerActivity}" drawable="bus_simulation_1"/>
+<item component="ComponentInfo{com.coach.bus.simulator.driving.games/com.coach.bus.simulator.driving.games.UnityPlayerActivity}" drawable="bus_simulation"/>
 https://play.google.com/store/apps/details?id=com.coach.bus.simulator.driving.games
 https://f-droid.org/en/packages/com.coach.bus.simulator.driving.games/
 https://apt.izzysoft.de/fdroid/index/apk/com.coach.bus.simulator.driving.games
@@ -1793,7 +1793,7 @@ Requested 1 times
 Last requested 1770463153.0
     
 <!-- Milli Gazete -->
-<item component="ComponentInfo{tr.com.bayramboynukara.emilligazete/tr.com.bayramboynukara.emilligazete.MainActivity}" drawable="milli_gazete_2"/>
+<item component="ComponentInfo{tr.com.bayramboynukara.emilligazete/tr.com.bayramboynukara.emilligazete.MainActivity}" drawable="milli_gazete"/>
 https://play.google.com/store/apps/details?id=tr.com.bayramboynukara.emilligazete
 https://f-droid.org/en/packages/tr.com.bayramboynukara.emilligazete/
 https://apt.izzysoft.de/fdroid/index/apk/tr.com.bayramboynukara.emilligazete
@@ -1803,7 +1803,7 @@ Requested 1 times
 Last requested 1724395534.0
     
 <!-- Sahibinden -->
-<item component="ComponentInfo{com.sahibinden/com.sahibinden.ui.supplementary.SplashScreenActivity}" drawable="sahibinden_2"/>
+<item component="ComponentInfo{com.sahibinden/com.sahibinden.ui.supplementary.SplashScreenActivity}" drawable="sahibinden"/>
 https://play.google.com/store/apps/details?id=com.sahibinden
 https://f-droid.org/en/packages/com.sahibinden/
 https://apt.izzysoft.de/fdroid/index/apk/com.sahibinden
@@ -1813,7 +1813,7 @@ Requested 1 times
 Last requested 1724395534.0
     
 <!-- Genshin Impact -->
-<item component="ComponentInfo{com.miHoYo.GenshinImpact/com.miHoYo.GetMobileInfo.MainActivity}" drawable="genshin_impact_1"/>
+<item component="ComponentInfo{com.miHoYo.GenshinImpact/com.miHoYo.GetMobileInfo.MainActivity}" drawable="genshin_impact"/>
 https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact
 https://f-droid.org/en/packages/com.miHoYo.GenshinImpact/
 https://apt.izzysoft.de/fdroid/index/apk/com.miHoYo.GenshinImpact
@@ -1823,7 +1823,7 @@ Requested 1 times
 Last requested 1758892985.0
     
 <!-- X-plore -->
-<item component="ComponentInfo{com.lonelycatgames.Xplore/com.lonelycatgames.Xplore.Browser}" drawable="x_plore_1"/>
+<item component="ComponentInfo{com.lonelycatgames.Xplore/com.lonelycatgames.Xplore.Browser}" drawable="x_plore"/>
 https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore
 https://f-droid.org/en/packages/com.lonelycatgames.Xplore/
 https://apt.izzysoft.de/fdroid/index/apk/com.lonelycatgames.Xplore
@@ -1833,7 +1833,7 @@ Requested 1 times
 Last requested 1758892985.0
     
 <!-- negraph -->
-<item component="ComponentInfo{com.hmalkawi.negraph/com.hmalkawi.negraph.MainActivity}" drawable="negraph_1"/>
+<item component="ComponentInfo{com.hmalkawi.negraph/com.hmalkawi.negraph.MainActivity}" drawable="negraph"/>
 https://play.google.com/store/apps/details?id=com.hmalkawi.negraph
 https://f-droid.org/en/packages/com.hmalkawi.negraph/
 https://apt.izzysoft.de/fdroid/index/apk/com.hmalkawi.negraph
@@ -1843,7 +1843,7 @@ Requested 1 times
 Last requested 1764958176.0
     
 <!-- OnionShare (beta) -->
-<item component="ComponentInfo{org.onionshare.android.fdroid/org.onionshare.android.ui.MainActivity}" drawable="onionshare_beta__1"/>
+<item component="ComponentInfo{org.onionshare.android.fdroid/org.onionshare.android.ui.MainActivity}" drawable="onionshare_beta_"/>
 https://play.google.com/store/apps/details?id=org.onionshare.android.fdroid
 https://f-droid.org/en/packages/org.onionshare.android.fdroid/
 https://apt.izzysoft.de/fdroid/index/apk/org.onionshare.android.fdroid
@@ -1853,7 +1853,7 @@ Requested 1 times
 Last requested 1743447225.0
     
 <!-- TorServices -->
-<item component="ComponentInfo{org.torproject.torservices/org.torproject.torservices.SettingsActivity}" drawable="torservices_1"/>
+<item component="ComponentInfo{org.torproject.torservices/org.torproject.torservices.SettingsActivity}" drawable="torservices"/>
 https://play.google.com/store/apps/details?id=org.torproject.torservices
 https://f-droid.org/en/packages/org.torproject.torservices/
 https://apt.izzysoft.de/fdroid/index/apk/org.torproject.torservices
@@ -1863,7 +1863,7 @@ Requested 1 times
 Last requested 1743447225.0
     
 <!-- Unlauncher -->
-<item component="ComponentInfo{com.jkuester.unlauncher/com.sduduzog.slimlauncher.MainActivity}" drawable="unlauncher_1"/>
+<item component="ComponentInfo{com.jkuester.unlauncher/com.sduduzog.slimlauncher.MainActivity}" drawable="unlauncher"/>
 https://play.google.com/store/apps/details?id=com.jkuester.unlauncher
 https://f-droid.org/en/packages/com.jkuester.unlauncher/
 https://apt.izzysoft.de/fdroid/index/apk/com.jkuester.unlauncher
@@ -1873,7 +1873,7 @@ Requested 1 times
 Last requested 1743447225.0
     
 <!-- App Ops -->
-<item component="ComponentInfo{rikka.appops/rikka.appops.home.HomeActivity}" drawable="app_ops_1"/>
+<item component="ComponentInfo{rikka.appops/rikka.appops.home.HomeActivity}" drawable="app_ops"/>
 https://play.google.com/store/apps/details?id=rikka.appops
 https://f-droid.org/en/packages/rikka.appops/
 https://apt.izzysoft.de/fdroid/index/apk/rikka.appops
@@ -1883,7 +1883,7 @@ Requested 1 times
 Last requested 1763160904.0
     
 <!-- aShell You -->
-<item component="ComponentInfo{in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity}" drawable="ashell_you_1"/>
+<item component="ComponentInfo{in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity}" drawable="ashell_you"/>
 https://play.google.com/store/apps/details?id=in.hridayan.ashell
 https://f-droid.org/en/packages/in.hridayan.ashell/
 https://apt.izzysoft.de/fdroid/index/apk/in.hridayan.ashell
@@ -1893,7 +1893,7 @@ Requested 1 times
 Last requested 1763160904.0
     
 <!-- AutoCAD -->
-<item component="ComponentInfo{com.autodesk.autocadws/com.autodesk.autocadws.ui.RootActivity}" drawable="autocad_1"/>
+<item component="ComponentInfo{com.autodesk.autocadws/com.autodesk.autocadws.ui.RootActivity}" drawable="autocad"/>
 https://play.google.com/store/apps/details?id=com.autodesk.autocadws
 https://f-droid.org/en/packages/com.autodesk.autocadws/
 https://apt.izzysoft.de/fdroid/index/apk/com.autodesk.autocadws
@@ -1903,7 +1903,7 @@ Requested 1 times
 Last requested 1763160904.0
     
 <!-- Seeker -->
-<item component="ComponentInfo{com.companyname.andriodapp1/crc646350f44cde9e1cf7.MainActivity}" drawable="seeker_1"/>
+<item component="ComponentInfo{com.companyname.andriodapp1/crc646350f44cde9e1cf7.MainActivity}" drawable="seeker"/>
 https://play.google.com/store/apps/details?id=com.companyname.andriodapp1
 https://f-droid.org/en/packages/com.companyname.andriodapp1/
 https://apt.izzysoft.de/fdroid/index/apk/com.companyname.andriodapp1
@@ -1913,7 +1913,7 @@ Requested 1 times
 Last requested 1755238403.0
     
 <!-- Buckwheat -->
-<item component="ComponentInfo{com.danilkinkin.buckwheat/com.danilkinkin.buckwheat.MainActivity}" drawable="buckwheat_2"/>
+<item component="ComponentInfo{com.danilkinkin.buckwheat/com.danilkinkin.buckwheat.MainActivity}" drawable="buckwheat"/>
 https://play.google.com/store/apps/details?id=com.danilkinkin.buckwheat
 https://f-droid.org/en/packages/com.danilkinkin.buckwheat/
 https://apt.izzysoft.de/fdroid/index/apk/com.danilkinkin.buckwheat
@@ -1923,7 +1923,7 @@ Requested 1 times
 Last requested 1724379376.0
     
 <!-- Delta -->
-<item component="ComponentInfo{website.leifs.delta.foss/website.leifs.delta.activities.MainActivity}" drawable="delta_2"/>
+<item component="ComponentInfo{website.leifs.delta.foss/website.leifs.delta.activities.MainActivity}" drawable="delta"/>
 https://play.google.com/store/apps/details?id=website.leifs.delta.foss
 https://f-droid.org/en/packages/website.leifs.delta.foss/
 https://apt.izzysoft.de/fdroid/index/apk/website.leifs.delta.foss
@@ -1933,7 +1933,7 @@ Requested 1 times
 Last requested 1724379376.0
     
 <!-- mLauncher -->
-<item component="ComponentInfo{app.mlauncher/com.github.droidworksstudio.mlauncher.MainActivity}" drawable="mlauncher_2"/>
+<item component="ComponentInfo{app.mlauncher/com.github.droidworksstudio.mlauncher.MainActivity}" drawable="mlauncher"/>
 https://play.google.com/store/apps/details?id=app.mlauncher
 https://f-droid.org/en/packages/app.mlauncher/
 https://apt.izzysoft.de/fdroid/index/apk/app.mlauncher
@@ -1943,7 +1943,7 @@ Requested 1 times
 Last requested 1724379376.0
     
 <!-- GBWhatsApp -->
-<item component="ComponentInfo{com.universe.messenger/com.universe.messenger.Icon71}" drawable="gbwhatsapp_1"/>
+<item component="ComponentInfo{com.universe.messenger/com.universe.messenger.Icon71}" drawable="gbwhatsapp"/>
 https://play.google.com/store/apps/details?id=com.universe.messenger
 https://f-droid.org/en/packages/com.universe.messenger/
 https://apt.izzysoft.de/fdroid/index/apk/com.universe.messenger
@@ -1953,7 +1953,7 @@ Requested 1 times
 Last requested 1769501014.0
     
 <!-- Eddie - AirVPN GUI -->
-<item component="ComponentInfo{org.airvpn.eddie/org.airvpn.eddie.MainActivity}" drawable="eddie_airvpn_gui_1"/>
+<item component="ComponentInfo{org.airvpn.eddie/org.airvpn.eddie.MainActivity}" drawable="eddie_airvpn_gui"/>
 https://play.google.com/store/apps/details?id=org.airvpn.eddie
 https://f-droid.org/en/packages/org.airvpn.eddie/
 https://apt.izzysoft.de/fdroid/index/apk/org.airvpn.eddie
@@ -1963,7 +1963,7 @@ Requested 1 times
 Last requested 1727615667.0
     
 <!-- Mihon -->
-<item component="ComponentInfo{app.mihon/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="mihon_1"/>
+<item component="ComponentInfo{app.mihon/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="mihon"/>
 https://play.google.com/store/apps/details?id=app.mihon
 https://f-droid.org/en/packages/app.mihon/
 https://apt.izzysoft.de/fdroid/index/apk/app.mihon
@@ -1973,7 +1973,7 @@ Requested 1 times
 Last requested 1727615667.0
     
 <!-- FlorisBoard Beta -->
-<item component="ComponentInfo{dev.patrickgold.florisboard.beta/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard_beta_1"/>
+<item component="ComponentInfo{dev.patrickgold.florisboard.beta/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard_beta"/>
 https://play.google.com/store/apps/details?id=dev.patrickgold.florisboard.beta
 https://f-droid.org/en/packages/dev.patrickgold.florisboard.beta/
 https://apt.izzysoft.de/fdroid/index/apk/dev.patrickgold.florisboard.beta
@@ -1983,7 +1983,7 @@ Requested 1 times
 Last requested 1727616115.0
     
 <!-- FDM -->
-<item component="ComponentInfo{org.freedownloadmanager.fdm/org.freedownloadmanager.fdm.MyActivity}" drawable="fdm_1"/>
+<item component="ComponentInfo{org.freedownloadmanager.fdm/org.freedownloadmanager.fdm.MyActivity}" drawable="fdm"/>
 https://play.google.com/store/apps/details?id=org.freedownloadmanager.fdm
 https://f-droid.org/en/packages/org.freedownloadmanager.fdm/
 https://apt.izzysoft.de/fdroid/index/apk/org.freedownloadmanager.fdm
@@ -1993,7 +1993,7 @@ Requested 1 times
 Last requested 1768085751.0
     
 <!-- Proton Pass -->
-<item component="ComponentInfo{proton.android.pass/proton.android.pass.ui.MainActivity}" drawable="proton_pass_1"/>
+<item component="ComponentInfo{proton.android.pass/proton.android.pass.ui.MainActivity}" drawable="proton_pass"/>
 https://play.google.com/store/apps/details?id=proton.android.pass
 https://f-droid.org/en/packages/proton.android.pass/
 https://apt.izzysoft.de/fdroid/index/apk/proton.android.pass
@@ -2003,7 +2003,7 @@ Requested 1 times
 Last requested 1768085751.0
     
 <!-- Cache Cleaner -->
-<item component="ComponentInfo{com.github.bmx666.appcachecleaner/com.github.bmx666.appcachecleaner.ui.activity.AppCacheCleanerActivity}" drawable="cache_cleaner_1"/>
+<item component="ComponentInfo{com.github.bmx666.appcachecleaner/com.github.bmx666.appcachecleaner.ui.activity.AppCacheCleanerActivity}" drawable="cache_cleaner"/>
 https://play.google.com/store/apps/details?id=com.github.bmx666.appcachecleaner
 https://f-droid.org/en/packages/com.github.bmx666.appcachecleaner/
 https://apt.izzysoft.de/fdroid/index/apk/com.github.bmx666.appcachecleaner
@@ -2013,7 +2013,7 @@ Requested 1 times
 Last requested 1725293059.0
     
 <!-- Gestor de archivos -->
-<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Green}" drawable="gestor_de_archivos_1"/>
+<item component="ComponentInfo{org.fossify.filemanager/org.fossify.filemanager.activities.SplashActivity.Green}" drawable="gestor_de_archivos"/>
 https://play.google.com/store/apps/details?id=org.fossify.filemanager
 https://f-droid.org/en/packages/org.fossify.filemanager/
 https://apt.izzysoft.de/fdroid/index/apk/org.fossify.filemanager
@@ -2023,7 +2023,7 @@ Requested 1 times
 Last requested 1774911162.0
     
 <!-- Poweramp -->
-<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.standard_adaptive}" drawable="poweramp_1"/>
+<item component="ComponentInfo{com.maxmpz.audioplayer/com.maxmpz.audioplayer.standard_adaptive}" drawable="poweramp"/>
 https://play.google.com/store/apps/details?id=com.maxmpz.audioplayer
 https://f-droid.org/en/packages/com.maxmpz.audioplayer/
 https://apt.izzysoft.de/fdroid/index/apk/com.maxmpz.audioplayer
@@ -2033,7 +2033,7 @@ Requested 1 times
 Last requested 1774911162.0
     
 <!-- ALTER Rechner -->
-<item component="ComponentInfo{com.age.calculator.birthday.calender/com.age.calculator.birthday.calender.SplashActivity}" drawable="alter_rechner_1"/>
+<item component="ComponentInfo{com.age.calculator.birthday.calender/com.age.calculator.birthday.calender.SplashActivity}" drawable="alter_rechner"/>
 https://play.google.com/store/apps/details?id=com.age.calculator.birthday.calender
 https://f-droid.org/en/packages/com.age.calculator.birthday.calender/
 https://apt.izzysoft.de/fdroid/index/apk/com.age.calculator.birthday.calender
@@ -2043,7 +2043,7 @@ Requested 1 times
 Last requested 1726748445.0
     
 <!-- Anime tv -->
-<item component="ComponentInfo{com.animetv.sub.dub.origin/com.anime.MainActivity}" drawable="anime_tv_1"/>
+<item component="ComponentInfo{com.animetv.sub.dub.origin/com.anime.MainActivity}" drawable="anime_tv"/>
 https://play.google.com/store/apps/details?id=com.animetv.sub.dub.origin
 https://f-droid.org/en/packages/com.animetv.sub.dub.origin/
 https://apt.izzysoft.de/fdroid/index/apk/com.animetv.sub.dub.origin
@@ -2053,7 +2053,7 @@ Requested 1 times
 Last requested 1726748445.0
     
 <!-- bKash -->
-<item component="ComponentInfo{com.bKash.customerapp/com.bKash.customerapp.MainActivity}" drawable="bkash_1"/>
+<item component="ComponentInfo{com.bKash.customerapp/com.bKash.customerapp.MainActivity}" drawable="bkash"/>
 https://play.google.com/store/apps/details?id=com.bKash.customerapp
 https://f-droid.org/en/packages/com.bKash.customerapp/
 https://apt.izzysoft.de/fdroid/index/apk/com.bKash.customerapp
@@ -2063,7 +2063,7 @@ Requested 1 times
 Last requested 1759923446.0
     
 <!-- Cashew -->
-<item component="ComponentInfo{com.budget.tracker_app/com.budget.tracker_app.MainActivity}" drawable="cashew_1"/>
+<item component="ComponentInfo{com.budget.tracker_app/com.budget.tracker_app.MainActivity}" drawable="cashew"/>
 https://play.google.com/store/apps/details?id=com.budget.tracker_app
 https://f-droid.org/en/packages/com.budget.tracker_app/
 https://apt.izzysoft.de/fdroid/index/apk/com.budget.tracker_app
@@ -2073,7 +2073,7 @@ Requested 1 times
 Last requested 1760086449.0
     
 <!-- Советы -->
-<item component="ComponentInfo{com.samsung.android.app.tips/com.samsung.android.app.tips.TipsMainActivity}" drawable="советы_1"/>
+<item component="ComponentInfo{com.samsung.android.app.tips/com.samsung.android.app.tips.TipsMainActivity}" drawable="советы"/>
 https://play.google.com/store/apps/details?id=com.samsung.android.app.tips
 https://f-droid.org/en/packages/com.samsung.android.app.tips/
 https://apt.izzysoft.de/fdroid/index/apk/com.samsung.android.app.tips
@@ -2083,7 +2083,7 @@ Requested 1 times
 Last requested 1767280807.0
     
 <!-- Camera -->
-<item component="ComponentInfo{app.grapheneos.camera.play/app.grapheneos.camera.ui.activities.MainActivity}" drawable="camera_10"/>
+<item component="ComponentInfo{app.grapheneos.camera.play/app.grapheneos.camera.ui.activities.MainActivity}" drawable="camera_3"/>
 https://play.google.com/store/apps/details?id=app.grapheneos.camera.play
 https://f-droid.org/en/packages/app.grapheneos.camera.play/
 https://apt.izzysoft.de/fdroid/index/apk/app.grapheneos.camera.play
@@ -2093,7 +2093,7 @@ Requested 1 times
 Last requested 1760624827.0
     
 <!-- Epic Games -->
-<item component="ComponentInfo{com.epicgames.portal/com.epicgames.portal.ui.MainActivity}" drawable="epic_games_1"/>
+<item component="ComponentInfo{com.epicgames.portal/com.epicgames.portal.ui.MainActivity}" drawable="epic_games"/>
 https://play.google.com/store/apps/details?id=com.epicgames.portal
 https://f-droid.org/en/packages/com.epicgames.portal/
 https://apt.izzysoft.de/fdroid/index/apk/com.epicgames.portal
@@ -2103,7 +2103,7 @@ Requested 1 times
 Last requested 1760624827.0
     
 <!-- Metronome -->
-<item component="ComponentInfo{com.bobek.metronome/com.bobek.metronome.MainActivity}" drawable="metronome_1"/>
+<item component="ComponentInfo{com.bobek.metronome/com.bobek.metronome.MainActivity}" drawable="metronome"/>
 https://play.google.com/store/apps/details?id=com.bobek.metronome
 https://f-droid.org/en/packages/com.bobek.metronome/
 https://apt.izzysoft.de/fdroid/index/apk/com.bobek.metronome
@@ -2113,7 +2113,7 @@ Requested 1 times
 Last requested 1760624827.0
     
 <!-- NFC Tools PRO -->
-<item component="ComponentInfo{com.wakdev.nfctools.pro/com.wakdev.nfctools.pro.views.MainActivityPro}" drawable="nfc_tools_pro_1"/>
+<item component="ComponentInfo{com.wakdev.nfctools.pro/com.wakdev.nfctools.pro.views.MainActivityPro}" drawable="nfc_tools_pro"/>
 https://play.google.com/store/apps/details?id=com.wakdev.nfctools.pro
 https://f-droid.org/en/packages/com.wakdev.nfctools.pro/
 https://apt.izzysoft.de/fdroid/index/apk/com.wakdev.nfctools.pro
@@ -2123,7 +2123,7 @@ Requested 1 times
 Last requested 1760624827.0
     
 <!-- Morse code -->
-<item component="ComponentInfo{holecek.pavel.MorseCode/crc648bbdc909d4b41b63.MainActivity}" drawable="morse_code_1"/>
+<item component="ComponentInfo{holecek.pavel.MorseCode/crc648bbdc909d4b41b63.MainActivity}" drawable="morse_code"/>
 https://play.google.com/store/apps/details?id=holecek.pavel.MorseCode
 https://f-droid.org/en/packages/holecek.pavel.MorseCode/
 https://apt.izzysoft.de/fdroid/index/apk/holecek.pavel.MorseCode
@@ -2133,7 +2133,7 @@ Requested 1 times
 Last requested 1737762410.0
     
 <!-- Bitmask -->
-<item component="ComponentInfo{se.leap.bitmaskclient/se.leap.bitmaskclient.base.StartActivity}" drawable="bitmask_1"/>
+<item component="ComponentInfo{se.leap.bitmaskclient/se.leap.bitmaskclient.base.StartActivity}" drawable="bitmask"/>
 https://play.google.com/store/apps/details?id=se.leap.bitmaskclient
 https://f-droid.org/en/packages/se.leap.bitmaskclient/
 https://apt.izzysoft.de/fdroid/index/apk/se.leap.bitmaskclient
@@ -2143,7 +2143,7 @@ Requested 1 times
 Last requested 1743496215.0
     
 <!-- willhaben -->
-<item component="ComponentInfo{at.willhaben/at.willhaben.MainActivity}" drawable="willhaben_1"/>
+<item component="ComponentInfo{at.willhaben/at.willhaben.MainActivity}" drawable="willhaben"/>
 https://play.google.com/store/apps/details?id=at.willhaben
 https://f-droid.org/en/packages/at.willhaben/
 https://apt.izzysoft.de/fdroid/index/apk/at.willhaben
@@ -2153,7 +2153,7 @@ Requested 1 times
 Last requested 1743496215.0
     
 <!-- Kraken -->
-<item component="ComponentInfo{com.kraken.invest.app/com.kraken.invest.app.MainActivity}" drawable="kraken_1"/>
+<item component="ComponentInfo{com.kraken.invest.app/com.kraken.invest.app.MainActivity}" drawable="kraken"/>
 https://play.google.com/store/apps/details?id=com.kraken.invest.app
 https://f-droid.org/en/packages/com.kraken.invest.app/
 https://apt.izzysoft.de/fdroid/index/apk/com.kraken.invest.app
@@ -2163,7 +2163,7 @@ Requested 1 times
 Last requested 1725799675.0
     
 <!-- Fulguris -->
-<item component="ComponentInfo{net.slions.fulguris.full.fdroid/fulguris.activity.SplashActivity}" drawable="fulguris_1"/>
+<item component="ComponentInfo{net.slions.fulguris.full.fdroid/fulguris.activity.SplashActivity}" drawable="fulguris"/>
 https://play.google.com/store/apps/details?id=net.slions.fulguris.full.fdroid
 https://f-droid.org/en/packages/net.slions.fulguris.full.fdroid/
 https://apt.izzysoft.de/fdroid/index/apk/net.slions.fulguris.full.fdroid
@@ -2173,7 +2173,7 @@ Requested 1 times
 Last requested 1743026101.0
     
 <!-- Free Fire MAX -->
-<item component="ComponentInfo{com.dts.freefiremax/com.dts.freefireth.FFMainActivity}" drawable="free_fire_max_1"/>
+<item component="ComponentInfo{com.dts.freefiremax/com.dts.freefireth.FFMainActivity}" drawable="free_fire_max"/>
 https://play.google.com/store/apps/details?id=com.dts.freefiremax
 https://f-droid.org/en/packages/com.dts.freefiremax/
 https://apt.izzysoft.de/fdroid/index/apk/com.dts.freefiremax
@@ -2183,7 +2183,7 @@ Requested 1 times
 Last requested 1775737833.0
     
 <!-- Uklon -->
-<item component="ComponentInfo{ua.com.uklontaxi/ua.com.uklontaxi.PromoVariantB}" drawable="uklon_1"/>
+<item component="ComponentInfo{ua.com.uklontaxi/ua.com.uklontaxi.PromoVariantB}" drawable="uklon"/>
 https://play.google.com/store/apps/details?id=ua.com.uklontaxi
 https://f-droid.org/en/packages/ua.com.uklontaxi/
 https://apt.izzysoft.de/fdroid/index/apk/ua.com.uklontaxi
@@ -2193,7 +2193,7 @@ Requested 1 times
 Last requested 1750965065.0
     
 <!-- Galaxy Store -->
-<item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SamsungAppsMainActivity}" drawable="galaxy_store_1"/>
+<item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SamsungAppsMainActivity}" drawable="galaxy_store"/>
 https://play.google.com/store/apps/details?id=com.sec.android.app.samsungapps
 https://f-droid.org/en/packages/com.sec.android.app.samsungapps/
 https://apt.izzysoft.de/fdroid/index/apk/com.sec.android.app.samsungapps
@@ -2203,7 +2203,7 @@ Requested 1 times
 Last requested 1729375001.0
     
 <!-- Internet -->
-<item component="ComponentInfo{com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity}" drawable="internet_1"/>
+<item component="ComponentInfo{com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity}" drawable="internet"/>
 https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser
 https://f-droid.org/en/packages/com.sec.android.app.sbrowser/
 https://apt.izzysoft.de/fdroid/index/apk/com.sec.android.app.sbrowser
@@ -2213,7 +2213,7 @@ Requested 1 times
 Last requested 1729375001.0
     
 <!-- Citizens -->
-<item component="ComponentInfo{com.citizensbank.androidapp/com.citizensbank.androidappmvp.views.LaunchActivity}" drawable="citizens_1"/>
+<item component="ComponentInfo{com.citizensbank.androidapp/com.citizensbank.androidappmvp.views.LaunchActivity}" drawable="citizens"/>
 https://play.google.com/store/apps/details?id=com.citizensbank.androidapp
 https://f-droid.org/en/packages/com.citizensbank.androidapp/
 https://apt.izzysoft.de/fdroid/index/apk/com.citizensbank.androidapp
@@ -2223,7 +2223,7 @@ Requested 1 times
 Last requested 1746220062.0
     
 <!-- Orthodox Calendar -->
-<item component="ComponentInfo{com.holytrinityorthodox.orthodoxcalendar/com.holytrinityorthodox.orthodoxcalendar.SplashScreen}" drawable="orthodox_calendar_1"/>
+<item component="ComponentInfo{com.holytrinityorthodox.orthodoxcalendar/com.holytrinityorthodox.orthodoxcalendar.SplashScreen}" drawable="orthodox_calendar"/>
 https://play.google.com/store/apps/details?id=com.holytrinityorthodox.orthodoxcalendar
 https://f-droid.org/en/packages/com.holytrinityorthodox.orthodoxcalendar/
 https://apt.izzysoft.de/fdroid/index/apk/com.holytrinityorthodox.orthodoxcalendar
@@ -2233,7 +2233,7 @@ Requested 1 times
 Last requested 1746220062.0
     
 <!-- Tim Hortons -->
-<item component="ComponentInfo{digital.rbi.timhortons/digital.rbi.timhortons.MainActivity}" drawable="tim_hortons_1"/>
+<item component="ComponentInfo{digital.rbi.timhortons/digital.rbi.timhortons.MainActivity}" drawable="tim_hortons"/>
 https://play.google.com/store/apps/details?id=digital.rbi.timhortons
 https://f-droid.org/en/packages/digital.rbi.timhortons/
 https://apt.izzysoft.de/fdroid/index/apk/digital.rbi.timhortons
@@ -2243,7 +2243,7 @@ Requested 1 times
 Last requested 1746220062.0
     
 <!-- Banque Pop -->
-<item component="ComponentInfo{fr.banquepopulaire.cyberplus/fr.bpce.pulsar.login.ui.startup.StartUpActivity}" drawable="banque_pop_2"/>
+<item component="ComponentInfo{fr.banquepopulaire.cyberplus/fr.bpce.pulsar.login.ui.startup.StartUpActivity}" drawable="banque_pop"/>
 https://play.google.com/store/apps/details?id=fr.banquepopulaire.cyberplus
 https://f-droid.org/en/packages/fr.banquepopulaire.cyberplus/
 https://apt.izzysoft.de/fdroid/index/apk/fr.banquepopulaire.cyberplus
@@ -2253,7 +2253,7 @@ Requested 1 times
 Last requested 1723940324.0
     
 <!-- Doctolib -->
-<item component="ComponentInfo{fr.doctolib.www/fr.doctolib.www.MainActivity}" drawable="doctolib_2"/>
+<item component="ComponentInfo{fr.doctolib.www/fr.doctolib.www.MainActivity}" drawable="doctolib"/>
 https://play.google.com/store/apps/details?id=fr.doctolib.www
 https://f-droid.org/en/packages/fr.doctolib.www/
 https://apt.izzysoft.de/fdroid/index/apk/fr.doctolib.www
@@ -2263,7 +2263,7 @@ Requested 1 times
 Last requested 1723940324.0
     
 <!-- Camera -->
-<item component="ComponentInfo{jp.co.sony.mc.cameraapp2/jp.co.sony.mc.camera.CameraActivity}" drawable="camera_11"/>
+<item component="ComponentInfo{jp.co.sony.mc.cameraapp2/jp.co.sony.mc.camera.CameraActivity}" drawable="camera_4"/>
 https://play.google.com/store/apps/details?id=jp.co.sony.mc.cameraapp2
 https://f-droid.org/en/packages/jp.co.sony.mc.cameraapp2/
 https://apt.izzysoft.de/fdroid/index/apk/jp.co.sony.mc.cameraapp2
@@ -2273,7 +2273,7 @@ Requested 1 times
 Last requested 1753075799.0
     
 <!-- Zalo -->
-<item component="ComponentInfo{com.zing.zalo/com.zing.zalo.ui.SplashActivity}" drawable="zalo_1"/>
+<item component="ComponentInfo{com.zing.zalo/com.zing.zalo.ui.SplashActivity}" drawable="zalo"/>
 https://play.google.com/store/apps/details?id=com.zing.zalo
 https://f-droid.org/en/packages/com.zing.zalo/
 https://apt.izzysoft.de/fdroid/index/apk/com.zing.zalo
@@ -2283,7 +2283,7 @@ Requested 1 times
 Last requested 1753076377.0
     
 <!-- Hollow Knight -->
-<item component="ComponentInfo{com.TeamCherry.HollowKnight/com.unity3d.player.UnityPlayerActivity}" drawable="hollow_knight_1"/>
+<item component="ComponentInfo{com.TeamCherry.HollowKnight/com.unity3d.player.UnityPlayerActivity}" drawable="hollow_knight"/>
 https://play.google.com/store/apps/details?id=com.TeamCherry.HollowKnight
 https://f-droid.org/en/packages/com.TeamCherry.HollowKnight/
 https://apt.izzysoft.de/fdroid/index/apk/com.TeamCherry.HollowKnight
@@ -2293,7 +2293,7 @@ Requested 1 times
 Last requested 1746271112.0
     
 <!-- La Buena Semilla -->
-<item component="ComponentInfo{app.bs/com.ryanheise.audioservice.AudioServiceActivity}" drawable="la_buena_semilla_1"/>
+<item component="ComponentInfo{app.bs/com.ryanheise.audioservice.AudioServiceActivity}" drawable="la_buena_semilla"/>
 https://play.google.com/store/apps/details?id=app.bs
 https://f-droid.org/en/packages/app.bs/
 https://apt.izzysoft.de/fdroid/index/apk/app.bs
@@ -2303,7 +2303,7 @@ Requested 1 times
 Last requested 1746271112.0
     
 <!-- Smouldering Durtles -->
-<item component="ComponentInfo{com.smouldering_durtles.wk/com.smouldering_durtles.wk.activities.MainActivity}" drawable="smouldering_durtles_1"/>
+<item component="ComponentInfo{com.smouldering_durtles.wk/com.smouldering_durtles.wk.activities.MainActivity}" drawable="smouldering_durtles"/>
 https://play.google.com/store/apps/details?id=com.smouldering_durtles.wk
 https://f-droid.org/en/packages/com.smouldering_durtles.wk/
 https://apt.izzysoft.de/fdroid/index/apk/com.smouldering_durtles.wk
@@ -2313,7 +2313,7 @@ Requested 1 times
 Last requested 1742972413.0
     
 <!-- Al-Azan -->
-<item component="ComponentInfo{com.github.meypod.al_azan/com.github.meypod.al_azan.MainActivity}" drawable="al_azan_1"/>
+<item component="ComponentInfo{com.github.meypod.al_azan/com.github.meypod.al_azan.MainActivity}" drawable="al_azan"/>
 https://play.google.com/store/apps/details?id=com.github.meypod.al_azan
 https://f-droid.org/en/packages/com.github.meypod.al_azan/
 https://apt.izzysoft.de/fdroid/index/apk/com.github.meypod.al_azan
@@ -2323,7 +2323,7 @@ Requested 1 times
 Last requested 1743719199.0
     
 <!-- Capy Reader -->
-<item component="ComponentInfo{com.capyreader.app/com.capyreader.app.MainActivity}" drawable="capy_reader_1"/>
+<item component="ComponentInfo{com.capyreader.app/com.capyreader.app.MainActivity}" drawable="capy_reader"/>
 https://play.google.com/store/apps/details?id=com.capyreader.app
 https://f-droid.org/en/packages/com.capyreader.app/
 https://apt.izzysoft.de/fdroid/index/apk/com.capyreader.app
@@ -2333,7 +2333,7 @@ Requested 1 times
 Last requested 1743719199.0
     
 <!-- Fork Client -->
-<item component="ComponentInfo{org.forkgram.messenger/org.telegram.messenger.DefaultIcon}" drawable="fork_client_1"/>
+<item component="ComponentInfo{org.forkgram.messenger/org.telegram.messenger.DefaultIcon}" drawable="fork_client"/>
 https://play.google.com/store/apps/details?id=org.forkgram.messenger
 https://f-droid.org/en/packages/org.forkgram.messenger/
 https://apt.izzysoft.de/fdroid/index/apk/org.forkgram.messenger
@@ -2343,7 +2343,7 @@ Requested 1 times
 Last requested 1743719199.0
     
 <!-- imagin -->
-<item component="ComponentInfo{com.imaginbank.app/com.imaginbank.appima.feature.splash.activity.SplashActivity}" drawable="imagin_2"/>
+<item component="ComponentInfo{com.imaginbank.app/com.imaginbank.appima.feature.splash.activity.SplashActivity}" drawable="imagin"/>
 https://play.google.com/store/apps/details?id=com.imaginbank.app
 https://f-droid.org/en/packages/com.imaginbank.app/
 https://apt.izzysoft.de/fdroid/index/apk/com.imaginbank.app
@@ -2353,7 +2353,7 @@ Requested 1 times
 Last requested 1743719199.0
     
 <!-- iManager -->
-<item component="ComponentInfo{com.iqoo.secure/com.iqoo.secure.MainGuideActivity}" drawable="imanager_1"/>
+<item component="ComponentInfo{com.iqoo.secure/com.iqoo.secure.MainGuideActivity}" drawable="imanager"/>
 https://play.google.com/store/apps/details?id=com.iqoo.secure
 https://f-droid.org/en/packages/com.iqoo.secure/
 https://apt.izzysoft.de/fdroid/index/apk/com.iqoo.secure
@@ -2363,7 +2363,7 @@ Requested 1 times
 Last requested 1756731891.0
     
 <!-- Jam -->
-<item component="ComponentInfo{com.android.BBKClock/com.android.BBKClock.Timer}" drawable="jam_1"/>
+<item component="ComponentInfo{com.android.BBKClock/com.android.BBKClock.Timer}" drawable="jam"/>
 https://play.google.com/store/apps/details?id=com.android.BBKClock
 https://f-droid.org/en/packages/com.android.BBKClock/
 https://apt.izzysoft.de/fdroid/index/apk/com.android.BBKClock
@@ -2373,7 +2373,7 @@ Requested 1 times
 Last requested 1756731891.0
     
 <!-- LiteX -->
-<item component="ComponentInfo{com.facebook.litx/com.facebook.lite.MainActivity}" drawable="litex_1"/>
+<item component="ComponentInfo{com.facebook.litx/com.facebook.lite.MainActivity}" drawable="litex"/>
 https://play.google.com/store/apps/details?id=com.facebook.litx
 https://f-droid.org/en/packages/com.facebook.litx/
 https://apt.izzysoft.de/fdroid/index/apk/com.facebook.litx
@@ -2383,7 +2383,7 @@ Requested 1 times
 Last requested 1756731891.0
     
 <!-- imagin -->
-<item component="ComponentInfo{com.imaginbank.app/com.imaginbank.appima.darkimagin}" drawable="imagin_3"/>
+<item component="ComponentInfo{com.imaginbank.app/com.imaginbank.appima.darkimagin}" drawable="imagin_1"/>
 https://play.google.com/store/apps/details?id=com.imaginbank.app
 https://f-droid.org/en/packages/com.imaginbank.app/
 https://apt.izzysoft.de/fdroid/index/apk/com.imaginbank.app
@@ -2393,7 +2393,7 @@ Requested 1 times
 Last requested 1740308262.0
     
 <!-- حصن المسلم -->
-<item component="ComponentInfo{com.hassaneltantawy.hisnelmoslem/com.hassaneltantawy.hisnelmoslem.MainActivity}" drawable="حصن_المسلم_1"/>
+<item component="ComponentInfo{com.hassaneltantawy.hisnelmoslem/com.hassaneltantawy.hisnelmoslem.MainActivity}" drawable="حصن_المسلم"/>
 https://play.google.com/store/apps/details?id=com.hassaneltantawy.hisnelmoslem
 https://f-droid.org/en/packages/com.hassaneltantawy.hisnelmoslem/
 https://apt.izzysoft.de/fdroid/index/apk/com.hassaneltantawy.hisnelmoslem
@@ -2403,7 +2403,7 @@ Requested 1 times
 Last requested 1740308262.0
     
 <!-- قرآن -->
-<item component="ComponentInfo{com.hassaneltantawy.quran/com.hassaneltantawy.quran.MainActivity}" drawable="قرآن_1"/>
+<item component="ComponentInfo{com.hassaneltantawy.quran/com.hassaneltantawy.quran.MainActivity}" drawable="قرآن"/>
 https://play.google.com/store/apps/details?id=com.hassaneltantawy.quran
 https://f-droid.org/en/packages/com.hassaneltantawy.quran/
 https://apt.izzysoft.de/fdroid/index/apk/com.hassaneltantawy.quran
@@ -2413,7 +2413,7 @@ Requested 1 times
 Last requested 1740308262.0
     
 <!-- Ensemble Stars Music -->
-<item component="ComponentInfo{com.happyelements.es2.en.gp/com.unity3d.player.UnityPlayerActivity}" drawable="ensemble_stars_music_1"/>
+<item component="ComponentInfo{com.happyelements.es2.en.gp/com.unity3d.player.UnityPlayerActivity}" drawable="ensemble_stars_music"/>
 https://play.google.com/store/apps/details?id=com.happyelements.es2.en.gp
 https://f-droid.org/en/packages/com.happyelements.es2.en.gp/
 https://apt.izzysoft.de/fdroid/index/apk/com.happyelements.es2.en.gp
@@ -2423,7 +2423,7 @@ Requested 1 times
 Last requested 1764898318.0
     
 <!-- BBVA -->
-<item component="ComponentInfo{com.bancomer.mbanking/com.bbva.glomohybrid.splash.presentation.view.SplashActivity}" drawable="bbva_1"/>
+<item component="ComponentInfo{com.bancomer.mbanking/com.bbva.glomohybrid.splash.presentation.view.SplashActivity}" drawable="bbva"/>
 https://play.google.com/store/apps/details?id=com.bancomer.mbanking
 https://f-droid.org/en/packages/com.bancomer.mbanking/
 https://apt.izzysoft.de/fdroid/index/apk/com.bancomer.mbanking
@@ -2433,7 +2433,7 @@ Requested 1 times
 Last requested 1765878410.0
     
 <!-- Mercado Libre -->
-<item component="ComponentInfo{com.mercadolibre/com.mercadolibre.SplashActivityAliasNavidad}" drawable="mercado_libre_1"/>
+<item component="ComponentInfo{com.mercadolibre/com.mercadolibre.SplashActivityAliasNavidad}" drawable="mercado_libre"/>
 https://play.google.com/store/apps/details?id=com.mercadolibre
 https://f-droid.org/en/packages/com.mercadolibre/
 https://apt.izzysoft.de/fdroid/index/apk/com.mercadolibre
@@ -2443,7 +2443,7 @@ Requested 1 times
 Last requested 1765878410.0
     
 <!-- Mercado Pago -->
-<item component="ComponentInfo{com.mercadopago.wallet/com.mercadopago.wallet.SplashActivityAliasDefault}" drawable="mercado_pago_1"/>
+<item component="ComponentInfo{com.mercadopago.wallet/com.mercadopago.wallet.SplashActivityAliasDefault}" drawable="mercado_pago"/>
 https://play.google.com/store/apps/details?id=com.mercadopago.wallet
 https://f-droid.org/en/packages/com.mercadopago.wallet/
 https://apt.izzysoft.de/fdroid/index/apk/com.mercadopago.wallet
@@ -2453,7 +2453,7 @@ Requested 1 times
 Last requested 1765878410.0
     
 <!-- CapCut -->
-<item component="ComponentInfo{com.lemon.lvoverseas/com.vega.main.MainActivity}" drawable="capcut_1"/>
+<item component="ComponentInfo{com.lemon.lvoverseas/com.vega.main.MainActivity}" drawable="capcut"/>
 https://play.google.com/store/apps/details?id=com.lemon.lvoverseas
 https://f-droid.org/en/packages/com.lemon.lvoverseas/
 https://apt.izzysoft.de/fdroid/index/apk/com.lemon.lvoverseas
@@ -2463,7 +2463,7 @@ Requested 1 times
 Last requested 1738383261.0
     
 <!-- Ion Launcher -->
-<item component="ComponentInfo{one.zagura.IonLauncher/one.zagura.IonLauncher.LauncherAlias}" drawable="ion_launcher_1"/>
+<item component="ComponentInfo{one.zagura.IonLauncher/one.zagura.IonLauncher.LauncherAlias}" drawable="ion_launcher"/>
 https://play.google.com/store/apps/details?id=one.zagura.IonLauncher
 https://f-droid.org/en/packages/one.zagura.IonLauncher/
 https://apt.izzysoft.de/fdroid/index/apk/one.zagura.IonLauncher
@@ -2473,7 +2473,7 @@ Requested 1 times
 Last requested 1738383261.0
     
 <!-- Boom Beach -->
-<item component="ComponentInfo{com.supercell.boombeach/com.supercell.boombeach.GameApp}" drawable="boom_beach_1"/>
+<item component="ComponentInfo{com.supercell.boombeach/com.supercell.boombeach.GameApp}" drawable="boom_beach"/>
 https://play.google.com/store/apps/details?id=com.supercell.boombeach
 https://f-droid.org/en/packages/com.supercell.boombeach/
 https://apt.izzysoft.de/fdroid/index/apk/com.supercell.boombeach
@@ -2483,7 +2483,7 @@ Requested 1 times
 Last requested 1754628741.0
     
 <!-- FF15 PE -->
-<item component="ComponentInfo{com.square_enix.android_google.ffxvpe/com.unity3d.player.UnityPlayerActivity}" drawable="ff15_pe_1"/>
+<item component="ComponentInfo{com.square_enix.android_google.ffxvpe/com.unity3d.player.UnityPlayerActivity}" drawable="ff15_pe"/>
 https://play.google.com/store/apps/details?id=com.square_enix.android_google.ffxvpe
 https://f-droid.org/en/packages/com.square_enix.android_google.ffxvpe/
 https://apt.izzysoft.de/fdroid/index/apk/com.square_enix.android_google.ffxvpe
@@ -2493,7 +2493,7 @@ Requested 1 times
 Last requested 1754628741.0
     
 <!-- Prime Video -->
-<item component="ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity}" drawable="prime_video_1"/>
+<item component="ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity}" drawable="prime_video"/>
 https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient
 https://f-droid.org/en/packages/com.amazon.avod.thirdpartyclient/
 https://apt.izzysoft.de/fdroid/index/apk/com.amazon.avod.thirdpartyclient
@@ -2503,7 +2503,7 @@ Requested 1 times
 Last requested 1754628741.0
     
 <!-- Obsidian -->
-<item component="ComponentInfo{md.obsidian/md.obsidian.MainActivity}" drawable="obsidian_1"/>
+<item component="ComponentInfo{md.obsidian/md.obsidian.MainActivity}" drawable="obsidian"/>
 https://play.google.com/store/apps/details?id=md.obsidian
 https://f-droid.org/en/packages/md.obsidian/
 https://apt.izzysoft.de/fdroid/index/apk/md.obsidian
@@ -2513,7 +2513,7 @@ Requested 1 times
 Last requested 1771138663.0
     
 <!-- dynamic​Spot -->
-<item component="ComponentInfo{com.jamworks.dynamicspot/com.jamworks.dynamicspot.SettingsHome}" drawable="dynamic​spot_1"/>
+<item component="ComponentInfo{com.jamworks.dynamicspot/com.jamworks.dynamicspot.SettingsHome}" drawable="dynamic​spot"/>
 https://play.google.com/store/apps/details?id=com.jamworks.dynamicspot
 https://f-droid.org/en/packages/com.jamworks.dynamicspot/
 https://apt.izzysoft.de/fdroid/index/apk/com.jamworks.dynamicspot
@@ -2523,7 +2523,7 @@ Requested 1 times
 Last requested 1763161060.0
     
 <!-- FIIO Music -->
-<item component="ComponentInfo{com.fiio.music/com.fiio.music.activity.SplashActivity}" drawable="fiio_music_1"/>
+<item component="ComponentInfo{com.fiio.music/com.fiio.music.activity.SplashActivity}" drawable="fiio_music"/>
 https://play.google.com/store/apps/details?id=com.fiio.music
 https://f-droid.org/en/packages/com.fiio.music/
 https://apt.izzysoft.de/fdroid/index/apk/com.fiio.music
@@ -2533,7 +2533,7 @@ Requested 1 times
 Last requested 1763161060.0
     
 <!-- 4kvideodownloader -->
-<item component="ComponentInfo{com.openmedia.om4kVideoDownloader/com.openmedia.om4kVideoDownloader.ShareActivity}" drawable="_4kvideodownloader_2"/>
+<item component="ComponentInfo{com.openmedia.om4kVideoDownloader/com.openmedia.om4kVideoDownloader.ShareActivity}" drawable="_4kvideodownloader"/>
 https://play.google.com/store/apps/details?id=com.openmedia.om4kVideoDownloader
 https://f-droid.org/en/packages/com.openmedia.om4kVideoDownloader/
 https://apt.izzysoft.de/fdroid/index/apk/com.openmedia.om4kVideoDownloader
@@ -2543,7 +2543,7 @@ Requested 1 times
 Last requested 1723966035.0
     
 <!-- Glip -->
-<item component="ComponentInfo{glip.gg/tv.heyo.app.glip.GlipOnboardingActivity}" drawable="glip_2"/>
+<item component="ComponentInfo{glip.gg/tv.heyo.app.glip.GlipOnboardingActivity}" drawable="glip"/>
 https://play.google.com/store/apps/details?id=glip.gg
 https://f-droid.org/en/packages/glip.gg/
 https://apt.izzysoft.de/fdroid/index/apk/glip.gg
@@ -2553,7 +2553,7 @@ Requested 1 times
 Last requested 1723966035.0
     
 <!-- Parallel -->
-<item component="ComponentInfo{com.reactcorp.cocalero/com.reactcorp.cocalero.MainActivity}" drawable="parallel_2"/>
+<item component="ComponentInfo{com.reactcorp.cocalero/com.reactcorp.cocalero.MainActivity}" drawable="parallel"/>
 https://play.google.com/store/apps/details?id=com.reactcorp.cocalero
 https://f-droid.org/en/packages/com.reactcorp.cocalero/
 https://apt.izzysoft.de/fdroid/index/apk/com.reactcorp.cocalero
@@ -2563,7 +2563,7 @@ Requested 1 times
 Last requested 1723966035.0
     
 <!-- Дозорный -->
-<item component="ComponentInfo{ru.rgtsparus.safecity/ru.rgtsparus.safecity.ui.MainActivity}" drawable="дозорныи_1"/>
+<item component="ComponentInfo{ru.rgtsparus.safecity/ru.rgtsparus.safecity.ui.MainActivity}" drawable="дозорныи"/>
 https://play.google.com/store/apps/details?id=ru.rgtsparus.safecity
 https://f-droid.org/en/packages/ru.rgtsparus.safecity/
 https://apt.izzysoft.de/fdroid/index/apk/ru.rgtsparus.safecity
@@ -2573,7 +2573,7 @@ Requested 1 times
 Last requested 1767302853.0
     
 <!-- Дром Авто -->
-<item component="ComponentInfo{ru.farpost.dromfilter/ru.farpost.dromfilter.app.ui.LauncherActivity}" drawable="дром_авто_1"/>
+<item component="ComponentInfo{ru.farpost.dromfilter/ru.farpost.dromfilter.app.ui.LauncherActivity}" drawable="дром_авто"/>
 https://play.google.com/store/apps/details?id=ru.farpost.dromfilter
 https://f-droid.org/en/packages/ru.farpost.dromfilter/
 https://apt.izzysoft.de/fdroid/index/apk/ru.farpost.dromfilter
@@ -2583,7 +2583,7 @@ Requested 1 times
 Last requested 1767302853.0
     
 <!-- +SBT -->
-<item component="ComponentInfo{br.com.sbt.mais/tv.accedo.elevate.app.ElevateActivity}" drawable="_sbt_1"/>
+<item component="ComponentInfo{br.com.sbt.mais/tv.accedo.elevate.app.ElevateActivity}" drawable="_sbt"/>
 https://play.google.com/store/apps/details?id=br.com.sbt.mais
 https://f-droid.org/en/packages/br.com.sbt.mais/
 https://apt.izzysoft.de/fdroid/index/apk/br.com.sbt.mais
@@ -2593,7 +2593,7 @@ Requested 1 times
 Last requested 1724613306.0
     
 <!-- Abstruct -->
-<item component="ComponentInfo{com.hampusolsson.abstruct/com.hampusolsson.abstruct.splash.SplashActivity}" drawable="abstruct_1"/>
+<item component="ComponentInfo{com.hampusolsson.abstruct/com.hampusolsson.abstruct.splash.SplashActivity}" drawable="abstruct"/>
 https://play.google.com/store/apps/details?id=com.hampusolsson.abstruct
 https://f-droid.org/en/packages/com.hampusolsson.abstruct/
 https://apt.izzysoft.de/fdroid/index/apk/com.hampusolsson.abstruct
@@ -2603,7 +2603,7 @@ Requested 1 times
 Last requested 1724613306.0
     
 <!-- RVX Music -->
-<item component="ComponentInfo{app.rvx.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="rvx_music_1"/>
+<item component="ComponentInfo{app.rvx.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="rvx_music"/>
 https://play.google.com/store/apps/details?id=app.rvx.android.apps.youtube.music
 https://f-droid.org/en/packages/app.rvx.android.apps.youtube.music/
 https://apt.izzysoft.de/fdroid/index/apk/app.rvx.android.apps.youtube.music
@@ -2613,7 +2613,7 @@ Requested 1 times
 Last requested 1774888740.0
     
 <!-- Chorcha -->
-<item component="ComponentInfo{com.chorcha.ai/com.chorcha.ai.MainActivity}" drawable="chorcha_1"/>
+<item component="ComponentInfo{com.chorcha.ai/com.chorcha.ai.MainActivity}" drawable="chorcha"/>
 https://play.google.com/store/apps/details?id=com.chorcha.ai
 https://f-droid.org/en/packages/com.chorcha.ai/
 https://apt.izzysoft.de/fdroid/index/apk/com.chorcha.ai
@@ -2623,7 +2623,7 @@ Requested 1 times
 Last requested 1765265883.0
     
 <!-- imo Lite -->
-<item component="ComponentInfo{com.imo.android.imoimlite/com.imo.android.imoim.activities.Home}" drawable="imo_lite_1"/>
+<item component="ComponentInfo{com.imo.android.imoimlite/com.imo.android.imoim.activities.Home}" drawable="imo_lite"/>
 https://play.google.com/store/apps/details?id=com.imo.android.imoimlite
 https://f-droid.org/en/packages/com.imo.android.imoimlite/
 https://apt.izzysoft.de/fdroid/index/apk/com.imo.android.imoimlite
@@ -2633,7 +2633,7 @@ Requested 1 times
 Last requested 1765265883.0
     
 <!-- Merriam-Webster Dictionary -->
-<item component="ComponentInfo{com.merriamwebster/com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity}" drawable="merriam_webster_dictionary_1"/>
+<item component="ComponentInfo{com.merriamwebster/com.merriamwebster.dictionary.activity.dictionary.DictionaryActivity}" drawable="merriam_webster_dictionary"/>
 https://play.google.com/store/apps/details?id=com.merriamwebster
 https://f-droid.org/en/packages/com.merriamwebster/
 https://apt.izzysoft.de/fdroid/index/apk/com.merriamwebster
@@ -2643,7 +2643,7 @@ Requested 1 times
 Last requested 1765265883.0
     
 <!-- WordUp -->
-<item component="ComponentInfo{co.wordupapp.app/co.wordupapp.app.MainActivity}" drawable="wordup_1"/>
+<item component="ComponentInfo{co.wordupapp.app/co.wordupapp.app.MainActivity}" drawable="wordup"/>
 https://play.google.com/store/apps/details?id=co.wordupapp.app
 https://f-droid.org/en/packages/co.wordupapp.app/
 https://apt.izzysoft.de/fdroid/index/apk/co.wordupapp.app
@@ -2653,7 +2653,7 @@ Requested 1 times
 Last requested 1765265883.0
     
 <!-- AIDungeon -->
-<item component="ComponentInfo{com.aidungeon/com.aidungeon.MainActivity}" drawable="aidungeon_1"/>
+<item component="ComponentInfo{com.aidungeon/com.aidungeon.MainActivity}" drawable="aidungeon"/>
 https://play.google.com/store/apps/details?id=com.aidungeon
 https://f-droid.org/en/packages/com.aidungeon/
 https://apt.izzysoft.de/fdroid/index/apk/com.aidungeon
@@ -2663,7 +2663,7 @@ Requested 1 times
 Last requested 1752426053.0
     
 <!-- Antimatter Dimensions -->
-<item component="ComponentInfo{kajfosz.antimatterdimensions/kajfosz.antimatterdimensions.MainActivity}" drawable="antimatter_dimensions_1"/>
+<item component="ComponentInfo{kajfosz.antimatterdimensions/kajfosz.antimatterdimensions.MainActivity}" drawable="antimatter_dimensions"/>
 https://play.google.com/store/apps/details?id=kajfosz.antimatterdimensions
 https://f-droid.org/en/packages/kajfosz.antimatterdimensions/
 https://apt.izzysoft.de/fdroid/index/apk/kajfosz.antimatterdimensions
@@ -2673,7 +2673,7 @@ Requested 1 times
 Last requested 1752426053.0
     
 <!-- Dagens Nyheter -->
-<item component="ComponentInfo{se.dn/se.dn.mobil.MainActivity}" drawable="dagens_nyheter_1"/>
+<item component="ComponentInfo{se.dn/se.dn.mobil.MainActivity}" drawable="dagens_nyheter"/>
 https://play.google.com/store/apps/details?id=se.dn
 https://f-droid.org/en/packages/se.dn/
 https://apt.izzysoft.de/fdroid/index/apk/se.dn
@@ -2683,7 +2683,7 @@ Requested 1 times
 Last requested 1752426053.0
     
 <!-- ВТБ -->
-<item component="ComponentInfo{ru.vtb24.mobilebanking.android/ru.vtb.feature.signup.impl.loading.presentation.view.LoadingScreenActivity}" drawable="втб_1"/>
+<item component="ComponentInfo{ru.vtb24.mobilebanking.android/ru.vtb.feature.signup.impl.loading.presentation.view.LoadingScreenActivity}" drawable="втб"/>
 https://play.google.com/store/apps/details?id=ru.vtb24.mobilebanking.android
 https://f-droid.org/en/packages/ru.vtb24.mobilebanking.android/
 https://apt.izzysoft.de/fdroid/index/apk/ru.vtb24.mobilebanking.android
@@ -2693,7 +2693,7 @@ Requested 1 times
 Last requested 1748069081.0
     
 <!-- Галерея -->
-<item component="ComponentInfo{com.dot.gallery/com.dot.gallery.feature_node.presentation.main.MainActivity}" drawable="галерея_1"/>
+<item component="ComponentInfo{com.dot.gallery/com.dot.gallery.feature_node.presentation.main.MainActivity}" drawable="галерея"/>
 https://play.google.com/store/apps/details?id=com.dot.gallery
 https://f-droid.org/en/packages/com.dot.gallery/
 https://apt.izzysoft.de/fdroid/index/apk/com.dot.gallery
@@ -2703,7 +2703,7 @@ Requested 1 times
 Last requested 1748069081.0
     
 <!-- Калькулятор -->
-<item component="ComponentInfo{com.darkempire78.opencalculator/com.darkempire78.opencalculator.activities.MainActivity}" drawable="калькулятор_1"/>
+<item component="ComponentInfo{com.darkempire78.opencalculator/com.darkempire78.opencalculator.activities.MainActivity}" drawable="калькулятор"/>
 https://play.google.com/store/apps/details?id=com.darkempire78.opencalculator
 https://f-droid.org/en/packages/com.darkempire78.opencalculator/
 https://apt.izzysoft.de/fdroid/index/apk/com.darkempire78.opencalculator
@@ -2713,7 +2713,7 @@ Requested 1 times
 Last requested 1748069081.0
     
 <!-- ETH Zürich -->
-<item component="ComponentInfo{ch.ethz.ethz/ch.ethz.ethz.MainActivity}" drawable="eth_zurich_1"/>
+<item component="ComponentInfo{ch.ethz.ethz/ch.ethz.ethz.MainActivity}" drawable="eth_zurich"/>
 https://play.google.com/store/apps/details?id=ch.ethz.ethz
 https://f-droid.org/en/packages/ch.ethz.ethz/
 https://apt.izzysoft.de/fdroid/index/apk/ch.ethz.ethz
@@ -2723,7 +2723,7 @@ Requested 1 times
 Last requested 1758394680.0
     
 <!-- FolderSync Pro -->
-<item component="ComponentInfo{dk.tacit.android.foldersync.full/dk.tacit.android.foldersync.activity.MainActivity}" drawable="foldersync_pro_1"/>
+<item component="ComponentInfo{dk.tacit.android.foldersync.full/dk.tacit.android.foldersync.activity.MainActivity}" drawable="foldersync_pro"/>
 https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.full
 https://f-droid.org/en/packages/dk.tacit.android.foldersync.full/
 https://apt.izzysoft.de/fdroid/index/apk/dk.tacit.android.foldersync.full
@@ -2733,7 +2733,7 @@ Requested 1 times
 Last requested 1758394680.0
     
 <!-- MyMoney Pro -->
-<item component="ComponentInfo{com.raha.app.mymoney.pro/com.raha.app.mymoney.ui.activity.SplashActivity}" drawable="mymoney_pro_1"/>
+<item component="ComponentInfo{com.raha.app.mymoney.pro/com.raha.app.mymoney.ui.activity.SplashActivity}" drawable="mymoney_pro"/>
 https://play.google.com/store/apps/details?id=com.raha.app.mymoney.pro
 https://f-droid.org/en/packages/com.raha.app.mymoney.pro/
 https://apt.izzysoft.de/fdroid/index/apk/com.raha.app.mymoney.pro
@@ -2743,7 +2743,7 @@ Requested 1 times
 Last requested 1758394680.0
     
 <!-- Instagram Lite -->
-<item component="ComponentInfo{com.instagram.lite/com.facebook.lite.MainActivity}" drawable="instagram_lite_1"/>
+<item component="ComponentInfo{com.instagram.lite/com.facebook.lite.MainActivity}" drawable="instagram_lite"/>
 https://play.google.com/store/apps/details?id=com.instagram.lite
 https://f-droid.org/en/packages/com.instagram.lite/
 https://apt.izzysoft.de/fdroid/index/apk/com.instagram.lite
@@ -2753,7 +2753,7 @@ Requested 1 times
 Last requested 1764547082.0
     
 <!-- Cricbuzz -->
-<item component="ComponentInfo{com.cricbuzz.android/com.cricbuzz.android.lithium.app.view.activity.NyitoActivity}" drawable="cricbuzz_1"/>
+<item component="ComponentInfo{com.cricbuzz.android/com.cricbuzz.android.lithium.app.view.activity.NyitoActivity}" drawable="cricbuzz"/>
 https://play.google.com/store/apps/details?id=com.cricbuzz.android
 https://f-droid.org/en/packages/com.cricbuzz.android/
 https://apt.izzysoft.de/fdroid/index/apk/com.cricbuzz.android
@@ -2763,7 +2763,7 @@ Requested 1 times
 Last requested 1728489786.0
     
 <!-- MyJio -->
-<item component="ComponentInfo{com.jio.myjio/com.jio.myjio.dashboard.activities.SplashActivity}" drawable="myjio_1"/>
+<item component="ComponentInfo{com.jio.myjio/com.jio.myjio.dashboard.activities.SplashActivity}" drawable="myjio"/>
 https://play.google.com/store/apps/details?id=com.jio.myjio
 https://f-droid.org/en/packages/com.jio.myjio/
 https://apt.izzysoft.de/fdroid/index/apk/com.jio.myjio
@@ -2773,7 +2773,7 @@ Requested 1 times
 Last requested 1728489786.0
     
 <!-- Авто -->
-<item component="ComponentInfo{ru.gosuslugi.auto/ru.gosuslugi.auto.ui.activity.auto.AutoActivity}" drawable="авто_1"/>
+<item component="ComponentInfo{ru.gosuslugi.auto/ru.gosuslugi.auto.ui.activity.auto.AutoActivity}" drawable="авто"/>
 https://play.google.com/store/apps/details?id=ru.gosuslugi.auto
 https://f-droid.org/en/packages/ru.gosuslugi.auto/
 https://apt.izzysoft.de/fdroid/index/apk/ru.gosuslugi.auto
@@ -2783,7 +2783,7 @@ Requested 1 times
 Last requested 1772566239.0
     
 <!-- Автодор -->
-<item component="ComponentInfo{ru.russianhighways.mobile/ru.russianhighways.mobiletest.ui.StartActivity}" drawable="автодор_1"/>
+<item component="ComponentInfo{ru.russianhighways.mobile/ru.russianhighways.mobiletest.ui.StartActivity}" drawable="автодор"/>
 https://play.google.com/store/apps/details?id=ru.russianhighways.mobile
 https://f-droid.org/en/packages/ru.russianhighways.mobile/
 https://apt.izzysoft.de/fdroid/index/apk/ru.russianhighways.mobile
@@ -2793,7 +2793,7 @@ Requested 1 times
 Last requested 1772566239.0
     
 <!-- Азбука вкуса -->
-<item component="ComponentInfo{ru.av.vkusomania/ru.av.feature.main.screens.root.view.RootActivity}" drawable="азбука_вкуса_1"/>
+<item component="ComponentInfo{ru.av.vkusomania/ru.av.feature.main.screens.root.view.RootActivity}" drawable="азбука_вкуса"/>
 https://play.google.com/store/apps/details?id=ru.av.vkusomania
 https://f-droid.org/en/packages/ru.av.vkusomania/
 https://apt.izzysoft.de/fdroid/index/apk/ru.av.vkusomania
@@ -2803,7 +2803,7 @@ Requested 1 times
 Last requested 1772566239.0
     
 <!-- 2048 Open Fun Game -->
-<item component="ComponentInfo{org.andstatus.game2048/org.andstatus.game2048.MyMainActivity}" drawable="_2048_open_fun_game_1"/>
+<item component="ComponentInfo{org.andstatus.game2048/org.andstatus.game2048.MyMainActivity}" drawable="_2048_open_fun_game"/>
 https://play.google.com/store/apps/details?id=org.andstatus.game2048
 https://f-droid.org/en/packages/org.andstatus.game2048/
 https://apt.izzysoft.de/fdroid/index/apk/org.andstatus.game2048
@@ -2813,7 +2813,7 @@ Requested 1 times
 Last requested 1740151748.0
     
 <!-- Камера -->
-<item component="ComponentInfo{com.myos.camera/com.myos.camera.activity.CameraActivity}" drawable="камера_1"/>
+<item component="ComponentInfo{com.myos.camera/com.myos.camera.activity.CameraActivity}" drawable="камера"/>
 https://play.google.com/store/apps/details?id=com.myos.camera
 https://f-droid.org/en/packages/com.myos.camera/
 https://apt.izzysoft.de/fdroid/index/apk/com.myos.camera
@@ -2823,7 +2823,7 @@ Requested 1 times
 Last requested 1777185664.0
     
 <!-- CounterFlame -->
-<item component="ComponentInfo{com.ScarletWork.CounterFlame/com.unity3d.player.UnityPlayerActivity}" drawable="counterflame_1"/>
+<item component="ComponentInfo{com.ScarletWork.CounterFlame/com.unity3d.player.UnityPlayerActivity}" drawable="counterflame"/>
 https://play.google.com/store/apps/details?id=com.ScarletWork.CounterFlame
 https://f-droid.org/en/packages/com.ScarletWork.CounterFlame/
 https://apt.izzysoft.de/fdroid/index/apk/com.ScarletWork.CounterFlame
@@ -2833,7 +2833,7 @@ Requested 1 times
 Last requested 1777185690.0
     
 <!-- bhop pro -->
-<item component="ComponentInfo{com.begma.bhoppro/com.unity3d.player.UnityPlayerActivity}" drawable="bhop_pro_1"/>
+<item component="ComponentInfo{com.begma.bhoppro/com.unity3d.player.UnityPlayerActivity}" drawable="bhop_pro"/>
 https://play.google.com/store/apps/details?id=com.begma.bhoppro
 https://f-droid.org/en/packages/com.begma.bhoppro/
 https://apt.izzysoft.de/fdroid/index/apk/com.begma.bhoppro
@@ -2843,7 +2843,7 @@ Requested 1 times
 Last requested 1773654623.0
     
 <!-- Black Screen -->
-<item component="ComponentInfo{io.japp.blackscreen/io.japp.blackscreen.ui.MainActivity}" drawable="black_screen_1"/>
+<item component="ComponentInfo{io.japp.blackscreen/io.japp.blackscreen.ui.MainActivity}" drawable="black_screen"/>
 https://play.google.com/store/apps/details?id=io.japp.blackscreen
 https://f-droid.org/en/packages/io.japp.blackscreen/
 https://apt.izzysoft.de/fdroid/index/apk/io.japp.blackscreen
@@ -2853,7 +2853,7 @@ Requested 1 times
 Last requested 1740501203.0
     
 <!-- Календарь -->
-<item component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" drawable="календарь_1"/>
+<item component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" drawable="календарь"/>
 https://play.google.com/store/apps/details?id=com.xiaomi.calendar
 https://f-droid.org/en/packages/com.xiaomi.calendar/
 https://apt.izzysoft.de/fdroid/index/apk/com.xiaomi.calendar
@@ -2863,7 +2863,7 @@ Requested 1 times
 Last requested 1767214304.0
     
 <!-- ZPlayer -->
-<item component="ComponentInfo{app.odesanmi.and.zplayer/app.odesanmi.and.zplayer.Home}" drawable="zplayer_1"/>
+<item component="ComponentInfo{app.odesanmi.and.zplayer/app.odesanmi.and.zplayer.Home}" drawable="zplayer"/>
 https://play.google.com/store/apps/details?id=app.odesanmi.and.zplayer
 https://f-droid.org/en/packages/app.odesanmi.and.zplayer/
 https://apt.izzysoft.de/fdroid/index/apk/app.odesanmi.and.zplayer
