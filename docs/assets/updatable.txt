@@ -1,14 +1,8 @@
-<!-- Discord -->
-<item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="discord"/>
+<!-- Orbot -->
+<item component="ComponentInfo{org.torproject.android/org.torproject.android.OrbotActivity}" drawable="orbot"/>
 
-<!-- Authenticator -->
-<item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator2.main.MainActivity}" drawable="authenticator"/>
-
-<!-- comdirect -->
-<item component="ComponentInfo{de.comdirect.app/de.comdirect.core.feature.splash.SplashActivity}" drawable="comdirect"/>
-
-<!-- Aurora Store -->
-<item component="ComponentInfo{com.aurora.store/com.aurora.store.MainActivity}" drawable="aurora_store"/>
+<!-- Proton Mail -->
+<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.MainActivity}" drawable="proton_mail"/>
 
 <!-- Т-Банк -->
 <item component="ComponentInfo{com.idamob.tinkoff.android/ru.tinkoff.mb.feature.splash.bank.ui.presentation.BankSplashActivity}" drawable="т_банк"/>
@@ -19,18 +13,108 @@
 <!-- Proton VPN -->
 <item component="ComponentInfo{ch.protonvpn.android/ch.protonvpn.android.RoutingDark}" drawable="proton_vpn"/>
 
-<!-- Orbot -->
-<item component="ComponentInfo{org.torproject.android/org.torproject.android.OrbotActivity}" drawable="orbot"/>
+<!-- Tusky -->
+<item component="ComponentInfo{com.keylesspalace.tusky/com.keylesspalace.tusky.MainActivity}" drawable="tusky"/>
 
-<!-- Proton Mail -->
-<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.MainActivity}" drawable="proton_mail"/>
+<!-- Element -->
+<item component="ComponentInfo{im.vector.app/im.vector.application.features.Alias}" drawable="element_1"/>
+
+<!-- eBay -->
+<item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.home.impl.main.MainActivity}" drawable="ebay_1"/>
+
+<!-- ウォレット -->
+<item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.wallet.WalletActivity}" drawable="ウォレット_1"/>
 
 <!-- Arcticons -->
 <item component="ComponentInfo{com.donnnno.arcticons/com.donnnno.arcticons.activities.SplashActivity}" drawable="arcticons"/>
 
-<!-- Tusky -->
-<item component="ComponentInfo{com.keylesspalace.tusky/com.keylesspalace.tusky.MainActivity}" drawable="tusky"/>
+<!-- Termius -->
+<item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.MainActivity}" drawable="termius_1"/>
 
-<!-- GitHub -->
-<item component="ComponentInfo{com.github.android/com.github.android.main.MainActivity}" drawable="github"/>
+<!-- App Manager -->
+<item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.SplashActivity}" drawable="app_manager_1"/>
+
+<!-- Signal -->
+<item component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltDarkVariant}" drawable="signal_1"/>
+
+<!-- NordVPN -->
+<item component="ComponentInfo{com.nordvpn.android/com.nordvpn.android.mobile.MainActivity}" drawable="nordvpn_1"/>
+
+<!-- YouTube -->
+<item component="ComponentInfo{app.revanced.android.youtube/app.revanced.android.youtube.revanced_original_1}" drawable="youtube_3"/>
+
+<!-- Calyx VPN -->
+<item component="ComponentInfo{org.calyxinstitute.vpn/se.leap.bitmaskclient.base.StartActivity}" drawable="calyx_vpn_1"/>
+
+<!-- Clash Royale -->
+<item component="ComponentInfo{com.supercell.clashroyale/com.supercell.titan.GameApp}" drawable="clash_royale_1"/>
+
+<!-- Tiny Weather Forecast Germany -->
+<item component="ComponentInfo{de.kaffeemitkoffein.tinyweatherforecastgermany/de.kaffeemitkoffein.tinyweatherforecastgermany.MainActivity}" drawable="tiny_weather_forecast_germany_1"/>
+
+<!-- Kleinanzeigen -->
+<item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.ui.splash.SplashActivity}" drawable="kleinanzeigen_1"/>
+
+<!-- Mullvad VPN -->
+<item component="ComponentInfo{net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.ui.obfuscation.MainActivityAltDefault}" drawable="mullvad_vpn_1"/>
+
+<!-- Slack -->
+<item component="ComponentInfo{com.Slack/slack.features.home.HomeActivity}" drawable="slack_1"/>
+
+<!-- Radio France -->
+<item component="ComponentInfo{com.radiofrance.radio.radiofrance.android/com.radiofrance.kmp.application.MainActivity}" drawable="radio_france_1"/>
+
+<!-- Among Us -->
+<item component="ComponentInfo{com.innersloth.spacemafia/com.innersloth.spacemafia.EosUnityPlayerActivity}" drawable="among_us_1"/>
+
+<!-- LinkedIn -->
+<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivityDefault}" drawable="linkedin_1"/>
+
+<!-- Camera -->
+<item component="ComponentInfo{com.android.camera/com.android.camera.CameraActivity}" drawable="camera_9"/>
+
+<!-- Linphone -->
+<item component="ComponentInfo{org.linphone/org.linphone.ui.main.MainActivity}" drawable="linphone_1"/>
+
+<!-- Blocker -->
+<item component="ComponentInfo{com.merxury.blocker/com.merxury.blocker.MainActivity}" drawable="blocker_1"/>
+
+<!-- Proton VPN -->
+<item component="ComponentInfo{ch.protonvpn.android/ch.protonvpn.android.RoutingActivity}" drawable="proton_vpn_2"/>
+
+<!-- Мои файлы -->
+<item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.ui.MainActivity}" drawable="мои_фаилы_1"/>
+
+<!-- Google TV -->
+<item component="ComponentInfo{com.google.android.videos/com.google.android.videos.GoogleTvEntryPoint}" drawable="google_tv_1"/>
+
+<!-- Fotos -->
+<item component="ComponentInfo{com.oneplus.gallery/com.oneplus.gallery.app.MainActivity}" drawable="fotos_1"/>
+
+<!-- Voice -->
+<item component="ComponentInfo{de.ph1b.audiobook/voice.app.features.MainActivity}" drawable="voice_1"/>
+
+<!-- FFUpdater -->
+<item component="ComponentInfo{de.marmaro.krt.ffupdater/de.marmaro.krt.ffupdater.activity.main.MainActivity}" drawable="ffupdater_1"/>
+
+<!-- Audible -->
+<item component="ComponentInfo{com.audible.application/com.audible.application.MainLauncher}" drawable="audible_1"/>
+
+<!-- Kamera -->
+<item component="ComponentInfo{com.android.camera/com.android.camera.view.CameraActivity}" drawable="kamera_1"/>
+
+<!-- AdAway -->
+<item component="ComponentInfo{org.adaway/org.adaway.ui.home.HomeActivity}" drawable="adaway_1"/>
+
+<!-- Госуслуги -->
+<item component="ComponentInfo{ru.rostel/ru.minsvyaz.coreproject.LauncherActivity}" drawable="госуслуги_1"/>
+
+<!-- Clock -->
+<item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.common.activity.ClockPackage}" drawable="clock_4"/>
+
+<!-- Gallery -->
+<item component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.GalleryOpaqueActivity}" drawable="gallery_3"/>
+
+<!-- Диктофон -->
+<item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.StartActivity}" drawable="диктофон_1"/>
 
