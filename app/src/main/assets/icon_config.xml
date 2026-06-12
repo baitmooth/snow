@@ -256,6 +256,7 @@
 	<item component="ComponentInfo{foundation.e.apps/foundation.e.apps.MainActivity}" drawable="eapps"/>
 
 	<!-- App Manager -->
+	<item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.SplashActivity}" drawable="appmanager"/>
 	<item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.MainActivity}" drawable="appmanager"/>
 
 	<!-- App Store -->
@@ -645,6 +646,7 @@
 	<item component="ComponentInfo{de.bahn.callabike/com.andience.core.ui.StartupActivity}" drawable="callabike"/>
 
 	<!-- Calyx VPN -->
+	<item component="ComponentInfo{org.calyxinstitute.vpn/se.leap.bitmaskclient.base.StartActivity}" drawable="calyxvpn"/>
 	<item component="ComponentInfo{org.calyxinstitute.vpn/se.leap.bitmaskclient.StartActivity}" drawable="calyxvpn"/>
 
 	<!-- Camera -->
@@ -766,6 +768,7 @@
 	<item component="ComponentInfo{com.cityzen.cityzen/com.cityzen.cityzen.Activities.SplashScreenActivity}" drawable="cityzen"/>
 
 	<!-- Clash Royale -->
+	<item component="ComponentInfo{com.supercell.clashroyale/com.supercell.titan.GameApp}" drawable="clashroyale"/>
 	<item component="ComponentInfo{com.supercell.clashroyale/com.supercell.clashroyale.GameApp}" drawable="clashroyale"/>
 
 	<!-- Classical KUSC -->
@@ -1186,9 +1189,11 @@
 	<item component="ComponentInfo{de.tap.easy_xkcd/de.tap.easy_xkcd.Activities.MainActivity}" drawable="easyxkcd"/>
 
 	<!-- eBay -->
+	<item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.home.impl.main.MainActivity}" drawable="ebay"/>
 	<item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.MainActivity}" drawable="ebay"/>
 
 	<!-- Ebay Kleinanzeigen -->
+	<item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.ui.splash.SplashActivity}" drawable="ebaykleinanzeigen"/>
 	<item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.SplashActivity}" drawable="ebaykleinanzeigen"/>
 
 	<!-- EBT.art -->
@@ -1213,6 +1218,7 @@
 	<item component="ComponentInfo{com.ayman.elegantteleprompter/com.ayman.elegantteleprompter.main_ui.MainActivity}" drawable="elegantteleprompter"/>
 
 	<!-- Element -->
+	<item component="ComponentInfo{im.vector.app/im.vector.application.features.Alias}" drawable="element"/>
 	<item component="ComponentInfo{im.vector.app/im.vector.riotx.features.Alias}" drawable="element"/>
 	<item component="ComponentInfo{im.vector.app/im.vector.app.features.Alias}" drawable="element"/>
 	<item component="ComponentInfo{im.vector.app/im.vector.app.features.MainActivity}" drawable="element"/>
@@ -2117,6 +2123,7 @@
 	<item component="ComponentInfo{org.kiwix.kiwixmobile/org.kiwix.kiwixmobile.utils.SplashActivity}" drawable="kiwix"/>
 
 	<!-- Kleine Wettervorschau Deutschland -->
+	<item component="ComponentInfo{de.kaffeemitkoffein.tinyweatherforecastgermany/de.kaffeemitkoffein.tinyweatherforecastgermany.MainActivity}" drawable="kleinewettervorschaudeutschland"/>
 	<item component="ComponentInfo{de.kaffeemitkoffein.tinyweatherforecastgermany/de.kaffeemitkoffein.tinyweatherforecastgermany.WelcomeActivity}" drawable="kleinewettervorschaudeutschland"/>
 
 	<!-- Knock on Ports -->
@@ -2632,6 +2639,7 @@
 	<item component="ComponentInfo{us.spotco.fennec_dos/us.spotco.fennec_dos.App}" drawable="mull"/>
 
 	<!-- Mullvad VPN -->
+	<item component="ComponentInfo{net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.ui.obfuscation.MainActivityAltDefault}" drawable="mullvadvpn"/>
 	<item component="ComponentInfo{net.mullvad.mullvadvpn/net.mullvad.mullvadvpn.ui.MainActivity}" drawable="mullvadvpn"/>
 
 	<!-- MultiVNC -->
@@ -2829,6 +2837,7 @@
 	<item component="ComponentInfo{com.nordnet/com.nordnet.MainActivity}" drawable="nordnet"/>
 
 	<!-- NordVPN -->
+	<item component="ComponentInfo{com.nordvpn.android/com.nordvpn.android.mobile.MainActivity}" drawable="nordvpn"/>
 	<item component="ComponentInfo{com.nordvpn.android/com.nordvpn.android.MainActivity}" drawable="nordvpn"/>
 
 	<!-- NOS -->
@@ -3015,6 +3024,7 @@
 	<item component="ComponentInfo{com.opera.mini.native/com.opera.mini.android.Browser}" drawable="opera"/>
 
 	<!-- Orbot -->
+	<item component="ComponentInfo{org.torproject.android/org.torproject.android.OrbotActivity}" drawable="orbot"/>
 	<item component="ComponentInfo{org.torproject.android/org.torproject.android.OrbotMainActivity}" drawable="orbot"/>
 
 	<!-- Orfox -->
@@ -3295,9 +3305,11 @@
 	<item component="ComponentInfo{com.arduia.expense/com.arduia.expense.ui.MainActivity}" drawable="proexpense"/>
 
 	<!-- ProtonMail -->
+	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.MainActivity}" drawable="protonmail"/>
 	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.activities.SplashActivity}" drawable="protonmail"/>
 
 	<!-- ProtonVPN -->
+	<item component="ComponentInfo{ch.protonvpn.android/ch.protonvpn.android.RoutingDark}" drawable="protonvpn"/>
 	<item component="ComponentInfo{com.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity}" drawable="protonvpn"/>
 	<item component="ComponentInfo{ch.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity}" drawable="protonvpn"/>
 
@@ -3652,6 +3664,7 @@
 	<item component="ComponentInfo{de.baumann.sieben/de.baumann.sieben.MainActivity}" drawable="sieben"/>
 
 	<!-- Signal -->
+	<item component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivityAltDarkVariant}" drawable="signal"/>
 	<item component="ComponentInfo{org.libresignal/org.thoughtcrime.securesms.RoutingActivity}" drawable="signal"/>
 	<item component="ComponentInfo{org.thoughtcrime.securesms/org.thoughtcrime.securesms.RoutingActivity}" drawable="signal"/>
 
@@ -4314,6 +4327,7 @@
 	<item component="ComponentInfo{se.skanetrafiken.washington/se.skanetrafiken.washington.DashboardActivity}" drawable="sknetrafiken"/>
 
 	<!-- Slack -->
+	<item component="ComponentInfo{com.Slack/slack.features.home.HomeActivity}" drawable="slack"/>
 	<item component="ComponentInfo{com.Slack/com.Slack.ui.HomeActivity}" drawable="slack"/>
 	<item component="ComponentInfo{com.Slack/slack.app.ui.HomeActivity}" drawable="slack"/>
 
@@ -4603,6 +4617,7 @@
 	<item component="ComponentInfo{com.teamviewer.teamviewer.market.mobile/com.teamviewer.remotecontrollib.activity.MainActivity}" drawable="teamviewer"/>
 
 	<!-- Telegram -->
+	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.AquaIcon}" drawable="telegram"/>
 	<item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram"/>
 	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram"/>
 
@@ -4614,6 +4629,7 @@
 	<item component="ComponentInfo{jackpal.androidterm/jackpal.androidterm.Term}" drawable="androidterm"/>
 
 	<!-- Termius -->
+	<item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.MainActivity}" drawable="termius"/>
 	<item component="ComponentInfo{com.server.auditor.ssh.client/com.server.auditor.ssh.client.navigation.SplashScreenActivity}" drawable="termius"/>
 
 	<!-- Termux -->
@@ -4672,6 +4688,7 @@
 	<item component="ComponentInfo{com.tinder/com.tinder.activities.LoginActivity}" drawable="tinder"/>
 
 	<!-- Tinkoff -->
+	<item component="ComponentInfo{com.idamob.tinkoff.android/ru.tinkoff.mb.feature.splash.bank.ui.presentation.BankSplashActivity}" drawable="tinkoff"/>
 	<item component="ComponentInfo{com.idamob.tinkoff.android/ru.tinkoff.mb.ui.splash.SplashActivity}" drawable="tinkoff"/>
 
 	<!-- Tinkoff Business -->
@@ -4808,6 +4825,7 @@
 	<item component="ComponentInfo{com.lyonbros.turtl/com.lyonbros.turtl.MainActivity}" drawable="turtlsync"/>
 
 	<!-- Tusky -->
+	<item component="ComponentInfo{com.keylesspalace.tusky/com.keylesspalace.tusky.MainActivity}" drawable="tusky"/>
 	<item component="ComponentInfo{com.keylesspalace.tusky/com.keylesspalace.tusky.SplashActivity}" drawable="tusky"/>
 	<item component="ComponentInfo{com.keylesspalace.tusky.test/com.keylesspalace.tusky.SplashActivity}" drawable="tusky"/>
 
@@ -5163,6 +5181,7 @@
 	<item component="ComponentInfo{com.youmail.android.vvm/com.youmail.android.vvm.main.VVMMainActivity}" drawable="youmail"/>
 
 	<!-- YouTube -->
+	<item component="ComponentInfo{app.revanced.android.youtube/app.revanced.android.youtube.revanced_original_1}" drawable="youtube"/>
 	<item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube"/>
 
 	<!-- YouTube Vanced -->

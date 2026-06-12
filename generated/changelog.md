@@ -1,5 +1,5 @@
 * 🎉 **64** new and updated icons!
-* 💡 Added support for **0** apps using existing icons.
+* 💡 Added support for **19** apps using existing icons.
 * 🔥 **1451** icons in total!
 * introduced categories in icon list
 * removed network permissions
