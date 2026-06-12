@@ -55,14 +55,14 @@ jobs:
                   name: snow-apks
                   path: artifacts
 
+            - name: Append image to changelog
+              run: |
+                echo -e "\n\n![Release Image](https://github.com/${{ github.repository }}/raw/${{ github.ref_name }}/generated/releaseImage.webp)" >> generated/changelog.md
+
             - name: Create GitHub Release
               uses: softprops/action-gh-release@v2
               with:
                 body_path: generated/changelog.md
-                append_body: true
-                body: |
-
-                  ![Release Image](https://github.com/${{ github.repository }}/raw/${{ github.ref_name }}/generated/releaseImage.webp)
                 files: |
                   artifacts/**/*.apk
                   generated/releaseImage.webp

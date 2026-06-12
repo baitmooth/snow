@@ -171,6 +171,7 @@
 	<item component="ComponentInfo{org.xphnx.ameixamonochrome/org.xphnx.ameixamonochrome.activities.MainActivity}" drawable="themes"/>
 
 	<!-- Among Us -->
+	<item component="ComponentInfo{com.innersloth.spacemafia/com.innersloth.spacemafia.EosUnityPlayerActivity}" drawable="amongus"/>
 	<item component="ComponentInfo{com.innersloth.spacemafia/com.unity3d.player.UnityPlayerActivity}" drawable="amongus"/>
 
 	<!-- Ampere -->
@@ -495,6 +496,7 @@
 	<item component="ComponentInfo{com.blackboard.android.bbstudent/com.blackboard.android.bbstudent.launch.LaunchActivityImpl}" drawable="blackboard"/>
 
 	<!-- Blocker -->
+	<item component="ComponentInfo{com.merxury.blocker/com.merxury.blocker.MainActivity}" drawable="blocker"/>
 	<item component="ComponentInfo{com.merxury.blocker/com.merxury.blocker.ui.home.HomeActivity}" drawable="blocker"/>
 
 	<!-- Blocket -->
@@ -650,6 +652,7 @@
 	<item component="ComponentInfo{org.calyxinstitute.vpn/se.leap.bitmaskclient.StartActivity}" drawable="calyxvpn"/>
 
 	<!-- Camera -->
+	<item component="ComponentInfo{com.android.camera/com.android.camera.CameraActivity}" drawable="camera"/>
 	<item component="ComponentInfo{app.grapheneos.camera/app.grapheneos.camera.ui.activities.MainActivity}" drawable="camera"/>
 	<item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="camera"/>
 	<item component="ComponentInfo{com.android.camera2/com.android.camera.CameraActivity}" drawable="camera"/>
@@ -2276,12 +2279,14 @@
 	<item component="ComponentInfo{com.linguee.linguee/com.linguee.linguee.MainActivity}" drawable="linguee"/>
 
 	<!-- LinkedIn -->
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivityDefault}" drawable="linkedin"/>
 	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity}" drawable="linkedin"/>
 
 	<!-- Linksys -->
 	<item component="ComponentInfo{com.cisco.connect.cloud/com.cisco.connect.cloud.MainActivity}" drawable="linksys"/>
 
 	<!-- Linphone -->
+	<item component="ComponentInfo{org.linphone/org.linphone.ui.main.MainActivity}" drawable="linphone"/>
 	<item component="ComponentInfo{org.linphone/org.linphone.activities.LinphoneLauncherActivity}" drawable="linphone"/>
 	<item component="ComponentInfo{org.linphone/org.linphone.LinphoneLauncherActivity}" drawable="linphone"/>
 
@@ -3375,6 +3380,7 @@
 	<item component="ComponentInfo{com.tct.fmradio.bb/com.tct.fmradio.utils.BaseActivity}" drawable="radio"/>
 
 	<!-- Radio France -->
+	<item component="ComponentInfo{com.radiofrance.radio.radiofrance.android/com.radiofrance.kmp.application.MainActivity}" drawable="radiofrance"/>
 	<item component="ComponentInfo{com.radiofrance.radio.radiofrance.android/com.radiofrance.radio.radiofrance.android.screen.splash.SplashActivity}" drawable="radiofrance"/>
 
 	<!-- Radiodroid -->
