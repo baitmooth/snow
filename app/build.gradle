@@ -132,10 +132,10 @@ androidComponents {
 
 dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    normalImplementation 'com.github.Donnnno:candybar-foss:3.22.2'
-    blackImplementation 'com.github.Donnnno:candybar-foss:3.22.2'
-    youImplementation 'com.github.Donnnno:candybar-foss:3.22.2'
-    dayNightImplementation 'com.github.Donnnno:candybar-foss:3.22.2'
+    normalImplementation "com.github.Donnnno:candybar-foss:${rootProject.ext.CandyBarVersion}"
+    blackImplementation "com.github.Donnnno:candybar-foss:${rootProject.ext.CandyBarVersion}"
+    youImplementation "com.github.Donnnno:candybar-foss:${rootProject.ext.CandyBarVersion}"
+    dayNightImplementation "com.github.Donnnno:candybar-foss:${rootProject.ext.CandyBarVersion}"
 }
 
 

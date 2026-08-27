@@ -19,8 +19,9 @@ allprojects {
 
     rootProject.ext {
         MinSdk = 21
-        TargetSdk = 35
-        CompileSdk = 35
+        TargetSdk = 36
+        CompileSdk = 36
+        CandyBarVersion = '3.23.0'
     }
 }
 
