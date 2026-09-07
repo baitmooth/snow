@@ -1,7 +1,7 @@
 ### 1.4.5
-###### Released Jun 11, 2026
-- 🎉 **64** new and updated icons!
-- 💡 Added support for **19** apps using existing icons.
+###### Released Sep 07, 2026
+- 🎉 **72** new and updated icons!
+- 💡 Added support for **17** apps using existing icons.
 - 🔥 **1451** icons in total!
 
 ---

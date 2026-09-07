@@ -18,8 +18,10 @@
 	<item drawable="beautyxt" />
 	<item drawable="bob" />
 	<item drawable="boursobank" />
+	<item drawable="brackeyside" />
 	<item drawable="busybox" />
 	<item drawable="callabike" />
+	<item drawable="checkey" />
 	<item drawable="comdirectphototan" />
 	<item drawable="comdirecttrading" />
 	<item drawable="congstar" />
@@ -41,7 +43,9 @@
 	<item drawable="info" />
 	<item drawable="karbon" />
 	<item drawable="kobobooks" />
+	<item drawable="kontakt" />
 	<item drawable="kvaesitso" />
+	<item drawable="libretorrent" />
 	<item drawable="molly" />
 	<item drawable="naolib" />
 	<item drawable="nintendomusic" />
@@ -52,6 +56,7 @@
 	<item drawable="phone" />
 	<item drawable="phonetrack" />
 	<item drawable="privacyfriendlynotes" />
+	<item drawable="rejseplanen" />
 	<item drawable="resabus" />
 	<item drawable="snapbridge" />
 	<item drawable="sncfconnect" />
@@ -61,7 +66,10 @@
 	<item drawable="tagmo" />
 	<item drawable="tao" />
 	<item drawable="tbm" />
+	<item drawable="teamviewer" />
 	<item drawable="tgvinouipro" />
+	<item drawable="tinkoff" />
+	<item drawable="tinkoffbiz" />
 	<item drawable="vanadium" />
 	<item drawable="vrtmax" />
 	<item drawable="wallet" />
