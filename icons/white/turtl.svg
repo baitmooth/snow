@@ -1,10 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-    <path d="m22.273 3.0537v9.9704l-6.9091 4.0022-8.6364-4.9922z" fill="#fff" stroke-width="1.4043" style="paint-order:markers fill stroke"/>
-    <path d="m25.727 3.0537 15.545 8.9734-8.6364 4.988-6.9091-3.9994z" fill="#fff" stroke-width="1.4043" style="paint-order:markers fill stroke"/>
-    <path d="m5 15.022 8.6364 4.9852v7.9792l-8.6364 4.9965z" fill="#fff" stroke-width="1.4043" style="paint-order:markers fill stroke"/>
-    <path d="m43 15.022v17.947l-8.6364-4.9852v-7.9792z" fill="#fff" stroke-width="1.4043" style="paint-order:markers fill stroke"/>
-    <path d="m24 16.017 6.9091 3.991v7.9806l-6.9091 3.9896-6.9091-3.991v-7.9792z" fill="#fff" stroke-width="1.4043" style="paint-order:markers fill stroke"/>
-    <path d="m15.364 30.975 6.9091 3.9994v9.9704l-15.545-8.9762z" fill="#fff" stroke-width="1.4043" style="paint-order:markers fill stroke"/>
-    <path d="m32.636 30.975 8.6364 4.9936-15.545 8.9776v-9.9732z" fill="#fff" stroke-width="1.4043" style="paint-order:markers fill stroke"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 48 48"
+   id="svg7"
+   width="48"
+   height="48"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <path
+     d="m 22.351018,4 v 9.519986 l -6.596981,3.8214 -8.2462491,-4.766677 z"
+     fill="#fff"
+     stroke-width="1"
+     style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path1" />
+  <path
+     d="m 25.648983,4 14.842752,8.568025 -8.246249,4.762667 -6.596981,-3.818727 z"
+     fill="#fff"
+     stroke-width="1"
+     style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path2" />
+  <path
+     d="m 5.858328,15.42763 8.246249,4.759993 v 7.618739 l -8.246249,4.770782 z"
+     fill="#fff"
+     stroke-width="1"
+     style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path3" />
+  <path
+     d="M 42.141672,15.42763 V 32.563872 L 33.895423,27.803879 V 20.185141 Z"
+     fill="#fff"
+     stroke-width="1"
+     style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path4" />
+  <path
+     d="m 24,16.377681 6.596981,3.810706 v 7.620075 L 24,31.617831 17.40302,27.807125 v -7.618738 z"
+     fill="#fff"
+     stroke-width="1"
+     style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path5" />
+  <path
+     d="m 15.754133,30.659951 6.59698,3.818727 v 9.519985 L 7.5083608,35.427964 Z"
+     fill="#fff"
+     stroke-width="1"
+     style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path6" />
+  <path
+     d="M 32.245868,30.659951 40.492117,35.427964 25.649365,44 v -9.522659 z"
+     fill="#fff"
+     stroke-width="1"
+     style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path7" />
 </svg>

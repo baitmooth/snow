@@ -1,14 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-    <clipPath id="a">
-        <circle cx="24" cy="24" r="22"/>
-    </clipPath>
-    <g clip-path="url(#a)" fill="none" stroke="#fff" stroke-width="8">
-        <circle cx="24" cy="24" r="22"/>
-        <path d="m21 26.8v6.4h-1v24h8v-24h-1v-8l-1.4-4z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stroke="none" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-        <path d="m4.2 24v5.3l-2.2 2.1v24.6h8v-24.6l-2.2-2.1v-5.3z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stroke="none" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-        <path d="m12.569 13.179-0.5686 6.7207-1 1v23h8v-23l-1-1-0.7-2 0.2-2-0.2-2 0.7-2z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stroke="none" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-        <path d="m30.667 18.6v3.6l-1.6667 3.2v23.2h5v-23.2l-1.6667-3.2v-3.6l-0.41666-2-0.41667-2-0.41667 2z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stroke="none" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-        <path d="m35 28v5.5h1.5v1h-1.5v25.5h8v-25.5h-1.5v-1h1.5v-5.5z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stroke="none" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 48 48"
+   id="svg6"
+   width="48"
+   height="48"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <path
+     d="m 21.856101,28.753113 v 4.573657 h -0.714635 v 8.074291 h 5.717067 V 33.32677 h -0.714635 v -5.717075 l -1.000485,-2.858538 z"
+     color="#000000"
+     color-rendering="auto"
+     dominant-baseline="auto"
+     fill="#fff"
+     image-rendering="auto"
+     shape-rendering="auto"
+     solid-color="#000000"
+     stroke="none"
+     style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path2" />
+  <path
+     d="m 7.2795065,21.360852 v 3.78756 l -1.5721951,1.500727 1.0623859,7.505499 4.6546877,1.882193 V 26.649139 L 9.8521895,25.148411 v -3.78756 z"
+     color="#000000"
+     color-rendering="auto"
+     dominant-baseline="auto"
+     fill="#fff"
+     image-rendering="auto"
+     shape-rendering="auto"
+     solid-color="#000000"
+     stroke="none"
+     style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path3" />
+  <path
+     d="m 14.545358,19.021111 -0.406338,4.802844 -0.714634,0.714633 V 40.97517 h 5.717075 V 24.538588 l -0.714636,-0.714633 -0.500248,-1.429272 0.142929,-1.429266 -0.142929,-1.429271 0.500248,-1.429267 z"
+     color="#000000"
+     color-rendering="auto"
+     dominant-baseline="auto"
+     fill="#fff"
+     image-rendering="auto"
+     shape-rendering="auto"
+     solid-color="#000000"
+     stroke="none"
+     style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path4" />
+  <path
+     d="m 31.121566,18.492997 v 2.57268 l -1.191071,2.286826 v 16.579516 h 3.573163 V 23.352503 l -1.191074,-2.286826 v -2.57268 l -0.297764,-1.429272 -0.297768,-1.429266 -0.297769,1.429266 z"
+     color="#000000"
+     color-rendering="auto"
+     dominant-baseline="auto"
+     fill="#fff"
+     image-rendering="auto"
+     shape-rendering="auto"
+     solid-color="#000000"
+     stroke="none"
+     style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path5" />
+  <path
+     d="m 36.575614,24.751157 v 3.930485 h 1.071956 v 0.714636 h -1.071956 v 6.525985 l 5.717076,-5.431707 v -5.739399 z"
+     color="#000000"
+     color-rendering="auto"
+     dominant-baseline="auto"
+     fill="#fff"
+     image-rendering="auto"
+     shape-rendering="auto"
+     solid-color="#000000"
+     stroke="none"
+     style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path6" />
+  <path
+     id="path6-3"
+     style="fill:#fff;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="M 24,4 A 20,20 0 0 0 4,24 20,20 0 0 0 24,44 20,20 0 0 0 44,24 20,20 0 0 0 24,4 Z m 0,3 A 17,17 0 0 1 41,24 17,17 0 0 1 24,41 17,17 0 0 1 7,24 17,17 0 0 1 24,7 Z" />
 </svg>

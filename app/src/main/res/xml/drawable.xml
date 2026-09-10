@@ -373,7 +373,6 @@
 	<item drawable="cpuz" />
 	<item drawable="creditagricole" />
 	<item drawable="creditas" />
-	<item drawable="critical_maps" />
 	<item drawable="criticalmaps" />
 	<item drawable="cromite" />
 	<item drawable="cronograma" />
@@ -1721,7 +1720,7 @@
 	<item drawable="clima" />
 	<item drawable="commons" />
 	<item drawable="conversations" />
-	<item drawable="critical_maps" />
+	<item drawable="criticalmaps" />
 	<item drawable="davdroid" />
 	<item drawable="deck" />
 	<item drawable="diaspora" />

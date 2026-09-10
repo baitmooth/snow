@@ -908,7 +908,7 @@
 	<item component="ComponentInfo{cz.creditas.mb/cz.creditas.mb.UnsecuredMainActivity}" drawable="creditas"/>
 
 	<!-- Critical Maps -->
-	<item component="ComponentInfo{de.stephanlindauer.criticalmaps/de.stephanlindauer.criticalmaps.Main}" drawable="critical_maps"/>
+	<item component="ComponentInfo{de.stephanlindauer.criticalmaps/de.stephanlindauer.criticalmaps.Main}" drawable="criticalmaps"/>
 
 	<!-- Cromite -->
 	<item component="ComponentInfo{org.cromite.cromite/com.google.android.apps.chrome.Main}" drawable="cromite"/>
