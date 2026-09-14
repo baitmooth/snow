@@ -11,8 +11,8 @@ android {
         applicationId = "org.baitmooth.snow"
         minSdk = rootProject.ext.MinSdk
         targetSdk = rootProject.ext.TargetSdk
-        versionCode = 8
-        versionName = '1.4.51'
+        versionCode = rootProject.ext.versionCode
+        versionName = rootProject.ext.versionName
         multiDexEnabled = true
     }
 

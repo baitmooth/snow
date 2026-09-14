@@ -157,7 +157,7 @@ public class Changelog {
 
     private static String getVersionName(String rootDir) {
         try {
-            Path gradlePath = Paths.get(rootDir, "app", "build.gradle");
+            Path gradlePath = Paths.get(rootDir, "build.gradle");
             List<String> lines = Files.readAllLines(gradlePath);
             for (String line : lines) {
                 String trimmedLine = line.trim();
@@ -173,7 +173,7 @@ public class Changelog {
 
     private static int getVersionCode(String rootDir) {
         try {
-            Path gradlePath = Paths.get(rootDir, "app", "build.gradle");
+            Path gradlePath = Paths.get(rootDir, "build.gradle");
             List<String> lines = Files.readAllLines(gradlePath);
             for (String line : lines) {
                 // Trim to handle potential indentation
