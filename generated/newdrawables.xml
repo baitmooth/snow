@@ -4,10 +4,17 @@
 	<category title="New" />
 	<item drawable="ahorraenluz" />
 	<item drawable="arcpro" />
+	<item drawable="batterymonitor" />
 	<item drawable="calllogger" />
 	<item drawable="comaps" />
 	<item drawable="correoelectronico" />
 	<item drawable="creditcooperatifmobile" />
+	<item drawable="estation" />
+	<item drawable="fdroidbuildstatus" />
+	<item drawable="goscamera" />
+	<item drawable="jobcenter" />
+	<item drawable="kfzkennzeichen" />
+	<item drawable="klickr" />
 	<item drawable="labnex" />
 	<item drawable="labplus" />
 	<item drawable="madeometer" />
@@ -19,6 +26,7 @@
 	<item drawable="phonelogger" />
 	<item drawable="planisphere" />
 	<item drawable="retrodrawing" />
+	<item drawable="securegoplus" />
 	<item drawable="smsimportexport" />
 	<item drawable="stellarium" />
 	<item drawable="trafficlight" />

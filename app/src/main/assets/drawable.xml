@@ -5,10 +5,17 @@
 	<category title="New" />
 	<item drawable="ahorraenluz" />
 	<item drawable="arcpro" />
+	<item drawable="batterymonitor" />
 	<item drawable="calllogger" />
 	<item drawable="comaps" />
 	<item drawable="correoelectronico" />
 	<item drawable="creditcooperatifmobile" />
+	<item drawable="estation" />
+	<item drawable="fdroidbuildstatus" />
+	<item drawable="goscamera" />
+	<item drawable="jobcenter" />
+	<item drawable="kfzkennzeichen" />
+	<item drawable="klickr" />
 	<item drawable="labnex" />
 	<item drawable="labplus" />
 	<item drawable="madeometer" />
@@ -18,8 +25,8 @@
 	<item drawable="mobilfunkcheck" />
 	<item drawable="omio" />
 	<item drawable="phonelogger" />
-	<item drawable="planisphere" />
 	<item drawable="retrodrawing" />
+	<item drawable="securegoplus" />
 	<item drawable="smsimportexport" />
 	<item drawable="stellarium" />
 	<item drawable="trafficlight" />
@@ -116,6 +123,7 @@
 	<item drawable="gardine" />
 	<item drawable="ghostcommander" />
 	<item drawable="keepon" />
+	<item drawable="klickr" />
 	<item drawable="magisk" />
 	<item drawable="packagemanager" />
 	<item drawable="permissionchecker" />
@@ -270,6 +278,7 @@
 	<item drawable="battery" />
 	<item drawable="batterycalibration" />
 	<item drawable="batterychargelimit" />
+	<item drawable="batterymonitor" />
 	<item drawable="bauhaus" />
 	<item drawable="bbm" />
 	<item drawable="beats" />
@@ -521,6 +530,7 @@
 	<item drawable="es" />
 	<item drawable="escapepod" />
 	<item drawable="espeak" />
+	<item drawable="estation" />
 	<item drawable="etar" />
 	<item drawable="etchdroid" />
 	<item drawable="etesync" />
@@ -546,6 +556,7 @@
 	<item drawable="fategrandorder" />
 	<item drawable="fbreader" />
 	<item drawable="fdroid" />
+	<item drawable="fdroidbuildstatus" />
 	<item drawable="fdroidclassic" />
 	<item drawable="fdroidforum" />
 	<item drawable="fedilab" />
@@ -672,6 +683,7 @@
 	<item drawable="googlefi" />
 	<item drawable="googlesettings" />
 	<item drawable="googlewifi" />
+	<item drawable="goscamera" />
 	<item drawable="gosuslugi" />
 	<item drawable="gphotos" />
 	<item drawable="gplay" />
@@ -752,6 +764,7 @@
 	<item drawable="jelly" />
 	<item drawable="jellyfin" />
 	<item drawable="jitsimeet" />
+	<item drawable="jobcenter" />
 	<item drawable="joplin" />
 	<item drawable="jotatexteditor" />
 	<item drawable="jsupdater" />
@@ -777,6 +790,7 @@
 	<item drawable="keepon" />
 	<item drawable="keybase" />
 	<item drawable="keychain" />
+	<item drawable="kfzkennzeichen" />
 	<item drawable="khanacademy" />
 	<item drawable="khl" />
 	<item drawable="kickstarter" />
@@ -791,6 +805,7 @@
 	<item drawable="kiwibrowser" />
 	<item drawable="kiwix" />
 	<item drawable="kleinewettervorschaudeutschland" />
+	<item drawable="klickr" />
 	<item drawable="knockonports" />
 	<item drawable="kobobooks" />
 	<item drawable="kobocollect" />
@@ -1136,7 +1151,6 @@
 	<item drawable="pixellab" />
 	<item drawable="pixiv" />
 	<item drawable="pixlr" />
-	<item drawable="planisphere" />
 	<item drawable="plantnet" />
 	<item drawable="pleestracker" />
 	<item drawable="plex" />
@@ -1262,6 +1276,7 @@
 	<item drawable="sealnote" />
 	<item drawable="seasoncalendar" />
 	<item drawable="securego" />
+	<item drawable="securegoplus" />
 	<item drawable="secusoshoppinglist" />
 	<item drawable="secusosolitaire" />
 	<item drawable="semitone" />
@@ -1744,6 +1759,7 @@
 	<category title="Development" />
 	<item drawable="acode" />
 	<item drawable="faketraveler" />
+	<item drawable="fdroidbuildstatus" />
 	<item drawable="labplus" />
 	<item drawable="mgit" />
 	<item drawable="octodroid" />
@@ -1842,6 +1858,7 @@
 	<item drawable="kaku" />
 	<item drawable="kakugo" />
 	<item drawable="kaqui" />
+	<item drawable="kfzkennzeichen" />
 	<item drawable="libreofficeviewer" />
 	<item drawable="librerapro" />
 	<item drawable="linuxcommandlibrary" />
@@ -1849,7 +1866,6 @@
 	<item drawable="look4sat" />
 	<item drawable="onelist" />
 	<item drawable="packlist" />
-	<item drawable="planisphere" />
 	<item drawable="pslab" />
 	<item drawable="quickdic" />
 	<item drawable="starkeverben" />
