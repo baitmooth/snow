@@ -2,6 +2,21 @@
 <resources>
 <version>1</version>
 
+	<category title="New" />
+	<item drawable="ahorraenluz" />
+	<item drawable="arcpro" />
+	<item drawable="comaps" />
+	<item drawable="correoelectronico" />
+	<item drawable="creditcooperatifmobile" />
+	<item drawable="mercadopago" />
+	<item drawable="metrolist" />
+	<item drawable="smsimportexport" />
+	<item drawable="stellarium" />
+	<item drawable="trafficlight" />
+	<item drawable="vanadium" />
+	<item drawable="youtube" />
+	<item drawable="youtuberevanced" />
+
 	<category title="Folders" />
 	<item drawable="folder_favourites" />
 	<item drawable="folder_games" />
@@ -108,6 +123,7 @@
 	<item drawable="tapnturn" />
 	<item drawable="terminalemulator" />
 	<item drawable="timelimit" />
+	<item drawable="trafficlight" />
 	<item drawable="updater" />
 	<item drawable="usagedirect" />
 	<item drawable="wrongpinshutdown" />
@@ -141,6 +157,7 @@
 	<item drawable="aegis" />
 	<item drawable="afwall" />
 	<item drawable="agendalite" />
+	<item drawable="ahorraenluz" />
 	<item drawable="aids" />
 	<item drawable="aimp" />
 	<item drawable="aimsicd" />
@@ -200,6 +217,7 @@
 	<item drawable="arbeitszeitkonto" />
 	<item drawable="arbetsfor" />
 	<item drawable="archwikiviewer" />
+	<item drawable="arcpro" />
 	<item drawable="arcticons" />
 	<item drawable="ard_audiothek" />
 	<item drawable="assistant" />
@@ -345,6 +363,7 @@
 	<item drawable="clover" />
 	<item drawable="coinbase" />
 	<item drawable="collaboraoffice" />
+	<item drawable="comaps" />
 	<item drawable="comdirect" />
 	<item drawable="comdirectcore" />
 	<item drawable="comdirectphototan" />
@@ -365,6 +384,7 @@
 	<item drawable="conversations" />
 	<item drawable="coronamelder" />
 	<item drawable="coronatracing" />
+	<item drawable="correoelectronico" />
 	<item drawable="cosmo" />
 	<item drawable="couchsurfing" />
 	<item drawable="cozydrive" />
@@ -373,6 +393,7 @@
 	<item drawable="cpuz" />
 	<item drawable="creditagricole" />
 	<item drawable="creditas" />
+	<item drawable="creditcooperatifmobile" />
 	<item drawable="criticalmaps" />
 	<item drawable="cromite" />
 	<item drawable="cronograma" />
@@ -857,6 +878,7 @@
 	<item drawable="megafon" />
 	<item drawable="meinmagenta" />
 	<item drawable="meinvodafone" />
+	<item drawable="mercadopago" />
 	<item drawable="merlin" />
 	<item drawable="mescompteslcl" />
 	<item drawable="meshenger" />
@@ -869,6 +891,7 @@
 	<item drawable="meteoswiss" />
 	<item drawable="metro" />
 	<item drawable="metrodroid" />
+	<item drawable="metrolist" />
 	<item drawable="metroplayer" />
 	<item drawable="mgit" />
 	<item drawable="mi_fitness" />
@@ -1283,6 +1306,7 @@
 	<item drawable="slidereddit" />
 	<item drawable="slimsocial" />
 	<item drawable="smartpack" />
+	<item drawable="smsimportexport" />
 	<item drawable="snapbridge" />
 	<item drawable="snapchat" />
 	<item drawable="snapseed" />
@@ -1413,6 +1437,7 @@
 	<item drawable="trackbook" />
 	<item drawable="trackercontrol" />
 	<item drawable="trackworktime" />
+	<item drawable="trafficlight" />
 	<item drawable="trafictransportsparisiens" />
 	<item drawable="trailsense" />
 	<item drawable="trainline" />
@@ -1561,6 +1586,7 @@
 	<item drawable="youmail" />
 	<item drawable="yourphone" />
 	<item drawable="youtube" />
+	<item drawable="youtuberevanced" />
 	<item drawable="ytaxi" />
 	<item drawable="ytmusic" />
 	<item drawable="ytstudio" />
@@ -1643,6 +1669,7 @@
 	<item drawable="linphone" />
 	<item drawable="nextcloudsms" />
 	<item drawable="silence" />
+	<item drawable="smsimportexport" />
 	<item drawable="yetanothercallblocker" />
 
 	<category title="Sports &amp; Health" />
@@ -1677,6 +1704,7 @@
 
 	<category title="Navigation" />
 	<item drawable="cityzen" />
+	<item drawable="comaps" />
 	<item drawable="metrodroid" />
 	<item drawable="oeffidirections" />
 	<item drawable="oeffiplans" />

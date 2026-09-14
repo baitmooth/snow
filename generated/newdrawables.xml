@@ -2,4 +2,17 @@
 <resources>
 	<version>1</version>
 	<category title="New" />
+	<item drawable="ahorraenluz" />
+	<item drawable="arcpro" />
+	<item drawable="comaps" />
+	<item drawable="correoelectronico" />
+	<item drawable="creditcooperatifmobile" />
+	<item drawable="mercadopago" />
+	<item drawable="metrolist" />
+	<item drawable="smsimportexport" />
+	<item drawable="stellarium" />
+	<item drawable="trafficlight" />
+	<item drawable="vanadium" />
+	<item drawable="youtube" />
+	<item drawable="youtuberevanced" />
 </resources>

@@ -1,3 +1,3 @@
-* 🎉 **0** new and updated icons!
-* 💡 Added support for **0** apps using existing icons.
-* 🔥 **1450** icons in total!
+* 🎉 **13** new and updated icons!
+* 💡 Added support for **-2** apps using existing icons.
+* 🔥 **1460** icons in total!
