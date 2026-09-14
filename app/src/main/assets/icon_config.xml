@@ -646,6 +646,9 @@
 	<!-- Calendar Import-Export -->
 	<item component="ComponentInfo{org.sufficientlysecure.ical/org.sufficientlysecure.ical.ui.MainActivity}" drawable="calendarimportexport"/>
 
+	<!-- Call Logger -->
+	<item component="ComponentInfo{com.logger.app/com.logger.app.MainActivity}" drawable="calllogger"/>
+
 	<!-- Call Recorder -->
 	<item component="ComponentInfo{com.callrecorder.android/com.callrecorder.android.MainActivity}" drawable="callrecorder"/>
 	<item component="ComponentInfo{com.github.axet.callrecorder/com.github.axet.callrecorder.activities.MainActivity}" drawable="callrecorder"/>
@@ -2190,8 +2193,14 @@
 	<!-- La Banque Postale -->
 	<item component="ComponentInfo{com.fullsix.android.labanquepostale.accountaccess/com.fullsix.android.labanquepostale.accountaccess.BanquePostale}" drawable="banquepostale"/>
 
+	<!-- Lab+ -->
+	<item component="ComponentInfo{dev.labplus.app/dev.labplus.app.MainActivity}" drawable="labplus"/>
+
 	<!-- LabCoat -->
 	<item component="ComponentInfo{com.commit451.gitlab/com.commit451.gitlab.activity.LaunchActivity}" drawable="gitlab"/>
+
+	<!-- Labnex -->
+	<item component="ComponentInfo{com.labnex.app/com.labnex.app.activities.MainActivity}" drawable="labnex"/>
 
 	<!-- LastPass -->
 	<item component="ComponentInfo{com.lastpass.lpandroid/com.lastpass.lpandroid.activity.WebBrowserActivity}" drawable="lastpass"/>
@@ -2331,6 +2340,7 @@
 
 	<!-- Look4Sat -->
 	<item component="ComponentInfo{com.rtbishop.look4sat/com.rtbishop.look4sat.ui.Look4SatActivity}" drawable="look4sat"/>
+	<item component="ComponentInfo{com.rtbishop.look4sat/com.rtbishop.look4sat.MainActivity}" drawable="look4sat"/>
 
 	<!-- Loop Habit Tracker -->
 	<item component="ComponentInfo{org.isoron.uhabits/org.isoron.uhabits.MainActivity}" drawable="loop"/>
@@ -2356,6 +2366,9 @@
 
 	<!-- Ma Livebox -->
 	<item component="ComponentInfo{com.orange.mylivebox.fr/com.orange.mylivebox.fr.gui.startup.StartupActivity}" drawable="malivebox"/>
+
+	<!-- Made-O-Meter -->
+	<item component="ComponentInfo{com.i7evenaps.madeometer/com.google.androidbrowserhelper.trusted.LauncherActivity}" drawable="madeometer"/>
 
 	<!-- Magic Earth -->
 	<item component="ComponentInfo{com.generalmagic.magicearth/com.generalmagic.android.map.MapActivity}" drawable="magicearth"/>
@@ -2517,7 +2530,8 @@
 	<!-- Microchip -->
 	<item component="ComponentInfo{com.mridang.throttle/com.mridang.throttle.SettingsActivity}" drawable="microchip"/>
 
-	<!-- MicroG Settings -->
+	<!-- Microg Settings -->
+	<item component="ComponentInfo{app.revanced.android.gms/org.microg.gms.ui.SettingsActivity}" drawable="microgsettings"/>
 	<item component="ComponentInfo{com.google.android.gms/org.microg.gms.ui.SettingsActivity}" drawable="microgsettings"/>
 	<item component="ComponentInfo{com.google.android.gms/org.microg.gms.ui.SettingsActivityLauncher}" drawable="microgsettings"/>
 
@@ -2591,6 +2605,9 @@
 
 	<!-- MobilePay -->
 	<item component="ComponentInfo{dk.danskebank.mobilepay/dk.danskebank.p2p.ui.login.LoginActivity}" drawable="mobilepay"/>
+
+	<!-- Mobilfunk Check -->
+	<item component="ComponentInfo{com.zafaco.breitbandmessung/com.zafaco.breitbandmessung.MainActivity}" drawable="mobilfunkcheck"/>
 
 	<!-- MOD Pizza -->
 	<item component="ComponentInfo{com.punchh.mod/com.punchh.mod.MainActivity}" drawable="modpizza"/>
@@ -2964,6 +2981,9 @@
 	<!-- Om -->
 	<item component="ComponentInfo{com.enjoyingfoss.om/com.enjoyingfoss.om.MainActivity}" drawable="om"/>
 
+	<!-- Omio -->
+	<item component="ComponentInfo{com.goeuro.rosie/com.goeuro.rosie.app.TopLevelActivity}" drawable="omio"/>
+
 	<!-- Omlet Arcade -->
 	<item component="ComponentInfo{mobisocial.arcade/mobisocial.arcade.sdk.activity.ArcadeSignInActivity}" drawable="omletarcade"/>
 
@@ -3239,6 +3259,9 @@
 	<!-- Pixlr -->
 	<item component="ComponentInfo{com.pixlr.express/com.pixlr.express.StartupActivity}" drawable="pixlr"/>
 
+	<!-- Planisphere -->
+	<item component="ComponentInfo{org.tengel.planisphere/org.tengel.planisphere.MainActivity}" drawable="planisphere"/>
+
 	<!-- PlantNet -->
 	<item component="ComponentInfo{org.plantnet/org.plantnet.MainActivity}" drawable="plantnet"/>
 
@@ -3483,6 +3506,9 @@
 
 	<!-- RetroArch -->
 	<item component="ComponentInfo{com.retroarch/com.retroarch.browser.mainmenu.MainMenuActivity}" drawable="retroarch"/>
+
+	<!-- Retrodrawing -->
+	<item component="ComponentInfo{com.github.msx80.retrodrawing/com.github.msx80.omicron.AndroidLauncher}" drawable="retrodrawing"/>
 
 	<!-- Revolut -->
 	<item component="ComponentInfo{com.revolut.revolut/com.revolut.ui.login.pin.LoginActivity}" drawable="revolut"/>
@@ -5267,5 +5293,6 @@
 
 	<!-- μlogger -->
 	<item component="ComponentInfo{net.fabiszewski.ulogger/net.fabiszewski.ulogger.MainActivity}" drawable="ulogger"/>
+	<item component="ComponentInfo{net.fabiszewski.ulogger/net.fabiszewski.ulogger.ui.MainActivity}" drawable="ulogger"/>
 
 </resources>

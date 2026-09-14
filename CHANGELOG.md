@@ -1,8 +1,8 @@
 ### 1.4.6
 ###### Released Sep 14, 2026
-- 🎉 **13** new and updated icons!
-- 💡 Added support for **-2** apps using existing icons.
-- 🔥 **1460** icons in total!
+- 🎉 **23** new and updated icons!
+- 💡 Added support for **-1** apps using existing icons.
+- 🔥 **1469** icons in total!
 
 [Visit Release Page](https://github.com/baitmooth/snow/releases/tag/v1.4.6)
 

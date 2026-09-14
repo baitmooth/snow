@@ -5,11 +5,21 @@
 	<category title="New" />
 	<item drawable="ahorraenluz" />
 	<item drawable="arcpro" />
+	<item drawable="calllogger" />
 	<item drawable="comaps" />
 	<item drawable="correoelectronico" />
 	<item drawable="creditcooperatifmobile" />
+	<item drawable="labnex" />
+	<item drawable="labplus" />
+	<item drawable="madeometer" />
 	<item drawable="mercadopago" />
 	<item drawable="metrolist" />
+	<item drawable="microgsettings" />
+	<item drawable="mobilfunkcheck" />
+	<item drawable="omio" />
+	<item drawable="phonelogger" />
+	<item drawable="planisphere" />
+	<item drawable="retrodrawing" />
 	<item drawable="smsimportexport" />
 	<item drawable="stellarium" />
 	<item drawable="trafficlight" />
@@ -320,6 +330,7 @@
 	<item drawable="calendarcolor" />
 	<item drawable="calendarimportexport" />
 	<item drawable="callabike" />
+	<item drawable="calllogger" />
 	<item drawable="callrecorder" />
 	<item drawable="calyxosrecorder" />
 	<item drawable="calyxvpn" />
@@ -797,6 +808,8 @@
 	<item drawable="kvaesitso" />
 
 	<category title="L" />
+	<item drawable="labnex" />
+	<item drawable="labplus" />
 	<item drawable="lastfmscrobbler" />
 	<item drawable="lastpass" />
 	<item drawable="lastpassauthenticator" />
@@ -846,6 +859,7 @@
 	<item drawable="luisterbieb" />
 
 	<category title="M" />
+	<item drawable="madeometer" />
 	<item drawable="magicearth" />
 	<item drawable="magisk" />
 	<item drawable="mail" />
@@ -915,6 +929,7 @@
 	<item drawable="mixplorer" />
 	<item drawable="mmt365" />
 	<item drawable="mobilepay" />
+	<item drawable="mobilfunkcheck" />
 	<item drawable="modpizza" />
 	<item drawable="molly" />
 	<item drawable="money" />
@@ -1032,6 +1047,7 @@
 	<item drawable="okcagent" />
 	<item drawable="okolightmeter" />
 	<item drawable="om" />
+	<item drawable="omio" />
 	<item drawable="omletarcade" />
 	<item drawable="omninotes" />
 	<item drawable="onedrive" />
@@ -1103,6 +1119,7 @@
 	<item drawable="permissionchecker" />
 	<item drawable="phone" />
 	<item drawable="phonedial" />
+	<item drawable="phonelogger" />
 	<item drawable="phonesaver" />
 	<item drawable="phonetrack" />
 	<item drawable="phonograph" />
@@ -1119,6 +1136,7 @@
 	<item drawable="pixellab" />
 	<item drawable="pixiv" />
 	<item drawable="pixlr" />
+	<item drawable="planisphere" />
 	<item drawable="plantnet" />
 	<item drawable="pleestracker" />
 	<item drawable="plex" />
@@ -1204,6 +1222,7 @@
 	<item drawable="resabus" />
 	<item drawable="retrica" />
 	<item drawable="retroarch" />
+	<item drawable="retrodrawing" />
 	<item drawable="revolut" />
 	<item drawable="revolution" />
 	<item drawable="rewards" />
@@ -1664,6 +1683,7 @@
 	<item drawable="waistline" />
 
 	<category title="Phone &amp; SMS" />
+	<item drawable="calllogger" />
 	<item drawable="emeralddialer" />
 	<item drawable="jitsimeet" />
 	<item drawable="linphone" />
@@ -1724,6 +1744,7 @@
 	<category title="Development" />
 	<item drawable="acode" />
 	<item drawable="faketraveler" />
+	<item drawable="labplus" />
 	<item drawable="mgit" />
 	<item drawable="octodroid" />
 	<item drawable="shadereditor" />
@@ -1771,6 +1792,7 @@
 	<item drawable="imgurviewer" />
 	<item drawable="kleinewettervorschaudeutschland" />
 	<item drawable="koyuspace" />
+	<item drawable="labnex" />
 	<item drawable="lightning" />
 	<item drawable="mumla" />
 	<item drawable="musicbrainz" />
@@ -1827,6 +1849,7 @@
 	<item drawable="look4sat" />
 	<item drawable="onelist" />
 	<item drawable="packlist" />
+	<item drawable="planisphere" />
 	<item drawable="pslab" />
 	<item drawable="quickdic" />
 	<item drawable="starkeverben" />
@@ -2029,6 +2052,7 @@
 
 	<category title="Draw" />
 	<item drawable="pocketpaint" />
+	<item drawable="retrodrawing" />
 
 	<category title="AI Chat" />
 	<item drawable="duckduckgo" />
