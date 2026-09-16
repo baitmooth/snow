@@ -22,6 +22,8 @@ allprojects {
         TargetSdk = 36
         CompileSdk = 36
         CandyBarVersion = '3.23.0'
+        versionCode = 8
+        versionName = '1.4.6'
     }
 }
 

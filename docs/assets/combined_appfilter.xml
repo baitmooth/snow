@@ -1627,7 +1627,7 @@
 	<item component="ComponentInfo{de.schildbach.wallet/de.schildbach.wallet.WalletActivity}" drawable="bitcoin"/>
 	<item component="ComponentInfo{de.shadow578.yetanothervideoplayer/de.shadow578.yetanothervideoplayer.ui.LaunchActivity}" drawable="yetanothervideoplayer"/>
 	<item component="ComponentInfo{de.smasi.tickmate/de.smasi.tickmate.Tickmate}" drawable="tickmate"/>
-	<item component="ComponentInfo{de.stephanlindauer.criticalmaps/de.stephanlindauer.criticalmaps.Main}" drawable="critical_maps"/>
+	<item component="ComponentInfo{de.stephanlindauer.criticalmaps/de.stephanlindauer.criticalmaps.Main}" drawable="criticalmaps"/>
 	<item component="ComponentInfo{de.stocard.stocard/de.stocard.ui.main.InitActivity}" drawable="stocard"/>
 	<item component="ComponentInfo{de.szalkowski.activitylauncher/de.szalkowski.activitylauncher.MainActivity}" drawable="android"/>
 	<item component="ComponentInfo{de.t_dankworth.secscanqr/de.t_dankworth.secscanqr.activities.MainActivity}" drawable="qr"/>

@@ -1,7 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <style>.cls-1{fill:#2b2b2b;}.cls-2{fill:#fff;}</style>
-    </defs>
-    <path d="m21.537 6.5012v2.519h-2.5369v2.4809h9.9999v-2.4809h-2.5369v-2.519zm7.463 5v2.4988h2.4988v2.5011h2.5011v5h5v-2.5011h-2.5011v-5h-2.4988v-2.4988zm5 9.9999h-2.5011v2.4988h-2.4988v2.4988h2.4988v2.5011h2.5011v2.4765h2.4988v-2.4765h5v-5h-7.4988zm-2.5011 7.4988h-2.4988v-2.5011h-9.9999v2.5011h-2.4988v5h14.998zm-14.998 0v-2.5011h2.4988v-2.4988h-2.4988v-2.4988h-2.5011v2.4988h-7.4988v5h5v2.4765h2.4988v-2.4765zm-2.5011-7.4988v-5h2.5011v-2.5011h2.4988v-2.4988h-5v2.4988h-2.4988v5h-2.5011v2.5011zm5-7.5011v2.5011h-2.4988v5h2.4988v2.4988h9.9999v-2.4988h2.4988v-5h-2.4988v-2.5011zm-15 17.499v2.5011h2.463v2.4988h2.5369v2.5011h7.5011v2.4988h14.998v-2.4988h7.5011v-2.5167h2.4966v-2.4966h2.5034v-2.4877h-5v2.5011h-5v2.4988h-20v-2.4988h-5v-2.5011z" fill="#fff" stroke-width="1.1454"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 48 48"
+   id="svg1"
+   width="48"
+   height="48"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <path
+     d="m 3.99995,32.12875 v 2.5011 h 2.463 v 2.4988 h 2.5369 v 2.5011 h 7.5011 v 2.4988 h 14.998 v -2.4988 h 7.5011 v -2.5167 h 2.4966 v -2.4966 h 2.5034 v -2.4877 h -5 v 2.5011 h -5 v 2.4988 h -20 v -2.4988 h -5 v -2.5011 z"
+     fill="#fff"
+     stroke-width="1"
+     id="path1"
+     style="stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+  <path
+     d="m 18.99995,14.783596 1e-4,2.5011 h -2.4989 v 5.0001 l 2.4989,-10e-5 -1e-4,2.4989 10.0004,-10e-5 -4e-4,-2.4988 h 2.4992 l -10e-5,-5 h -2.4991 l 3e-4,-2.5011 z"
+     style="display:inline;fill:#fff;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="path1-5" />
+  <path
+     d="m 21.53715,5.87145 v 2.519 h -2.5369 v 2.4809 h 9.9999 v -2.4809 h -2.5369 v -2.519 z m 7.463,5 v 2.4988 h 2.4988 v 2.5011 h 2.5011 l 10e-5,5 h 4.9999 v -2.5011 h -2.5011 v -5 h -2.4988 v -2.4988 z m -15.0002,10 v -5.0001 h 2.5011 v -2.5011 h 2.4988 v -2.4988 h -5 v 2.4988 h -2.4988 v 5 h -2.5011 v 2.5011 z"
+     style="display:inline;fill:#fff;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="path1-2" />
+  <path
+     d="m 31.49905,29.62955 -2.4988,1e-4 v -2.5012 l -9.9999,10e-5 v 2.5011 h -2.4988 v 5 h 14.998 z"
+     style="display:inline;fill:#fff;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="path1-7" />
+  <path
+     d="m 34.00015,22.13085 h -2.5011 v 2.4988 h -2.4988 v 2.4988 h 2.4988 v 2.5011 h 2.5011 v 2.4765 h 2.4988 v -2.4765 h 5 v -5 h -7.4988 z"
+     style="display:inline;fill:#fff;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="path1-6" />
+  <path
+     d="m 13.99995,22.13105 h 2.5011 v 2.4988 h 2.4988 v 2.4988 h -2.4988 v 2.5011 h -2.5011 v 2.4765 h -2.4988 v -2.4765 h -5 v -5 h 7.4988 z"
+     style="display:inline;fill:#fff;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="path2" />
 </svg>

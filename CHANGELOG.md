@@ -1,8 +1,28 @@
+### 1.4.6
+###### Released Sep 14, 2026
+- 🎉 **31** new and updated icons!
+- 💡 Added support for **-3** apps using existing icons.
+- 🔥 **1476** icons in total!
+
+[Visit Release Page](https://github.com/baitmooth/snow/releases/tag/v1.4.6)
+
+***
+
+### rootProject.ext.versionName
+###### Released Sep 14, 2026
+- 🎉 **13** new and updated icons!
+- 💡 Added support for **-2** apps using existing icons.
+- 🔥 **1460** icons in total!
+
+[Visit Release Page](https://github.com/baitmooth/snow/releases/tag/vrootProject.ext.versionName)
+
+***
+
 ### 1.4.51
-###### Released Sep 10, 2026
-- 🎉 **0** new and updated icons!
-- 💡 Added support for **0** apps using existing icons.
-- 🔥 **1451** icons in total!
+###### Released Sep 14, 2026
+- 🎉 **13** new and updated icons!
+- 💡 Added support for **-2** apps using existing icons.
+- 🔥 **1460** icons in total!
 
 [Visit Release Page](https://github.com/baitmooth/snow/releases/tag/v1.4.51)
 
