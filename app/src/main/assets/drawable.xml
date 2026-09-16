@@ -3,7 +3,20 @@
 <version>1</version>
 
 	<category title="New" />
+	<item drawable="_1111" />
+	<item drawable="_1dm" />
+	<item drawable="_1dmplus" />
+	<item drawable="_2fasauth" />
+	<item drawable="_4kvideodownloader" />
+	<item drawable="_7eleven" />
+	<item drawable="abattery" />
+	<item drawable="abstruct" />
+	<item drawable="acalendarplus" />
+	<item drawable="accubattery" />
+	<item drawable="afl" />
 	<item drawable="ahorraenluz" />
+	<item drawable="aidungeon" />
+	<item drawable="airmiduk" />
 	<item drawable="arcpro" />
 	<item drawable="batterymonitor" />
 	<item drawable="calllogger" />
@@ -146,11 +159,23 @@
 	<item drawable="usagedirect" />
 	<item drawable="wrongpinshutdown" />
 
+	<category title="0-9" />
+	<item drawable="_1111" />
+	<item drawable="_1dm" />
+	<item drawable="_1dmplus" />
+	<item drawable="_2fasauth" />
+	<item drawable="_4kvideodownloader" />
+	<item drawable="_7eleven" />
+
 	<category title="A" />
 	<item drawable="a2048" />
 	<item drawable="a2050" />
 	<item drawable="aard" />
+	<item drawable="abattery" />
+	<item drawable="abstruct" />
+	<item drawable="acalendarplus" />
 	<item drawable="accrescent" />
+	<item drawable="accubattery" />
 	<item drawable="accuweather" />
 	<item drawable="acdisplay" />
 	<item drawable="acm" />
@@ -173,13 +198,16 @@
 	<item drawable="adobescan" />
 	<item drawable="adobexd" />
 	<item drawable="aegis" />
+	<item drawable="afl" />
 	<item drawable="afwall" />
 	<item drawable="agendalite" />
 	<item drawable="ahorraenluz" />
 	<item drawable="aids" />
+	<item drawable="aidungeon" />
 	<item drawable="aimp" />
 	<item drawable="aimsicd" />
 	<item drawable="airbnb" />
+	<item drawable="airmiduk" />
 	<item drawable="airtable" />
 	<item drawable="airywaretuner" />
 	<item drawable="alarmio" />

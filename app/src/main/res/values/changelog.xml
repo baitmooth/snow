@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="changelog_date">Sep 14, 2026</string>
+    <string name="changelog_date">Sep 16, 2026</string>
     <string-array name="changelog">
-        <item>🎉 <b>31</b> new and updated icons!</item>
+        <item>🎉 <b>44</b> new and updated icons!</item>
         <item>💡 Added support for <b>-3</b> apps using existing icons.</item>
-        <item>🔥 <b>1476</b> icons in total!</item>
+        <item>🔥 <b>1489</b> icons in total!</item>
+        <item>🛠 Projekt-Configuration &amp; Versioning</item>
+        <item>Version-Bump:</item>
+        <item>- versionCode: 7 ➔ 8</item>
+        <item>- versionName: 1.4.5 ➔ 1.4.8</item>
+        <item>- targetSdk: 35 ➔ 36</item>
+        <item>- compileSdk: 35 ➔ 36</item>
+        <item>- CandyBar-Library: 3.22.2 ➔ 3.23.0</item>
+        <item>- Gradle Wrapper: 9.5.0 ➔ 9.7.1.</item>
+        <item>Gradle-Refactoring:</item>
+        <item>- central variables (versionCode, versionName, CandyBarVersion)</item>
+        <item>💻 Code-Changes (preparehelper)</item>
+        <item>- Resolve Version: modify Changelog.java and PrepareRelease.java to reflect new variable scheme</item>
+        <item>- SVG-Validation: New logic in Checks.java to validate SVGs with Mask using #000000ff (DEFS_MASK_PATTERN).</item>
     </string-array>
 </resources>

@@ -1,3 +1,16 @@
-* 🎉 **31** new and updated icons!
+* 🎉 **44** new and updated icons!
 * 💡 Added support for **-3** apps using existing icons.
-* 🔥 **1476** icons in total!
+* 🔥 **1489** icons in total!
+### 🛠 Projekt-Configuration & Versioning
+#### Version-Bump:
+* versionCode: 7 ➔ 8
+* versionName: 1.4.5 ➔ 1.4.8
+* targetSdk: 35 ➔ 36
+* compileSdk: 35 ➔ 36
+* CandyBar-Library: 3.22.2 ➔ 3.23.0
+* Gradle Wrapper: 9.5.0 ➔ 9.7.1.
+#### Gradle-Refactoring:
+* central variables (versionCode, versionName, CandyBarVersion)
+#### 💻 Code-Changes (preparehelper)
+* Resolve Version: modify Changelog.java and PrepareRelease.java to reflect new variable scheme
+* SVG-Validation: New logic in Checks.java to validate SVGs with Mask using #000000ff (DEFS_MASK_PATTERN).

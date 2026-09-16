@@ -2,7 +2,20 @@
 <resources>
 	<version>1</version>
 	<category title="New" />
+	<item drawable="_1111" />
+	<item drawable="_1dm" />
+	<item drawable="_1dmplus" />
+	<item drawable="_2fasauth" />
+	<item drawable="_4kvideodownloader" />
+	<item drawable="_7eleven" />
+	<item drawable="abattery" />
+	<item drawable="abstruct" />
+	<item drawable="acalendarplus" />
+	<item drawable="accubattery" />
+	<item drawable="afl" />
 	<item drawable="ahorraenluz" />
+	<item drawable="aidungeon" />
+	<item drawable="airmiduk" />
 	<item drawable="arcpro" />
 	<item drawable="batterymonitor" />
 	<item drawable="calllogger" />

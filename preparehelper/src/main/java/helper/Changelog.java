@@ -21,6 +21,9 @@ public class Changelog {
     private static final String ITEM_REUSED = "💡 Added support for %s%d%s apps using existing icons.";
     private static final String ITEM_TOTAL = "🔥 %s%d%s icons in total!";
 
+    private enum NoteType { HEADER, LIST_ITEM, TEXT }
+    private record NoteItem(String content, NoteType type) {}
+
     public record ChangelogData(String versionName, int total, int newIcons, int reused, String notes, String date) {}
 
     public static void main(String[] args) {
@@ -70,11 +73,15 @@ public class Changelog {
             entryBuilder.append("- ").append(msg).append("\n");
         }
 
-        List<String> notes = getCleanNotes(d.notes);
+        List<NoteItem> notes = getCleanNotes(d.notes);
         if (!notes.isEmpty()) {
             entryBuilder.append("\n---\n"); // Internal separator
-            for (String line : notes) {
-                entryBuilder.append("- ").append(line).append("\n");
+            for (NoteItem item : notes) {
+                if (item.type() == NoteType.HEADER) {
+                    entryBuilder.append(item.content()).append("\n");
+                } else {
+                    entryBuilder.append("- ").append(item.content()).append("\n");
+                }
             }
         }
 
@@ -124,8 +131,12 @@ public class Changelog {
             content.append("* ").append(msg).append("\n");
         }
 
-        for (String line : getCleanNotes(d.notes)) {
-            content.append("* ").append(line).append("\n");
+        for (NoteItem item : getCleanNotes(d.notes)) {
+            if (item.type() == NoteType.HEADER) {
+                content.append(item.content()).append("\n");
+            } else {
+                content.append("* ").append(item.content()).append("\n");
+            }
         }
 
         safeWrite(content.toString().trim(), path);
@@ -143,11 +154,16 @@ public class Changelog {
             content.append(msg).append("\n");
         }
 
-        List<String> notes = getCleanNotes(d.notes);
+        List<NoteItem> notes = getCleanNotes(d.notes);
         if (!notes.isEmpty()) {
             content.append("\n");
-            for (String line : notes) {
-                content.append(line).append("\n");
+            for (NoteItem item : notes) {
+                if (item.type() == NoteType.HEADER) {
+                    // Strip Markdown headers for plain text
+                    content.append(item.content().replace("#", "").trim()).append("\n");
+                } else {
+                    content.append("- ").append(item.content()).append("\n");
+                }
             }
         }
 
@@ -199,11 +215,17 @@ public class Changelog {
         StringBuilder items = new StringBuilder();
 
         for (String msg : getCoreMessages(d, "<b>", "</b>")) {
-            items.append("        <item>").append(msg).append("</item>\n");
+            items.append("        <item>").append(msg.replace("&", "&amp;")).append("</item>\n");
         }
 
-        for (String line : getCleanNotes(d.notes)) {
-            items.append("        <item>").append(line).append("</item>\n");
+        for (NoteItem item : getCleanNotes(d.notes)) {
+            String cleanContent = item.content();
+            if (item.type() == NoteType.HEADER) {
+                cleanContent = cleanContent.replace("#", "").trim();
+            } else {
+                cleanContent = "- " + cleanContent;
+            }
+            items.append("        <item>").append(escapeXml(cleanContent)).append("</item>\n");
         }
 
         String xml = String.format(Locale.ROOT,"""
@@ -216,6 +238,15 @@ public class Changelog {
         safeWrite(xml, path);
     }
 
+    private static String escapeXml(String input) {
+        if (input == null) return "";
+        return input.replace("&", "&amp;")
+                .replace("<", "&lt;")
+                .replace(">", "&gt;")
+                .replace("\"", "&quot;")
+                .replace("'", "&apos;");
+    }
+
     private static List<String> getCoreMessages(ChangelogData d, String boldStart, String boldEnd) {
         return Arrays.asList(
                 String.format(Locale.ROOT, ITEM_NEW, boldStart, d.newIcons, boldEnd),
@@ -224,17 +255,19 @@ public class Changelog {
         );
     }
 
-    private static List<String> getCleanNotes(String notes) {
-        List<String> clean = new ArrayList<>();
+    private static List<NoteItem> getCleanNotes(String notes) {
+        List<NoteItem> clean = new ArrayList<>();
         if (notes == null || notes.isEmpty()) return clean;
 
         for (String line : notes.split("\n")) {
             if (!line.isBlank()) {
                 String trimmedLine = line.trim();
-                if (trimmedLine.startsWith("-") || trimmedLine.startsWith("*")) {
-                    clean.add(trimmedLine.substring(1).trim());
+                if (trimmedLine.startsWith("#")) {
+                    clean.add(new NoteItem(trimmedLine, NoteType.HEADER));
+                } else if (trimmedLine.startsWith("-") || trimmedLine.startsWith("*")) {
+                    clean.add(new NoteItem(trimmedLine.substring(1).trim(), NoteType.LIST_ITEM));
                 } else {
-                    clean.add(trimmedLine);
+                    clean.add(new NoteItem(trimmedLine, NoteType.TEXT));
                 }
             }
         }

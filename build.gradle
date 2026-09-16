@@ -23,7 +23,7 @@ allprojects {
         CompileSdk = 36
         CandyBarVersion = '3.23.0'
         versionCode = 8
-        versionName = '1.4.6'
+        versionName = '1.4.8'
     }
 }
 

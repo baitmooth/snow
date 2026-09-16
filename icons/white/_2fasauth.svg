@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><mask
+       maskUnits="userSpaceOnUse"
+       id="mask21"><g
+         id="g22"><path
+           id="path21"
+           style="font-variation-settings:'opsz' 32, 'wght' 900;fill:#fff;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round"
+           d="m 13,8.777 c 13.449655,-3.4137804 8.377088,-3.458818 21.682948,0 0,0 4.317052,1.1222044 4.317052,4.806991 v 10.515883 c 0,9.239872 -2.664678,10.778324 -6.998036,13.28019 C 20.535898,44 27.464102,44 15.998036,37.380064 11.664678,34.878198 9.0000003,33.339746 9.0000003,24.099874 V 13.583991 C 9.0000003,9.8992043 13,8.777 13,8.777 Z" /><rect
+           style="font-variation-settings:'opsz' 32, 'wght' 900;fill:#000000;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round"
+           id="rect21"
+           width="20"
+           height="4"
+           x="14"
+           y="14.577278"
+           rx="2"
+           ry="2" /><rect
+           style="font-variation-settings:'opsz' 32, 'wght' 900;fill:#000000;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round"
+           id="rect22"
+           width="10"
+           height="4"
+           x="14"
+           y="20.723667"
+           rx="2"
+           ry="2" /><circle
+           style="font-variation-settings:'opsz' 32, 'wght' 900;fill:#000000;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round"
+           id="circle22"
+           cx="16"
+           cy="28.870056"
+           r="2" /></g></mask></defs><metadata
+     id="metadata3" /><path
+     id="rect1"
+     style="font-variation-settings:'opsz' 32, 'wght' 900;fill:#fff;fill-opacity:1;stroke-width:1;stroke-linecap:round;stroke-linejoin:round"
+     d="m 13,8.777 c 13.449655,-3.4137804 8.377088,-3.458818 21.682948,0 0,0 4.317052,1.1222044 4.317052,4.806991 v 10.515883 c 0,9.239872 -2.664678,10.778324 -6.998036,13.28019 C 20.535898,44 27.464102,44 15.998036,37.380064 11.664678,34.878198 9.0000003,33.339746 9.0000003,24.099874 V 13.583991 C 9.0000003,9.8992043 13,8.777 13,8.777 Z"
+     mask="url(#mask21)"
+     transform="matrix(1.1066455,0,0,1.1066455,-2.5594922,-2.8609223)" /></svg>

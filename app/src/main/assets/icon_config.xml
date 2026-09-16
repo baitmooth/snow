@@ -4,8 +4,17 @@
 	<!-- /system/ App Mover -->
 	<item component="ComponentInfo{de.j4velin.systemappmover/de.j4velin.systemappmover.MoverActivity}" drawable="systemappmover"/>
 
+	<!-- 1.1.1.1 -->
+	<item component="ComponentInfo{com.cloudflare.onedotonedotonedotone/com.cloudflare.app.presentation.main.SplashActivity}" drawable="_1111"/>
+
 	<!-- 1010! Klooni -->
 	<item component="ComponentInfo{io.github.lonamiwebs.klooni/io.github.lonamiwebs.klooni.AndroidLauncher}" drawable="tentenklooni"/>
+
+	<!-- 1DM -->
+	<item component="ComponentInfo{idm.internet.download.manager/idm.internet.download.manager.MainActivity}" drawable="_1dm"/>
+
+	<!-- 1DM+ -->
+	<item component="ComponentInfo{idm.internet.download.manager.plus/idm.internet.download.manager.MainActivity}" drawable="_1dmplus"/>
 
 	<!-- 1List -->
 	<item component="ComponentInfo{com.lolo.io.onelist/com.lolo.io.onelist.MainActivity}" drawable="onelist"/>
@@ -16,8 +25,17 @@
 	<!-- 2050 -->
 	<item component="ComponentInfo{org.mattvchandler.a2050/org.mattvchandler.a2050.MainActivity}" drawable="a2050"/>
 
+	<!-- 2FAS Auth -->
+	<item component="ComponentInfo{com.twofasapp/com.twofasapp.ui.main.StartActivity}" drawable="_2fasauth"/>
+
+	<!-- 4kvideodownloader -->
+	<item component="ComponentInfo{com.openmedia.om4kVideoDownloader/com.openmedia.om4kVideoDownloader.ShareActivity}" drawable="_4kvideodownloader"/>
+
 	<!-- 5th Edition Spellbook -->
 	<item component="ComponentInfo{com.spellsdd5/com.spelldd5.MainActivity}" drawable="spellbook"/>
+
+	<!-- 7-Eleven -->
+	<item component="ComponentInfo{com.sei.android/com.sei.android.MainActivity}" drawable="_7eleven"/>
 
 	<!-- 7Speaking -->
 	<item component="ComponentInfo{com.sevenspeaking/com.sevenspeaking.ui.IntroActivity}" drawable="speaking"/>
@@ -28,8 +46,20 @@
 	<!-- Aard 2 -->
 	<item component="ComponentInfo{itkach.aard2/itkach.aard2.MainActivity}" drawable="aard"/>
 
+	<!-- aBattery -->
+	<item component="ComponentInfo{me.linshen.abattery/me.linshen.abattery.MainActivity}" drawable="abattery"/>
+
+	<!-- Abstruct -->
+	<item component="ComponentInfo{com.hampusolsson.abstruct/com.hampusolsson.abstruct.splash.SplashActivity}" drawable="abstruct"/>
+
+	<!-- aCalendar+ -->
+	<item component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendar.ACalendar}" drawable="acalendarplus"/>
+
 	<!-- Accrescent -->
 	<item component="ComponentInfo{app.accrescent.client/app.accrescent.client.ui.MainActivity}" drawable="accrescent"/>
+
+	<!-- AccuBattery -->
+	<item component="ComponentInfo{com.digibites.accubattery/com.digibites.abatterysaver.BatterySaverActivity}" drawable="accubattery"/>
 
 	<!-- AccuWeather -->
 	<item component="ComponentInfo{com.accuweather.android/com.accuweather.android.splashscreen.SplashActivity}" drawable="accuweather"/>
@@ -98,6 +128,9 @@
 	<!-- Aegis -->
 	<item component="ComponentInfo{com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.MainActivity}" drawable="aegis"/>
 
+	<!-- AFL -->
+	<item component="ComponentInfo{com.telstra.android.afl/afl.pl.com.afl.launch.LaunchActivity}" drawable="afl"/>
+
 	<!-- AfWall -->
 	<item component="ComponentInfo{dev.ukanth.ufirewall/dev.ukanth.ufirewall.MainActivity}" drawable="afwall"/>
 
@@ -110,6 +143,9 @@
 	<!-- AIDS -->
 	<item component="ComponentInfo{com.nick80835.add/com.nick80835.add.MainActivity}" drawable="aids"/>
 
+	<!-- AIDungeon -->
+	<item component="ComponentInfo{com.aidungeon/com.aidungeon.MainActivity}" drawable="aidungeon"/>
+
 	<!-- AIMP -->
 	<item component="ComponentInfo{com.aimp.player/com.aimp.player.views.Main.MainActivity}" drawable="aimp"/>
 	<item component="ComponentInfo{com.aimp.player/com.aimp.player.ui.activities.main.MainActivity}" drawable="aimp"/>
@@ -120,6 +156,9 @@
 	<!-- Airbnb -->
 	<item component="ComponentInfo{com.airbnb.android/com.airbnb.android.flavor.full.activities.HomeActivity}" drawable="airbnb"/>
 	<item component="ComponentInfo{com.airbnb.android/com.airbnb.android.feat.homescreen.HomeActivity}" drawable="airbnb"/>
+
+	<!-- Airmid UK -->
+	<item component="ComponentInfo{px.mw.android.aihealth.patient.live.production/px.mw.android.pat.screen.PxSPatLauncherActivity}" drawable="airmiduk"/>
 
 	<!-- Airtable -->
 	<item component="ComponentInfo{com.formagrid.airtable/com.formagrid.airtable.activity.HomescreenActivity}" drawable="airtable"/>

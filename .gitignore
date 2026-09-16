@@ -174,3 +174,4 @@ app/release/output-metadata.json
 /newicons/*.zip
 newicons/uncategorized.txt
 /requests/
+.artifacts/
