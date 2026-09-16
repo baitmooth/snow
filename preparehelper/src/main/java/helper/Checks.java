@@ -31,6 +31,7 @@ public class Checks {
     private static final Pattern LINE_CAP_PATTERN = Pattern.compile("stroke-linecap(?:=\"|:).*?(?=[\";}])");
     private static final Pattern LINE_JOIN_PATTERN = Pattern.compile("stroke-linejoin(?:=\"|:).*?(?=[\";}])");
     private static final Pattern EMPTY_MARKER_PATTERN = Pattern.compile("marker-(?:start|mid|end)\\s*=\\s*\"\\s*\"");
+    private static final Pattern DEFS_MASK_PATTERN = Pattern.compile("<(defs|mask).*?</\\1>", Pattern.DOTALL);
 
     // --- VALIDATION SETS ---
     private static final Set<String> validColors = Set.of("stroke:#ffffff", "stroke:#fff", "stroke:#FFFFFF", "stroke=\"#ffffff", "stroke=\"#fff", "stroke=\"#FFFFFF", "stroke=\"white", "fill:#ffffff", "fill:#fff", "fill:#FFFFFF", "fill=\"#ffffff", "fill=\"#fff", "fill=\"#FFFFFF");
@@ -157,7 +158,8 @@ public class Checks {
                             String updatedContent = applyAutoFixes(content);
 
                             // Validate remaining attributes
-                            validateAttributes(fileName, updatedContent);
+                            String neutralizedContent = neutralizeMasks(updatedContent);
+                            validateAttributes(fileName, neutralizedContent);
 
                             if (!content.equals(updatedContent)) {
                                 Files.writeString(entry, updatedContent);
@@ -221,6 +223,10 @@ public class Checks {
         } catch (NumberFormatException ignored) {
         }
         return strokeStr + matcher.group("number");
+    }
+
+    private static String neutralizeMasks(String content) {
+        return DEFS_MASK_PATTERN.matcher(content).replaceAll(mr -> " ".repeat(mr.group().length()));
     }
 
     private static Document parseXml(String path) {
